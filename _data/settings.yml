@@ -14,8 +14,6 @@ menu__settings:
       url: "/about/"
     - title: "Contact"
       url: "/contact/"
-    - title: "Elements"
-      url: "/elements/"
     - title: "Pages"
       submenu:
       - url: "/if-you-cannot-do-great-things-do-small-things-in-a-great-way/"
