@@ -1,0 +1,144 @@
+#-------------------------------
+# Site Settings
+title: Forhekset
+logo: # You can add own logo. For example '/images/logo.png'.
+description: My own small private space in the world of bewitched madness!
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Elements"
+      url: "/elements/"
+    - title: "Pages"
+      submenu:
+      - url: "/if-you-cannot-do-great-things-do-small-things-in-a-great-way/"
+        title: "Lifestyle"
+      - url: "/you-must-be-the-change-you-wish-to-see-in-the-world/"
+        title: "Workflow"
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Oliver Pifferi
+  author__avatar: "/images/avatar.jpg"
+  author__bio: I am a Dad and a restless spirit. A Cloud-Addict with a strong focus on Security and Free Software. I prefer  at Home and Linux all around. Thus spoken, I am a convinced -Fanboy, and, besides, love Metal of all kind, Travelling, Photographing, Reading and Blogging.
+
+
+#-------------------------------
+# Links Section Settings
+links:
+  enable: true
+  links__title: "Useful links"
+
+links__item:
+  - title: 10 Inspirational Books Every Creative Should Read
+    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+    image_url: "/images/110.jpg"
+    image_alt: Inspirational books
+    link: "https://twitter.com"
+
+  - title: Creating stylised images from a photo
+    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+    image_url: "/images/111.jpg"
+    image_alt: Illustrator
+    link: "https://google.com"
+
+  - title: Chill Movies for Couples to Watch on Date Night
+    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+    image_url: "/images/112.jpg"
+    image_alt: Movies
+    link: "https://www.netflix.com"
+
+  - title: The 8 Best Exercises for Weight Loss
+    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+    image_url: "/images/114.jpg"
+    image_alt: Best exercises
+    link: "https://google.com"
+
+  - title: Ask Me A Question On Instagram
+    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+    image_url: "/images/115.jpg"
+    image_alt: Ask Me A Question
+    link: "https://instagram.com"
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hi, I'm <span>Oliver</span>. # Wrap text in a <span></span> tag to highlight and underline text.
+  hero__job: IT-Guy, restless spirit
+  hero__description: I am also a Dad and a Cloud-Addict with a strong focus on Security and Free Software. I prefer  at Home and Linux all around. Thus spoken, I am a convinced -Fanboy, and, besides, love Metal of all kind, Travelling, Photographing, Reading and Blogging.
+  hero__button__text: Read about my past
+  hero__button__link: "/about/"
+  hero__image: "/images/avatar.jpg"
+
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  enable: true
+  gallery__title: Gallery
+  gallery__columns: "3" # You can change the number of gallery columns
+  gallery__images:
+    - alt: "Misty morning"
+      url: "/images/gallery/nOIE1aRX5gLUt8nrEv4bW6yP7MJRXog1v3LlsKpO.jpg"
+    - alt: "Edinburgh"
+      url: "/images/gallery/jcWzC61qz3OFye5JMCdYBfGaXaaI47DI0buRmjkh.jpg"
+    - alt: "Norwegian Lake"
+      url: "/images/gallery/G0s3cprKpsxQhXwVkjLbZraMW54NBs7fs2sOZLan.jpg"
+    - alt: "Norwegian Fjord"
+      url: "/images/gallery/QEfOjkrJAwQAWZBkNH1m9bh4k4Fwujcc4jAFaLs8.jpg"
+    - alt: "Danish Lighthouse"
+      url: "/images/gallery/3Z0vbdlqi8pw64xrk2kCHK3kTVzSBZ41AIVy1ntp.jpg"
+    - alt: "Essen, Germany"
+      url: "/images/gallery/deVXEIsCE2Hjmnj75FDdVOXOBUIwbEMaguYwpAuY.jpg"
+
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: true
+  mailchimp__title: Subscribe to new posts # Add your Title
+  mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
+  mailchimp__identifier: "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__button__text: Subscribe
+
+
+#-------------------------------
+# Social Icons Settings
+social:
+- {icon: "ion-logo-github", name: "Github", link: "https://github.com/oliverpifferi"}
+- {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/oliverpifferi/"}
+- {icon: "ion-logo-instagram", name: "Pixelfed", link: "https://nordicshutter.com/@oliver/"}
+- {icon: "ion-logo-xing", name: "XING", link: "https://www.xing.com/profile/Oliver_Pifferi/"}
+
+# Example of adding a new link to the author section and footer: - {icon: "ion-logo-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: info@forhekset.com # Add your email for contant form
+  description: Atega comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Atega theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

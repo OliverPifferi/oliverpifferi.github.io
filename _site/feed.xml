@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Forhekset</title>
+        <description>My own small private space in the world of bewitched madness!</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 19 Sep 2023 16:31:22 +0200</pubDate>
+        <lastBuildDate>Tue, 19 Sep 2023 16:31:22 +0200</lastBuildDate>
+        <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Stop worrying about people that aren’t worried about you</title>
+                <description>&lt;h2 id=&quot;2020-and-2021-had-some-steep-learning-curves-in-my-evaluation-of-relationships-with-other-individuals-and-even-these-days-experience-is-growing-as-you-never-stop-learning&quot;&gt;2020 and 2021 had some steep learning curves in my evaluation of relationships with other individuals and even these days, experience is growing as you never stop learning…&lt;/h2&gt;
+
+&lt;p&gt;While I was always interested to make even foreign people like me in earlier years, I somehow managed to change this attitude over the time - maybe boosted by COVID? Now, we are facing the second quite devastating year in a row, I often found me confronting myself with the question if I really need to please just everyone on a private and business basis. Wouldn’t be the status of just getting along with fewer, worthy people outside my own family and circle of friends even more important? Some thoughts on that with the wisdom I may have gained over the years, paired with social distancing thanks to COVID-19.&lt;/p&gt;
+
+&lt;p&gt;Seeing it in a realistic way, nobody’s perfect. But trying your best to be the person you want to be is everything that should matter. Be true to yourself and to people close to you and always do what you believe in, no matter what others say. I was never the guy with tons of friends, indeed my best three friends live more than 75 kilometers away from me and we know each other for 15 to 20 years. Many people from which I thought they were friends turned their back to me once my private life was focusing on becoming a dad, therefore having less time to party or drink. Looking back (which I rarely try to do!) they were just company in specific parts of my life.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Marcel Proust), French Author&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/timon-studler-ABGaVhJxwDQ-unsplash.jpg&quot; alt=&quot;Photo by Timon Studler / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, in the coming autumn of 2023, I’ve learned some more lessons. People you could get along with in terms of your job can instantly turn their back to you once you decide to stop working for a specific employee. Or revive the stab-in-the-back-myth. Or suddently turn silent due to restriction made by the employer you’re planning to leave. These experiences sound quite childish and stupid and I never expected job-related relationships to develop these ways but what a fool I have been to underestimate the reaction to one’s own free will. You fought. You oared. You struggled. You encouraged. You helped. You sold. You educated. In the end, you decided to leave the train at a certain station and, sadly, the outcome is nearly the expected one and yet another lesson in life. Ingratitude is the world’s reward, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;Finally, people will judge you no matter what you do…so you might as well do what you want. And even more take care and cherish the people around you that are good for you while being sceptical to new “false friends” or backstabbing-folks that seem to flood our society more and more for whatever reason.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 17 Sep 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Stop-worrying-about-people-that-arent-worried-about-you/</link>
+                <guid isPermaLink="true">http://localhost:4000/Stop-worrying-about-people-that-arent-worried-about-you/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>life</category>
+                
+                <category>work</category>
+                
+                <category>people</category>
+                
+                <category>relationships</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>The Fediverse -  A vivid and modern approach to today’s Social Network-landscape</title>
+                <description>&lt;h2 id=&quot;when-i-once-discovered-mastodon-the-fediverse-was-already-a-nice-approach-in-helping-to-rebuild-the-polluted-social-network-landscape&quot;&gt;When I once discovered Mastodon, the Fediverse was already a nice approach in helping to rebuild the polluted Social Network-landscape.&lt;/h2&gt;
+
+&lt;p&gt;But, based upon the &lt;a href=&quot;https://www.w3.org/TR/activitypub/&quot;&gt;ActivityPub&lt;/a&gt;-protocol, Mastodon isn’t the only player giving hope for federated and decentralized networking. After going with my own Mastodon-instance, I also discovered two additional great services that are valuable additions to the Fediverse - and I don’t want to withhold those from you in case you are interested in learning more about those!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mastodon_welcome.jpg&quot; alt=&quot;New folks are being welcomed- Graphic Credits: Mastodon&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pixelfed&quot;&gt;Pixelfed&lt;/h2&gt;
+
+&lt;p&gt;After finally dumping Instagram in December 2022, I went all in with &lt;a href=&quot;https://pixelfed.org/&quot;&gt;Pixelfed&lt;/a&gt;: After discovering this service in early 2021, I  already tried to free myself from the bounds of Instagram but - let’s be honest - Pixelfed wasn’t ready to follow in Instagram’s step then. The basis was okay and considering the project to be work in progress - and albeit the „little“ version 0.11.6 at the time of writing - the software created by &lt;a href=&quot;https://pixelfed.social/dansup&quot;&gt;Daniel Supernault&lt;/a&gt; has heavily progressed over the time. I returned in late 2022, played around and finally created an instance that was playground. Later, it got dumped and on April 21st, my latest instance &lt;a href=&quot;https://nordicshutter.com/&quot;&gt;nordicshutter.com&lt;/a&gt; has opened its gates, welcoming people from Scandinavia and people loving the Scandinavian way of life and the nature there. While the server itself ist hosted in Nürnberg, all media assets are stored in a Wasabi S3-bucket in Frankfurt so no data is being stored or processed outside Germany. Finding the proper way of S3-integration took a while but, over the months, has turned into a solid base for storing media files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/pixelfed_org_website.jpg&quot; alt=&quot;Pixelfed.org Welcome Site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus spoken, Pixelfed is still a project under heavy development, but frequent commits are made on &lt;a href=&quot;https://github.com/pixelfed/pixelfed&quot;&gt;GitHub&lt;/a&gt;, the community is open-minded and various ways of participating are possible, with Dan always being somewhere besides the coding activities, always going with a hint or a helping hand. Once you don’t want to go with an own instance (it still may be tricky if you build and maintain from the scratch if you don’t exactly know what you need to do and in which order things should be done), you can always opt-in for one of the more or less known instances. With choosing the instance you like or which may best reflect your needs and interests, the ActivityPub-aspects of Federation and De-Centralization are put into the focus - just like we know it from &lt;a href=&quot;https://blog.pifferi.info/mastodon-still-more-than-an-alternative-to-twitter-and-definitely-here-to-stay&quot;&gt;Mastodon&lt;/a&gt; - finally leaving Instagram isn’t the big problem anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/nordicshutter_welcome.jpg&quot; alt=&quot;My Pixelfed-instance&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bookwyrm&quot;&gt;BookWyrm&lt;/h2&gt;
+
+&lt;p&gt;BookWyrm is a solution also built on ActivityPub and a great successor for LibraryThing or GoodReads. By using the protocol Mastodon, Pixelfed and many other are running on, it inter-operates with different instances of BookWyrm and other ActivityPub compliant services. This means you can run an instance for your book club and still follow your friend who posts on a completely different servers with different, book-related collections. It also means that your friend on Mastodon can read and comment on a book review that you post on your BookWyrm-instance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_website.jpg&quot; alt=&quot;How to hjoin BookWyrm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A long time ago, I used to track my books with a Desktop-based Mac-software named &lt;a href=&quot;https://www.bruji.com/bookpedia/&quot;&gt;Bookpedia&lt;/a&gt;. With the relevance of classical apps decreasing and people rather turning to online services, Bookpedia somehow fell behind. Besides myself listening more to audio books than actually reading those (a trend I even consider to be nasty from my own point of view), also the development of Bookpedia seemed to slow down and so the latest iteration 6.2.1 was released by the end of 2021. As times have changed, LibraryThing or GoodReads as modern Internet-based services popped up but when BookWyrm came along, the mixture of self-hosted data-control, ActivityPub-integration and connection to other instances for book background data like ISBN, ASIN, cover artwork etc. made it a no-brainer.&lt;/p&gt;
+
+&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://midgardmates.com/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.pifferi.info/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_pifferi.jpg&quot; alt=&quot;My BookWyrm-instance&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
+
+&lt;p&gt;Rarely before I have felt such passion and joy when talking about new trends in the Internet during the last years - or what’s left from the original Internet as it once used to be. With Federation, De-Centralization and growing independence from Big Tech and learning from (at least) Twitter’s demise many people have realized that things must change - and a real change was long overdue. Maybe we don’t need the ad-polluted streams of the common Social Media anymore - maybe we don’t even need the overloaded content there anymore. Maybe stepping back to a more curated, smaller account of contents is the proper way of turning Social Media back to something we may use instead of being the product?&lt;/p&gt;
+
+&lt;p&gt;Alas, with great power comes great responsibility and so the moderation of instances (as long as you don’t use a single-user-instance just for your own joys) is a frequent topic within the current growth. Without centralization, there is no single instance taking care of that so it is especially within the responsibility of the instance’s admin to take care of unwanted content or spam etc. - if you like it or not. Based on this, everyone should wisely choose the mother instance of the single services and weight in if the server rules appeal to the specific user’s imagination. While ActivityPub makes its way throughout the web, also the interoperability between instances is still a challenge: While Mastodon at least offers the options to move an account to another domain, this option and especially contents like likes, media etc. are still to be integrated in Pixelfed and BookWyrm - the goal: No one wanting to switch to another instance should start from zero or manually repost everything (which is, experienced by myself, a torture!) piece by piece.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/fedidb_stats.jpg&quot; alt=&quot;Stats from fedidb.org&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from that, the Fediverse is growing and there are lots of products waiting for us to discover them. Pixelfed-founder Daniel Supernault is also taking care of &lt;a href=&quot;https://fedidb.org/&quot;&gt;FediDB&lt;/a&gt;, a project summing up statistics for the Fediverse and the single software solutions empowering it. There is a &lt;a href=&quot;https://fedidb.org/software&quot;&gt;big amount of software available and many platforms&lt;/a&gt; are waiting for new users - by using the ActivityPub-protocol, all these single places can talk to each other, like posts from other platforms and even boost those. Less poison, less hate, less misunderstanding and the connections between single software components founded on the ActivityPub-protocol are about to revive the „classic“ Internet from earlier days and I hope that this trend will get strengthened, opening the door for a decentralized social media of many kinds apart from the Big Tech-monoliths that somehow seem to be rather old-fashioned and boring when being compared to this movement of modern, federated Social Networks in the internet of the 2020s!&lt;/p&gt;
+
+&lt;p&gt;If you’re interested, feel free to find my profiles in The Fediverse on&lt;/p&gt;
+
+&lt;p&gt;Mastodon - &lt;a href=&quot;https://midgardmates.com/@oliver&quot;&gt;https://midgardmates.com/@oliver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pixelfed - &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;https://nordicshutter.com/oliver&lt;/a&gt; and&lt;/p&gt;
+
+&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.pifferi.info/@oliver&quot;&gt;https://books.pifferi.info/@oliver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
+</description>
+                <pubDate>Fri, 01 Sep 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/</link>
+                <guid isPermaLink="true">http://localhost:4000/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/</guid>
+                
+                <category>socialnetwork</category>
+                
+                <category>mastodon</category>
+                
+                <category>pixelfed</category>
+                
+                <category>bookwyrm</category>
+                
+                <category>fediverse</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
+        
+            <item>
+                <title>The best way to predict your future is to create it</title>
+                <description>&lt;h2 id=&quot;while-the-past-is-gone-and-the-future-still-is-still-ahead-abraham-lincolns-famous-quote-can-be-a-synonym-for-a-proactive-way-of-influencing-events-that-are-still-ahead&quot;&gt;While the past is gone and the future still is still ahead, Abraham Lincoln’s famous quote can be a synonym for a proactive way of influencing events that are still ahead.&lt;/h2&gt;
+
+&lt;p&gt;I’ve pulled the plug. After months (summing up to years?) of anger, desperation, lack of perspective, sluggishness, avolition and familiar impact in terms of health and &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;death&lt;/a&gt;, we finally made it to Denmark (a long-time goal on our family’s holiday shortlist) with the kids to create a distance between the daily &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;burden&lt;/a&gt; - at least for a single week. Although being to Denmark before, the country was more or less a „jumphost“ for our ventures to Norway. This time, it gets at least a one-week-attention with the family-focus on it.&lt;/p&gt;
+
+&lt;p&gt;Time to recharge, time to refocus, time to get away from everything that is harming the everyday’s life. For me, there is no better cure than the sea and especially (especially, especially!) the sea. All sorrows are gone if I venture to the beach, sit down there and enjoy the grace of weather, tide and the sand there. While time is seemingly stopping, my inner self comes to rest and gets time to reflect many, many things. The life is different near the sea and the everyday-disturbances you know from your hamster running wheel at home are simply gone and forgotten.&lt;/p&gt;
+
+&lt;p&gt;There are decisions to made in the near future and decisions that have already been made to get back on a track in certain situations.  As I am the kind of human who judges by pro- and contra-arguments, there are always aspects weighting in for one side or the other but when I opt in for one, it’s a final decision and - usually - turning back isn’t on my agenda. Basically, you will never know what you get with each decision but - on the other hand - won’t ever make the experience what could happen if you never dare to decide anything.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hvide_sande_lighthouse.jpg&quot; alt=&quot;Hvide Sande Lighthouse, Denmark - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While thinking about the future in the one or other aspect, life focuses on my family, my wife, my kids and hobbies which never get the attention they usually deserve. Re-gaining this focus, I find the time to create my own future in a certain way. Not all parts of my life will be affected, but there is a time for new challenges and moving on. Therefore, a precise prediction of my future in all aspects remains (of course!) uncertain, but getting actively involved into its creation may stop the hamster wheel and open a door while another one will be shut in the short term. Sometimes and occasionally, opportunities that needs to be grabbed simply stumble upon your way, giving you a new perspective!&lt;/p&gt;
+
+&lt;p&gt;Don’t wait for your future to be created by you. Take the time to re-focus, „pull the plug“ and think about the things that are good for you - and sort out those aspects that aren’t. Often it just needs a specific distance to find a solution - and someone with a helping hand and a perspective, clearing things up. You won’t play an active part in the way the universe works, but you can put the things on the right track to somehow benefit from it: Both your personal wellbeing and your family will be grateful for that proactive attitude towards changing your own’s future!&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 15 Apr 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</link>
+                <guid isPermaLink="true">http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>life</category>
+                
+                <category>job</category>
+                
+                <category>profession</category>
+                
+                <category>future</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>How to install PHP 8.2 on Debian 11</title>
+                <description>&lt;h2 id=&quot;although-debian-is-a-modern-linux-distribution-based-upon-stability-it-sometimes-misses-actual-packages-like-the-latest-php-iteration&quot;&gt;Although Debian is a modern Linux-distribution based upon stability, it sometimes misses actual packages like the latest PHP-iteration.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.debian.org/&quot;&gt;Debian&lt;/a&gt; 11, released on August 14th, 2021 with version 11.0, is more than one year available at the time of writing. The latest stable PHP-version, a foundation for many web services and use cases, is currently 8.2. After nearly one year, the latest PHP-iteration you can install on a modern Debian 11-system is still 7.4. While stability is - undoubtedly - still a key feature, the improvements from PHP 8.x are numerous with the factor „performance“ in the focus. This short but sweet tutorial shall show you how to safely install &lt;a href=&quot;https://www.php.net/&quot;&gt;PHP&lt;/a&gt; 8.2 on a modern Debian-11-system.&lt;/p&gt;
+
+&lt;p&gt;By default, there is still a rational boundary for not always going with the latest versions of software packages. Anyway, depending on your own needs and used software, the change from PHP 7.4 to 8.x brings an enormous boost for all applications that rely on the latest PHP-version and have adopted their code to take advantage of the various improvements. Enabling our system to fetch the latest package is the key factor here and to gain this, we need to add the well-known repositories of &lt;a href=&quot;https://deb.sury.org/&quot;&gt;Ondřej Surý&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-the-repository&quot;&gt;Adding the repository&lt;/h2&gt;
+
+&lt;p&gt;Ondřej Surý is the main Debian packager for PHP and other packages under DEB.SURY.ORG name you may already have encountered when venturing the web. As a service to the community he provides Ubuntu-PPAs for PHP, Apache2, nginx and others that are widely used. He also runs personal Debian packaging repository located at &lt;a href=&quot;https://packages.sury.org&quot;&gt;https://packages.sury.org&lt;/a&gt; and is told to be the best focal point for PHP-packages away from the standard.&lt;/p&gt;
+
+&lt;p&gt;On our Debian system, be sure that the „curl“ package is installed. If not, a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install curl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;does the trick before the command&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;will install the basic repository. On Ubuntu-systems, a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;takes care of the same effect.&lt;/p&gt;
+
+&lt;p&gt;To update all repositories and update some components, do a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;to ensure your system is ready for all further installation tasks.&lt;/p&gt;
+
+&lt;p&gt;After having met all prerequisites, it’s now time to finally get familiar with PHP 8.2. To install the basic module, use the command&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install php8.2-fpm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and, after conforming your choose, the FPM-version of PHP will be installed. To check whether you did succeed or not, a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;php -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;is always a good choice.&lt;/p&gt;
+
+&lt;p&gt;Further modules can be additionally installed depending upon your needs, for example the GD- and Curl-modules can be added via&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install php8.2-gd php8.2-curl 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;in no time!&lt;/p&gt;
+
+&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
+
+&lt;p&gt;With quite no efforts, we managed to install the latest iteration of PHP 8.x on our Debian 11-system. Further updates and security fixes will make use of the recently added repositories of Ondřej Surý. While the latest Ubuntu-version already brings PHP 8.2 from the scratch, older versions can also be equipped with this version by the alternative command above.&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 28 Dec 2022 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/How-to-install-PHP-82-on-Debian-11/</link>
+                <guid isPermaLink="true">http://localhost:4000/How-to-install-PHP-82-on-Debian-11/</guid>
+                
+                <category>linux</category>
+                
+                <category>software</category>
+                
+                <category>opensource</category>
+                
+                <category>foss</category>
+                
+                <category>debian</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
+        
+            <item>
+                <title>Mastodon - More than an alternative to Twitter and definitely here to stay</title>
+                <description>&lt;h2 id=&quot;whether-twitter-is-doomed-since-elon-musks-takeover-or-not-changes-for-federated-services-have-never-been-that-good-its-always-an-option-to-think-outside-the-box-one-possible-alternative-already-glowing-in-web-for-a-certain-time-is-mastodon&quot;&gt;Whether Twitter is doomed since Elon Musk’s takeover or not (changes for federated services have never been that good!), it’s always an option to think outside the box. One possible alternative already glowing in web for a certain time is Mastodon.&lt;/h2&gt;
+
+&lt;p&gt;„Strike while the iron’s hot“ could be a big plus for the decentralized platforms that emerge out of the chaos Elon Musk is finally causing at Twitter. One of the winners is surely &lt;a href=&quot;https://joinmastodon.org&quot;&gt;Mastodon&lt;/a&gt;, a microblogging service founded by German developer Eugen Rochko in 2016. Many things of Mastodon remind of Twitter as it was in earlier days and while decentralization and privacy are two key aspects of the service, there couldn’t be any better advertisement for Mastodon than Musk’s personal interpretation of Apple’s „&lt;a href=&quot;https://tv.apple.com/us/show/wecrashed/umc.cmc.6qw605uv2rwbzutk2p2fsgvq9&quot; title=&quot;Watch WeCrashed | Apple TV+&quot;&gt;WeCrashed&lt;/a&gt;“-TV show adopted to Twitter in real life.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-web-is-broken&quot;&gt;The web is broken&lt;/h2&gt;
+
+&lt;p&gt;First things first, the web is somehow messed up these days. We all know it and while many of us are searching for alternatives, even more still stick with services like Facebook, Instagram, WhatsApp - and Twitter, even though there are alternatives: Alternatives that may be less „fancy“, less famous and not that easy to deploy, but they are definitely worth a closer look as no revolution is started when no one leaves his own comfort zone. I first stumbled upon Mastodon two years ago and played around with the service before choosing to let this project rest for the time being. Earlier this year, I revived my account at a big public instance, discovered what has changed over those two years and - fueled by the Twitter-discussion - set up my own personal instance in really no time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1598018553943-29ace5bf9867.jpg&quot; alt=&quot;Photo by Joshua Hoehne / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;pandemic&lt;/a&gt;, many things have changed in the life of nearly everyone. Social media got more attention while people stayed at home and, with the increased usage, the seed for the dark side of information was planted. The world flipped over, &lt;a href=&quot;https://blog.pifferi.info/is-our-post-covid-working-life-here-to-stay&quot;&gt;work&lt;/a&gt; got more remote or at least hybrid, &lt;a href=&quot;https://blog.pifferi.info/thank-you-not-all-superheroes-have-capes&quot;&gt;superheroes&lt;/a&gt; fueling the daily business popped out of the nowhere. Riots stormed the US Capitol, &lt;a href=&quot;https://blog.pifferi.info/the-only-thing-we-have-to-fear-on-the-planet-is-man&quot;&gt;Russia invaded the Ukraine&lt;/a&gt; during a „special military operation“ aka. „War of Aggression“ (as sane people call it) and between everything and the pandemic, social media connected and divided people and cultures alike. The presence of social media platforms increased and got more weight, finally leading to a uncertain status quo where data is still the new gold and, while proving many services for free, the companies behind those were just aiming at personal data.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-personal-journey---relinquishing&quot;&gt;My personal journey - relinquishing&lt;/h2&gt;
+
+&lt;p&gt;I once used to adopt any social media service I could get hold of. After many years, many senseless posts and lots of thoughts, the topic of privacy became a higher ranking in my list of priorities. I read a lot and began to think whether all this is a must because „everyone has those services, too“ or if I can refuse to use the one or other platform in any way. To be honest, it was a tough decision accompanied with lots of discussions with friends and colleagues over the time. Then, finally, in my first step I disposed WhatsApp finally and with all consequences nearly two years ago. The good: My personal impact was quite non-existing even if my aunt asked how she would be able to reach me now - which mirrors our society in the worst-possible way if you ask me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1585007600263-71228e40c8d1.jpg&quot; alt=&quot;Photo by visuals / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve got Signal, I’ve got Threema and hey, iMessage is great for Apple-users, too. The bad: You aren’t part of any socialized group dealing with your kids’ school events or birthday party plannings but I can live with this as there ARE alternatives. Surprisingly, people still complain nearly two years after deleting (!) my WhatsApp-account that they’ve sent me something, asking why I don’t answer - but this is yet another story to be told. &lt;a href=&quot;https://blog.pifferi.info/i-finally-escaped-facebook-and-i-am-happy-with-that&quot;&gt;Facebook was next&lt;/a&gt; and on November 7th, 2021, I finally made the step and left the platform. Too much ads, crippled and dazzled timelines and no real actions against complaints, incidents and spam accounts drove me to let loose here, too - and today, one year later, I don’t miss a damn thing. Of course you’ll still have to somehow justify that you either don’t use Facebook or WhatsApp which makes people staring at you like a freaking alien - but the outcome is worth the price…&lt;/p&gt;
+
+&lt;h2 id=&quot;the-twitter-story&quot;&gt;The Twitter-story&lt;/h2&gt;
+
+&lt;p&gt;This October marked by 12th consecutive year with Twitter - and it was the last one with the option to let my account die slowly or completely wipe it after exporting my Twitter-archive. I mainly used the platform as a news aggregator (love the lists I created over the years) and to spread info on my few blog posts. During the pandemic, it was one of the sources that combined news from all over the world but also personal accounts with similar opinions and things I am interested in like other tech blogs, privacy or political parties like German Pirate Party. Alas, during the pandemic, I found myself into a whirlwind of emotions that often weren’t positive and while the world around us collapsed into pieces, my own turmoil lead to a mood that wasn’t healthy.&lt;/p&gt;
+
+&lt;p&gt;Garnished with increasing numbers of commercials I was sucked into the dark side of Social Media once again - something I discovered with Facebook already. Apart from seeking information, the algorithms often discovered topics that seemed to be similar but, after following these trends, turned out to paint an even more depressive state of our world. Getting the essence of information got more difficult and I finally discovered that Twitter seemed to deliver more negative than positive things for whatever reason. Then the rumors with Elon Musk started and everything imploded this autumn, showing that a service which is, virtually, a digital standard nowadays, shouldn’t be in control of a single person acting like a big child, being unpredictable and moody with each new day to come.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1652017670205-4d16ea24cf12.jpg&quot; alt=&quot;Photo by Mariia Shalabaieva / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the last weeks and months, this impression has strengthen somehow as Musk has reactivated Donald Trump’s account as well as &lt;a href=&quot;https://www.washingtonpost.com/media/2022/12/17/musk-twitter-journalist-suspension-media-react/&quot; title=&quot;Musk reinstates reporters on Twitter. Their companies, though, never ...&quot;&gt;locked down many accounts of reporters (and unlocked them again)&lt;/a&gt; or „uncomfortable“ people that dare to criticize  what he is doing with the service in general. Juggling with (paid) blue checkmarks followed and Twitter’s status quo seems to be depending on the mood of someone suffering a Napoleonic complex, no matter what he does with Tesla or other companies (which I still consider to be interesting on a technical basis). The way he acts with Twitter, the accounts being revived (or blocked) randomly definitely show that no one can be sure what happens next on this central platform - &lt;a href=&quot;https://news.yahoo.com/white-house-musks-attack-fauci-063856883.html&quot; title=&quot;White House: Musk&apos;s attack on Fauci is &apos;dangerous&apos;&quot;&gt;even when calling out to „prosecute“ Dr. Anthony Fauci&lt;/a&gt;. Did you try to link to a Mastodon- or Pixelfed instance from a Twitter-profile or just mention the hashtag? Well, Elon vetoed this as well - so far in terms of freedom of speech - the same counts for the search in the meantime if you don’t want to pay for Twitter.&lt;/p&gt;
+
+&lt;p&gt;To be honest, Twitter had its problems but I bet Jack Dorsey &lt;a href=&quot;https://www.cnbc.com/2022/12/13/jack-dorsey-admits-mistakes-at-twitter-says-site-still-has-problems.html&quot; title=&quot;Jack Dorsey admits mistakes at Twitter, says site still has problems&quot;&gt;regrets&lt;/a&gt; what develops out of his former „baby“ in the meantime. There IS a real chance for competition this time and Mastodon could be one minus the aspects that makes Twitter an unpredictable platform these days, even destroying the right of free speech and freedom of press.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1611001897293-561e0c30f938.jpg&quot; alt=&quot;Photo by William Krause / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;discovering-mastodon---once-again&quot;&gt;Discovering Mastodon - once again&lt;/h2&gt;
+
+&lt;p&gt;In the turmoil of the „Evan-plays-Twitter-chess“-game which offered insane decisions day by day (laying off 50% of the workforce was just topped by the 11,000 people getting fired from Facebook a short while ago), it got more and more conclusive that the days of centralizing Big Tech may finally be over. Giving the power of a service used by millions of users into the hands of one freakish person can’t be justified anymore and although we all expected this to happen, the astonishment that Musk’s clown actions are indeed turning Twitter into a dead donkey is still amazing in a negative way. The need for decentralization, for real moderation apart of algorithms, rose in enormous metrics - and now, after being „just an Open Source alternative for Linux-freaks“ (as a colleague of mine labelled Mastodon two years ago) in the past, Mastodon is on the rise and with the power of the masses finally striving for a change in Social Media, times may change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1669311576866-d77abb31f4ce.jpg&quot; alt=&quot;Photo by Battenhall / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It takes its time to label „Tweets“ as „Toots“ as Mastodon tries to call them and, without following the proper accounts, it can either be quite silent or - if following the federated or even local (server-) timeline - really overwhelming. Once you have settled there (&lt;a href=&quot;https://fedi.directory/&quot;&gt;and found an instance possibly reflecting your interests&lt;/a&gt;) you are ready to go and it’s astonishing to see how many persons of interest, government institutions or companies have joined the Fediverse in the meantime - or have already been there. Besides reflecting the „nearly-lookalike“ of Twitter, feeds are based upon interests, hashtags (which reflect those interests) and people you follow: The approach is different as your timeline won’t be flooded with algorithms or trending topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/fedi_directory.jpg&quot; alt=&quot;Yes, there is an interesting directory of Fediverse-appearances!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mentioning this, Mastodon is somehow „quieter“. Although the flood of people turning from Twitter is immense and I have indeed focused on likes, re-Tweets and gaining followers there, I had to adopt yet another different style of social media: Really interacting with people reacting on my posts at eye level. Criticism is welcome but there is no toxic atmosphere which can, of course, be the new zest but the treatment between each other is simply different straight from the beginning. Maybe this is caused by choosing the proper basic instance probably reflecting individual attitudes, maybe it’s just a basis of thing people have learned since Elon Musk took over at Twitter, accelerating the obvious, namely the platform with its long-term problems focused on the acting of a single individual.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-chance-for-the-fediverse&quot;&gt;The chance for the Fediverse&lt;/h2&gt;
+
+&lt;p&gt;Mastodon won’t be a magic bullet for everything, neither the Fediverse will be. Especially these days, the platform is facing a growth that no one expected. The biggest plus, the flexibility and scalability, is also the biggest threat for the few well-to-do instances and so federation is the key - once again. Those instances being there from the beginning, like mastodon.social, have already discontinued the ability to register new accounts, instead it is recommended to maybe turn to a smaller, well-known instance for scaling.&lt;/p&gt;
+
+&lt;p&gt;Besides, The Washington Post &lt;a href=&quot;https://www.washingtonpost.com/technology/2022/12/17/how-to-join-mastodon/&quot;&gt;tells the people how to start with Mastodon&lt;/a&gt; while &lt;a href=&quot;https://www.wsj.com/story/how-to-use-mastodon-the-social-media-platform-blocked-by-elon-musks-twitter-7751455f&quot;&gt;The Wall Street Journal writes about what Mastodon is and how it may be used&lt;/a&gt; after Mastodon’s official Twitter-account was suspended by Mr. Musk. In the meantime, some of the blocked journalists also &lt;a href=&quot;https://mastodon.social/@tiffanycli/109521975075886371&quot;&gt;turn from Twitter to Mastodon&lt;/a&gt;, terminating their existence on the bird site. The times, they are changing and while Mastodon was a „software for some Open Source-nerds“ before (many people I know entitled it as such), its background and mere existing are fully justified around the globe now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1518654734721-178191875754.jpg&quot; alt=&quot;Photo by George Coletrain / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everyone can join a server, &lt;a href=&quot;https://docs.joinmastodon.org/admin/install/&quot;&gt;everyone can set up a server with an own instance&lt;/a&gt; and federate with other ones to take part in the Fediverse and the preferred topics. Mastodon may be around since October 2016 but with Twitter crumbling into pieces just because of a single person, there is enough tail wind to change the world of social media for good. While over all the years, there were single services like Facebook (do you know &lt;a href=&quot;https://friendi.ca/&quot;&gt;Friendica&lt;/a&gt;?), Instagram (&lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;) or Twitter centralizing the single data, the wind is veering and the decentralized services could fix what has been broken over all the years. With the ability to move your profile and followers from one instance to the other, there is no lock-in in the Fediverse and all the platforms can talk to each other as they are based upon the &lt;a href=&quot;https://activitypub.rocks/&quot;&gt;ActivityPub&lt;/a&gt;-protocol.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mastodon_midgardmates.jpg&quot; alt=&quot;My timeline this Sunday on my own instance - Screenshot Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;decentralization-is-the-key&quot;&gt;Decentralization is the key&lt;/h2&gt;
+
+&lt;p&gt;While also many companies are saddling up and joining, people see that the change is imminent and not just coming but already existing. While the Fediverse grows, it will of course face the challenges of growth and regulation (every single rule depends on the server’s administrators and their willingness in many controversial discussions) as well as security. Besides, it shows that the focus on concentrating everything on centralized services has made many social media platforms turning into springboards for hatred, racism or mobbing. The intellectual challenge is there and I am quite keen to see how Mastodon and founder Eugen Rochko will face this together with the federated Mastodon-instances all over the globe.&lt;/p&gt;
+
+&lt;p&gt;Fact is: With buying Twitter and forcing the pace paired with senseless decisions, arbitrariness and being an ego-maniac while simultaneously disposing workforces as well as security, Elon Musk did a disservice to the Fediverse. It won’t ruin Twitter for now and instantly, but he lead the service astray and strengthened the competition that is more than just „Open Source software for geeks“ these days. We may be curious what to further expect in 2023 but the cards are scrambled and if there has ever been a catalyst for the ActivityPub-protocol and services like Mastodon, it was Elon Musk.&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 18 Dec 2022 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/</link>
+                <guid isPermaLink="true">http://localhost:4000/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/</guid>
+                
+                <category>socialnetwork</category>
+                
+                <category>socialmedia</category>
+                
+                <category>internet</category>
+                
+                <category>thoughts</category>
+                
+                <category>services</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
+        
+            <item>
+                <title>What if... ?</title>
+                <description>&lt;h2 id=&quot;during-the-pandemic-a-lot-of-rather-moderate-things-happened-in-everyones-life-but-sometimes-you-arent-prepared-for-additional-struggle-in-terms-of-human-connections-coming-after-the-two-year-covid-streak&quot;&gt;During the pandemic, a lot of rather moderate things happened in everyone’s life but sometimes you aren’t prepared for additional struggle in terms of human connections coming after the two-year-COVID-streak.&lt;/h2&gt;
+
+&lt;p&gt;You may have your plan in your daily routine. You may have your plan in your job. Sometimes both worlds collide and leave behind a pile of shards you definitely weren’t neither expecting nor prepared for: A pile of shards harming a long-year friendship and wounding it fatally. By facing such a situation, questions come up - in each moment of silence or solitude, before going to bed or when waking up and - generally - arbitrary throughout the day. Questions like…&lt;/p&gt;
+
+&lt;p&gt;…what if…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;friendship besides co-working in the same company was just a delusion?&lt;/li&gt;
+  &lt;li&gt;opting in for a new job role destroyed this friendship although both parties agreed that nothing could intervene the whole lot?&lt;/li&gt;
+  &lt;li&gt;the acceptance that people are still incalculable no matter how long you know them is simply brutal?&lt;/li&gt;
+  &lt;li&gt;thinking that dropping the new role could turn the wheel of time back again while knowing that there’s a crack in this relationship that will stay?&lt;/li&gt;
+  &lt;li&gt;thinking that switching the company could be an escape to fix something that is broken now?&lt;/li&gt;
+  &lt;li&gt;realizing that the only bond in this friendship was the common frustration and common issues in the company?&lt;/li&gt;
+  &lt;li&gt;identifying that, even in your 40s, you can just look in front of other’s heads despite assuming you know the individual behind is just somber?&lt;/li&gt;
+  &lt;li&gt;realizing that, even in their 40s, other people can ghost you from one moment to the other like a toy town teenager is the utter perfection of shock?&lt;/li&gt;
+  &lt;li&gt;being ghosted by a friend turns into one of the most terrifying experiences for a grown-up?&lt;/li&gt;
+  &lt;li&gt;experiencing the friendship’s grade was not that good after being locked out of someone’s life without spoken words or any kind of justification is just horrible?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;are currently part of my daily act of thinking and I’d wish I could use these brain actions for more meaningful and productive thoughts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/norway_sundown.jpg&quot; alt=&quot;The sun to down without rising again? Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are many of them - yet too many and still I don’t know what happened from one day to the other. But, facing my own pride that prevents me to get treated like that without a reason I know of, I’ll respect the person’s wish to finally become the ghost he turned me into. Finally, being cut off from the life as working mates and the private relationship I considered to be a friendship.&lt;/p&gt;
+
+&lt;p&gt;Six years seem to be wasted somehow and while you remain silent, all I can do is to ask what I have done wrong and accept the inevitable. You’ve made your choice as a grown-up and you will have your reasons - and I hope you are fine with them, possibly knowing what you have caused and destroyed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/staring_in_the_woods.jpg&quot; alt=&quot;Thinking - Photo generated by https://stablediffusionweb.com&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;„When the world turns you away&lt;/p&gt;
+
+  &lt;p&gt;A friend will not say no&lt;/p&gt;
+
+  &lt;p&gt;There is strength that we all have&lt;/p&gt;
+
+  &lt;p&gt;It’s not the strength we show“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(MANOWAR, „Blood Brothers“)&lt;/p&gt;
+
+&lt;p&gt;Some things seem to be broken and it is doubtful if they can ever be fixed again. It’s ridiculous to know a statement like „Never f-uck the company“ in terms of a love affair and reflect this onto a man-to-man-friendship that once conquered Scandinavia and many aspects of business life, bringing success to both. But this is what it is - or why does one party suddenly decide to lock the other one out of one’s life?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/ruthe_calendar.jpg&quot; alt=&quot;This would have been a Christmas present but stays with me instead - a fitting slogan anyway!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Indeed, even 2022 got worse than the two years before and with a situation like this, this year’s end comes near a crap bag imploding into your personal and business life.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(BOB MARLEY, seemingly a wise man)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/norway_boat.jpg&quot; alt=&quot;Sometimes it takes someone to draw you out of the nowhere - but he will still need a helping hand - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are always lessons to be learned - and this one was a painful one. And still is. And yet, I am not ready for this experience that comes along this unwanted and unplanned lesson of ignorance and the knowing fact that even close friendships are fragile - even if I had never dared to rate them as such. Fact is: You’re never too old for a new lesson and the „Zero Trust“-approach of modern security can also be a great approach when tying knots in business - and in private!&lt;/p&gt;
+</description>
+                <pubDate>Sat, 10 Dec 2022 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/What-if/</link>
+                <guid isPermaLink="true">http://localhost:4000/What-if/</guid>
+                
+                <category>life</category>
+                
+                <category>work</category>
+                
+                <category>friendship</category>
+                
+                <category>relationships</category>
+                
+                <category>thoughts</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>Great minds discuss ideas - average minds discuss events, small minds discuss people</title>
+                <description>&lt;h2 id=&quot;the-pandemic-has-shown-that-sometimes-extraordinary-efforts-are-needed-to-keep-things-running-while-people-separated-in-many-ways-other-consolidated-to-form-an-even-stronger-work-force-despite-the-general-conditions-and-underlining-eleanor-roosevelts-original-citation&quot;&gt;The pandemic has shown that, sometimes, extraordinary efforts are needed to keep things running. While people separated in many ways, other consolidated to form an even stronger (work-)force, despite the general conditions and underlining Eleanor Roosevelt‘s original citation.&lt;/h2&gt;
+
+&lt;p&gt;Sometimes, people need a weird idea to achieve something special. After our last team event was rather a remote-playing session with lots of pizza in a dying 2021, the need for something special was long overdue. While there were lots of options, I came to the conclusion that, after two years of pandemic and a quite scattered workforce, it was time for a real, special and unique team event. We didn‘t spend our budget in the first and second quarter of the year so the moment was right to plan something special as everyone has given his best, especially during the eerie years of discovering home office in the pandemic.&lt;/p&gt;
+
+&lt;h2 id=&quot;event-juggling&quot;&gt;Event-Juggling&lt;/h2&gt;
+
+&lt;p&gt;The hardest task was to agree upon a mutual date on which our „teambuilding-weekend“ could take place. After this finally happened (believe me, it‘s quite difficult to juggle with the calendars of seven people!) it was my task to do something completely different - no event at a local spot, no dinner: Indeed I searched on Airbnb for an accommodation being able to host this number of people in Denmark. I am a Scandinavia-fan but the site should be within reach (still we drove approximately eight hours) and, after getting the okay from my manager, I finally found a nice spot in Northern Denmark: One weekend, seven people, self-catering: It sounded like a good deal and - anticipating the outcome - it definitely was!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/the_2022_crew.jpg&quot; alt=&quot;Every stone is a foundation for the next one - Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;moving-dynamically&quot;&gt;Moving dynamically&lt;/h2&gt;
+
+&lt;p&gt;We definitely took advantage out of the free, positive and proactive weekend: No action, no talk, no way was mandatory - everything developed freely in its own unique way and although some parts could have been part of a defined script, we just unwittingly have shown that we somehow form a certain unity: In the office, at the remote workplace or on site in the office where we once got scattered from in the beginnings of COVID-19. Many verdicts in our lives are - more or less - a forced result - this weekend was the pure opposite! No one stayed at home and, despite walking over 13 kilometers on Saturday, the outcome as a whole delivered new thoughts and even - literally - stacking stones as a metaphor for the strong foundation we represent as a team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/stones.jpg&quot; alt=&quot;The boys, as of September 2022 - Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Entering the house and arranging everything? Preparing the dinner with a dutch oven and five kilograms of ingredients? Making the breakfast next morning? Teamwork. Going for a small beach-walk that turned out to advance in a there-and-back-trip paired with an ale at the turning point? Check!  Searching for a viewing platform and a museum, turning this search into an adventure of WW2-bunkers and memorials throughout the landscape? No problem! Doing an Echometer-Retro with a decent beer tasting and paired with the following FIFA-event on the big screen? Simple business! And - finally - cleaning up the whole house, preparing everything for the final leave, remembering this weekend as the ultimate charger for things to come? Definitely a welcomed no-brainer!&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What‘s next?&lt;/h2&gt;
+
+&lt;p&gt;We can’t control what happens tomorrow. We do not know where we are in one year. We don’t know how the market will develop in 2023 and besides all forecasts and requirements, everything will happen dynamically and not in the ways many do anticipate. All we know is that a strong workforce paired with personal friendship and respect can literally move mountains - finally, and, despite all technical aspects, everything (and also the world of IT) is still a people business: Something we should definitely value more in our daily routine and the struggles we encounter in our companies day by day!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/denmark_rainbow.jpg&quot; alt=&quot;Rainbow at the end of our weekend (time to search at the ends!) - Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It‘s simply all about people!&lt;/p&gt;
+</description>
+                <pubDate>Mon, 03 Oct 2022 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/</link>
+                <guid isPermaLink="true">http://localhost:4000/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>traveling</category>
+                
+                <category>wanderlust</category>
+                
+                <category>work</category>
+                
+                <category>life</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>Life is vivid - try to live it that way!</title>
+                <description>&lt;p&gt;Experiencing the Black Metal-wave in the 90s, visiting Norway was surely one thing on my bucket list. Decades later, I set my foot on Norse ground and was captured by pure beauty that was far beyond any of my expectations - and triggered a lot!&lt;/p&gt;
+
+&lt;p&gt;There are moments in life where you begin to think of your life’s purpose. Are you doing everything right? Is your work-/life balance compensated? Are there still things have have missed so far? Are you prioritizing the right things? After some days in Norway, I was grounded in many ways but the experiences I made there began to flood my mind and will hopefully be a basis for approaching some aspects in a different way in the future.&lt;/p&gt;
+
+&lt;p&gt;First things first. Norway was meant to be an adventure. Postponed three times (usually we wanted to travel in May 2020) due to COVID, we finally made our way from Germany to Denmark (eight hours), crossed over by ferry (three and a half hours) and drove the last stage to our goal in Reme, just one hour from Kristiansand in the southern part of Norway. While my goal was just to venture around and discover parts of the country with my Nikon, my DJI Mavic Pro and my GoPro HERO8, my two fellows had „fishing“ on their to-do-list as this trip was planned as a mere fishing holiday but also advanced to a „hike-and-shoot“-adventure with my gear.&lt;/p&gt;
+
+&lt;h3 id=&quot;fishing-not-phishing-this-time&quot;&gt;Fishing, not „phishing“ this time&lt;/h3&gt;
+
+&lt;p&gt;By partially adopting the art of fishing (although I am more fond of „phishing“ due to my job), I also learnt to spend six hours on a small boat in a fjord which alone was a certain experience, even one without barfing due to not (!) getting sea-sick in contrast to my expectations. Anyway, life is an open road and so you need to open your mind for new experiences - fishing was one of those although I refused to kill and disembowel the fish afterwards. A nice experience indeed, putting three characters in a small boat and relying on teamwork while one navigated, one steered the boat and one prepared the fishing poles with each positional change. You’re focused, you’re cautious and you’ve respect for the elements surrounding you: Your life is based upon the water and the wind, you need to cooperate while the beauty of nature embraces you - a great periphrasis for life in general, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/1-NkM86klsO10n93fr6LsJOA.jpg&quot; alt=&quot;Sundown from the boat — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;there-is-still-new-friendship&quot;&gt;There is still (new!) friendship&lt;/h3&gt;
+
+&lt;p&gt;I was never the guy who had lots of friends - very close friends are just three and I know all of them for approximately two decades now. The rest are people you get along with for some time and then ways part like interests do. Sometimes, people cross your way on work and even if you think that you don’t need additional „staff“ to accompany your life, someone stands out and appears on the stage. One of those friends was a very good workmate so far and although we both knew that we had more in common than just work, this week in Norway forget a new alliance on a more private basis. I don’t need much people around me and always tended to keep the circle of people close to me quite small - but it got a definite addition which is hopefully here to stay!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/1-x0bfLonjh-q5odt6fv31gQ.jpg&quot; alt=&quot;Looking down from Skrelia — 350 meters above sea level! Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;COVID-19 has shown that people split up, that former good friends (or colleagues) just entered a new stage of relationship and dissociated from each other. While we waited nearly two years for our Norway-trip to come true (which was postponed three times), we navigated through the lows of the pandemic, numerous weeks and months of home office and communicated even more than before: This trip (which will definitely face its second part next year!) definitely brought me a new friend and vice versa, additionally another person I didn’t knew before and who was our accompany for this week. Great people are rare and they often appear when you never expect them to do so - yet another recognition so be sure to hang on the people who do you good!&lt;/p&gt;
+
+&lt;h3 id=&quot;deleceration-is-the-new-trend&quot;&gt;„Deleceration” is the new trend&lt;/h3&gt;
+
+&lt;p&gt;You always read from „deceleration“ or „digital detoxing“ - just cutting off some parts of your life while being on holiday, taking your sabbatical, enjoying your weekends etc. While I can never fully do this digital detoxing (which may be some kind of an occupational disease as I am carrying too much stuff around with me), it feels good to disable your corporate E-Mail-account as well as the one for Microsoft Teams and just be a private individual. As for myself, I have discovered that the hamster wheel of balancing between work and my private life ran faster and faster - and that it was about time to make a full stop when I am not on duty.&lt;/p&gt;
+
+&lt;p&gt;As an IT-consultant, steering between Sales, Team Lead and my „old“ profession - rather technic-based - the best I could do is to drastically cut the other role off the other: Work is done when work is done and even when it’s not done, there is another day. Exceptions may occur, but I think (and I discovered) that mixing everything makes it hard to recharge your batteries and continues to fuel the „always on“-habit that many of us finally adopted with the pandemic. I don’t want to have Teams-meetings when I have finished my day while I reach my hime and I don’t like answering E-Mails when I am on holidays or - even worse - discovering the beauty of Norse nature. The last week has demonstrated that gaining (or re-gaining) this quality of life is imminent to handle the tasks that are still along the way - either corporate or private tasks and situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/1-CtQ7hYyqRDFYrwH7gfdngg.jpg&quot; alt=&quot;Every road leads to a specific goal… somehow! — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It took me a lot of working years and some really bad two years to realize that I have missed too much in the past, driven by my ego and the success to achieve… yeah, to achieve what? I am not the kind of guy that lives with the situation to be stuck in a dead end, indeed I still try to somehow find an escape route. My four daughters are growing up fast-paced, &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;my dad just recovers from colon cancer and one of the closest friends of my eldest daughter died at a plane crash 600 kilometers away from home - at the age of 14&lt;/a&gt;. We always say that life is short and often things prevent us from living it to the fullest, but the last two years brought up the proof that you need to change something unless something changes you - or the people around you. Fate is merciless and I’d wish I had used some time fragments in better ways than to cruise through Germany on behalf of my last employers. Time is spent and your influence how it is spent is limited - but often you can still control the oars.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-traveling-back-in-time&quot;&gt;No traveling back in time&lt;/h3&gt;
+
+&lt;p&gt;So what am I going to say here? I struggled a lot with my orientation how my work-/life-situation needs to be balanced but it took a week in Southern Norway to completely slow me down. Living a simpler life albeit you’re carrying lots of gear with you to digitize this great country. Learning how other populations work and live - and take care of each other - is something that I have already realized in Belgium, The Netherlands or - now - Norway. Everything is related to your attitude and believe me: Coming back to Germany after such a week is equal to a slap in the face - local people can be nasty, narrow-minded and deadlocked (it may be the image of the Germans that foreigners often refer to!) but looking over the horizon, new adventures wait: Other people, other cultures, other manners and personally I draw a lot out of these experiences because life seems to be easier when you see other sides of the coin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/1-72MtAUDCE8ke8XaLYTwKKw.jpg&quot; alt=&quot;A place to dream of — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes it needs a full stop to regain orientation, to re-focus and to put the important things back in the centre of your own point of view. Use this time, use it wisely and never be shamefaced to do so - no individual and no company will give it back to you. Use the time to re-charge your batteries and to learn to see from different perspectives: The daily business will return much too soon, turning your daily life into a rat race once again - so use any precious second wisely!&lt;/p&gt;
+
+&lt;p&gt;Life is short so life it to the fullest! There’s so much to see, there is so much to experience. Take any chance to let your dreams come true, take care of your beloved once and don’t let anyone prevent you from doing so. Our time on Earth is quite limited so leaving your own footprint and enjoy every given second should be your utter goal! Live is too vivid so we all should try to live it that way - matching just our own expectations and those of our beloved ones!&lt;/p&gt;
+</description>
+                <pubDate>Tue, 13 Sep 2022 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Life-is-vivid-try-to-live-it-that-way!/</link>
+                <guid isPermaLink="true">http://localhost:4000/Life-is-vivid-try-to-live-it-that-way!/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>traveling</category>
+                
+                <category>life</category>
+                
+                <category>holidays</category>
+                
+                <category>freedom</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>Return to offices is announced, but the model of hybrid work is here to stay!</title>
+                <description>&lt;p&gt;COVID-19 has been one of the riders of the apocalypse during the last two years but, in one special way, it was a driver to change the way we work these days.&lt;/p&gt;
+
+&lt;p&gt;The pandemic was our generation’s plague since appearing first in the end of 2019 and while it has shown that mankind is still less civilized than we ever thought before, it forced us to change the ways we live - and work. It has changed the world and even the way we work. While the pandemic has shown many obvious gaps in society, the benefits for working nearly everywhere is one of the few good things that came along.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-office&quot;&gt;The Office&lt;/h2&gt;
+
+&lt;p&gt;I was always a defender of working at the office. Gathered together, being productive in persona just we knew it as working was heading to the office and doing your job there. Before the whole world was poured down the sink, things and working life were different. Working in the IT-sector, „home office“ wasn’t something new and always an option - and based upon trust that employers work as productive as they would on-site. That’s for the status quo before COVID. Then things (as we all know) changed quite instantly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1497215728101-856f4ea42174.jpg&quot; alt=&quot;Photo by Alesia Kazantceva / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With the order to „go home wave by wave and make comfortable in the home office“ in early 2020 to stop the possible local spreading of the new virus, everything became different. Working for an IT-company, we already had the tools and possibilities to fully opt-in for remote working but as everything happened, we never expected to stick with remote work for the first 14 weeks in Wave One - at least our unit which is Sales-based. New kinds of communications, new kinds of working routines, completely different approaches to glue your own team together: The working world suddenly went upside down despite the technical possibilities which worked flawlessly from the very beginning.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-new-working-world&quot;&gt;The New (Working) World&lt;/h2&gt;
+
+&lt;p&gt;Two years later and after some kind of artificial short-time working scenario even with a full-time customer demand, we have faced additional COVID-waves. Seemingly, they didn’t have that impact on our working routine as we managed to juggle between presence on-site and remote working within our team albeit the fact that two of my team-mates nearly disappeared in persona which shows one of the challenges when adopting the new kind of work. These days, Germany opens up again, dropping many of the rules and protection efforts like the mask mandate to protect us from COVID-19.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1610703415552-d7fca41a8857.jpg&quot; alt=&quot;Photo by Maxime / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This will be a temporary measure as we all know what is going to happen: While there are people who judge their level of freedom by the mandatory use of face masks during shopping, many people are still responsible, opting in for the masks to stay: Years ago, we smiled at Asian people wearing face masks in the public and if you ask me, they are still a way of protecting you from many things except COVID-19, even flus and similar diseases - or smog. Anyway, what I am pointing at is, while Spring is on the rise and Summer will return, governments will be surprised again when, facing the season of Autumn, COVID will strike back when many people populate unfiltrated and unventilated rooms once again. The problem of COVID-19 isn’t solved and we’ll have to live with it and so they kind of work we used to know needs to constantly change.&lt;/p&gt;
+
+&lt;h2 id=&quot;things-have-changed&quot;&gt;Things Have Changed&lt;/h2&gt;
+
+&lt;p&gt;Besides taking care of pushing digitalization (something many countries, including Germany, aren’t really good at!) for workers and especially schools, a new way of work finds one’s way into our world. Employers have to be flexible and change their way of thinking as it comes to remote work. Many of them have the enormous task to bury the old way of working - always in persona, always on-site - beneath the ruins of a world devastated by COVID. No matter what you do but once you manage to keep things ticking over from everywhere you are, the business keeps running - which should be the primary goal of each employer. There are plenty of jobs that needs physical presence but in cases of doing Sales, Administration, Consulting etc. pp. the possibility of (at least) hybrid work isn’t alien anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1542744173-8e7e53415bb0.jpg&quot; alt=&quot;Photo by Campaign Creators / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In our specific case I changed my opinion. Time has shown that there are teammates who do their job by more than 100%, no matter where they are - and even if they sit within a well-connected alpine hut located at the Himalaya. And those who didn’t perform so well even in the office nearly disappeared in the home office - which made them costing even more time to manage them. Everything is a matter of trust and in case these two tiresome years have shown anything in the job-genre it is that putting trust in your employees is a mandatory must.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-desperate-option-here-to-stay&quot;&gt;A Desperate Option, Here To Stay!&lt;/h2&gt;
+
+&lt;p&gt;I have changed my opinion and never before I was that happy to be that wrong. The old style of working, the mandatory presence in the office, is quite dead. New ways to work have proven to be efficient, fast and we all still have to juggle with the dozen additional tons of internal communication. Many of my mates have delighted me while just very, very few have disappointed me, getting lost in the home office with just very few traces of individual drive. While this is definitely a contra-argument, it has proven that self-propulsion is not something that fits to everyone. While the insights of this will surely help to  separate the wheat from the chaff, the positive aspects prevail and have shown that good co-workers adopt and embrace the flexibility and freedom of remote work without ceasing working performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1621524440591-8f7cf4aa0949.jpg&quot; alt=&quot;Photo by Esteban Lopez / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The new kind of work will be remote and while we still need the office just to gather in persona or meet with customers, the time has shown that work in the sector of Information Technology has already drastically changed. Once there is work to do, it can be done without being bound to a specific place and once companies adopt this strategy, they will be considered to be modern, following the spirit of time. Even an adoption rate of 50% is okay when the discovery of the new way of work has already begun: Equipping the employers with the proper tools and technics is a must to remain competitive and opens the door to the future of digitalization - something we have definitely been missed here before, especially but not only in Germany.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/photo-1504805572947-34fad45aed93.jpg&quot; alt=&quot;Photo by Clark Tibbs / Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The question is not which tools you are using and if you’re opting in for the big tech companies and their solutions or the Open Source-alternatives: The question is if your company-mindset has already adopted the flexibility of modern work to remain responsive, paired with a certain trust in your employees. If your company meets these criteria, it will be successful and a valued employer to work for! And while many of us strive back into the offices these days (no matter if they like or not), the knowledge of (at least) a hybrid working model is something which is here to stay!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 27 Mar 2022 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/Return-to-offices-is-announced-but-the-model-of-hybrid-work-is-here-to-stay/</link>
+                <guid isPermaLink="true">http://localhost:4000/Return-to-offices-is-announced-but-the-model-of-hybrid-work-is-here-to-stay/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>job</category>
+                
+                <category>profession</category>
+                
+                <category>covid19</category>
+                
+                <category>work</category>
+                
+                <category>hybridwork</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>The Price of a Mile</title>
+                <description>&lt;h2 id=&quot;theres-a-war-raging-in-europe-once-again-a-sad-fact-that-sends-my-thoughts-back-to-world-war-one-and-the-discussion-for-the-price-of-a-mile-and-the-question-how-many-soldiers-need-to-be-sacrificed-to-gain-temporary-advance-in-a-senseless-war&quot;&gt;There’s a war raging in Europe once again. A sad fact that sends my thoughts back to World War One and the discussion for „The Price of a Mile“ and the question how many soldiers need to be sacrificed to gain temporary advance in a senseless war:&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-battle-of-passchendaele&quot;&gt;The Battle of Passchendaele&lt;/h2&gt;
+
+&lt;p&gt;Forever connected to the Battle of Passchendaele and commonly known as the „Third Battle of Ypres“, the slaughtering took place on the Western Front, from July to November 1917. Over half a million of lives were gone for gaining just six miles of land - the ultimate proof that we cannot charge up lives against advancement. Alas, mankind didn’t learn much as World War Two has shown in an even more dreadful sight. These days just show that aggression is still settled over reason for many people that neglect the faults we made in the past.&lt;/p&gt;
+
+&lt;h2 id=&quot;hill-60&quot;&gt;Hill 60&lt;/h2&gt;
+
+&lt;p&gt;Rewinding my life’s timeline back to July 2021, I (once again) visited Belgium and especially the region of Flanders where my interest in Flanders Fields was born years ago. Visiting Hill 60 in Zillebeke near Ypres, I discovered a site I haven’t visited before on my journey through Flanders Fields. Hill 60 was a low rise south-east of Ypres made from the soil removed in digging a cutting for the Ypres to Comines railway. It is told to had excellent views over both Ypres and Zillebeke, and was captured by the German army during the first Battle of Ypres in November 1914. On 17 April 1915, in one of the first tunnelling operations by the British Army, six mines exploded under Hill 60, which was then quickly captured with minimal casualties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hill_60_german_front.jpg&quot; alt=&quot;The German Front as settled in December 1914 - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The history of Hill 60 gained its rise in the Battle of Messines where the previously placed explosives were sparked and acted as a prelude for the battle. There were two chambers dug by the Allies for quite some time: One was filled with 53,300 pounds of Ammonal explosives while the second, known as „The Caterpillar“, was equipped with 70,000 pounds of explosives, At 3:10 am on June 6th, 1917, these two mines and 19 others, containing nearly one million pounds of explosives, detonated. It is told that the aftermath of the explosion was, apart from pouring hot air over 20 miles of the battlefield, felt in London.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;„Gentlemen, we may not make history tomorrow, but we shall certainly change the geography.“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(British General Charles Harington)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-battle-of-messines&quot;&gt;The Battle of Messines&lt;/h2&gt;
+
+&lt;p&gt;The Battle of Messines was considered a British success that greatly boosted moral among the Allies. The cost was high over all these years as 25,000 German soldiers and 17,000 Allied troops fell during the battle actions and especially the Australian Mining Corps had a considerable proportion in the planning and execution of undermining and preparing Hill 60 for the ultimate „blow“.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hill_60_memorial_3.jpg&quot; alt=&quot;Hill 60 Memorial - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coming back to „The Price of a Mile“ and once again thinking that mankind didn’t progress that much since over 100 years after The Great War has ended, I stood at the original Allied frontline after walking over the wooden-supported construction that leads over Hill 60 nowadays. 15 meters - 15 steps - away there was the German frontline and while „The Price of a Mile“ was innumerable (and still is!), it was a shock that 104 years ago, 15 steps defined the border between friendly and enemy territory. It may be still odd to think of these events in the 21st century, but remembrance is something which should sharpen our senses towards all the things happening today. Who thought with, the assassination of Archduke Franz Ferdinand of Austria on June 28th, 1914, the world would fall into its worst nightmare ever? With every action comes a reaction - and looking into Europe these days, nothing is - unfortunately - impossible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hill_60_allied_front.jpg&quot; alt=&quot;The Allied Front as settled in January 1915 - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;history-in-revision&quot;&gt;History in Revision&lt;/h2&gt;
+
+&lt;p&gt;Closing the circle, the Russian invasion - and it is nothing more or less - advances quite slower than the Kremlin expected, thanks to the brave defense of Ukraine and its resisting force. Still we cannot if any sacrifice is worth the lives of brave men and women defending their country against an invading force. The Price of a Mile is still relative and although examples of the past have shown that this calculation never pays off, progress is - sadly - payed by blood.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hill_60_memorial_1.jpg&quot; alt=&quot;Hill 60 Memorial - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’d wish mankind could learn from the imperfection of the past and having seen the frontline from WW1 in Flanders, there is just mere understanding of how close life and death are seated between each other. History is alive and we should learn from it, but - simultaneously - history is always repeating. A frightening fact for someone who never experienced the situation of a real war in his life…&lt;/p&gt;
+</description>
+                <pubDate>Sun, 13 Mar 2022 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/The-Price-of-a-Mile/</link>
+                <guid isPermaLink="true">http://localhost:4000/The-Price-of-a-Mile/</guid>
+                
+                <category>flanders</category>
+                
+                <category>belgium</category>
+                
+                <category>thegreatwar</category>
+                
+                <category>ww1</category>
+                
+                <category>history</category>
+                
+                <category>traveling</category>
+                
+                
+                <category>History</category>
+                
+            </item>
+        
+    </channel>
+</rss>
