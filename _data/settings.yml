@@ -34,39 +34,56 @@ author:
 # Links Section Settings
 links:
   enable: true
-  links__title: "Useful links"
+  links__title: "My personal Linktree"
 
 links__item:
-  - title: 10 Inspirational Books Every Creative Should Read
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/110.jpg"
-    image_alt: Inspirational books
-    link: "https://twitter.com"
+  - title: Apple Music
+    description: Although I started with Spotify, I am (as you may guess) Apple Music-branded since the service started!
+    image_url: "/images/brett-jordan-IHecRXio89c-unsplash.jpg"
+    image_alt: Apple Music
+    link: "https://music.apple.com/profile/oliverpifferi"
 
-  - title: Creating stylised images from a photo
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/111.jpg"
-    image_alt: Illustrator
-    link: "https://google.com"
+  - title: BookWyrm
+    description: BookWyrm is a great ActivityPub-driven Fediverse-project to collect, rate and share your (audio) books with other fellows!
+    image_url: "/images/distingue-ciddiqi-2ALQUTD5MKc-unsplash.jpg"
+    image_alt: BookWyrm
+    link: "https://books.pifferi.info/user/oliver"
 
-  - title: Chill Movies for Couples to Watch on Date Night
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/112.jpg"
-    image_alt: Movies
-    link: "https://www.netflix.com"
+  - title: GitHub
+    description: I am not a developer, but tend to host some snippets and even this page here on GitHub.
+    image_url: "/images/praveen-thirumurugan-KPAQpJYzH0Y-unsplash.jpg"
+    image_alt: GitHub
+    link: "https://github.com/oliverpifferi"
 
-  - title: The 8 Best Exercises for Weight Loss
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/114.jpg"
-    image_alt: Best exercises
-    link: "https://google.com"
+  - title: LinkedIn
+    description: As the number one business network out there, LinkedIn is also a platform I'm available on. Feel free to connect with me!
+    image_url: "/images/souvik-banerjee-JLj_NbvlDDo-unsplash.jpg"
+    image_alt: LinkedIn
+    link: "https://www.linkedin.com/in/oliverpifferi/"
 
-  - title: Ask Me A Question On Instagram
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/115.jpg"
-    image_alt: Ask Me A Question
-    link: "https://instagram.com"
+  - title: Mastodon
+    description: THE microblogging service which definied social network in its new and modern shape, powered by ActivityPub and the Fediverse!
+    image_url: "/images/rolf-van-root-ISmVDb_20_g-unsplash.jpg"
+    image_alt: Mastodon
+    link: "https://midgardmates.com/@oliver"
+    
+  - title: Matrix
+    description: One of the safest and most modern messenger out there, also supporting E2EE between chat participants
+    image_url: "/images/matrix-synapse.jpg"
+    image_alt: Matrix
+    link: "https://matrix.to/#/@oliver.pifferi:matrix.org"
+    
+  - title: Pixelfed
+    description: The third of my ActivityPub-based and Fediverse-powered services, delivering a great and free showcase for photos
+    image_url: "/images/pixelfed.jpg"
+    image_alt: Pixelfed
+    link: "https://nordicshutter.com/oliver"
 
+  - title: XING
+    description: Another social business network which is (was) quite famous in Germany - we can connect here as well!
+    image_url: "/images/xing.jpg"
+    image_alt: XING
+    link: "https://www.xing.com/profile/Oliver_Pifferi/"
 
 #-------------------------------
 # Hero Settings
@@ -74,7 +91,7 @@ hero:
   hero__title: Hi, I'm <span>Oliver</span>. # Wrap text in a <span></span> tag to highlight and underline text.
   hero__job: IT-Guy, restless spirit
   hero__description: I am also a Dad and a Cloud-Addict with a strong focus on Security and Free Software. I prefer  at Home and Linux all around. Thus spoken, I am a convinced -Fanboy, and, besides, love Metal of all kind, Travelling, Photographing, Reading and Blogging.
-  hero__button__text: Read about my past
+  hero__button__text: More info on me and my profiles in the Web
   hero__button__link: "/about/"
   hero__image: "/images/avatar.jpg"
 
