@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>The Return to Flanders Fields</title>
+  <title>Deploying your own Docker-ized Nextcloud Hub II-instance in no time</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/The-Return-to-Flanders-Fields/">
+  <link rel="canonical" href="http://localhost:4000/Deploying-your-own-Docker-ized-Nextcloud-Hub-II-instance-in-no-time/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="The Return to Flanders Fields – Forhekset">
-  <meta name="twitter:description" content="Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.
+  <meta name="twitter:title" content="Deploying your own Docker-ized Nextcloud Hub II-instance in no time – Forhekset">
+  <meta name="twitter:description" content="There are many ways of successfully deploying Nextcloud depending on your knowledge. One new has now just entered the stage, making your way to your own private cloud a lot easier!
 ">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/grouppic2019.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="The Return to Flanders Fields – Forhekset">
-  <meta property="og:description" content="Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.
+  <meta property="og:title" content="Deploying your own Docker-ized Nextcloud Hub II-instance in no time – Forhekset">
+  <meta property="og:description" content="There are many ways of successfully deploying Nextcloud depending on your knowledge. One new has now just entered the stage, making your way to your own private cloud a lot easier!
 ">
-  <meta property="og:image" content="http://localhost:4000/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/grouppic2019.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -181,22 +181,24 @@
             
             <div class="post-tags">
               
-              <a href="/tags/?tag=flanders" class="post-tag">flanders</a>
+              <a href="/tags/?tag=nextcloud" class="post-tag">nextcloud</a>
               
-              <a href="/tags/?tag=belgium" class="post-tag">belgium</a>
+              <a href="/tags/?tag=foss" class="post-tag">foss</a>
               
-              <a href="/tags/?tag=thegreatwar" class="post-tag">thegreatwar</a>
+              <a href="/tags/?tag=software" class="post-tag">software</a>
               
-              <a href="/tags/?tag=ww1" class="post-tag">ww1</a>
+              <a href="/tags/?tag=cloud" class="post-tag">cloud</a>
               
-              <a href="/tags/?tag=history" class="post-tag">history</a>
+              <a href="/tags/?tag=privatecloud" class="post-tag">privatecloud</a>
               
-              <a href="/tags/?tag=traveling" class="post-tag">traveling</a>
+              <a href="/tags/?tag=docker" class="post-tag">docker</a>
+              
+              <a href="/tags/?tag=linux" class="post-tag">linux</a>
               
             </div>
             
 
-            <h1 class="hero__title">The Return to Flanders Fields</h1>
+            <h1 class="hero__title">Deploying your own Docker-ized Nextcloud Hub II-instance in no time</h1>
 
             
 
@@ -207,7 +209,7 @@
 
               <div class="post-meta__bottom">
                 <a class="post-author" href="/about/">Oliver Pifferi</a>
-                <time class="post-date" datetime="2021-08-01T00:00:00+02:00">1 August, 2021</time>
+                <time class="post-date" datetime="2022-02-06T00:00:00+01:00">6 February, 2022</time>
               </div>
             </div>
           </div>
@@ -217,7 +219,7 @@
             
             
             <div class="hero__image">
-              <img class="hero__image__primary lazy" data-src="/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg" alt="The Return to Flanders Fields">
+              <img class="hero__image__primary lazy" data-src="/images/grouppic2019.jpg" alt="Deploying your own Docker-ized Nextcloud Hub II-instance in no time">
             </div>
             
             
@@ -236,19 +238,189 @@
   <article class="post">
 
     <div class="post__content">
-      <h2 id="keeping-up-with-history-is-brutal-and-you-never-have-a-world-wide-pandemic-on-your-list-when-planning-your-tours">Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.</h2>
+      <h2 id="there-are-many-ways-of-successfully-deploying-nextcloud-depending-on-your-knowledge-one-new-has-now-just-entered-the-stage-making-your-way-to-your-own-private-cloud-a-lot-easier">There are many ways of successfully deploying <a href="https://nextcloud.com/">Nextcloud</a> depending on your knowledge. One new has now just entered the stage, making your way to your own private cloud a lot easier!</h2>
 
-<p>It was 2019 in our summer holidays in Belgium where I made the first two parts of my „In Flanders Fields“-voyages. 2020, struck by COVID-19, interrupted the whole world while we had the chance to return to Belgium in July, shortly before everything broke down again - but with no spare time left (family life first!) to visit the gravesites and memorials.</p>
+<p>Since 2016 I have refined my way of installing a Linux-system with Apache, PHP, a database and some other tools as foundation for an own Nextcloud. Over time, many tweaks followed with the experiences I have gained but what with the less-savvy people out there striving for a private cloud? The answer is probably one of the easiest ways to deploy it: New <a href="https://hub.docker.com/r/nextcloud/all-in-one">Nextcloud AIO</a> (All in One) with Nextcloud Hub II comes on based on Docker-technology, is blazing fast and absolute easy to deploy - let me show you how!</p>
 
-<p>July 2021 now offered seven days in Belgium again and while the pandemic seems to have been battled (or is taking its break), family was still first but this time, I had the chance to return to the memorials that are so present in this beloved country that you can’t really grasp it once you weren’t there.</p>
+<h2 id="prerequisites">Prerequisites</h2>
 
-<p>For me, I drew a lot of recreation, sadness, reverence, thoughts and energy of the sites I visited and while the „Pool of Peace“ (or „Lone Tree Crater“) closed my circle longing back to 2019, I made it to some other sites as well, finishing this round with finally visiting the centre of Ieper (Ypres) just five minutes before the „In Flanders Fields“-museum closed its doors at 6 pm.</p>
+<p>First of all, you need a server with an updated Linux-system running on it, either in your home or hosted by a provider like <a href="https://www.netcup.eu/">Netcup</a> where also my projects are hosted. As we don’t want to focus on NATing and making your router at home ready for dealing with Nextcloud (which is yet another topic!) we focus on a freshly installed VPS running, for example, Ubuntu or Debian Linux.</p>
 
-<p>Better luck next time, but a stimulation to catch up my thoughts and impression of the last two years and „the war to end all wars“ - be my guest in my thoughts and once you think you want to contribute anything to this publication, feel free to contact me!</p>
+<p>Nextcloud AIO features all single components you usually would install one by one and consists of single Docker-containers. Covered are the webserver, the database, Nextcloud itself, a Redis-server for caching, Collabora running the new Nextcloud Office and - finally - a Talk-container for Instant Messaging, Collaboration and Video Communications even with the High Performance Backend enabled! Especially the latter is quite fiddly to implement so the final result will deliver a fully-equipped Nextcloud-instance to the user without the hassle of configuring everything piece by piece. On top there is also a backup-solution based on BorgBackup available as well so you shouldn’t miss anything once you have deployed those containers.</p>
 
-<p>Awed,</p>
+<h2 id="basics">Basics</h2>
 
-<p>Oliver</p>
+<p>We start with an empty VPS which is - in my case - running with Ubuntu 20.04 and all updates installed including the curl- and (here) UFW-packages. The first is mandatory, the latter my one small way of additionally securing the Linux-server floating in wide sections of the World Wide Web. Especially UFW is also known as „Uncomplicated Firewall“ and an interface to the well-known iptables. It is particularly well-suited for host-based firewalls and provides an easy-to-use interface for beginner users who are rather unfamiliar with firewall concepts. UFW is the most-popular firewall tool originating from Ubuntu and supports both IPv4 and IPv6.</p>
+
+<p>To configure our UFW on the freshly-installed machine, use the following commands according to the needed TCP/UDP-ports for Nextcloud AIO. First, UFW is installed, then the different ports are being opened while the last command enables UFW at boot time.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ufw -y
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ssh
+sudo ufw allow 3478/tcp
+sudo ufw allow 3478/udp
+sudo ufw allow 8080/tcp
+sudo ufw allow 8443/tcp
+ufw enable
+
+</code></pre></div></div>
+
+<p>SSH is optional here but is needed to connect to my VPS remotely while especially port 8443 is elementary for Nextcloud’s AIO web interface. You may tighten the security aspects in a more granular way later, possibly supported by tools like Fail2Ban, but this shouldn’t be part of this tutorial. Speaking generally, you should know which ports should be opened in a live system being accessed from the Internet - the choice is yours!</p>
+
+<p><img src="../images/Nextcloud-Office-document-sidebar.jpg" alt="" /></p>
+
+<p>On the machine, there is a specific user we work with as running containers (or doing anything else) with the root-user often is not the best idea. So head over to your system, log in with the desired user and install the Docker-engine first as this is the minimum prerequisite to get everything running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo curl -fsSL get.docker.com | sudo sh
+
+</code></pre></div></div>
+
+<p>To run Docker as a non-privileged user, we should consider setting up the <a href="https://docs.docker.com/go/rootless/">Docker daemon in rootless mode</a> for our specific user but, before, he needs to be sudo.</p>
+
+<p>To achieve sudo-permissions for our service-user which is, for example, named „nextcloud-svc“, enter the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adduser nextcloud-svc
+usermod -aG sudo nextcloud-svc
+
+</code></pre></div></div>
+
+<p>Then switch to the specific user by typing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>su - nextcloud-svc
+
+</code></pre></div></div>
+
+<p>and secure your docker service which is finally done installing the desired additional package by the command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install -y uidmap
+
+</code></pre></div></div>
+
+<p>followed by</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dockerd-rootless-setuptool.sh install
+
+</code></pre></div></div>
+
+<p>and exporting the named environment variables</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export XDG_RUNTIME_DIR=/home/nextcloud-svc/.docker/run
+export PATH=/usr/bin:$PATH
+export DOCKER_HOST=unix:///home/nextcloud-svc/.docker/run/docker.sock
+
+</code></pre></div></div>
+
+<p>once - additionally, you may also add those to your .bashrc-file manually.</p>
+
+<p>People who prefer to go with the standard-Docker-packages delivered by Ubuntu’s standard repository just need to enter</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install docker.io
+</code></pre></div></div>
+
+<p>instead, installing all necessary packages this way - the choice is yours!</p>
+
+<p>After taking care of those prerequisites, let’s finally pull the latest Nextcloud AIO-base image from the <a href="https://hub.docker.com/r/nextcloud/all-in-one">official Docker-repository</a> which may take a short amount of time, depending upon your Internet connection:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker pull nextcloud/all-in-one:latest
+
+</code></pre></div></div>
+
+<p>To fire the basic container up and start everything for the very first time, use the command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># For x64 CPUs:
+sudo docker run -it \
+--name nextcloud-aio-mastercontainer \
+--restart always \
+-p 80:80 \
+-p 8080:8080 \
+-p 8443:8443 \
+--volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \
+--volume /var/run/docker.sock:/var/run/docker.sock:ro \
+nextcloud/all-in-one:latest
+</code></pre></div></div>
+
+<p>which also enables a persistent restart of all containers after, for example, a reboot of the host system.</p>
+
+<h2 id="basic-configuration">Basic Configuration</h2>
+
+<p>After the containers are up and running, we may now head to our preferred browser and enter the fully-qualified domain name of the server as a https-string followed by port 8080, for example while ignoring the possible certificate error yet:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://cloud.my-domain.tld:8080
+
+</code></pre></div></div>
+
+<p>The integrated ACME-process will now instantly fetch a Let’s Encrypt-certificate and welcome you with an initial setup-screen delivering initial credentials for your Nextcloud AIO-login, needed to install your private cloud.</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.42.16.jpg" alt="" /></p>
+
+<p>Follow the link and enter those credentials.</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.44.37.jpg" alt="" /></p>
+
+<p>Following the installation process, you may now enter the fully-qualified domain name your Nextcloud-instance should be running with which is, in my case, also cloud.my-domain.tld.</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.46.35.jpg" alt="" /></p>
+
+<p>This ensures this domain to be added into Nextcloud’s „trusted hosts“-configuration and enables you to head on in the next screen where the containers can be started for the first time.</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.46.44.jpg" alt="" /></p>
+
+<p>All specific containers will be fetched here - this can take a lot of time depending on your Internet connection. Since the overall size is a few GB, this will take around 5-10 min or more so be aware and patient while the circle does its work!</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.47.59.jpg" alt="" /></p>
+
+<h2 id="further-configuration">Further configuration</h2>
+
+<p>After a short while, you should see a status page showing your final and initial Administrator-login and password to your freshly created Nextcloud-instance. Write down those credentials and alter them as soon as possible, for example by just changing the password or creating a new, differently-named Administrator to prevent strange people from trying to guess the password for the usual „admin“-login!</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-11.54.42.jpg" alt="" /></p>
+
+<p>Besides, you see all containers and their statuses (clicking on „Running“ shows the specific log of each container) and while you get familiar with this interface, you may also add a path for the integrated backup-solutions and submit this basic parameter. Once this has been done, the instance will present you an encryption password for backups which you should write down, too. Please save this at a safe place since you won’t be able to restore from backup if you lose this password! The contents of the backup are all important data of your Nextcloud AIO-instance like the database, your files and configuration files of the master-container and (quite) everything else!</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-12.04.27.jpg" alt="" /></p>
+
+<p>Once there is a major update for Nextcloud AIO, you may also refresh the components from this page which is, token-based, always accessible from your official Nextcloud-backend once you work with an user that has administrative permissions.</p>
+
+<h2 id="your-nextcloud-docker-ized">Your Nextcloud, Docker-ized!</h2>
+
+<p>After doing that much work in the background, you may now head to your Nextcloud AIO’s final URL which listens at Port 443, so venturing to</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://cloud.my-domain.tld
+
+</code></pre></div></div>
+
+<p>will instantly lead you to your complete Docker-ized Nextcloud-instance. Use the administrative credentials shown above to enter your own private cloud and configure it to suit your needs. While Nextcloud Office and Talk are already preconfigured and running, there are still tons of <a href="https://apps.nextcloud.com/">apps</a> to extend your Nextcloud with!</p>
+
+<p>All checks within your Nextcloud should be okay despite of the warning regarding the „mission default phone region“. As you cannot alter Nextcloud’s config directly like you would in a non-Docker-based installation, firing the command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker exec -it nextcloud-aio-nextcloud php occ config:system:set default_phone_region --value="yourvalue"
+
+</code></pre></div></div>
+
+<p>will suit your needs while my value would be „de“ for „Germany“ here - and with issuing this command, the one, only and last warning regarding your freshly-installed Nextcloud AIO-instance should have disappeared!</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-13.10.56.jpg" alt="" /></p>
+
+<p>Generally, you may always use</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker exec -it nextcloud-aio-nextcloud php occ your-command
+
+</code></pre></div></div>
+
+<p>to work with the well-known „occ“-command whereas „your-command“ should - of course - be replaced with the parameter you want to work with. We see: Even if Docker-ized, we still have the ability of working with the tools we know from „usual“ instances so far, having the chance to affect our installation in the ways we like to!</p>
+
+<h2 id="verdict">Verdict</h2>
+
+<p>The solution came nearly out of the nowhere and has been already very, very active on <a href="https://github.com/nextcloud/all-in-one">GitHub</a> lately. Still being labeled as „Beta“-software which may still have serious bugs while usage is at one’s own risk, Nextcloud AIO has reached a grade of near-to-perfection within the first days since release and is currently still versioned 0.2.1 while deploying latest Nextcloud 23.0.1.</p>
+
+<p>The Docker-containers seem to be perfectly balanced and configured, the overall performance is blazing fast and even outperforms the way I built my Nextcloud over the years… manually! The big pro according to my use case if that both High Performance Backends (for Files as well as Talk) are implemented from the scratch as well while especially the nasty and distributed configuration of Talk, Signaling und the High Performance Backend is just fully-functional after the initial installation. Even with my best efforts, I often struggled and - seemingly - never achieved to get this running by 100% with my manual install!</p>
+
+<p><img src="../images/Bildschirmfoto-2021-12-05-um-14.05.31.jpg" alt="" /></p>
+
+<p>Tech-savvy or not, here I decided to put my own „How-to-install-and-tweak-Nextcloud“-scenario aside and got engaged with this kind of deployment in no time. I was already a fan of Docker while fueling my Office-integration with Collabora Online] and ONLYOFFICE but this Docker-construct is a clear sign that the container-technology does not save time, but also comes with unbelievable flexibility. Yes, Nextcloud AIO is still entitled as „Beta“ but together with the well-known vivid community and the leading contributors <a href="https://github.com/szaimen">szaimen</a>, <a href="https://github.com/LukasReschke">Lukas Reschke</a>, <a href="https://github.com/pestotoast">Adrian Gebhart</a>, <a href="https://github.com/AlexanderProd">Alexander Hörl</a> and <a href="https://github.com/ph00lt0">ph00lt0</a>, this project is - besides my long-time sympathy for Nextcloud - surely one of the greatest Docker-projects I have found in the last years!</p>
+
+<p>You may find the GitHub-repository <a href="https://github.com/nextcloud/all-in-one">here</a> while the Docker Hub-page can be found <a href="https://hub.docker.com/r/nextcloud/all-in-one">here</a> - give it a try and pull the container, it’s definitely worth the few minutes of time getting a Nextcloud which is near-to-perfection!</p>
 
     </div>
 
@@ -256,7 +428,7 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/The-Return-to-Flanders-Fields/&title=The%20Return%20to%20Flanders%20Fields&summary=&source="
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Deploying-your-own-Docker-ized-Nextcloud-Hub-II-instance-in-no-time/&title=Deploying%20your%20own%20Docker-ized%20Nextcloud%20Hub%20II-instance%20in%20no%20time&summary=&source="
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -264,27 +436,27 @@
 </div>
     <div class="post__navigation">
   
-  <a class="post__prev" href="/Is-our-Post-Covid-working-life-here-to-stay/">
+  <a class="post__prev" href="/Carrying-the-weight-of-the-world-on-your-shoulders/">
     <div class="prev__image">
       
-      <img class="lazy" data-src="/images/photo-1584931423298-c576fda54bd2-2.jpg" alt="The Return to Flanders Fields">
+      <img class="lazy" data-src="/images/photo-1584636633449-6135be6c4169.jpg" alt="Deploying your own Docker-ized Nextcloud Hub II-instance in no time">
     </div>
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Older post</span>
-      <h2 class="post__nav__title">Is our Post-Covid-working life here to stay?</h2>
+      <h2 class="post__nav__title">Carrying the weight of the world on your shoulders</h2>
     </div>
   </a>
   
 
   
-  <a class="post__next" href="/Death-smiles-at-us-all-a-man-can-do-is-smile-back/">
+  <a class="post__next" href="/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/">
     <div class="next__box">
       <span class="post__nav post__nav__next">Newer post</span>
-      <h2 class="post__nav__title">Death smiles at us all - all a man can do is smile back</h2>
+      <h2 class="post__nav__title">Vaultwarden: Your guide to your self-hosted Bitwarden password vault</h2>
     </div>
     <div class="next__image">
       
-      <img class="lazy" data-src="/images/photo-1435163892681-9d67a2b1db7e.jpg" alt="The Return to Flanders Fields">
+      <img class="lazy" data-src="/images/Bitwarden_Intro.png" alt="Deploying your own Docker-ized Nextcloud Hub II-instance in no time">
     </div>
   </a>
   
@@ -378,85 +550,24 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">
-                    <img class="lazy" data-src="/images/morning_blogging.jpg" alt="Great minds discuss ideas - average minds discuss events, small minds discuss people">
+                  <a class="article__image" href="/How-to-install-PHP-82-on-Debian-11/">
+                    <img class="lazy" data-src="/images/debian_with_php.jpg" alt="How to install PHP 8.2 on Debian 11">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-10-03T00:00:00+02:00">3 Oct, 2022</time>
+                    <time class="article__date" datetime="2022-12-28T00:00:00+01:00">28 Dec, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">Great minds discuss ideas - average minds discuss events, small minds discuss people</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-              
-            
-            
-            
-      
-            
-      
-            
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/Life-is-vivid-try-to-live-it-that-way!/">
-                    <img class="lazy" data-src="/images/1-PPrcpMPShdxBEohccgpZ5A.jpg" alt="Life is vivid - try to live it that way!">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-09-13T00:00:00+02:00">13 Sep, 2022</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/Life-is-vivid-try-to-live-it-that-way!/">Life is vivid - try to live it that way!</a>
+                    <a href="/How-to-install-PHP-82-on-Debian-11/">How to install PHP 8.2 on Debian 11</a>
                   </h2>
                 </div>
               </div>
@@ -486,59 +597,24 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/The-Price-of-a-Mile/">
-                    <img class="lazy" data-src="/images/hill_60_way.jpg" alt="The Price of a Mile">
+                  <a class="article__image" href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">
+                    <img class="lazy" data-src="/images/Snowflake_Schmematic.png" alt="How to implement Snowflake with Docker on a Synology-NAS">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-03-13T00:00:00+01:00">13 Mar, 2022</time>
+                    <time class="article__date" datetime="2022-11-21T00:00:00+01:00">21 Nov, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/The-Price-of-a-Mile/">The Price of a Mile</a>
+                    <a href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">How to implement Snowflake with Docker on a Synology-NAS</a>
                   </h2>
                 </div>
               </div>
@@ -568,111 +644,32 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
+
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">
+                    <img class="lazy" data-src="/images/Veeam_Wasabi.jpg" alt="How to backup Microsoft 365 with Veeam and Wasabi">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-09-05T00:00:00+02:00">5 Sep, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">How to backup Microsoft 365 with Veeam and Wasabi</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+                
+                
+              
             
             
             
@@ -686,18 +683,18 @@
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Vladslo-German-Military-Cemetery/">
-                    <img class="lazy" data-src="/images/vladslo_entrance.jpg" alt="Vladslo German Military Cemetery">
+                  <a class="article__image" href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">
+                    <img class="lazy" data-src="/images/The-Hub-for-your-Digital-life.jpg" alt="Nextcloud and European Governments aiming at building a Digital Sovereign Office">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2021-07-21T00:00:00+02:00">21 Jul, 2021</time>
+                    <time class="article__date" datetime="2022-08-25T00:00:00+02:00">25 Aug, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Vladslo-German-Military-Cemetery/">Vladslo German Military Cemetery</a>
+                    <a href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">Nextcloud and European Governments aiming at building a Digital Sovereign Office</a>
                   </h2>
                 </div>
               </div>

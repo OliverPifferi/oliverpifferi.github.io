@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>The Return to Flanders Fields</title>
+  <title>Installing the latest version of PostgreSQL on Ubuntu Linux</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/The-Return-to-Flanders-Fields/">
+  <link rel="canonical" href="http://localhost:4000/Installing-the-latest-version-of-PostgreSQL-on-Ubuntu-Linux/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="The Return to Flanders Fields – Forhekset">
-  <meta name="twitter:description" content="Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.
+  <meta name="twitter:title" content="Installing the latest version of PostgreSQL on Ubuntu Linux – Forhekset">
+  <meta name="twitter:description" content="While Ubuntu Linux is — besides Debian — the Linux-distribution of my choice, some packages could be more up-to-date.
 ">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/photo-1629654297299-c8506221ca97.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="The Return to Flanders Fields – Forhekset">
-  <meta property="og:description" content="Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.
+  <meta property="og:title" content="Installing the latest version of PostgreSQL on Ubuntu Linux – Forhekset">
+  <meta property="og:description" content="While Ubuntu Linux is — besides Debian — the Linux-distribution of my choice, some packages could be more up-to-date.
 ">
-  <meta property="og:image" content="http://localhost:4000/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/photo-1629654297299-c8506221ca97.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -181,22 +181,20 @@
             
             <div class="post-tags">
               
-              <a href="/tags/?tag=flanders" class="post-tag">flanders</a>
+              <a href="/tags/?tag=linux" class="post-tag">linux</a>
               
-              <a href="/tags/?tag=belgium" class="post-tag">belgium</a>
+              <a href="/tags/?tag=postgresql" class="post-tag">postgresql</a>
               
-              <a href="/tags/?tag=thegreatwar" class="post-tag">thegreatwar</a>
+              <a href="/tags/?tag=database" class="post-tag">database</a>
               
-              <a href="/tags/?tag=ww1" class="post-tag">ww1</a>
+              <a href="/tags/?tag=software" class="post-tag">software</a>
               
-              <a href="/tags/?tag=history" class="post-tag">history</a>
-              
-              <a href="/tags/?tag=traveling" class="post-tag">traveling</a>
+              <a href="/tags/?tag=ubuntu" class="post-tag">ubuntu</a>
               
             </div>
             
 
-            <h1 class="hero__title">The Return to Flanders Fields</h1>
+            <h1 class="hero__title">Installing the latest version of PostgreSQL on Ubuntu Linux</h1>
 
             
 
@@ -207,7 +205,7 @@
 
               <div class="post-meta__bottom">
                 <a class="post-author" href="/about/">Oliver Pifferi</a>
-                <time class="post-date" datetime="2021-08-01T00:00:00+02:00">1 August, 2021</time>
+                <time class="post-date" datetime="2021-11-02T00:00:00+01:00">2 November, 2021</time>
               </div>
             </div>
           </div>
@@ -217,7 +215,7 @@
             
             
             <div class="hero__image">
-              <img class="hero__image__primary lazy" data-src="/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg" alt="The Return to Flanders Fields">
+              <img class="hero__image__primary lazy" data-src="/images/photo-1629654297299-c8506221ca97.jpg" alt="Installing the latest version of PostgreSQL on Ubuntu Linux">
             </div>
             
             
@@ -236,19 +234,76 @@
   <article class="post">
 
     <div class="post__content">
-      <h2 id="keeping-up-with-history-is-brutal-and-you-never-have-a-world-wide-pandemic-on-your-list-when-planning-your-tours">Keeping up with history is brutal and you never have a world-wide pandemic on your list when planning your tours.</h2>
+      <h2 id="while-ubuntu-linux-isbesides-debianthe-linux-distribution-of-my-choice-some-packages-could-be-more-up-to-date">While Ubuntu Linux is — besides Debian — the Linux-distribution of my choice, some packages could be more up-to-date.</h2>
 
-<p>It was 2019 in our summer holidays in Belgium where I made the first two parts of my „In Flanders Fields“-voyages. 2020, struck by COVID-19, interrupted the whole world while we had the chance to return to Belgium in July, shortly before everything broke down again - but with no spare time left (family life first!) to visit the gravesites and memorials.</p>
+<p>In this scenario given, my Ubuntu 20.04 doesn’t provide the latest PostgreSQL-version 14 which was released in late September. Working with v12 or v13 isn’t a real mud in the eye but the speed bump that comes with number 14 is quite impressive. In my case, a new installation was the base for a project and I decided to go with the latest release of PostgreSQL before doing anything else.</p>
 
-<p>July 2021 now offered seven days in Belgium again and while the pandemic seems to have been battled (or is taking its break), family was still first but this time, I had the chance to return to the memorials that are so present in this beloved country that you can’t really grasp it once you weren’t there.</p>
+<h3 id="about-the-repository">About the repository</h3>
 
-<p>For me, I drew a lot of recreation, sadness, reverence, thoughts and energy of the sites I visited and while the „Pool of Peace“ (or „Lone Tree Crater“) closed my circle longing back to 2019, I made it to some other sites as well, finishing this round with finally visiting the centre of Ieper (Ypres) just five minutes before the „In Flanders Fields“-museum closed its doors at 6 pm.</p>
+<p>The way of adding the official repository is quite easy as PostgreSQL backs all <a href="https://www.postgresql.org/download/linux/">major distributions</a> by its <a href="https://apt.postgresql.org/">PostgreSQL Apt Repository</a>. At the time of writing, the following versions of Ubuntu are maintained:</p>
 
-<p>Better luck next time, but a stimulation to catch up my thoughts and impression of the last two years and „the war to end all wars“ - be my guest in my thoughts and once you think you want to contribute anything to this publication, feel free to contact me!</p>
+<ul>
+  <li>impish (21.10)</li>
+  <li>hirsute (21.04)</li>
+  <li>focal (20.04)</li>
+  <li>bionic (18.04)</li>
+</ul>
 
-<p>Awed,</p>
+<p>So far, PostgreSQL gives its blessing for the following architectures:</p>
 
-<p>Oliver</p>
+<ul>
+  <li>amd64</li>
+  <li>arm64 (18.04 and newer; LTS releases only)</li>
+  <li>i386 (18.04 and older)</li>
+  <li>ppc64el (LTS releases only)</li>
+</ul>
+
+<p><img src="../images/1-zr9B0AyV4_Nq7bjLIZmFQQ.gif" alt="" /></p>
+
+<p>PostgreSQL — Logo</p>
+
+<h3 id="adding-the-latest-repository">Adding the latest repository</h3>
+
+<p>Three commands are necessary to add the specific repository to our distribution, a fourth command then installs the latest version — or the version you prefer.</p>
+
+<p>First of all, we need to create the file repository’s configuration by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" &gt; /etc/apt/sources.list.d/pgdg.list'
+</code></pre></div></div>
+
+<p>and importing the repository signing key afterwards:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+</code></pre></div></div>
+
+<p><img src="../images/0-jIDnAj36B1SpN4od.jpg" alt="" /></p>
+
+<h3 id="installation">Installation</h3>
+
+<p>Now update the package list just like you would do with any Ubuntu-/Debian-based distro:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
+</code></pre></div></div>
+
+<p>Then you need to choose whether to go with the latest version of PostgreSQL or choose a desired version, a command like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get -y install postgresql postgresql-contrib
+</code></pre></div></div>
+
+<p>for example will install version 14 at the time of writing and the contributing packages while</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get -y install postgresql-12
+</code></pre></div></div>
+
+<p>will install version 12 in case you specifically need this iteration of PostgreSQL.</p>
+
+<p><img src="../images/0-8SulDl97TDV04HuQ.jpg" alt="" /></p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>We managed to add the latest official PostgreSQL-repositories on — here — Ubuntu 20.04 in no time. Without any hassle we can now install the most up-to-date version of the modern PostgreSQL-relational database system. I hope this tutorial has helped you in your specific project.</p>
+
+<p>And, by all means, don’t forget: You are now running an out-of-the-box configuration of PostgreSQL and there are many tweaks in the RDMS’s configuration file you may apply — but this is yet another story to be told! Making your configuration to suit your personal needs may be a quite demanding task but tools like <a href="https://pgtune.leopard.in.ua/">PGTune</a> serve well here to adopt some parameters to your installation’s specific use case!</p>
 
     </div>
 
@@ -256,7 +311,7 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/The-Return-to-Flanders-Fields/&title=The%20Return%20to%20Flanders%20Fields&summary=&source="
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Installing-the-latest-version-of-PostgreSQL-on-Ubuntu-Linux/&title=Installing%20the%20latest%20version%20of%20PostgreSQL%20on%20Ubuntu%20Linux&summary=&source="
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -264,27 +319,27 @@
 </div>
     <div class="post__navigation">
   
-  <a class="post__prev" href="/Is-our-Post-Covid-working-life-here-to-stay/">
+  <a class="post__prev" href="/Even-with-a-new-name-Facebook-wont-be-The-Metaverse/">
     <div class="prev__image">
       
-      <img class="lazy" data-src="/images/photo-1584931423298-c576fda54bd2-2.jpg" alt="The Return to Flanders Fields">
+      <img class="lazy" data-src="/images/photo-1549813069-f95e44d7f498.jpg" alt="Installing the latest version of PostgreSQL on Ubuntu Linux">
     </div>
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Older post</span>
-      <h2 class="post__nav__title">Is our Post-Covid-working life here to stay?</h2>
+      <h2 class="post__nav__title">Even with a new name, Facebook won‘t be 'The Metaverse'</h2>
     </div>
   </a>
   
 
   
-  <a class="post__next" href="/Death-smiles-at-us-all-a-man-can-do-is-smile-back/">
+  <a class="post__next" href="/I-finally-escaped-Facebook-and-I-am-happy-with-that/">
     <div class="next__box">
       <span class="post__nav post__nav__next">Newer post</span>
-      <h2 class="post__nav__title">Death smiles at us all - all a man can do is smile back</h2>
+      <h2 class="post__nav__title">I finally escaped Facebook - and I am happy with that</h2>
     </div>
     <div class="next__image">
       
-      <img class="lazy" data-src="/images/photo-1435163892681-9d67a2b1db7e.jpg" alt="The Return to Flanders Fields">
+      <img class="lazy" data-src="/images/photo-1568378780196-a9a0444a9151.jpg" alt="Installing the latest version of PostgreSQL on Ubuntu Linux">
     </div>
   </a>
   
@@ -378,85 +433,24 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">
-                    <img class="lazy" data-src="/images/morning_blogging.jpg" alt="Great minds discuss ideas - average minds discuss events, small minds discuss people">
+                  <a class="article__image" href="/How-to-install-PHP-82-on-Debian-11/">
+                    <img class="lazy" data-src="/images/debian_with_php.jpg" alt="How to install PHP 8.2 on Debian 11">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-10-03T00:00:00+02:00">3 Oct, 2022</time>
+                    <time class="article__date" datetime="2022-12-28T00:00:00+01:00">28 Dec, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">Great minds discuss ideas - average minds discuss events, small minds discuss people</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-              
-            
-            
-            
-      
-            
-      
-            
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/Life-is-vivid-try-to-live-it-that-way!/">
-                    <img class="lazy" data-src="/images/1-PPrcpMPShdxBEohccgpZ5A.jpg" alt="Life is vivid - try to live it that way!">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-09-13T00:00:00+02:00">13 Sep, 2022</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/Life-is-vivid-try-to-live-it-that-way!/">Life is vivid - try to live it that way!</a>
+                    <a href="/How-to-install-PHP-82-on-Debian-11/">How to install PHP 8.2 on Debian 11</a>
                   </h2>
                 </div>
               </div>
@@ -486,59 +480,24 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/The-Price-of-a-Mile/">
-                    <img class="lazy" data-src="/images/hill_60_way.jpg" alt="The Price of a Mile">
+                  <a class="article__image" href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">
+                    <img class="lazy" data-src="/images/Snowflake_Schmematic.png" alt="How to implement Snowflake with Docker on a Synology-NAS">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-03-13T00:00:00+01:00">13 Mar, 2022</time>
+                    <time class="article__date" datetime="2022-11-21T00:00:00+01:00">21 Nov, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/The-Price-of-a-Mile/">The Price of a Mile</a>
+                    <a href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">How to implement Snowflake with Docker on a Synology-NAS</a>
                   </h2>
                 </div>
               </div>
@@ -568,111 +527,32 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
+
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">
+                    <img class="lazy" data-src="/images/Veeam_Wasabi.jpg" alt="How to backup Microsoft 365 with Veeam and Wasabi">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-09-05T00:00:00+02:00">5 Sep, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">How to backup Microsoft 365 with Veeam and Wasabi</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+                
+                
+              
             
             
             
@@ -686,18 +566,18 @@
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Vladslo-German-Military-Cemetery/">
-                    <img class="lazy" data-src="/images/vladslo_entrance.jpg" alt="Vladslo German Military Cemetery">
+                  <a class="article__image" href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">
+                    <img class="lazy" data-src="/images/The-Hub-for-your-Digital-life.jpg" alt="Nextcloud and European Governments aiming at building a Digital Sovereign Office">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2021-07-21T00:00:00+02:00">21 Jul, 2021</time>
+                    <time class="article__date" datetime="2022-08-25T00:00:00+02:00">25 Aug, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Vladslo-German-Military-Cemetery/">Vladslo German Military Cemetery</a>
+                    <a href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">Nextcloud and European Governments aiming at building a Digital Sovereign Office</a>
                   </h2>
                 </div>
               </div>

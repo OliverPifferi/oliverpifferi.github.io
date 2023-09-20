@@ -61,6 +61,10 @@
 <lastmod>2021-10-21T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Installing-the-latest-version-of-PostgreSQL-on-Ubuntu-Linux/</loc>
+<lastmod>2021-11-02T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/I-finally-escaped-Facebook-and-I-am-happy-with-that/</loc>
 <lastmod>2021-11-07T00:00:00+01:00</lastmod>
 </url>
@@ -83,6 +87,10 @@
 <url>
 <loc>http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/</loc>
 <lastmod>2022-01-30T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Deploying-your-own-Docker-ized-Nextcloud-Hub-II-instance-in-no-time/</loc>
+<lastmod>2022-02-06T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/</loc>
