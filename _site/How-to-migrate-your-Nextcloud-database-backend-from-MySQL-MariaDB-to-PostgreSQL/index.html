@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>In Flanders Fields</title>
+  <title>How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/In-Flanders-Fields/">
+  <link rel="canonical" href="http://localhost:4000/How-to-migrate-your-Nextcloud-database-backend-from-MySQL-MariaDB-to-PostgreSQL/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="In Flanders Fields – Forhekset">
-  <meta name="twitter:description" content="As I ventured to West-Flanders in Belgium this year - just as we did in the last years - I hadn’t anything specific in mind regarding any historical topic.
+  <meta name="twitter:title" content="How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL – Forhekset">
+  <meta name="twitter:description" content="From the early beginnings, I used MySQL and - later - MariaDB as my database of choice.
 ">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/photo-1483736762161-1d107f3c78e1.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="In Flanders Fields – Forhekset">
-  <meta property="og:description" content="As I ventured to West-Flanders in Belgium this year - just as we did in the last years - I hadn’t anything specific in mind regarding any historical topic.
+  <meta property="og:title" content="How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL – Forhekset">
+  <meta property="og:description" content="From the early beginnings, I used MySQL and - later - MariaDB as my database of choice.
 ">
-  <meta property="og:image" content="http://localhost:4000/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/photo-1483736762161-1d107f3c78e1.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -165,22 +165,22 @@
             
             <div class="post-tags">
               
-              <a href="/tags/?tag=flanders" class="post-tag">flanders</a>
+              <a href="/tags/?tag=linux" class="post-tag">linux</a>
               
-              <a href="/tags/?tag=belgium" class="post-tag">belgium</a>
+              <a href="/tags/?tag=database" class="post-tag">database</a>
               
-              <a href="/tags/?tag=thegreatwar" class="post-tag">thegreatwar</a>
+              <a href="/tags/?tag=postgresql" class="post-tag">postgresql</a>
               
-              <a href="/tags/?tag=ww1" class="post-tag">ww1</a>
+              <a href="/tags/?tag=mysql" class="post-tag">mysql</a>
               
-              <a href="/tags/?tag=history" class="post-tag">history</a>
+              <a href="/tags/?tag=mariadb" class="post-tag">mariadb</a>
               
-              <a href="/tags/?tag=traveling" class="post-tag">traveling</a>
+              <a href="/tags/?tag=nextcloud" class="post-tag">nextcloud</a>
               
             </div>
             
 
-            <h1 class="hero__title">In Flanders Fields</h1>
+            <h1 class="hero__title">How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL</h1>
 
             
 
@@ -191,7 +191,7 @@
 
               <div class="post-meta__bottom">
                 <a class="post-author" href="/about/">Oliver Pifferi</a>
-                <time class="post-date" datetime="2020-05-11T00:00:00+02:00">11 May, 2020</time>
+                <time class="post-date" datetime="2021-11-23T00:00:00+01:00">23 November, 2021</time>
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@
             
             
             <div class="hero__image">
-              <img class="hero__image__primary lazy" data-src="/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg" alt="In Flanders Fields">
+              <img class="hero__image__primary lazy" data-src="/images/photo-1483736762161-1d107f3c78e1.jpg" alt="How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL">
             </div>
             
             
@@ -220,55 +220,133 @@
   <article class="post">
 
     <div class="post__content">
-      <h2 id="as-i-ventured-to-west-flanders-in-belgium-this-year---just-as-we-did-in-the-last-years---i-hadnt-anything-specific-in-mind-regarding-any-historical-topic">As I ventured to West-Flanders in Belgium this year - just as we did in the last years - I hadn’t anything specific in mind regarding any historical topic.</h2>
+      <h2 id="from-the-early-beginnings-i-used-mysql-and---later---mariadb-as-my-database-of-choice">From the early beginnings, I used MySQL and - later - MariaDB as my database of choice.</h2>
 
-<p>But as the master of your puppet-life is pulling strings, coincidence struck hard: First, the Swedish band Sabaton released their new album „The Great War“ on July 19th dealing with - you may have guessed it - World War I. Second, I saw a parade of a local Harley Davidson-MC which was named „Flanders Fields“.</p>
+<p>Backing my Nextcloud-installation as a standard database, MariaDB is a versatile, accessible and renowned product. Anyway, over the years I began to play around with PostgreSQL for various reasons and finally decided do switch my Nextcloud’s database-backend to the elephant-branded ORDBMS. With version 14, PostgreSQL makes a nice speed bump and as Nextcloud supports a migration path from the scratch, I can now easily show how to accomplish this!</p>
 
-<p>As we were spending our family holiday in Flanders, I researched a bit and was rather attracted into the world of The Great War than into facts about the MC I usually searched for. So the idea of pursuing facts and sites related to The Great War in Flanders was born by pure coincidence: In fact I was always interested in the events and atrocities of both World Wars. Anyway, I never thought that some free time in these holidays would be used to follow the path of many brave men that used to pay the highest price ever: Their lifes.</p>
+<h2 id="installing-postgresql">Installing PostgreSQL</h2>
 
-<p>So it came that I stumbled on John Mc Rae’s famous poem „In Flanders Fields“ which has been written on May 3rd, 1915. The piece of  is probably the best description of the disastrous events in Flanders. Lieutenant Colonel John Alexander McCrae wrote it as he was touched by the death of one of his friends which fell in the Great War. Shortly after the funeral which was held my McCrae himself he spotted red poppies blossoming on the new grave and so the story of the „Flanders Poppy“ was born.</p>
+<p>First of all - and after backing up our existing data for security reasons - we need to install PostgreSQL. This is done via shell access and appropriate permissions on an Ubuntu 20.04-instance and officially accompanied by documents on behalf of PostgreSQL. From the scratch, Ubuntu doesn’t come with the latest version of PostgreSQL so we need to deal with the proper and official repository to make use of all benefits the current version 14.1 comes with.</p>
 
-<blockquote>
-  <p>„In Flanders fields the poppies blow</p>
+<p><img src="../images/postgresql.jpg" alt="" /></p>
 
-  <p>Between the crosses, row on row,</p>
+<p>Therefore, and first of all, we need to create the basic file repository configuration:</p>
 
-  <p>That mark our place; and in the sky</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" &gt; /etc/apt/sources.list.d/pgdg.list'
 
-  <p>The larks, still bravely singing, fly</p>
+</code></pre></div></div>
 
-  <p>Scarce heard amid the guns below.</p>
-</blockquote>
+<p>Then we need to import the signing key:</p>
 
-<blockquote>
-  <p>We are the dead. Short days ago</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
-  <p>We lived, felt dawn, saw sunset glow,</p>
+</code></pre></div></div>
 
-  <p>Loved, and were loved, and now we lie</p>
+<p>After accomplishing both steps, the new repositories are known to our Linux-installations and can be updated following the usual procedure:</p>
 
-  <p>In Flanders fields.</p>
-</blockquote>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
 
-<blockquote>
-  <p>Take up our quarrel with the foe:</p>
+</code></pre></div></div>
 
-  <p>To you from failing hands we throw</p>
+<p>After the repositories are up-to-date, we can install the binaries. If you don’t want the latest version, use „postgresql-13“ or similar instead of „postgresql“ in the following command:</p>
 
-  <p>The torch; be yours to hold it high.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get -y install postgresql postgresql-contrib
 
-  <p>If ye break faith with us who die</p>
+</code></pre></div></div>
 
-  <p>We shall not sleep, though poppies grow</p>
+<p>As I am running PHP-FPM 8.0 on my Ubuntu-system and we need also PHP to collaborate with PostgreSQL, the official PHP-module should also be installed by typing</p>
 
-  <p>In Flanders fields.“</p>
-</blockquote>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get -y install php8.0-pgsql
 
-<p>It is told that no description has fitted better on the situation in these days - days without hope, accompanied by steady gunfire, explosions and death. Each line of the poem reminds us on the courage and deprivations those brave men once endured. So my story of „Flanders Fields“ began thanks to a music album and a motorcycle club I was both interested in - and helped me to open yet another door in my hobby-historian and freetime-photographer mind.</p>
+</code></pre></div></div>
 
-<p><img src="../images/1-IfJqwUBzeMTMUOPAR2AqoA.jpg" alt="Lest we forget - Photo Courtesy of Author" /></p>
+<p>followed by the restart of the PHP-FPM process:</p>
 
-<p>I hereby invite you to join this blog which will always try to mix up history and the touch of a travel-blog paired with photography like many others do all over the World Wide Web. This is my contribution to photographical art and history as we still should try to learn especially from the second of both aspects - although mankind often seem to forget that history is not gone yet. Time has passed, but still history repeats itself and its events re-occur again - we just have to open our eyes to understand this… !</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl restart php8.0-fpm
+
+</code></pre></div></div>
+
+<p>That’s it for the basic prerequisites - so let’s head on to dealing with PostgreSQL itself!</p>
+
+<h2 id="database-doings">Database Doings</h2>
+
+<p>After the binaries have been installed, enter PostgreSQL by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo -u postgres psql
+
+</code></pre></div></div>
+
+<p>and you should be welcomed with PostgreSQL’s shell:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>psql (14.1 (Ubuntu 14.1-1.pgdg20.04+1))
+Type "help" for help.
+
+postgres=# 
+
+</code></pre></div></div>
+
+<p>The command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\conninfo
+
+</code></pre></div></div>
+
+<p>will show you some connection information about the database</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>postgres=# \conninfo
+You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432"
+
+</code></pre></div></div>
+
+<p>while a simple</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\q
+
+</code></pre></div></div>
+
+<p>leads you back into Ubuntu’s shell, leaving the PostgreSQL command line behind - once you want to do this. Everything we need is now up and running so we may stay in PostgreSQL’s shell for now and enter four commands for creating a specific user, creating an empty database, setting the new user to be this database’s owner and - finally - setting the proper user privileges for this database:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CREATE USER nextcloudusr WITH PASSWORD 'your-usr-password';
+CREATE DATABASE nextclouddb TEMPLATE template0 ENCODING 'UNICODE';
+ALTER DATABASE nextclouddb OWNER TO nextcloudusr;
+GRANT ALL PRIVILEGES ON DATABASE nextclouddb TO nextcloudusr;
+\q
+
+</code></pre></div></div>
+
+<p>In this example, the database-user is „nextcloudusr“ while the database is „nextclouddb“ and the password, here defined as „your-usr-password“ should be changed to suit your personal security needs. Each single command should work well and the final</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\q
+
+</code></pre></div></div>
+
+<p>will exit PostgreSQL’s shell as our work here is done.</p>
+
+<h2 id="migration-steps">Migration Steps</h2>
+
+<p>According to the size of your Nextcloud-installation, database and system resources, the migration process can take quite a long time to finish. The migration itself is done with Nextcloud’s „occ“-command by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo -u www-data php8.0 /var/www/nextcloud/occ db:convert-type --all-apps --password "your-usr-password" pgsql nextcloudusr localhost nextclouddb
+
+</code></pre></div></div>
+
+<p>in my specific case, having PHP-FPM 8.0 and the PostgreSQL-instance running on the same server with Nextcloud’s webroot being located in /var/www/nextcloud.</p>
+
+<p><img src="../images/Nextcloud_PostgreSQL_Migration.jpg" alt="" /></p>
+
+<p>Once the migration is finished and the script has disabled Nextcloud’s maintenance mode, your Nextcloud-instance should already be available again after the changes to Nextcloud’s config.php have been made:</p>
+
+<p><img src="../images/Nextcloud_PostgreSQL_Config.jpg" alt="" /></p>
+
+<p>You may now log in with an administrator to see whether the new database-backend is available or not - and, once you didn’t encounter any error, it should:</p>
+
+<p><img src="../images/Nextcloud_PostgreSQL_Backend.jpg" alt="" /></p>
+
+<h2 id="verdict">Verdict</h2>
+
+<p>We have successfully implemented the latest iteration of PostgreSQL and migrated our existing MySQL/MariaDB-database to PostgreSQL. After reaching this goal, we may now tune our PostgreSQL-settings by using tools like <a href="https://pgtune.leopard.in.ua/">PGtune</a> or clean up the MySQL-/MariaDB-installation once there aren’t any other databases left besides our Nextcloud-related one.</p>
+
+<p>Don’t forget to drop comments in case this tutorial has worked for you (even if not!) or you still have questions regarding this process. Thanks for reading!</p>
 
     </div>
 
@@ -276,7 +354,7 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/In-Flanders-Fields/&title=In%20Flanders%20Fields&summary=&source="
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/How-to-migrate-your-Nextcloud-database-backend-from-MySQL-MariaDB-to-PostgreSQL/&title=How%20to%20migrate%20your%20Nextcloud%20database-backend%20from%20MySQL/MariaDB%20to%20PostgreSQL&summary=&source="
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -284,16 +362,27 @@
 </div>
     <div class="post__navigation">
   
+  <a class="post__prev" href="/I-finally-escaped-Facebook-and-I-am-happy-with-that/">
+    <div class="prev__image">
+      
+      <img class="lazy" data-src="/images/photo-1568378780196-a9a0444a9151.jpg" alt="How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL">
+    </div>
+    <div class="prev__box">
+      <span class="post__nav post__nav__prev">Older post</span>
+      <h2 class="post__nav__title">I finally escaped Facebook - and I am happy with that</h2>
+    </div>
+  </a>
+  
 
   
-  <a class="post__next" href="/Perth-Commonwealth-War-Graves-Commission-Cemetery/">
+  <a class="post__next" href="/Wrong-Direction/">
     <div class="next__box">
       <span class="post__nav post__nav__next">Newer post</span>
-      <h2 class="post__nav__title">Perth Commonwealth War Graves Commission Cemetery</h2>
+      <h2 class="post__nav__title">Wrong Direction</h2>
     </div>
     <div class="next__image">
       
-      <img class="lazy" data-src="/images/1-b0HV9SWuU0YNUckGqgdYJg.jpg" alt="In Flanders Fields">
+      <img class="lazy" data-src="/images/photo-1610963196817-7d1415647029.jpg" alt="How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL">
     </div>
   </a>
   
@@ -387,85 +476,24 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">
-                    <img class="lazy" data-src="/images/morning_blogging.jpg" alt="Great minds discuss ideas - average minds discuss events, small minds discuss people">
+                  <a class="article__image" href="/How-to-install-PHP-82-on-Debian-11/">
+                    <img class="lazy" data-src="/images/debian_with_php.jpg" alt="How to install PHP 8.2 on Debian 11">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-10-03T00:00:00+02:00">3 Oct, 2022</time>
+                    <time class="article__date" datetime="2022-12-28T00:00:00+01:00">28 Dec, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Great-minds-discuss-ideas-average-minds-discuss-events-small-minds-discuss-people/">Great minds discuss ideas - average minds discuss events, small minds discuss people</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-              
-            
-            
-            
-      
-            
-      
-            
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/Life-is-vivid-try-to-live-it-that-way!/">
-                    <img class="lazy" data-src="/images/1-PPrcpMPShdxBEohccgpZ5A.jpg" alt="Life is vivid - try to live it that way!">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-09-13T00:00:00+02:00">13 Sep, 2022</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/Life-is-vivid-try-to-live-it-that-way!/">Life is vivid - try to live it that way!</a>
+                    <a href="/How-to-install-PHP-82-on-Debian-11/">How to install PHP 8.2 on Debian 11</a>
                   </h2>
                 </div>
               </div>
@@ -516,24 +544,73 @@
             
       
             
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/The-Price-of-a-Mile/">
-                    <img class="lazy" data-src="/images/hill_60_way.jpg" alt="The Price of a Mile">
+                  <a class="article__image" href="/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/">
+                    <img class="lazy" data-src="/images/Bitwarden_Intro.png" alt="Vaultwarden: Your guide to your self-hosted Bitwarden password vault">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-03-13T00:00:00+01:00">13 Mar, 2022</time>
+                    <time class="article__date" datetime="2022-02-09T00:00:00+01:00">9 Feb, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/The-Price-of-a-Mile/">The Price of a Mile</a>
+                    <a href="/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/">Vaultwarden: Your guide to your self-hosted Bitwarden password vault</a>
                   </h2>
                 </div>
               </div>
@@ -647,32 +724,49 @@
             
       
             
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/The-Return-to-Flanders-Fields/">
-                    <img class="lazy" data-src="/images/1-RMzXiM4lIEXlRrIRnZxmGg.jpg" alt="The Return to Flanders Fields">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2021-08-01T00:00:00+02:00">1 Aug, 2021</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/The-Return-to-Flanders-Fields/">The Return to Flanders Fields</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-                  
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
           </div>
         </div>
       </div>
