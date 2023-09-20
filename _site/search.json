@@ -71,6 +71,27 @@
     } ,
   
     {
+      "title"    : "Deploying Portainer on a Synology-NAS",
+      "url"      : "/Deploying-Portainer-on-a-Synology-NAS/",
+      "date"     : "21 August 2022",
+      "image"    : "/images/Portainer_Synology_Logo.jpg"
+    } ,
+  
+    {
+      "title"    : "Tor Browser now automatically bypasses Internet censorship",
+      "url"      : "/Tor-Browser-now-automatically-bypasses-Internet-censorship/",
+      "date"     : "16 July 2022",
+      "image"    : "/images/Tor_Browser_Logo.jpg"
+    } ,
+  
+    {
+      "title"    : "Protecting your Linux-server with CrowdSec",
+      "url"      : "/Protecting-your-Linux-server-with-CrowdSec/",
+      "date"     : "11 July 2022",
+      "image"    : "/images/crowdsec_logo.jpg"
+    } ,
+  
+    {
       "title"    : "Return to offices is announced, but the model of hybrid work is here to stay!",
       "url"      : "/Return-to-offices-is-announced-but-the-model-of-hybrid-work-is-here-to-stay/",
       "date"     : "27 March 2022",

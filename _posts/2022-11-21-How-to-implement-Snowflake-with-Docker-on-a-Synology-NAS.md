@@ -4,7 +4,7 @@ author: oliver
 title: "How to implement Snowflake with Docker on a Synology-NAS"
 date: 2022-11-21
 categories: [IT]
-tags: [software, privacy, hardware, docker, tor, snowflake]     # TAG names should always be lowercase
+tags: [software, privacy, hardware, docker, tor, snowflake, synology]     # TAG names should always be lowercase
 image: '/images/Snowflake_Schmematic.png'
 ---
 
