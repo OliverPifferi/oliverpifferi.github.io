@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Carrying the weight of the world on your shoulders</title>
+  <title>Vaultwarden: Your guide to your self-hosted Bitwarden password vault</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/">
+  <link rel="canonical" href="http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Carrying the weight of the world on your shoulders – Forhekset">
-  <meta name="twitter:description" content="We always strive for more. Higher, faster, further - there seems to be no limit in everyday life. But, sometimes, we are just vulnerable humans with a - more or less - healthy soul.
+  <meta name="twitter:title" content="Vaultwarden: Your guide to your self-hosted Bitwarden password vault – Forhekset">
+  <meta name="twitter:description" content="Even a day after the #SaferInternetDay, managing the challenging riddle to choose a specific password manager is still a tricky task, especially if you also want to self-host your sensitive data.
 ">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/photo-1584636633449-6135be6c4169.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/Bitwarden_Intro.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Carrying the weight of the world on your shoulders – Forhekset">
-  <meta property="og:description" content="We always strive for more. Higher, faster, further - there seems to be no limit in everyday life. But, sometimes, we are just vulnerable humans with a - more or less - healthy soul.
+  <meta property="og:title" content="Vaultwarden: Your guide to your self-hosted Bitwarden password vault – Forhekset">
+  <meta property="og:description" content="Even a day after the #SaferInternetDay, managing the challenging riddle to choose a specific password manager is still a tricky task, especially if you also want to self-host your sensitive data.
 ">
-  <meta property="og:image" content="http://localhost:4000/images/photo-1584636633449-6135be6c4169.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/Bitwarden_Intro.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -165,20 +165,20 @@
             
             <div class="post-tags">
               
-              <a href="/tags/?tag=life" class="post-tag">life</a>
+              <a href="/tags/?tag=security" class="post-tag">security</a>
               
-              <a href="/tags/?tag=thoughts" class="post-tag">thoughts</a>
+              <a href="/tags/?tag=linux" class="post-tag">linux</a>
               
-              <a href="/tags/?tag=mentalhealth" class="post-tag">mentalhealth</a>
+              <a href="/tags/?tag=docker" class="post-tag">docker</a>
               
-              <a href="/tags/?tag=health" class="post-tag">health</a>
+              <a href="/tags/?tag=passwordmanager" class="post-tag">passwordmanager</a>
               
-              <a href="/tags/?tag=society" class="post-tag">society</a>
+              <a href="/tags/?tag=bitwarden" class="post-tag">bitwarden</a>
               
             </div>
             
 
-            <h1 class="hero__title">Carrying the weight of the world on your shoulders</h1>
+            <h1 class="hero__title">Vaultwarden: Your guide to your self-hosted Bitwarden password vault</h1>
 
             
 
@@ -189,7 +189,7 @@
 
               <div class="post-meta__bottom">
                 <a class="post-author" href="/about/">Oliver Pifferi</a>
-                <time class="post-date" datetime="2022-01-30T00:00:00+01:00">30 January, 2022</time>
+                <time class="post-date" datetime="2022-02-09T00:00:00+01:00">9 February, 2022</time>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
             
             
             <div class="hero__image">
-              <img class="hero__image__primary lazy" data-src="/images/photo-1584636633449-6135be6c4169.jpg" alt="Carrying the weight of the world on your shoulders">
+              <img class="hero__image__primary lazy" data-src="/images/Bitwarden_Intro.png" alt="Vaultwarden: Your guide to your self-hosted Bitwarden password vault">
             </div>
             
             
@@ -218,68 +218,247 @@
   <article class="post">
 
     <div class="post__content">
-      <h2 id="we-always-strive-for-more-higher-faster-further---there-seems-to-be-no-limit-in-everyday-life-but-sometimes-we-are-just-vulnerable-humans-with-a---more-or-less---healthy-soul">We always strive for more. Higher, faster, further - there seems to be no limit in everyday life. But, sometimes, we are just vulnerable humans with a - more or less - healthy soul.</h2>
+      <h2 id="even-a-day-after-the-saferinternetday-managing-the-challenging-riddle-to-choose-a-specific-password-manager-is-still-a-tricky-task-especially-if-you-also-want-to-self-host-your-sensitive-data">Even a day after the #SaferInternetDay, managing the challenging riddle to choose a specific password manager is still a tricky task, especially if you also want to self-host your sensitive data.</h2>
 
-<p>These days, Max Eberl, manager from my favorite soccer team Borussia Mönchengladbach, retired from his role at the team playing in German Bundesliga. Rumors spread the day before and I had to admit that I was quite angry, expecting he would leave to join another team despite the team’s current shape: Ranked 12th, Borussia Mönchengladbach is playing the worst season for years, just four points away from the relegation spot being the elevator to 2nd Bundesliga.</p>
+<p>Should this be the case and you want to be independent from a service provider for whatever reason, it - of course - depends upon your choice if self-hosting is an option or not. Users of <a href="https://bitwarden.com/">Bitwarden</a>, one of the well-known password managers for example, have the chance to use the <a href="https://bitwarden.com/help/install-on-premise-linux/">Open Source</a>-based tool in many ways. By standard, you can register at Bitwarden’s website and push your passwords to their service either for free or for $10 a year with more features. As an alternative, you may self-host this repository but the official way of doing so is quite a heavy-weight as the Docker-based installation is just supporting MSSQL as database backend for now.</p>
 
-<p><img src="../images/photo-1607074245269-848539fe3335.jpg" alt="Image Credits: Brett Jordan / Unsplash" /></p>
+<h2 id="one-more-alternative">One more alternative</h2>
 
-<p>How terribly wrong I was. Being burned out from a business that has nothing more to do with „just“ sports, Max Eberl was a building block for this team since joining it as a player 23 years ago. Changing sides in 2005 and advancing to director of football in 2008, he formed a team that went through up and downs but could be counted to the better ones here in Germany. Now this journey has ended not because of the anticipated change to another team but for personal and health reasons. And, without expecting this before, Borussia’s press conference unknowingly has also shown what’s wrong with the world and the people these days.</p>
+<p>Fortunately, there is an easier way to achieve the way of putting your password entries into a database located within your reach, based upon a compatible platform: <a href="https://github.com/dani-garcia/vaultwarden">Vaultwarden</a> is an unofficial Bitwarden-compatible server written in Rust and some of you may already know it under its previous name bitwarden_rs. Being compatible to all official Bitwarden-clients you may <a href="https://bitwarden.com/download/">download</a> from the <a href="https://bitwarden.com/download/">official website</a>, Vaultwarden is a sleek and mighty alternative and can easily be deployed on your, for example, NAS or a VPS. In my case, a VPS based upon Ubuntu 20.04 and already equipped with an Apache-webserver is a solid foundation for this purpose. It will feature all elements of the <a href="https://bitwarden.com/pricing/">$10 Premium-subscription</a> like Two—Factor, YubiKey- and FIDO2-authentication or file attachments and stores everything in a SQLite-database.</p>
 
-<div class="embed-container">
-    <iframe width="640" height="390" src="https://www.youtube.com/embed/Ja5ImWLxVi8" frameborder="0" allowfullscreen=""></iframe>
-</div>
-<style>
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
+<p><img src="https://images.unsplash.com/photo-1638913662584-731da41f5a59?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wxfDF8c2VhcmNofDF8fHNlY3VyaXR5fGVufDB8fHx8MTY0NDQzNjY1OA&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" alt="" /></p>
 
-<p>These events around Max, including the social media shitstorm before (and not making an exception for me as I also expected anything but not that!) and the real reason for him instantly dropping the mic are the sad epiphenomenons of our time. Besides acceptance and get-well-wishes, there is still the frightening „business-as-usual“-mentality fueled by the press, asking for the next match and Max’s replacement in the same breath. We may just learn from this press conference where a man that has given everything for a single club turned his inside out, unveiling his utter soul and confessing that he cannot continue with something that was his whole life.</p>
+<h2 id="prerequisites">Prerequisites</h2>
 
-<p>Who doesn’t share the pain that the „higher, faster, further“-method is going to wreck human beings at a certain level? Permanent communication on all channels, rising expectations regarding instant answers and 24/7 availability are more the standard than the exception. Of course this depends on your job and while Eberl had surely not much time to unwind himself as the manager of a Bundesliga-team, these things do also reflect on many people in other job genres. Take the IT-business for example - many don’t work in this genre because of the money but because they’ve turned their hobby into a profession - paired with passion for the fully-digital world.</p>
+<p>There are many ways to get Vaultwarden running and while some deploy it on a Raspberry Pi and even a Docker-enabled Synology-NAS with a reverse proxy will work, I decided to put my installation on a VPS with two cores and 8 GB of RAM, running Ubuntu 20.04. So let’s keep this as a basic system and assuming you have started with a fresh system, you’ll need a Webserver of your choice to do the reverse proxying later on. In my case I voted for Apache but there are several webservers supported by Vaultwarden as <a href="https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples">these examples here show</a>. Besides, I will share my configuration files for Apache and Nginx hosted on Github at the end of this tutorial.</p>
 
-<p><img src="../images/photo-1499209974431-9dddcece7f88.jpg" alt="Image Credits: Zac Durant / Unsplash" /></p>
+<p>But for now, we assume that you have created a specific user and don’t work as root (something you shouldn’t do anyway). Then be sure your system is up to date by typing</p>
 
-<p>By all means - and even if you are absolutely passionate about your job: Take care of yourself. Something like this comes slowly. Creeping. Without warning. Accelerated by COVID and a society divided for many reasons. Expectations to be available and always online even if you visit customers in persona. Variety of communication channels and tools. People trying to offload their duties onto you. Social Media-shitstorms without knowing the backgrounds. The world got more toxic during the last two years and things won’t get better in the aftermath of COVID-19, even if expecting the current status quo to turn into an endemic with the last „Omicron“-wave and getting back to the „new normal“ sometimes in the future.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
+sudo apt-get upgrade
 
-<blockquote>
-  <p>There is a darkness</p>
+</code></pre></div></div>
 
-  <p>In my soul</p>
+<p>Now let’s fetch the desired Docker-foundation by typing</p>
 
-  <p>A darkness</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install docker.io
 
-  <p>That can’t be tamed</p>
+</code></pre></div></div>
 
-  <p>A deep void of emptiness</p>
+<p>and confirming that you really want to download and deploy the packages.</p>
 
-  <p>A gaping wound</p>
+<p>Once this is done, let’s deal with our desired webserver (here: Apache) by using the command</p>
 
-  <p>A vile, corrupted entity</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install -y apache2 apache2-utils
 
-  <p>That has no name</p>
-</blockquote>
+</code></pre></div></div>
 
-<p>(AMON AMARTH - „Into the Dark“)</p>
+<p>followed by Certbot / Let’s Encrypt.</p>
 
-<p>Max Eberl and this case should be the proof that we need to take more care of ourselves and that this kind of illness can affect all of us. This is no weakness but a strength to realize that there is something wrong and the will to fight this obvious sickness. And while even 80-year old presidents in certain press conferences don’t seem to have any kind of understanding for the status quo, people these days are different than centuries ago: We may show weakness, confess that we are in an emotional and mental dead end and we may reach out for help - as there will always be someone taking your hand! We should use any spare time to live our lives in the ways we want them to be lived and recharge our batteries in every single moment!</p>
+<p>Remember to enable the corresponding modules to make the container work with our Apache-configuration later:</p>
 
-<p>Get well soon, Max - and thanks for everything you have sacrificed in these years! Now your own identity, your own human being and therefore your own health only counts and nothing more or less - soccer is of second rank here!</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo a2enmod headers
+sudo a2enmod proxy_wstunnel
+sudo a2enmod proxy_http
+</code></pre></div></div>
 
+<p>For security reasons, we don’t want Vaultwarden to serve its contents by plain HTTP so HTTPS should and will be enabled during this installation process. Let’s Encrypt paired with the fitting Apache-module will take care of assigning a valid SSL-certificate to your Bitwarden-like password vault later.</p>
+
+<p>The command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install certbot python3-certbot-apache
+
+</code></pre></div></div>
+
+<p>installs the desired routine for this part of our journey and once this is done, all prerequisites have been made.</p>
+
+<h2 id="installation-procedure">Installation Procedure</h2>
+
+<p>Now, create a specific directory that will host the contents of the Sqlite-database and your specific configuration file even if something happens to your container. Should you ever think about porting your vault to another platform which also relies on Docker, the contents of this folder can be used to transfer anything to the new system.</p>
+
+<p><img src="https://images.unsplash.com/photo-1634228932781-af5c387d73c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIzfHxwYXNzd29yZHxlbnwwfHx8fDE2NDQ0MzY2MDg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" alt="" /></p>
+
+<p>Looking at the container’s contents itself, this directory will be mapped into Vaultwarden’s „data“-directory when firing up the container.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo mkdir /opt/vaultwarden
+
+</code></pre></div></div>
+
+<p>As we plan to work with an Administration-backend, we need to create a token first. This token is used to login and secure this backend in case we want, for example, deal with E-Mail-notifications or to but a ban on new user registrations. All this can later be set in the specific configuration file config.json, but the initial deployment will be made in a more comfortable way via the web interface.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl rand -base64 48
+
+</code></pre></div></div>
+
+<p>generates an individual token you should write down or store in a secure place.</p>
+
+<p>Now, we can fetch the container and start it with all necessary parameters. Once the Docker-file isn’t available on your system (and it shouldn’t), the image is fetched within this command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -d --name bitwarden \
+  --restart=always \
+  -e ADMIN_TOKEN=your-freshly-generated-token \
+  -v /opt/vaultwarden/:/data/ \
+  -p 81:80 \
+  vaultwarden/server:latest
+
+</code></pre></div></div>
+
+<p>I went with port 81 here so that it won’t collide with a possible different web service running on port 80 sooner or later - which is still the internal port in the container. The parameters are quite self-explaining here and especially the „—restart=always“-option takes care of starting the Vaultwarden-container each time you restart the underlying host.</p>
+
+<p>Once everything is fetched, a</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker ps
+
+</code></pre></div></div>
+
+<p>should display a running container while a</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ls /opt/vaultwarden
+
+</code></pre></div></div>
+
+<p>will show new contents which popped up in our data-directory, giving you the chance of starting with a fresh and initial Vaultwarden-installation!</p>
+
+<p><img src="../images/Bitwarden_Docker_running.png" alt="" /></p>
+
+<h2 id="reverse-proxying">Reverse Proxying</h2>
+
+<p>As the container is already running now, we somehow need to access it. To get it working with a webbrowser and to initially log in, we need to create a basic configuration file for Apache, assuming our host in this example will be named vaultwarden.domain.tld (<strong>which you should, of course, exchange with your host’s real name</strong>) and <strong>is pointing to the correct public IP-address (A-entry)</strong>.</p>
+
+<p>Create the new virtual host by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo vi /etc/apache2/sites-available/vaultwarden.domain.tld.conf
+
+</code></pre></div></div>
+
+<p>and fill it with the basic content</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
+ServerName vaultwarden.domain.tld
+&lt;/VirtualHost&gt;
+
+</code></pre></div></div>
+
+<p>After saving, enable the freshly-created site and restart Apache.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo a2ensite vaultwarden.domain.tld.conf
+sudo systemctl restart apache2
+
+</code></pre></div></div>
+
+<p>Now, generate the SSL-certificate via Let’s Encrypt by using the command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo certbot --apache
+
+</code></pre></div></div>
+
+<p>Now you will be guided through the initial setup. You may - optionally - enter your E-Mail-address for different information regarding your certificate, need to enter the proper host (as for now, there should be just one to select) and to opt in for always redirecting plain HTTP-request to the HTTPS-based version instead.</p>
+
+<p>As this will alter Apache’s configuration files for your website and we need to change those lines later, be sure to copy the freshly-generated SSL-inserts to your notepad - out of sheer laziness (thanks to <a href="https://twitter.com/Lau0002/status/1494797469242343436">Lo2</a> for mentioning this!), we will soon need them!</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SSLCertificateFile /etc/letsencrypt/live/vaultwarden.domain.tld/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/vaultwarden.domain.tld/privkey.pem
+Include /etc/letsencrypt/options-ssl-apache.conf
+</code></pre></div></div>
+
+<p><img src="https://images.unsplash.com/photo-1547190027-9156686aa2f0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxwYXNzd29yZHxlbnwwfHx8fDE2NDQ0MzY2MDg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" alt="Made with Canon 5d Mark III and loved analog lens, Leica APO Macro Elmarit-R 2.8 / 100mm (Year: 1993)" /></p>
+
+<p>Once this is done, we should take care of automatically renewing certificates in the background. For this task, we will use Linux’ Cron-daemon:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo crontab -e
+
+</code></pre></div></div>
+
+<p>opens the crontab where you’ll need to insert a new line with the following content:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 3 * * * /usr/bin/certbot renew --quiet
+
+</code></pre></div></div>
+
+<p>Once you have done this, save the file and you’re ready to go as the final step of our journey lies ahead!</p>
+
+<p>Heading on, you now need to edit the freshly-created and SSL-enabled Apache-configuration file with</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo vi /etc/apache2/sites-available/vaultwarden.domain.tld-le-ssl.conf
+
+</code></pre></div></div>
+
+<p>and insert the following content instead of the previous one here:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;IfModule mod_ssl.c&gt;
+&lt;VirtualHost *:443&gt;
+SSLEngine on
+ServerName vaultwarden.domain.tld
+
+SSLCertificateFile /etc/letsencrypt/live/vaultwarden.domain.tld/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/vaultwarden.domain.tld/privkey.pem
+Include /etc/letsencrypt/options-ssl-apache.conf
+
+ErrorLog ${APACHE_LOG_DIR}/vaultwarden.domain.tld_error.log
+CustomLog ${APACHE_LOG_DIR}/vaultwarden.domain.tld_access.log combined
+
+RewriteEngine On
+RewriteCond %{HTTP:Upgrade} =websocket [NC]
+RewriteRule /notifications/hub(.*) ws://127.0.0.1:3012/$1 [P,L]
+ProxyPass / http://127.0.0.1:81/
+
+ProxyPreserveHost On
+ProxyRequests Off
+RequestHeader set X-Real-IP %{REMOTE_ADDR}s
+
+&lt;/VirtualHost&gt;
+&lt;/IfModule&gt;
+
+</code></pre></div></div>
+
+<p>Once this is done, simply restart the webserver for the last time with a final</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl restart apache2
+
+</code></pre></div></div>
+
+<p>and you are done here!</p>
+
+<h2 id="final-configuration">Final Configuration</h2>
+
+<p>Now, head to your favorite browser and enter the URL of your new Vaultwarden-installation - here described as https://vaultwarden.domain.tld. A login-screen should appear and whilst you are missing an initial user, you may now register one to create your initial and personal vault.</p>
+
+<p><img src="../images/Bitwarden_Welcome.png" alt="" /></p>
+
+<p>Don’t wonder as there won’t be any kind of E-Mail-notification yet so these parameters (together with other ones) need to be configured either in the plain-text .json-file or the administrative web interface first.</p>
+
+<p>To achieve this, head to https://vaultwarden.domain.tld/admin and enter the secure token you have created some steps earlier. You will the be redirected to a quite simple looking backend where you can configure all basic parameters including E-Mail-notifications sent via a smarthost, YubiKey-integration or the possibility of creating a backup of your vault.</p>
+
+<p><img src="../images/Bitwarden_Admin.png" alt="" /></p>
+
+<p>Once the admin-token shouldn’t work for you for whatever reason and you cannot login, check your config.js-file in /opt/vaultwarden and look if there is an entry like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  "admin_token": "your-freshly-generated-token",
+</code></pre></div></div>
+
+<p>which will certify that the correct token was placed in the config-file by the initial Docker-command and, usually, there shouldn’t be a problem with accessing the administrative backened.</p>
+
+<p>Additionally, you may with existing users and deauthorize them, remove 2FA for whatever reason, delete or disable them or force the clients to re-sync.</p>
+
+<p><img src="../images/Bitwarden_Options.png" alt="" /></p>
+
+<p>On another tab, you may deal with organizations once you have created some or show further diagnostics about your installation.</p>
+
+<p><img src="../images/Bitwarden_Diagnostics.png" alt="" /></p>
+
+<p>That’s it!</p>
+
+<h2 id="verdict">Verdict</h2>
+
+<p>In this tutorial, we have successfully solved the task of creating a private cloud-based, personal password vault based on Vaultwarden fully compatible with the various Bitwarden-clients. In case you want to self-host and don’t put your sensitive data into the hands of a certain company (despite the fact that Bitwarden’s offer is pure bargain for $10!), this scenario could be a perfect fit. Whether you run a VPS located at the data centre of a local provider or host a Linux-machine within your household, this tutorial may help you to achieve all this.</p>
+
+<p><img src="../images/Bitwarden_Web_Vault.png" alt="" /></p>
+
+<p>Be aware of the fact that you will be fully responsible for the whole setup and the maintenance but using Vaultwarden is a good and resource-saving option for Bitwarden’s official MSSQL-based heavy deployment-scenario. You won’t be able to run unlimited users, but, depending on your bandwidth using the setup with hundreds of concurrent connections is no problem so far. Using many <a href="https://bitwarden.com/download/">official clients and browser integrations</a>, there is simply no platform not supporting Bitwarden’s structure so, once deployed, this Open Source-based password vault is - albeit being not that fancy as many competitors - a good solution for private and business users!</p>
+
+<p><img src="../images/Bitwarden_Users.png" alt="" /></p>
+
+<p>Hopefully you’ve had fun reading and following this tutorial so drop me a comment or an E-Mail in case you have any questions. Sample configurations for Apache and Nginx as well as the Docker startup-command can be found on <a href="https://github.com/OliverPifferi/samples/tree/main/Vaultwarden">Github</a>!</p>
 
     </div>
 
@@ -287,25 +466,25 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__twitter"
-        href="https://twitter.com/intent/tweet?text=Carrying%20the%20weight%20of%20the%20world%20on%20your%20shoulders&url=http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/"
+        href="https://twitter.com/intent/tweet?text=Vaultwarden:%20Your%20guide%20to%20your%20self-hosted%20Bitwarden%20password%20vault&url=http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__facebook"
-        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__pinterest"
-        href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/&amp;media=http://localhost:4000/images/photo-1584636633449-6135be6c4169.jpg&amp;description=Carrying%20the%20weight%20of%20the%20world%20on%20your%20shoulders"
+        href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/&amp;media=http://localhost:4000/images/Bitwarden_Intro.png&amp;description=Vaultwarden:%20Your%20guide%20to%20your%20self-hosted%20Bitwarden%20password%20vault"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Pinterest" rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Carrying-the-weight-of-the-world-on-your-shoulders/&title=Carrying%20the%20weight%20of%20the%20world%20on%20your%20shoulders&summary=&source="
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/&title=Vaultwarden:%20Your%20guide%20to%20your%20self-hosted%20Bitwarden%20password%20vault&summary=&source="
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -313,27 +492,27 @@
 </div>
     <div class="post__navigation">
   
-  <a class="post__prev" href="/Everything-has-beauty-but-not-everyone-sees-it-Silver-Lake-by-Esa-Holopainen/">
+  <a class="post__prev" href="/Carrying-the-weight-of-the-world-on-your-shoulders/">
     <div class="prev__image">
       
-      <img class="lazy" data-src="/images/silver_lake_esa.jpg" alt="Carrying the weight of the world on your shoulders">
+      <img class="lazy" data-src="/images/photo-1584636633449-6135be6c4169.jpg" alt="Vaultwarden: Your guide to your self-hosted Bitwarden password vault">
     </div>
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Older post</span>
-      <h2 class="post__nav__title">Everything has beauty, but not everyone sees it - Silver Lake by Esa Holopainen</h2>
+      <h2 class="post__nav__title">Carrying the weight of the world on your shoulders</h2>
     </div>
   </a>
   
 
   
-  <a class="post__next" href="/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/">
+  <a class="post__next" href="/The-only-thing-we-have-to-fear-on-the-planet-is-man/">
     <div class="next__box">
       <span class="post__nav post__nav__next">Newer post</span>
-      <h2 class="post__nav__title">Vaultwarden: Your guide to your self-hosted Bitwarden password vault</h2>
+      <h2 class="post__nav__title">The only thing we have to fear on the planet is man</h2>
     </div>
     <div class="next__image">
       
-      <img class="lazy" data-src="/images/Bitwarden_Intro.png" alt="Carrying the weight of the world on your shoulders">
+      <img class="lazy" data-src="/images/photo-1565711561500-49678a10a63f.jpg" alt="Vaultwarden: Your guide to your self-hosted Bitwarden password vault">
     </div>
   </a>
   
@@ -406,24 +585,45 @@
             
       
             
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/Stop-worrying-about-people-that-arent-worried-about-you/">
-                    <img class="lazy" data-src="/images/anthony-tori-9qYKMbBCFjc-unsplash.jpg" alt="Stop worrying about people that aren’t worried about you">
+                  <a class="article__image" href="/How-to-install-PHP-82-on-Debian-11/">
+                    <img class="lazy" data-src="/images/debian_with_php.jpg" alt="How to install PHP 8.2 on Debian 11">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2023-09-17T00:00:00+02:00">17 Sep, 2023</time>
+                    <time class="article__date" datetime="2022-12-28T00:00:00+01:00">28 Dec, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/Stop-worrying-about-people-that-arent-worried-about-you/">Stop worrying about people that aren’t worried about you</a>
+                    <a href="/How-to-install-PHP-82-on-Debian-11/">How to install PHP 8.2 on Debian 11</a>
                   </h2>
                 </div>
               </div>
@@ -446,24 +646,31 @@
             
       
             
+            
+            
+            
+      
+            
+      
+            
 
             <div class="article col col-3 col-d-6 col-m-12">
               <div class="article__inner">
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/The-best-way-to-predict-your-future-is-to-create-it/">
-                    <img class="lazy" data-src="/images/hvide_sande_sundown.jpg" alt="The best way to predict your future is to create it">
+                  <a class="article__image" href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">
+                    <img class="lazy" data-src="/images/Snowflake_Schmematic.png" alt="How to implement Snowflake with Docker on a Synology-NAS">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2023-04-15T00:00:00+02:00">15 Apr, 2023</time>
+                    <time class="article__date" datetime="2022-11-21T00:00:00+01:00">21 Nov, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/The-best-way-to-predict-your-future-is-to-create-it/">The best way to predict your future is to create it</a>
+                    <a href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">How to implement Snowflake with Docker on a Synology-NAS</a>
                   </h2>
                 </div>
               </div>
@@ -486,32 +693,6 @@
             
       
             
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/">
-                    <img class="lazy" data-src="/images/mastodon_welcome.jpg" alt="Mastodon - More than an alternative to Twitter and definitely here to stay">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-12-18T00:00:00+01:00">18 Dec, 2022</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/">Mastodon - More than an alternative to Twitter and definitely here to stay</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-              
             
             
             
@@ -519,32 +700,175 @@
             
       
             
-
-            <div class="article col col-3 col-d-6 col-m-12">
-              <div class="article__inner">
-                <div class="article__head">
-                  
-                  
-                  <a class="article__image" href="/What-if/">
-                    <img class="lazy" data-src="/images/photo-1610559176044-d2695ca6c63d.jpg" alt="What if... ?">
-                  </a>
-                  
-                </div>
-                <div class="article__content">
-                  <div class="article__meta">
-                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-12-10T00:00:00+01:00">10 Dec, 2022</time>
-                  </div>
-                  <h2 class="article__title">
-                    <a href="/What-if/">What if... ?</a>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-                
-                
-                  
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
           </div>
         </div>
       </div>

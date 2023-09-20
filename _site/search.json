@@ -92,6 +92,13 @@
     } ,
   
     {
+      "title"    : "Vaultwarden: Your guide to your self-hosted Bitwarden password vault",
+      "url"      : "/Vaultwarden-Your-guide-to-your-self-hosted-Bitwarden-password-vault/",
+      "date"     : "09 February 2022",
+      "image"    : "/images/Bitwarden_Intro.png"
+    } ,
+  
+    {
       "title"    : "Carrying the weight of the world on your shoulders",
       "url"      : "/Carrying-the-weight-of-the-world-on-your-shoulders/",
       "date"     : "30 January 2022",
