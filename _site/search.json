@@ -71,10 +71,24 @@
     } ,
   
     {
+      "title"    : "Nextcloud and European Governments aiming at building a Digital Sovereign Office",
+      "url"      : "/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/",
+      "date"     : "25 August 2022",
+      "image"    : "/images/The-Hub-for-your-Digital-life.jpg"
+    } ,
+  
+    {
       "title"    : "Deploying Portainer on a Synology-NAS",
       "url"      : "/Deploying-Portainer-on-a-Synology-NAS/",
       "date"     : "21 August 2022",
       "image"    : "/images/Portainer_Synology_Logo.jpg"
+    } ,
+  
+    {
+      "title"    : "UTM - a great alternative for Apple Silicon-based desktop virtualization",
+      "url"      : "/UTM-a-great-alternative-for-Apple-Silicon-based-desktop-virtualization/",
+      "date"     : "25 July 2022",
+      "image"    : "/images/photo-1533310266094-8898a03807dd.jpg"
     } ,
   
     {
