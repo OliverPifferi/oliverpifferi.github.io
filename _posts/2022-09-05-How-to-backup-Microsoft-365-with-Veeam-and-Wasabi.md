@@ -165,7 +165,7 @@ Choose the freshly-created extended backup repository as the target for this job
 
 ![](../images/Veeam_VBO365_19_Extended_Backup_Repository_Scheduling.jpg)
 
-Verdict
+Final Verdict
 -------
 
 Following the steps of this tutorial, we have finally accomplished the creation of a certain S3-bucket in Wasabi and connected this dedicated cloud-based datastore to match our Veeam Backup for Microsoft 365-installation. Thus spoken, Veeam is no able to address this bucket as an extended repository and offload all Microsoft 365-backups straight to Wasabi. In terms of security, we have created a specific user, a specific group and a certain policy in Wasabi so that this bucket can only be accessed by our dedicated Wasabi-based access & secret key. As of Veeam, the backup itself is encrypted with an own key from within the Veeam-instance so our Microsoft 365-data got an appropriate and safe backup, making the combination of all three vendors a perfect match for an hybrid cloud environment and a baseline-backup strategy based upon Veeam’s market-leading strategy and Wasabi's flexible and affordable embracement of the S3-protocol.
