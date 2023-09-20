@@ -78,6 +78,13 @@
     } ,
   
     {
+      "title"    : "How to implement Collabora Online in Nextcloud Hub 22 using Docker",
+      "url"      : "/How-to-implement-Collabora-Online-in-Nextcloud-Hub-22-using-Docker/",
+      "date"     : "25 August 2022",
+      "image"    : "/images/1-p-j1hEXwpgHmKME8yA-8bw.jpg"
+    } ,
+  
+    {
       "title"    : "Deploying Portainer on a Synology-NAS",
       "url"      : "/Deploying-Portainer-on-a-Synology-NAS/",
       "date"     : "21 August 2022",
@@ -264,6 +271,13 @@
       "url"      : "/Is-running-the-ideal-kind-of-sporting-activity-for-me/",
       "date"     : "28 June 2020",
       "image"    : "/images/photo-1581889470536-467bdbe30cd0.jpg"
+    } ,
+  
+    {
+      "title"    : "Using Nextstats to monitor your Nextcloud-instance on iOS",
+      "url"      : "/Using-Nextstats-to-monitor-your-Nextcloud-instance-on-IOS/",
+      "date"     : "24 May 2020",
+      "image"    : "/images/photo-1545665277-5937489579f2.jpg"
     } ,
   
     {

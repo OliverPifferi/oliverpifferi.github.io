@@ -17,6 +17,10 @@
 <lastmod>2020-05-20T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Using-Nextstats-to-monitor-your-Nextcloud-instance-on-IOS/</loc>
+<lastmod>2020-05-24T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Is-running-the-ideal-kind-of-sporting-activity-for-me/</loc>
 <lastmod>2020-06-28T00:00:00+02:00</lastmod>
 </url>
@@ -125,6 +129,10 @@
 <lastmod>2022-08-21T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/How-to-implement-Collabora-Online-in-Nextcloud-Hub-22-using-Docker/</loc>
+<lastmod>2022-08-25T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/</loc>
 <lastmod>2022-08-25T00:00:00+02:00</lastmod>
 </url>
@@ -200,5 +208,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/7/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/8/</loc>
 </url>
 </urlset>
