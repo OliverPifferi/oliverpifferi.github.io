@@ -246,6 +246,13 @@
     } ,
   
     {
+      "title"    : "WWDC 2021: Custom E-Mail-domains are coming to iCloud… finally!",
+      "url"      : "/WWDC-2021-Custom-E-Mail-domains-are-coming-to-iCloud-finally/",
+      "date"     : "27 August 2021",
+      "image"    : "/images/1-F0KcgyUX8TDQLkc60ZqAZA.jpg"
+    } ,
+  
+    {
       "title"    : "You are not your resume, you are your work",
       "url"      : "/You-are-not-your-resume-you-are-your-work/",
       "date"     : "22 August 2021",
@@ -376,6 +383,13 @@
       "url"      : "/In-Flanders-Fields/",
       "date"     : "11 May 2020",
       "image"    : "/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg"
+    } ,
+  
+    {
+      "title"    : "Getting rid of OneDrive synchronization-issues on macOS",
+      "url"      : "/Getting-rid-of-OneDrive-synchronization-issues-on-macOS/",
+      "date"     : "06 April 2020",
+      "image"    : "/images/1-uPFivVC0whsi0EUR61NsxA.jpg"
     } 
   
 ]
