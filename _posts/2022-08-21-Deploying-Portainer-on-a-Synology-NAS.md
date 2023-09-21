@@ -49,7 +49,7 @@ portainer/portainer-ce
 ```
 
 
-Note: Some tutorials (and my original one) refer to port 9000 (http) instead of port 9443 (https). After a short [tweet](https://twitter.com/portainerio/status/1561309149564207108?s=21&t=n2eCtaw1QoNSlY5o6-rtNg&ref=pifferi.synology.me) from the folks at Portainer I changed the code above for obvious security reasons. Besides, port 8000 is only needed if you plan to use Portainer’s edge agents so feel free to adopt the script above to suit your personal needs!
+Note: Some tutorials (and my original one) refer to port 9000 (http) instead of port 9443 (https). After a short [tweet](https://twitter.com/portainerio/status/1561309149564207108?s=21&t=n2eCtaw1QoNSlY5o6-rtNg) from the folks at Portainer I changed the code above for obvious security reasons. Besides, port 8000 is only needed if you plan to use Portainer’s edge agents so feel free to adopt the script above to suit your personal needs!
 
 The recently created „portainer“-folder will contain the specific data from within the container while „portainer-ce“ is the name of the Community Edition. Swapping this container’s name with „portainer-ee“ will install the Business Edition instead which has some additional nice features and is indeed free for five nodes - should you be interested, visit [this](https://www.portainer.io/install-BE-now) page to obtain your free license or find the key differences [here](https://www.portainer.io/products)!
 

@@ -12,7 +12,7 @@ image: '/images/1-p2eKxoiL9yfkNaG_rXiA0g.jpg'
 
 ## M1-Pain Points
 
-In my recent post telling about the long hard way to the perfect home office setup, I complained about this fact: I was able to use my two HP Z24n G2-displays with my working notebook (HP Elite x2) but the M1-limitations kept me from using the Air in the same style. Then, I read about [DisplayLink](https://pifferi.synology.me/products), a company that is now a part of Synaptics and offers a „Plug and Display“-solution by combining certified docks and adapters and their software which has been released for M1-macs in the mid of February.
+In my recent post telling about the long hard way to the perfect home office setup, I complained about this fact: I was able to use my two HP Z24n G2-displays with my working notebook (HP Elite x2) but the M1-limitations kept me from using the Air in the same style. Then, I read about DisplayLink, a company that is now a part of Synaptics and offers a „Plug and Display“-solution by combining certified docks and adapters and their software which has been released for M1-macs in the mid of February.
 
 ## A Possible Solution?
 

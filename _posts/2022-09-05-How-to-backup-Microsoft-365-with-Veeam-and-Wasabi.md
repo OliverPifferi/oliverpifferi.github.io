@@ -8,20 +8,20 @@ tags: [software, veeam, microsoft, cloud, backup]     # TAG names should always 
 image: '/images/Veeam_Wasabi.jpg'
 ---
 
-## Your data remains your data - no matter where it is stored. When, for example, a customer decides to outsource E-Mail-services into the cloud, the responsibility changes towards the delivering platform but the data stored therein is still the property of the specific customer. This model of the well-known „[shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility?ref=pifferi.synology.me)“ is a common-based term when talking about specific backup scenarios.
+## Your data remains your data - no matter where it is stored. When, for example, a customer decides to outsource E-Mail-services into the cloud, the responsibility changes towards the delivering platform but the data stored therein is still the property of the specific customer. This model of the well-known „[shared responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)“ is a common-based term when talking about specific backup scenarios.
 
 ![](../images/Microsoft_shared_Responsibility.jpg)
 
 In our case, Microsoft provides this service and, albeit doing basic protectional work with recycle bins and a certain retention time, data objects aren’t backup up in the ways modern backup standards propagate. As for E-Mails, Calendars and Contacts (including SharePoint, OneDrive and Teams-data), the customer must be able to do a backup just like the whole environment would be hosted on-premises, being independent from the platform this specific data is hosted on.
 
-Enter, Veeam! Veeam’s mission has been clear from the early days of virtualization and has seamlessly moved on into the world of hybrid IT these days: The task to own, control, backup and recover data anywhere in the hybrid cloud. The company took the cause of ensuring business resilience, protecting data from malicious actors and eliminating data loss and downtime while, confidently, moving to the cloud, avoiding lock‑in with cloud mobility. While Veeam delivers the software and does also assess the [model of the shared responsibility](https://www.veeam.com/blog/office365-shared-responsibility-model.html?ref=pifferi.synology.me) from the company’s point of view, there is always the need for a certain backup repository containing the protected data. Over the time, Veeam constantly embraced Amazon’s S3-protocol and, likewise, similar solutions that found on this stack and this is where Wasabi enters the stage.
+Enter, Veeam! Veeam’s mission has been clear from the early days of virtualization and has seamlessly moved on into the world of hybrid IT these days: The task to own, control, backup and recover data anywhere in the hybrid cloud. The company took the cause of ensuring business resilience, protecting data from malicious actors and eliminating data loss and downtime while, confidently, moving to the cloud, avoiding lock‑in with cloud mobility. While Veeam delivers the software and does also assess the [model of the shared responsibility](https://www.veeam.com/blog/office365-shared-responsibility-model.html) from the company’s point of view, there is always the need for a certain backup repository containing the protected data. Over the time, Veeam constantly embraced Amazon’s S3-protocol and, likewise, similar solutions that found on this stack and this is where Wasabi enters the stage.
 
 Delivering S3-capabilities for 1/5 of Amazon’s pricing without egress charges, Wasabi took the world of cloud storage by storm over the last years and, consequentially, advancing to a perfect match for Veeams underlying technology. This is where the circle is being closed and S3 can also be a direct backup target for storing your Microsoft 365-backups in combination with Veeam Backup for Microsoft 365. This tutorial will show you how to connect your Veeam Backup for Microsoft 365-console with Wasabi, assuming you have already installed the **latest** version (**6.1.0.254** at the time of writing) so let’s start!
 
 Wasabi: Creating the storage and dealing with permissions
 ---------------------------------------------------------
 
-At first, we are going to create an own dedicated bucket with an own specific user for our backup job. This will be our extended backup repository within Veeam. Head to [https://console.wasabisys.com/](https://console.wasabisys.com/?ref=pifferi.synology.me) and go to „Buckets“. Here, create a new bucket, give it a fitting name (here it follows my conventions, „pifferi03veeam“), choose your [favorite region](https://wasabi-support.zendesk.com/hc/en-us/articles/360015106031-What-are-the-service-URLs-for-Wasabi-s-different-storage-regions-?ref=pifferi.synology.me) (mine is the eu-central-2 in Frankfurt, Germany) and whether you want additional options activated like, for example, bucket logging. After choosing all options, a summary screen will show what you have just chosen and you may finally choose „Create Bucket“.
+At first, we are going to create an own dedicated bucket with an own specific user for our backup job. This will be our extended backup repository within Veeam. Head to [https://console.wasabisys.com/](https://console.wasabisys.com/) and go to „Buckets“. Here, create a new bucket, give it a fitting name (here it follows my conventions, „pifferi03veeam“), choose your [favorite region](https://wasabi-support.zendesk.com/hc/en-us/articles/360015106031-What-are-the-service-URLs-for-Wasabi-s-different-storage-regions-) (mine is the eu-central-2 in Frankfurt, Germany) and whether you want additional options activated like, for example, bucket logging. After choosing all options, a summary screen will show what you have just chosen and you may finally choose „Create Bucket“.
 
 ![](../images/Wasabi_Bucket_01.jpg)
 
@@ -69,7 +69,7 @@ Therefore, go to „Policies“, hit „Create Policy“, give it a unique name 
 ```
 
 
-Once you typed everything in the correct syntax, the policy editor should show you a green „Policy is valid“-status and you may continue to finally finish creating this policy. To read what specific kinds of permissions you need to insert once you don’t want the predefined ones, [this](https://helpcenter.veeam.com/docs/vbo365/guide/amazon_s3_permissions.html?ver=60&ref=pifferi.synology.me) Veeam-article is quite helpful while a [sample](https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt?ref=pifferi.synology.me) of my configuration may be found on [GitHub](https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt?ref=pifferi.synology.me)!
+Once you typed everything in the correct syntax, the policy editor should show you a green „Policy is valid“-status and you may continue to finally finish creating this policy. To read what specific kinds of permissions you need to insert once you don’t want the predefined ones, [this](https://helpcenter.veeam.com/docs/vbo365/guide/amazon_s3_permissions.html?ver=60) Veeam-article is quite helpful while a [sample](https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt) of my configuration may be found on [GitHub](https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt)!
 
 ![](../images/Wasabi_Policy_02-1.jpg)
 
@@ -172,6 +172,6 @@ Following the steps of this tutorial, we have finally accomplished the creation 
 
 ![](../images/Veeam_and_Wasabi_Alliance-1.jpg)
 
-Short note: If you are unsure how much space you will need for your backup, Veeams [official capacity calculator](https://calculator.veeam.com/vb365/?ref=pifferi.synology.me) can help you here!
+Short note: If you are unsure how much space you will need for your backup, Veeams [official capacity calculator](https://calculator.veeam.com/vb365/) can help you here!
 
 I hope you have enjoyed this tutorial and should you have any comments or suggestions, feel free to contact me or drop me a note via the contact form!

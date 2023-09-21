@@ -14,7 +14,7 @@ While the idea of protecting infants by flagging CSAM (Child Sexual Abuse Materi
 
 > „Privacy is a fundamental human right. At Apple, it’s also one of our core values. Your devices are important to so many parts of your life. What you share from those experiences, and who you share it with, should be up to you. We design Apple products to protect your privacy and give you control over your information. It’s not always easy. But that’s the kind of innovation we believe in.“
 
-(Excerpt from [https://www.apple.com/privacy](https://www.apple.com/privacy/?ref=pifferi.synology.me))
+(Excerpt from [https://www.apple.com/privacy](https://www.apple.com/privacy/))
 
 {% include youtube.html id="8w4qPUSG17Y" %}
 

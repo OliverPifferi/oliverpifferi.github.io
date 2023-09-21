@@ -113,6 +113,20 @@
     } ,
   
     {
+      "title"    : "Apple is approaching the problem with nagging-CAPTCHAs in iOS 16",
+      "url"      : "/Apple-is-approaching-the-problem-with-nagging-captchas-in-ios-16/",
+      "date"     : "23 June 2022",
+      "image"    : "/images/iOS16_Preview-1140x640.jpg"
+    } ,
+  
+    {
+      "title"    : "The End of an Era: The iPod is dead, long live Music!",
+      "url"      : "/The-end-of-an-era-the-ipod-is-dead-long-live-music/",
+      "date"     : "10 May 2022",
+      "image"    : "/images/Apple-iPod-end-of-life-hero-1140x640.jpg"
+    } ,
+  
+    {
       "title"    : "Return to offices is announced, but the model of hybrid work is here to stay!",
       "url"      : "/Return-to-offices-is-announced-but-the-model-of-hybrid-work-is-here-to-stay/",
       "date"     : "27 March 2022",
@@ -275,7 +289,7 @@
   
     {
       "title"    : "How to bypass Apple’s limitations and address more than two external displays with M1-based Macs",
-      "url"      : "/ow-to-bypass-apple-s-limitations-and-address-more-than-two-external-displays-with-m1-based-macs/",
+      "url"      : "/How-to-bypass-apple-s-limitations-and-address-more-than-two-external-displays-with-m1-based-macs/",
       "date"     : "28 February 2021",
       "image"    : "/images/1-p2eKxoiL9yfkNaG_rXiA0g.jpg"
     } ,
@@ -323,10 +337,24 @@
     } ,
   
     {
+      "title"    : "Why Apple needs to strengthen and upgrade iCloud",
+      "url"      : "/Why-Apple-needs-to-strengthen-and-upgrade-iCloud/",
+      "date"     : "22 May 2020",
+      "image"    : "/images/1-1SWYlPKrwfNFvnHb_wlyYg.jpg"
+    } ,
+  
+    {
       "title"    : "The Third Battle Of Ypres / The Battle of Passchendaele",
       "url"      : "/The-Third-Battle-Of-Ypres-The-Battle-of-Passchendaele/",
       "date"     : "20 May 2020",
       "image"    : "/images/paschendale.jpg"
+    } ,
+  
+    {
+      "title"    : "Services — It’s all about them… now?",
+      "url"      : "/Services-its-all-about-them-now/",
+      "date"     : "14 May 2020",
+      "image"    : "/images/photo-1483058712412-4245e9b90334.jpg"
     } ,
   
     {

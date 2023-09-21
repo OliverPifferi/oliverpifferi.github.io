@@ -8,7 +8,7 @@ tags: [software, privacy, hardware, docker, tor, snowflake, synology]     # TAG 
 image: '/images/Snowflake_Schmematic.png'
 ---
 
-## In many areas, we have unlimited access to the Internet while other regions or single people are blocked from venturing through the web freely. [Snowflake](https://snowflake.torproject.org/?lang=en_US&ref=pifferi.synology.me) is a possible solution for anyone striving towards anonymization and bypassing censorship.
+## In many areas, we have unlimited access to the Internet while other regions or single people are blocked from venturing through the web freely. [Snowflake](https://snowflake.torproject.org/?lang=en_US) is a possible solution for anyone striving towards anonymization and bypassing censorship.
 
 Snowflake is a system that allows people from all over the world to access censored websites and applications. Similar to how VPNs assist users in getting around Internet-censorship, Snowflake helps to avoid being noticed by Internet censors by making Internet activity appear as though people are using the Internet for a regular video or voice call. There are numerous tools available that "transform" Internet activity, each using a different technique. Some redirect Internet traffic to appear to be coming from popular cloud providers like Microsoft Azure and Amazon Web Services. Others scramble Internet traffic in order to make it appear completely random - Snowflake takes yet another approach while preserving decentralized anonymity.
 

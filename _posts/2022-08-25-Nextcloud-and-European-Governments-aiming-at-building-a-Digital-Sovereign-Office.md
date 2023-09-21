@@ -10,14 +10,14 @@ image: '/images/The-Hub-for-your-Digital-life.jpg'
 
 ## There must be an Office beside Redmond’s variant and, so far, Nextcloud embraced the Open Sourced-based version of Collabora Online and ONLYOFFICE quite well. Anyway, there is still space for improvement so an European initiative should fix what still seems to be broken.
 
-There must be an Office beside Redmond’s variant and, so far, Nextcloud embraced the Open Sourced-based version of [Collabora Online](https://pifferi.synology.me/how-to-implement-collabora-online-in-nextcloud-hub-22-using-docker/) and [ONLYOFFICE](https://pifferi.synology.me/how-to-implement-onlyoffice-in-nextcloud-hub-20-using-docker/) quite well. Anyway, there is still space for improvement so an European initiative should fix what still seems to be broken.
+There must be an Office beside Redmond’s variant and, so far, Nextcloud embraced the Open Sourced-based version of Collabora Online and ONLYOFFICE quite well. Anyway, there is still space for improvement so an European initiative should fix what still seems to be broken.
 
 Okay, admittedly, Nextcloud made efforts to integrate the named Office suites quite early in its development and, since 2021, the Collabora-based Nextcloud Office is an official part of Nextcloud Hub. While many organizations and European Governments are facing a certain dependency and data control challenges, the eagerness of getting independent from the big global players are on a rise while the users are searching for alternatives.
 
 A new Initiative
 ----------------
 
-These days, Nextcloud GmbH announces a European initiative to build a digitally sovereign office, integrated in the Nextcloud collaboration platform - virtually underlining the efforts so far which started in early 2021. Nextcloud describes the goal of this campaign as a response to a growing need in the European Union for an independent, on-premises and trustworthy document collaboration tool. Targeting the small number of big digital collaboration platforms threatening the European Sovereignty, the case is quite hot as the latest [Anti-Trust-discussions](https://pifferi.synology.me/eu-tech-sector-files-antitrust-complaint-against-microsoft/) have already shown.
+These days, Nextcloud GmbH announces a European initiative to build a digitally sovereign office, integrated in the Nextcloud collaboration platform - virtually underlining the efforts so far which started in early 2021. Nextcloud describes the goal of this campaign as a response to a growing need in the European Union for an independent, on-premises and trustworthy document collaboration tool. Targeting the small number of big digital collaboration platforms threatening the European Sovereignty, the case is quite hot as the latest Anti-Trust-discussions have already shown.
 
 ![](../images/Nextcloud-mail--calendar--working.jpg)
 
