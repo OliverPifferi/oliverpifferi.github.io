@@ -92,6 +92,13 @@
     } ,
   
     {
+      "title"    : "Microsoft announces Apple Silicon-optimized Teams-client",
+      "url"      : "/Microsoft-announces-Apple-Silicon-optimized-Teams-client/",
+      "date"     : "02 August 2022",
+      "image"    : "/images/Teams_Mac_M1.jpg"
+    } ,
+  
+    {
       "title"    : "UTM - a great alternative for Apple Silicon-based desktop virtualization",
       "url"      : "/UTM-a-great-alternative-for-Apple-Silicon-based-desktop-virtualization/",
       "date"     : "25 July 2022",
@@ -124,6 +131,20 @@
       "url"      : "/The-end-of-an-era-the-ipod-is-dead-long-live-music/",
       "date"     : "10 May 2022",
       "image"    : "/images/Apple-iPod-end-of-life-hero-1140x640.jpg"
+    } ,
+  
+    {
+      "title"    : "Microsoft silently releases M1-optimized Teams-Client for Mac",
+      "url"      : "/Microsoft-silently-releases-M1-optimized-Teams-Client-for-Mac/",
+      "date"     : "26 April 2022",
+      "image"    : "/images/fx7ybi2w3ca-1140x640.jpg"
+    } ,
+  
+    {
+      "title"    : "New Work: The Rise of the Triple Peak Day",
+      "url"      : "/New-Work-The-Rise-of-the-triple-peak-day/",
+      "date"     : "09 April 2022",
+      "image"    : "/images/photo-1483389127117-b6a2102724ae.jpg"
     } ,
   
     {
