@@ -10,7 +10,7 @@ image: '/images/Nextcloud_Hub_Logo-1140x640.jpg'
 
 ## As of 2022, the need for independence, the need for data protection and privacy based on Open Source-solutions, has developed in a discreet manner and so Nextcloud Hub 24 was released today.
 
-It’s time for a new Nextcloud-release and just five months after [giving birth to iteration 23](https://pifferi.synology.me/nextcloud-hub-ii-comes-with-major-overhaul-and-nextcloud-office/), this one especially aims at competing with the Big Tech Company’s solutions.
+It’s time for a new Nextcloud-release and just five months after giving birth to iteration 23, this one especially aims at competing with the Big Tech Company’s solutions.
 
 Call it sharpening a knife or just going all in for the private cloud: After filing the antitrust complaint against Microsoft or empowering the Open Source-idea with the new German „traffic light“-coalition, there seems to be a need for being an alternative to the „big“ public cloud infrastructure: This is where Nextcloud comes from and what Frank Karlitschek and mates had in mind when once starting the project. As of 2022, the need for independence, the need for data protection and privacy based on Open Source-solutions, has developed in a discreet manner and so Nextcloud Hub 24 was released today.
 
