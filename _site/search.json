@@ -78,6 +78,13 @@
     } ,
   
     {
+      "title"    : "How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup",
+      "url"      : "/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/",
+      "date"     : "05 September 2022",
+      "image"    : "/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg"
+    } ,
+  
+    {
       "title"    : "Nextcloud and European Governments aiming at building a Digital Sovereign Office",
       "url"      : "/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/",
       "date"     : "25 August 2022",
@@ -404,6 +411,27 @@
       "url"      : "/Is-running-the-ideal-kind-of-sporting-activity-for-me/",
       "date"     : "28 June 2020",
       "image"    : "/images/photo-1581889470536-467bdbe30cd0.jpg"
+    } ,
+  
+    {
+      "title"    : "Nitrokey releases new firmware for FIDO2 security key — and you can easily update yours!",
+      "url"      : "/Nitrokey-releases-new-firmware-for-FIDO2-security-key-and-you-can-easily-update-yours/",
+      "date"     : "31 May 2020",
+      "image"    : "/images/1-r2Q3tb1kSN-MMErAjXKDbQ.jpg"
+    } ,
+  
+    {
+      "title"    : "How to strengthen your online accounts with a hardware-based security key",
+      "url"      : "/How-to-strengthen-your-online-accounts-with-a-hardware-based-security-key/",
+      "date"     : "31 May 2020",
+      "image"    : "/images/photo-1496368077930-c1e31b4e5b44.jpg"
+    } ,
+  
+    {
+      "title"    : "MSP360 (CloudBerry) Backup for macOS: A good way to elaborate your backup strategy",
+      "url"      : "/MSP350-CloudBerry-Backup-for-macOS-A-good-way-to-elaborate-your-backup-strategy/",
+      "date"     : "27 May 2020",
+      "image"    : "/images/0-KzSXNViSrAZ5b1F3.jpg"
     } ,
   
     {
