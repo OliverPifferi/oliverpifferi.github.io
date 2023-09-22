@@ -85,6 +85,13 @@
     } ,
   
     {
+      "title"    : "Nextcloud Hub 24 aiming at Big Tech-competition",
+      "url"      : "/Nextcloud-Hub-24-aiming-at-Big-Tech-competition/",
+      "date"     : "25 August 2022",
+      "image"    : "/images/Nextcloud_Hub_Logo-1140x640.jpg"
+    } ,
+  
+    {
       "title"    : "How to implement Collabora Online in Nextcloud Hub 22 using Docker",
       "url"      : "/How-to-implement-Collabora-Online-in-Nextcloud-Hub-22-using-Docker/",
       "date"     : "25 August 2022",
@@ -225,6 +232,13 @@
     } ,
   
     {
+      "title"    : "Nextcloud Hub II comes with major overhaul and Nextcloud Office",
+      "url"      : "/Nextcloud-Hub-II-comes-with-major-overhaul-and-Nextcloud-Office/",
+      "date"     : "30 November 2021",
+      "image"    : "/images/2000-1333-max.jpg"
+    } ,
+  
+    {
       "title"    : "How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL",
       "url"      : "/How-to-migrate-your-Nextcloud-database-backend-from-MySQL-MariaDB-to-PostgreSQL/",
       "date"     : "23 November 2021",
@@ -337,6 +351,13 @@
     } ,
   
     {
+      "title"    : "Nextcloud releases the digital office optimized for the post-pandemic workplace",
+      "url"      : "/Nextcloud-releases-the-digital-office-optimized-for-the-post-pandemic-workplace/",
+      "date"     : "06 June 2021",
+      "image"    : "/images/0-UliCbx5Lxu7hWRPk.jpg"
+    } ,
+  
+    {
       "title"    : "Useful apps to enlighten your daily Mac-routine",
       "url"      : "/Useful-apps-to-enlighten-your-daily-mac-routine/",
       "date"     : "23 May 2021",
@@ -407,6 +428,13 @@
     } ,
   
     {
+      "title"    : "Exporting your Apple Notes to Markdown-style at ease",
+      "url"      : "/Exporting-your-Apple-Notes-to-Markdown-style-at-ease/",
+      "date"     : "16 May 2020",
+      "image"    : "/images/photo-1512314889357-e157c22f938d.jpg"
+    } ,
+  
+    {
       "title"    : "Services — It’s all about them… now?",
       "url"      : "/Services-its-all-about-them-now/",
       "date"     : "14 May 2020",
@@ -432,6 +460,13 @@
       "url"      : "/In-Flanders-Fields/",
       "date"     : "11 May 2020",
       "image"    : "/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg"
+    } ,
+  
+    {
+      "title"    : "How to enable server-side encryption in Nextcloud",
+      "url"      : "/How-to-enable-server-side-encryption-in-Nextcloud/",
+      "date"     : "03 May 2020",
+      "image"    : "/images/Nextcloud_Hub.jpg"
     } ,
   
     {
