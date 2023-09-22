@@ -27,7 +27,8 @@ Of course, the actual COVID-19-crisis created a high demand at schools, governme
 ![](../images/1-YOnmwvAlQdAMnudSISS0EQ.jpg)
 
 To support organizations in difficult times, Nextcloud has worked with Struktur AG to make the high-performance back-end freely available under the AGPL license. For any organization which does not have the resources to host the HPB themselves, Struktur AG will be offering a hosted solution with a 30 days free trial but there are already tutorials online how to build your own solution online to enhance your (or your organizations) Nextcloud-instance.  
- Frank Karlitschek, founder and CEO of Nextcloud, adds:
+
+Frank Karlitschek, founder and CEO of Nextcloud, adds:
 
 > Modern organizations need seamless collaboration and communication integrated in a secure, easy to deploy package. With Nextcloud Talk, organizations can protect the confidentiality of their conversations internally as well as with partners, customers and suppliers.
 
