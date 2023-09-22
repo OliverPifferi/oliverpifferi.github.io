@@ -5,8 +5,8 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 Sep 2023 08:54:08 +0200</pubDate>
-        <lastBuildDate>Fri, 22 Sep 2023 08:54:08 +0200</lastBuildDate>
+        <pubDate>Fri, 22 Sep 2023 09:09:45 +0200</pubDate>
+        <lastBuildDate>Fri, 22 Sep 2023 09:09:45 +0200</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -150,6 +150,71 @@
                 
                 
                 <category>Thoughts</category>
+                
+            </item>
+        
+            <item>
+                <title>Dark Noise: Simple. Fast. White noise, refined!</title>
+                <description>&lt;h2 id=&quot;when-anthrax-released-their-famous-album-the-sound-of-white-noise-back-in-1993-aiming-for-silence-and-harmony-wasnt-the-main-focus-today-dark-noise-is-a-tool-willing-to-phase-down-the-pace-of-everyday-life-by-providing-natural-sounds-on-all-apple-based-oses-striving-for-calmness&quot;&gt;When Anthrax released their famous album „The Sound of White Noise“ back in 1993, aiming for silence and harmony wasn’t the main focus. Today, Dark Noise is a tool willing to phase down the pace of everyday life by providing natural sounds on all Apple-based OSes, striving for calmness.&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/dark-noise-hero-v3-transparent.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With noise, permanent office talks and similar sounds all around it’s difficult to focus on anything. I often discover myself to be simply fed up with senseless conversations (just to talk anything at all) or permanent muttering all around: Especially if you’ve got kids of nearly all ages, there IS always a variety of sounds all around preventing from focusing on anything. I like the expression that „a lot of people think I’m unhappy because I’m quiet“. In fact I’m not unhappy, I just appreciate silence in a world that never stops talking!&lt;/p&gt;
+
+&lt;p&gt;Having this in mind, Dark Noise, which has recently been released in Version 3.0, closes the gap of just isolating yourself from the noises outside - for a variety of reasons. The app itself has a certain history - v1.0 was released in August 2019 on iOS, v2.0 followed in July 2020 with mixing capabilities and the feature of syncing these mixes via iCloud to each device associated with the specific Apple-account. In May 2021, v2.5 finally made the step to the Mac&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe width=&quot;640&quot; height=&quot;390&quot; src=&quot;https://www.youtube.com/embed/wsMA6Du03J8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+&lt;/style&gt;
+
+&lt;p&gt;and these days, version 3.0 was released, introducing of a free tier. This includes access to eight free sounds as well as full support for infinitely looping sounds, Shortcuts, Siri integration, and the Timer-feature. The app itself is built pretty straightforward - developer Charly Chapman is, by his own words, building software for eight years and pretty new to the iOS-scene. Putting this aside, the level of maturity on Dark Noise is quite impressive as the main goal - providing environment sounds - can be achieved without any hassle: Browse through the list, pick your sound and enjoy!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/screenshot_mac_03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While each sound stands for his own, I especially like the mixing feature: Putting beach and seagulls together, I combine my own favorite and mind-tranquilizing scenario at ease! Everyone of you liking windy trees together with some kind of rain and crickets can mix this as well - and even if you like the soundscape of a coffee shop with a construction side nearby paired with the sound of a city street, you will be able to make up the preferred sound setting.&lt;/p&gt;
+
+&lt;p&gt;Charly Chapman is also providing the possibility of either &lt;a href=&quot;https://tally.so/r/wAzPGk&quot; title=&quot;Request a New Sound Form&quot;&gt;request a specific sound&lt;/a&gt; to be added to Dark Noise or &lt;a href=&quot;https://tally.so/r/wdEq4A&quot; title=&quot;Request a Feature Form&quot;&gt;request a feature&lt;/a&gt; while providing support to all additional questions besides the &lt;a href=&quot;https://darknoise.app/help&quot;&gt;FAQ&lt;/a&gt; by E-Mail. In my personal use case, I often stumbled upon apps that were aiming towards providing sound sets to calm down, relax, re-focus or just turn away from the classic Apple Music- or Spotify-based playlists. Many crossed my path but Dark Noise is definitely here to stay: Apart from the variety of sounds, there are two features that I would personally consider as unique selling point: The mixer and the iCloud-sync which even enhance the custom mixes by simply putting them on my iPhone and iPad after I have created them on my Mac. Also the Siri-integration or support of Shortcuts is a big plus that raises Dark Noise above the common masses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/dark-noise-pro-compare.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dark Noise 3.0 is available on Apple’s App Store to &lt;a href=&quot;https://apps.apple.com/us/app/dark-noise/id1465439395&quot; title=&quot;download for free&quot;&gt;download&lt;/a&gt; for free. Dark Noise Pro is currently available for 2,99 EUR a month, 22,99 EUR a year with a 3 day trial, or a one-time-purchase for 59,99 EUR while the US-Dollar prices slights vary. According to the App Store and the developer’s privacy policy, no data is collected during the usage of the app - by June 2020, Firebase-and Crashlytics-reporting and analytics have been removed from the app and anonymous TelemetryDeck-analytics can be opted-out from within the app.&lt;/p&gt;
+
+&lt;p&gt;The pricing is okay and fair, especially if you go with a yearly plan - and, according to your use case, the one-timer may also make sense in terms of supporting an indie developer which once had a great idea and has now made all the proper steps to be successful with Dark Noise on all major Apple-based platforms!&lt;/p&gt;
+</description>
+                <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/Dark-Noise-simple-fast-white-noise-refined/</link>
+                <guid isPermaLink="true">http://localhost:4000/Dark-Noise-simple-fast-white-noise-refined/</guid>
+                
+                <category>apple</category>
+                
+                <category>ios</category>
+                
+                <category>macos</category>
+                
+                <category>apps</category>
+                
+                <category>tools</category>
+                
+                
+                <category>IT</category>
                 
             </item>
         
@@ -580,189 +645,6 @@
                 
                 
                 <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>How to backup Microsoft 365 with Veeam and Wasabi</title>
-                <description>&lt;h2 id=&quot;your-data-remains-your-data---no-matter-where-it-is-stored-when-for-example-a-customer-decides-to-outsource-e-mail-services-into-the-cloud-the-responsibility-changes-towards-the-delivering-platform-but-the-data-stored-therein-is-still-the-property-of-the-specific-customer-this-model-of-the-well-known-shared-responsibility-is-a-common-based-term-when-talking-about-specific-backup-scenarios&quot;&gt;Your data remains your data - no matter where it is stored. When, for example, a customer decides to outsource E-Mail-services into the cloud, the responsibility changes towards the delivering platform but the data stored therein is still the property of the specific customer. This model of the well-known „&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility&quot;&gt;shared responsibility&lt;/a&gt;“ is a common-based term when talking about specific backup scenarios.&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Microsoft_shared_Responsibility.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In our case, Microsoft provides this service and, albeit doing basic protectional work with recycle bins and a certain retention time, data objects aren’t backup up in the ways modern backup standards propagate. As for E-Mails, Calendars and Contacts (including SharePoint, OneDrive and Teams-data), the customer must be able to do a backup just like the whole environment would be hosted on-premises, being independent from the platform this specific data is hosted on.&lt;/p&gt;
-
-&lt;p&gt;Enter, Veeam! Veeam’s mission has been clear from the early days of virtualization and has seamlessly moved on into the world of hybrid IT these days: The task to own, control, backup and recover data anywhere in the hybrid cloud. The company took the cause of ensuring business resilience, protecting data from malicious actors and eliminating data loss and downtime while, confidently, moving to the cloud, avoiding lock‑in with cloud mobility. While Veeam delivers the software and does also assess the &lt;a href=&quot;https://www.veeam.com/blog/office365-shared-responsibility-model.html&quot;&gt;model of the shared responsibility&lt;/a&gt; from the company’s point of view, there is always the need for a certain backup repository containing the protected data. Over the time, Veeam constantly embraced Amazon’s S3-protocol and, likewise, similar solutions that found on this stack and this is where Wasabi enters the stage.&lt;/p&gt;
-
-&lt;p&gt;Delivering S3-capabilities for 1/5 of Amazon’s pricing without egress charges, Wasabi took the world of cloud storage by storm over the last years and, consequentially, advancing to a perfect match for Veeams underlying technology. This is where the circle is being closed and S3 can also be a direct backup target for storing your Microsoft 365-backups in combination with Veeam Backup for Microsoft 365. This tutorial will show you how to connect your Veeam Backup for Microsoft 365-console with Wasabi, assuming you have already installed the &lt;strong&gt;latest&lt;/strong&gt; version (&lt;strong&gt;6.1.0.254&lt;/strong&gt; at the time of writing) so let’s start!&lt;/p&gt;
-
-&lt;h2 id=&quot;wasabi-creating-the-storage-and-dealing-with-permissions&quot;&gt;Wasabi: Creating the storage and dealing with permissions&lt;/h2&gt;
-
-&lt;p&gt;At first, we are going to create an own dedicated bucket with an own specific user for our backup job. This will be our extended backup repository within Veeam. Head to &lt;a href=&quot;https://console.wasabisys.com/&quot;&gt;https://console.wasabisys.com/&lt;/a&gt; and go to „Buckets“. Here, create a new bucket, give it a fitting name (here it follows my conventions, „pifferi03veeam“), choose your &lt;a href=&quot;https://wasabi-support.zendesk.com/hc/en-us/articles/360015106031-What-are-the-service-URLs-for-Wasabi-s-different-storage-regions-&quot;&gt;favorite region&lt;/a&gt; (mine is the eu-central-2 in Frankfurt, Germany) and whether you want additional options activated like, for example, bucket logging. After choosing all options, a summary screen will show what you have just chosen and you may finally choose „Create Bucket“.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_Bucket_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_Bucket_02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_Bucket_03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Second, we want to define a specific access policy to underline that just the specific user we are going to create in step three will have access to the freshly-created bucket.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_Policy_01-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Therefore, go to „Policies“, hit „Create Policy“, give it a unique name and a decent description and use the following code example (adopted to suit your bucket’s name under „Resource“ - mine is „pifferi03veeam“ here) as policy:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
-    &quot;Version&quot;: &quot;2012-10-17&quot;,
-    &quot;Statement&quot;: [
-        {
-            &quot;Effect&quot;: &quot;Allow&quot;,
-            &quot;Action&quot;: [
-               &quot;s3:ListAllMyBuckets&quot;,
-               &quot;s3:GetBucketLocation&quot;
-            ],
-            &quot;Resource&quot;: &quot;arn:aws:s3:::*&quot; 
-        },
-        {
-            &quot;Effect&quot;: &quot;Allow&quot;,
-            &quot;Action&quot;: [
-                &quot;s3:ListBucket&quot;
-            ],
-            &quot;Resource&quot;: &quot;arn:aws:s3:::pifferi03veeam&quot; 
-        },
-        {
-            &quot;Effect&quot;: &quot;Allow&quot;,
-            &quot;Action&quot;: [
-                &quot;s3:PutObject&quot;,
-                &quot;s3:GetObject&quot;, 
-                &quot;s3:DeleteObject&quot;, 
-                &quot;s3:AbortMultipartUpload&quot; 
-            ],
-            &quot;Resource&quot;: &quot;arn:aws:s3:::pifferi03veeam&quot; 
-        }
-    ]
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once you typed everything in the correct syntax, the policy editor should show you a green „Policy is valid“-status and you may continue to finally finish creating this policy. To read what specific kinds of permissions you need to insert once you don’t want the predefined ones, &lt;a href=&quot;https://helpcenter.veeam.com/docs/vbo365/guide/amazon_s3_permissions.html?ver=60&quot;&gt;this&lt;/a&gt; Veeam-article is quite helpful while a &lt;a href=&quot;https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt&quot;&gt;sample&lt;/a&gt; of my configuration may be found on &lt;a href=&quot;https://github.com/OliverPifferi/samples/blob/main/Wasabi/wasabi_veeam_policy.txt&quot;&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_Policy_02-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Third and finally, we are going to create a specific user for this bucket which acts as the link between Wasabi and Veeam. Head to the „Users“-pane and create new user with just „Programmatic“ API-access - usually our backup-user doesn’t need console access!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_User_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You may add this user to an existing group or create a new one - I chose the latter as I want to place my „vbo365“-user in the freshly-created „backup“-group.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_User_02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_User_03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Continuing our journey here, the access policy must be set and while I opted in for the recently created „VBO365FullBucketAccess“-policy in my demo lab, your permissions and names may (of course) differ - the screenshot shows the generic „AmazonS3FullAccess“-permissions so don’t be confused!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Wasabi_User_04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the end, another overview is presented and the user can be created by hitting the „Create User“-button. Be sure to write down the access and secret key your new user will get here or download it as .CSV-file!&lt;/p&gt;
-
-&lt;h2 id=&quot;connecting-wasabi-to-veeam-backup-for-microsoft-365&quot;&gt;Connecting Wasabi to Veeam Backup for Microsoft 365&lt;/h2&gt;
-
-&lt;p&gt;As we have dealt with all necessary prerequisites on Wasabi’s side, we can now carry off the bays with our previously installed Veeam Backup for Microsoft 365, combining the best of both (or three, if you bring Microsoft’s services into equation) worlds!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_01_Login.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After the initial login, choose „Backup Infrastructure“ in the left pane and „Object Storage Repositories“ then. Here, create a new entry, give it a name and choose „S3 compatible“ as object storage type.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_02_Repository.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_03_S3Compatible.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After continuing, the specific data needs to be entered. In our case, the data center region is „eu-central-2“ while the resulting service point URL is s3.eu-central-2.wasabisys.com here.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_05_Repository_URL.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As for the credentials, hit the „Add“-button to enter the specific access and secret key from your freshly-created Wasabi-user account - hoping that you have written down or saved these credentials in the first part of the tutorial.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_04_AccessKey.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With entering these, your connection to your Wasabi-endpoint should be possible and, after verifying, you may choose the desired bucket and create a new, separate folder in it for Veeam Backup for Microsoft 365.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_06_Repository_Bucket.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_08_Repository_Folder.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During this step, you may choose whether you want a limit on your bucket space consumption or not - remember that Wasabi charges in Terabyte-steps so once you‘re short on budget (or want to keep the Microsoft 365-backup somehow limited, this is your option!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_07_Repository_Consumption.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_09_Repository_created.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the last step needed to do before your Object Storage Repository is configured successfully!&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-a-backup-job&quot;&gt;Creating a backup job&lt;/h2&gt;
-
-&lt;p&gt;Before creating a new backup job, we need to define a local repository which is able to serve as an extended backup respository. Thus spoken, head to „Backup Infrastructure“ on the left and create a new backup repository with an appropriate name.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_14_Extended_Backup_Repository.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Select a folder that should contain this repository - don’t mind it being entitled as „local“ as Veeam backs up directly to the object storage keeping just a small amount of metadata cached on your local storage - which is, according to the company, about one percent of the data-backup.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_15_Extended_Backup_Repository_Location.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the next step, select the checkbox „Offload backup data to object storage“ and an encryption password so that your backup cannot be read on S3 no matter what.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_16_Extended_Backup_Repository_S3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Write down this password or save it in a password manager and remember: Once you lose this encryption password, your scaled-out backups will become useless and even Veeam cannot help you here!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_17_Extended_Backup_Encryption.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, the retention policies of this repository can be set and that’s it - now we can deal with the backup job itself!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_18_Extended_Backup_Repository_Retention.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This process is as simple as straightforward just like we expect it from Veeam: Switch to your Microsoft 365-organization on the left side, right-click in the empty window on the right and opt to create a new backup job.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_10_New_Backup_Job-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Choose a name and a description if you want and, in the next window, select whether you want to backup single objects or the entire organization and if you want to make exclusions to this job or not.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_11_Backup_Objects.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While the backup proxy should be the machine you are currently working with, you can - of course - choose other ones if you’ve split your proxies to work only for Exchange Online, OneDrive / SharePoint or Teams-data.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_12_Exclusions.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_13_Extended_Repository.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Choose the freshly-created extended backup repository as the target for this job and, finally, the scheduling options where you can also start this job for the first time after finishing the configuration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_VBO365_19_Extended_Backup_Repository_Scheduling.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;final-verdict&quot;&gt;Final Verdict&lt;/h2&gt;
-
-&lt;p&gt;Following the steps of this tutorial, we have finally accomplished the creation of a certain S3-bucket in Wasabi and connected this dedicated cloud-based datastore to match our Veeam Backup for Microsoft 365-installation. Thus spoken, Veeam is no able to address this bucket as an extended repository and offload all Microsoft 365-backups straight to Wasabi. In terms of security, we have created a specific user, a specific group and a certain policy in Wasabi so that this bucket can only be accessed by our dedicated Wasabi-based access &amp;amp; secret key. As of Veeam, the backup itself is encrypted with an own key from within the Veeam-instance so our Microsoft 365-data got an appropriate and safe backup, making the combination of all three vendors a perfect match for an hybrid cloud environment and a baseline-backup strategy based upon Veeam’s market-leading strategy and Wasabi’s flexible and affordable embracement of the S3-protocol.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Veeam_and_Wasabi_Alliance-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Short note: If you are unsure how much space you will need for your backup, Veeams &lt;a href=&quot;https://calculator.veeam.com/vb365/&quot;&gt;official capacity calculator&lt;/a&gt; can help you here!&lt;/p&gt;
-
-&lt;p&gt;I hope you have enjoyed this tutorial and should you have any comments or suggestions, feel free to contact me or drop me a note via the contact form!&lt;/p&gt;
-</description>
-                <pubDate>Mon, 05 Sep 2022 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/</link>
-                <guid isPermaLink="true">http://localhost:4000/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/</guid>
-                
-                <category>software</category>
-                
-                <category>veeam</category>
-                
-                <category>microsoft</category>
-                
-                <category>cloud</category>
-                
-                <category>backup</category>
-                
-                
-                <category>IT</category>
                 
             </item>
         
