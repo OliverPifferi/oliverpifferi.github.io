@@ -8,7 +8,7 @@ tags: [nextcloud, foss, software, cloud, privatecloud, europe, digitalsovereignt
 image: '/images/Nextcloud_Hub.jpg'
 ---
 
-# When it comes to your private-hosted cloud, Nextcloud is surely one of the solutions to get this task accomplished.
+## When it comes to your private-hosted cloud, Nextcloud is surely one of the solutions to get this task accomplished.
 
 Hosting your data in a local datacenter or on a small box at home the data sovereignty of your files is within your hands is no problem with this piece of software. While Nextcloud is quite easy to install and maintain, you might think about enforcing the level of security within your private cloud so have you ever thought of enabling the server-side encryption in Nextcloud so far? If not, let me show you how this may be accomplished!
 
