@@ -218,6 +218,13 @@
     } ,
   
     {
+      "title"    : "Parallels Desktop: Your Mac’s gate to proper desktop virtualization",
+      "url"      : "/Parallels-Desktop-Your-Macs-gate-to-proper-desktop-virtualization/",
+      "date"     : "30 December 2021",
+      "image"    : "/images/PD17-News-Release.jpg"
+    } ,
+  
+    {
       "title"    : "Everything has beauty, but not everyone sees it - Silver Lake by Esa Holopainen",
       "url"      : "/Everything-has-beauty-but-not-everyone-sees-it-Silver-Lake-by-Esa-Holopainen/",
       "date"     : "28 December 2021",
@@ -372,6 +379,13 @@
     } ,
   
     {
+      "title"    : "How to fix errors with missing subfolders on iOS and Android after doing a PST-import",
+      "url"      : "/How-to-fix-errors-with-missing-subfolders-on-iOS-and-Android-after-doing-a-PST-import/",
+      "date"     : "23 July 2021",
+      "image"    : "/images/work-station-straight-on-view.jpg"
+    } ,
+  
+    {
       "title"    : "Vladslo German Military Cemetery",
       "url"      : "/Vladslo-German-Military-Cemetery/",
       "date"     : "21 July 2021",
@@ -393,10 +407,31 @@
     } ,
   
     {
+      "title"    : "App-dated: TextSniper is aiming to put your images into words",
+      "url"      : "/App-dated-TextSniper-is-aiming-to-put-your-images-into-words/",
+      "date"     : "17 May 2021",
+      "image"    : "/images/1-IR-qa8i4EyG-F2zbEhJU-g.jpg"
+    } ,
+  
+    {
+      "title"    : "Bartender 4: The best thing for a sense of order is a clean menu bar on macOS!",
+      "url"      : "/Bartender4-The-best-thing-for-sense-of-order-is-a-clean-menu-bar-on-macOS/",
+      "date"     : "10 April 2021",
+      "image"    : "/images/1-1Ubw58GNIsjy2r1zDwSk4g.jpg"
+    } ,
+  
+    {
       "title"    : "How to bypass Apple’s limitations and address more than two external displays with M1-based Macs",
       "url"      : "/How-to-bypass-apple-s-limitations-and-address-more-than-two-external-displays-with-m1-based-macs/",
       "date"     : "28 February 2021",
       "image"    : "/images/1-p2eKxoiL9yfkNaG_rXiA0g.jpg"
+    } ,
+  
+    {
+      "title"    : "LuLu by Objective-See: Yet another powerful firewall for your Macr",
+      "url"      : "/LuLu-Yet-another-powerful-firewall-for-your-Mac/",
+      "date"     : "17 January 2021",
+      "image"    : "/images/1-o7t1PI0H-5sr640DjRoyyQ.jpg"
     } ,
   
     {
@@ -421,8 +456,22 @@
     } ,
   
     {
+      "title"    : "Little Snitch 5 makes the successful switch to macOS 11 Big Sur",
+      "url"      : "/Little-Snitch5-makes-the-successful-switch-to-macOS-11-Big-Sur/",
+      "date"     : "03 November 2020",
+      "image"    : "/images/1-rEHem8MB0McEncibAwCSOg.jpg"
+    } ,
+  
+    {
       "title"    : "Nextcloud Conference 2020",
       "url"      : "/Nextcloud-Conference-2020/",
+      "date"     : "04 October 2020",
+      "image"    : "/images/1-xShjkXGNiih-6u4DhJf9LQ.jpg"
+    } ,
+  
+    {
+      "title"    : "Nextcloud Conference 2020",
+      "url"      : "/Nextcloud-Conference-2020-(conflicted-copy-2023-09-24-112923)/",
       "date"     : "04 October 2020",
       "image"    : "/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg"
     } ,

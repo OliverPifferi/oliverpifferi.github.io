@@ -5,99 +5,80 @@ title: "Nextcloud Conference 2020"
 date: 2020-10-04
 categories: [IT]
 tags: [nextcloud, foss, software, cloud, privatecloud, europe, digitalsovereignty]     # TAG names should always be lowercase
-image: '/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg'
+image: '/images/1-xShjkXGNiih-6u4DhJf9LQ.jpg'
 ---
 
-## It has been a tremendous ride with Nextcloud for the last four years after the company appeared on the stage for the first time.
+## A good wine needs some time to age but what Nextcloud has already achieved over the last four years after appearing on the stage for the first time is quite flashing.
 
-Anyone who thought Nextcloud that kept a fast pace so far may have been surprised this weekend as the Conference 2020 brought up a lot of interesting news, showing that the top hasn’t been reached at all. Nextcloud is expanding from a file-sharing solution to a complete and even more versatile collaboration suite trying to reach all extents. The kind of convention was different this time as the shadows of COVID-19 still prevented gatherings like we know them in „good old times“, but thanks to Nextcloud Talk on the official Convention-site and a livestream on YouTube, the good word could be spread anyway.
+Now, just one day after celebrating its fourth birthday, Nextcloud, which is told to be the market leader in on-premises collaboration solutions in the meantime, releases its latest version of Nextcloud Hub: v19 is here and aiming to support all the users around the globe that are still bound to the home office due to COVID-19. The goal: Closing the circle with embedded solutions out-of-the-box, no matter if it needs file sharing, video conferencing, collaboration on documents or just the best private cloud you can get.
 
-## The debut of Nextcloud Hub 20 as an integration platform
+When [Nextcloud](https://nextcloud.com/) was first released in 2016, it was a fork of CEO Frank Karlitschek’s ownCloud-project. Today, the pace Nextcloud runs with has made Nextcloud Server / Hub to become indeed this kind of new industry standard it was intended to, even more focusing on the numerous new home offices. The need to work remotely has taken the nations by storm and although digitalization is still a word many organization consider to be of a foreign language, there are tools to handle this even with the focus on privacy. COVID-19 has even accelerated this trend already visible in many businesses so Nextcloud Hub 19 enters at the proper time.
 
-When founder and CEO Frank Karlitschek hit the stage with the first keynote at 10 am, it was already clear that version 20 of Nextcloud (Hub) was due to release. Frank didn’t disappoint the digital crowd here and with the immediate release of Nextcloud Hub 20, there were plenty of changes coming through the thirsting users. Starting with a modern and customizable dashboard pulling strings for the single users over an universal search, Nextcloud is now an official integration platform. Reaching out across own boundaries by embracing services like Gitlab, Jira, Moodle and even Slack and Microsoft Teams, Nextcloud Talk gets a broader base of users to talk to while the universal search supports not only the own instance but — partly — also the other service’s contents.
+So what’s new with Nextcloud Hub in this version which takes over from v18 that was released this January? There are many improvements — some may have a heavier impact on your work, some may not but it is more than obvious that Nextcloud is focusing the big picture to suit all demands with one collaboration suite:
 
-![](../images/1-GfaByblKyTswpuMf-1L9ew.jpg)
+The thing about security
+------------------------
 
-Nextcloud Hub 20 — Dashboard
+First of all, you should use more than just your (complex!) password. Nextcloud supports many authentication mechanisms by additional apps from the store: Until the release of this version I have used the 2FA- and WebAuthn-app for the second factor, supported by a either a 2FA-generator or a hardware security token like the Nitrokey FIDO2 I recently blogged about.
 
-> Nextcloud Hub 20 is a dramatic step for users, bringing the different platforms they use during the day into an integrated experience. This can reduce friction, improve reaction times, avoid context switching and ultimately bring greater productivity to our tens of millions of users across the globe — all the while protecting data security and digital sovereignty of private and enterprise users.
+Now, as everything of your digital life concentrates on one platform — one hub — the level of security can’t be high enough. Following the trend that passwords are rather old-fashioned, Nextcloud enables the WebAuthn-support straight from the scratch as the first authentication mechanism.
 
-(Frank Karlitschek, CEO and Founder of Nextcloud)
+![](../images/1-QpwGNVz8iHA7JtgeMSWT3w.jpg)
 
-As the pandemic has changed the way we work, live and communicate with each other, there is a need for solutions to handle all this. While many solutions were springing up like mushrooms during the beginning of COVID-19, the idea of data protection was often left behind, depending on how the single services were deployed. With the focus on becoming an integration platform furthermore, Nextcloud and especially Nextcloud Talk in the new version 10 open yet another door to tie different services together, building bridges between foreign worlds.
+WebAuthn is quite a new W3C global standard for secure authentication on the WWW supported by all leading browsers and platforms including Windows Hello and many hardware keys. It offers a choice of authentication options and stronger account security than the usual combination of username and passwords. Developed in collaboration with Open Source hardware security key manufacturer Nitrokey, the implementation in Nextcloud makes it the first on-premises collaboration platform to provide support for this new standard out-of-the-box.
 
-![](../images/1-JXDmVmg896UDt1y3wshAZw.jpg)
+> „Having employees in home office means a strong security standard is required to protect data. As most attacks target users as weakest link, the combination of easy to use hardware keys with WebAuthn provides employers with a huge security advantage for remote workers. Nextcloud’s impressive latest release works perfect with Nitrokey hardware, giving administrators a fully open, verifiable security stack they can trust.“
 
-## Nextcloud Talk hits version 10
+(Jan Suhr, Nitrokey)
 
-Talk 10 brings performance and call reliability improvements, introduces the well-known emoji picker and upload view, a new camera and microphone settings, certain mute abilities for moderators and even more. The Deck-app now introduces a modal view for card editing and Calendar integration, while the Calendar itself introduces a list view and design improvements. Also Nextcloud Mail got some overhauls with the new and extensive mailbox management features, threaded email views and other interface updates.
+In addition to the simplified authentication, additional new measures have been implemented to further secure the remote worker and his/her access to the platform. Nextcloud Hub 19 now adds the features of optional automatic logout, password reuse limitations, automatic account locking in response to failed login attempts and password expiration features. Many of those were quite standard so it is great to see these features have now made their way into Nextcloud Hub.
 
-![](../images/1-1xtBrhqKWs3i8MwaW8G6gQ.jpg)
+![](../images/1-Y9ybM2ciQ337SivY2oOc8Q.jpg)
 
-Nextcloud Flow is extended with push notifications and webhooks so other applications can more easily be integrated with Nextcloud work flows. In the Nextcloud backend, several performance and security improvements were integrated to enhance responsivity to user activity. Moreover, LDAP backends are now told to provide address books and a wide range of design, usability and accessibility improvements was made to Nextcloud.
+> „As a fully open source, European business, Nextcloud has always put the security and privacy of its customers first. Being first to market with support for WebAuthn and offering the most extensive compliance capabilities in the on-premises market enables businesses to introduce home office work using Nextcloud Hub with confidence.“ 
 
-![](../images/1-bvlrKFhcjOWnGyO5P9SRIA.jpg)
+(Roeland Douma, security lead at Nextcloud GmbH)
 
-Whoever needs the HPB (High-Performance-Backend) for using Talk with more than four to ten participants (usually with a larger number of 30–50) may now not only build his own solution on a powerful machine but also rent it directly from technological partner Struktur AG. Nextcloud and Struktur AG have announced a „HPB-as-a-service“ with a 30-day trial and integrated signup in Nextcloud Talk.
+Further collaboration, new kinds of coffee talks and focused work
+-----------------------------------------------------------------
 
-> There continues to be a great demand for secure video conferencing, and with an easy, integrated registration process in Nextcloud Talk, we are able to provide a privacy-compliant, unified communications platform that is 100% compliant with regional general data protection regulations.
+The world is separated an COVID-19 was one of the factors, shaping a new kind of living and working since the end of February when the pandemic began to spread throughout Europe. None of us will know if this is about to happen again, but the home office — or teleworking — is straight in the focus now. The way how we work with each other and how we get along with each other these times is different and will remain this way, so we need new and better tools. Gathering people by a platform, together with all their ideas and integrated collaboration-, chat- and videotalk-features is on the rise and so Nextcloud keeps doing what the company once started with and what now shows to be a valid and secure platform from the start.
 
-(Niels Mache, CEO Struktur AG)
+![](../images/1-cmXZBIvHnoYLHiQyzpmFQA.jpg)
 
-![](../images/1-I4ZrkCsnTw7nbapdRLcdaQ.jpg)
+While the high-performance backend for Nextcloud Talk has been open-sourced some days ago, it is the ideal base for talking with more than four people in a room. Designed for 10–50 participants, these technical base is yet another proof for the power of the community Nextcloud relies on: Together with technology partners like Struktur AG and Heinlein Support GmbH, the foundation is built to access one of the most-growing markets which have — unfortunately — been neglected over all the years: The public sector. Away from proprietary solutions controlling the market, Nextcloud’s mighty package could be a great opt-in for public authorities or especially schools. Partnered with the new grid view, meetings in Nextcloud 19 look slightly different than before and helps even more to keep the different participants at view.
 
-The integrated signup means that implementing the rented HPB just needs one click from with Nextcloud’s backend to get the local Talk-installation and the HPB-service merged. After the 30 days, users can join in for a subscription or just end the trial.
+„Together“ is more than just a term
+-----------------------------------
 
-![](../images/1-XjkqJes8qSTr8vn7o_isHg.jpg)
+The new Nextcloud Talk (grown to version 9 in the meantime) introduces the possibility of directly editing office documents like presentations and spreadsheets during video calls or from within a chat room. In addition, note taking during regular meetings or focused polishing of a slide deck a routine task is possible as well. To facilitate seamless in-call and in-chat document editing, the enterprise-ready office document solution from Nextcloud’s partner, Collabora Productivity, has been deeply integrated in Talk.
 
-## The Hub becomes a real hub
+Mentioning Collabora Online, let me tell you that this is the online office being shipped out of the box with Nextcloud Hub in version 19. Just like the implementation of ONLYOFFICE in Nextcloud Hub 18, a special community server has been developed which is told to dramatically ease the work required for installation, avoiding the need for web server configuration, docker containers and more. As you may already have guessed, this version however sacrifices scalability for this ease of installation and is not suitable beyond private use.
 
-„Integration“ is one of the keywords of this year’s Nextcloud Conference. While the term „hub“ was introduced with v19 as a collaboration platform, it becomes even more clear that this was just the beginning. Pairing with dominant solutions like Microsoft Office Online Server or Slack and other well-known services like Jira and Github, Nextcloud embraces other services even more in and on its home base.
+![](../images/1-PYzUNBOkQcV5rWp09iRIoA.jpg)
 
-![](../images/1--YXzUNOq37_pDY82eS53bg.jpg)
+Just like with ONLYOFFICE, Nextcloud recommends the existing Collabora Office solutions for that, with docker images for small offices and more scalable solutions available for enterprises through Nextcloud GmbH. By the way, I was quite astonished to see ONLYOFFICE being replaced by Collabora Online as integrated version shipping with Nextcloud as I still use and like this one a little bit more personally. So far, no further reason was given why this change has been made but afar from a new installation which may install everything by default, the users have — of course — still the choice which kind of online office they want for their installation — if they decide to use one at all.
 
-> Nextcloud has become the central communication and document exchange hub for many organizations. Integration with third party solutions deployed at our customers or their partners, suppliers and customers will further improve their productivity and facilitate collaboration within and across organizational boundaries.
+> „Most home office work centers around documents, spreadsheets and presentations. The integration of Collabora Online into Talk gives teams a breakthrough in collaboration and productivity.“
 
-(Frank Karlitschek, CEO and Founder of Nextcloud)
+(Michael Meeks, CEO at Collabora Productivity)
 
-![](../images/1-h8-KJGZNgj0rxqEh77FzDg.jpg)
+Speeding up everything
+----------------------
 
-## Building bridges instead of burning them
+When working remotely, communication and organization both become harder than in an office — many of us have experienced this during the last weeks and months. Nextcloud Hub features many little, helpful elements to keep data organized. Users can tag and comment on files and to let their colleagues know what they can find where, users can add context to folders, adding a description or even a todo list on top. Tagging files is — of course — a new way of working but once you got used to it, it indeed saves some time. In the Nextcloud Hub user interface, users can expect quick ways to find their files, with recently used, modified and shared files on top, people you frequently share with in the file share dialog and favorites, recently used and shared files in the side bar.
 
-There are many storage silos that Nextcloud could connect for quite some time now: Just take Dropbox, OneDrive or S3-storage for example. In today’s steady-growing storage world, the real task is not to get lost with your data over various service providers. Nextcloud enters the stage here once again, building on an open API entitled „Open Collaboration Services“, trying to deliver a better overall experience to the users. The aim here as well: Concentrating on one solution, one environment and one single interface without the feeling of spreading many information on even more platforms.
+Seeing these changes at a technical level, devices and network connections at home are frequently at a disadvantage compared to the office infrastructure, making performance a critical factor for home office workers. Under the hood, this release introduces a number of significant improvements like an up to 5x reading improvement for integrated external FTP storage, an up to 2.5x faster file scanning, 25–50% faster generation of image thumbnails and use of embedded thumbnail images in OpenDocument files and Krita files. Additionally an ability to use „fseek“ was added in S3-storage: This allows to, for example, start playing a video file without first downloading the entire file.
 
-![](../images/1-bvlrKFhcjOWnGyO5P9SRIA.jpg)
+![](../images/1-KP9zlWysCxkYwAfo4st29g.jpg)
 
-Literally and technically, bridges are built — one of them is between the Nextcloud Talk chat service with Microsoft Teams, Slack, Matrix, IRC, XMPP, Steam and many more. Second there is the unified search gathering result from connected services like Jira, Github, the learning platforms Moodle and HPI School Cloud, Discourse and Reddit or Mastodon and Twitter.
+For all us NFS-fans out there, NFS file-storage now reads data in larger chunks, improving bandwidth and performance significantly. On the other hand, SMB storage was enhanced with better ACL support, hiding folders that users have no access too, reducing both the browser load and the number of folders users might have to search through to find their files. Fancy Kanban boards, where team members write their tasks on cards and put them on “TODO”, “IN PROGRESS” and “DONE” stacks during their collaboration, are often used in teams to coordinate work.
 
-> The crisis has increased the need for online collaboration solutions and Nextcloud and Moodle are extremely popular in the educational space. An expansion of our integration as initially developed in 2017 is set to benefit millions of students and teachers.
+To help team members in home office, Nextcloud now also includes a digital kanban app named Deck which many of you will already know as a part of the App Store so far. With this release Nextcloud makes it possible for apps to provide a calendar or address book which then allows Deck to provide calendars with todo’s and deadlines from its boards, making it easier for all team members to keep track of their progress.
 
-(Martin Dougiamas, Founder/CEO at Moodle Pty Ltd.)
+The past, the present and the future
+------------------------------------
 
-## Back to School — in one way or the other
+It is just great to see how Nextcloud has evolved in the four years. I once used the predecessor but changed to Nextcloud with the initial release and did never regret this journey. Of course not every release is free of errors and I did also found two in my instance, but the great around Nextcloud is still — and always will — the power of the community. The solution is just four years old running under the blue label but it is great to see the ideas and thoughts, the consistency and the open-minded attitude towards the users. Technically, Nextcloud is an ideal and stable foundation for hosting your private cloud either at home or in the data centre of a trusted provider, not caring if you need it for your enterprise or for putting together a platform for your family and your secure, digital life while maintaining control over your data!
 
-Being a father of four and looking back to the beginning of the pandemic, the biggest task was surely the one to see how schools were (not) prepared for the lockdown. Four schools, more than four ways of dealing with homeschooling and one of those even with the basic thought of putting scanned paper to Google Drive: This time in general has shown that we have not a lot to learn in general as it comes to the field of digitalization but especially when we are putting the focus on the learning efforts of our children.
-
-![](../images/1-WaFpDE1KT5StvgTS-zL_PA.jpg)
-
-In 2017 already, the Nextcloud Education Edition debuted support for file handling integration in Moodle (which was used at the school of our eldest daughter). In collaboration with Moodle, Nextcloud has extended the integration with the solution, implementing a Moodle “mobile web service” authentication flow, integrated a Nextcloud Dashboard widget showing upcoming events and recently accessed courses from Moodle and developed a search integration that can search for courses and other content in Moodle.
-
-> Together, Moodle and Nextcloud offer educators a complete platform for remote learning and connecting to students. The new integration capabilities create a more integrated experience for users, bringing the two platforms closer together.
-
-(Frank Karlitschek, Founder and CEO at Nextcloud GmbH)
-
-![](../images/1-53PKIKEP9_5AA4D6rox7ew.jpg)
-
-The new integration capabilities are available from the Nextcloud app store for the recently released Nextcloud Hub 20 right now. Customers settled in an integrated learning management and content collaboration platform may directly contact Moodle Pty Ltd. or Nextcloud GmbH. A roadmap for further integration between Moodle and Nextcloud has been defined and upcoming Moodle and Nextcloud releases will deliver a further improved user experience so that schools may be prepared in the future for whatever may come.
-
-## The Verdict
-
-Nextcloud 20 has landed with some really heavy news. Although rumors already told of quite a big event, the first conference day was equal to a firework of features coming with version 20. While the solution itself just gets better release by release, the buzzword „integration“ must be put in capital letters here, Nextcloud is trying to embrace other worlds and services even more, trying to put them all into one (blue) hood.
-
-![](../images/1-naMRLycvlPaHHOd2eNZngw.jpg)
-
-There are boundaries between services — services that never were destined to work together. Nextcloud is reaching out for those, wanting to build bridges to deliver one final platform. No matter which services you use, your Nextcloud-environment could be the one specific entry point while the original idea behind it — the file-hosting- and collaboration-aspect — is fueling everything by the well-known, solid base. An interruption of learning and education could be a relict of the past once the people in charge manage to build one common platform for their tools.
-
-![](../images/1-Bbt6Om9L0XOLNIzjPSGoWg.gif)
-
-Nextcloud is trying (and seemingly solving) to be the key so it’s up to users, schools and administrators to use this key to unlock a door to a modern kind of collaboration in 2020 — surely one of the better aspects in this strange year!
+Nextcloud 19 just brightens this conclusion and shows that the aspiring start-up of 2016 is now one of the players that define the private cloud sector with a broad and stable solution. This is the story of the last four years so we all may be interested in Nextcloud’s way towards the next. I hope the people behind and around Frank Karlitschek as well as the wonderful community will keep this pace up as there are competitive solutions to the big players on the market — you just have to deal with them and Nextcloud is the ideal proof that you should do so!

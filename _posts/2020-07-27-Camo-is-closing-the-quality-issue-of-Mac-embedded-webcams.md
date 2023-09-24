@@ -3,7 +3,7 @@ layout: post
 author: oliver
 title: "Camo is closing the quality-issue of Mac-embedded webcams"
 date: 2020-07-27
-categories: [Sports]
+categories: [IT]
 tags: [apple, macos, ios, apps, software]     # TAG names should always be lowercase
 image: '/images/1-wtw2Ug4ea0iuJRpSu4MI2A@2x.jpg'
 ---
