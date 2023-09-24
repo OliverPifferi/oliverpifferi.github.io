@@ -246,6 +246,20 @@
     } ,
   
     {
+      "title"    : "EU tech sector files antitrust complaint against Microsoft",
+      "url"      : "/EU-tech-sector-files-antitrust-complaint-against-Microsoft/",
+      "date"     : "28 November 2021",
+      "image"    : "/images/Bildschirmfoto-2021-11-29-um-20.17.19.jpg"
+    } ,
+  
+    {
+      "title"    : "German „traffic light“-coalition promises to strengthen the Open Source-idea",
+      "url"      : "/German-traffic-light-coalition-promises-to-strengthen-the-Open-Source-idea/",
+      "date"     : "27 November 2021",
+      "image"    : "/images/photo-1618259278412-2819cbdea4dc.jpg"
+    } ,
+  
+    {
       "title"    : "How to migrate your Nextcloud database-backend from MySQL/MariaDB to PostgreSQL",
       "url"      : "/How-to-migrate-your-Nextcloud-database-backend-from-MySQL-MariaDB-to-PostgreSQL/",
       "date"     : "23 November 2021",
@@ -257,6 +271,13 @@
       "url"      : "/I-finally-escaped-Facebook-and-I-am-happy-with-that/",
       "date"     : "07 November 2021",
       "image"    : "/images/photo-1568378780196-a9a0444a9151.jpg"
+    } ,
+  
+    {
+      "title"    : "Nextcloud introduces authentication with passport supported by German government",
+      "url"      : "/Nextcloud-introduces-authentication-with-passport-supported-by-German-government/",
+      "date"     : "04 November 2021",
+      "image"    : "/images/1-5rS8IMulcKrSvgLwHSwHtA.jpg"
     } ,
   
     {
