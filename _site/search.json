@@ -435,6 +435,13 @@
     } ,
   
     {
+      "title"    : "How to freshen up your worn-out Sophos XG Firewall with pfSense or OPNsense",
+      "url"      : "/How-to-freshen-up-your-worn-out-Sophos-XG-Firewall-with-pfSense-or-OPNsense/",
+      "date"     : "06 September 2020",
+      "image"    : "/images/1-Zt2y0FrhPG4JAQA-FoSMaA.jpg"
+    } ,
+  
+    {
       "title"    : "How to easily implement Nextcloud’s End-to-End-Encryption",
       "url"      : "/How-to-easily-implement-Nextclouds-End-to-End-Encryption/",
       "date"     : "05 September 2020",
@@ -442,10 +449,31 @@
     } ,
   
     {
+      "title"    : "Microsoft 365 &amp; Synology: A good match for SOHO-based backups!",
+      "url"      : "/Microsoft-365-Synology-A-good-match-for-SOHO-based-backups/",
+      "date"     : "27 July 2020",
+      "image"    : "/images/1-fzfyMsntIcUfKr59lYqEag.jpg"
+    } ,
+  
+    {
+      "title"    : "Camo is closing the quality-issue of Mac-embedded webcams",
+      "url"      : "/Camo-is-closing-the-quality-issue-of-Mac-embedded-webcams/",
+      "date"     : "27 July 2020",
+      "image"    : "/images/1-wtw2Ug4ea0iuJRpSu4MI2A@2x.jpg"
+    } ,
+  
+    {
       "title"    : "Tyne Cot Cemetery",
       "url"      : "/Tyne-Cot-Cemetery/",
       "date"     : "14 July 2020",
       "image"    : "/images/1-pmHkrDZ80ptl7jgTiWj_Qg.jpg"
+    } ,
+  
+    {
+      "title"    : "GoPro launches Mac-app which finally lets you use the HERO8 as a simple webcam",
+      "url"      : "/GoPro-launches-Mac-app-which-finally-lets-you-use-the-HERO8-as-a-simple-webcam/",
+      "date"     : "10 July 2020",
+      "image"    : "/images/1-8LTNHbNt7MKljfD6M44Q3g.jpg"
     } ,
   
     {
