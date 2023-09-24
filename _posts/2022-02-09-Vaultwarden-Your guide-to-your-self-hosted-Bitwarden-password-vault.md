@@ -8,7 +8,7 @@ tags: [security, linux, docker, passwordmanager, bitwarden]     # TAG names shou
 image: '/images/Bitwarden_Intro.png'
 ---
 
-## Even a day after the #SaferInternetDay, managing the challenging riddle to choose a specific password manager is still a tricky task, especially if you also want to self-host your sensitive data.
+## Even a day after the SaferInternetDay, managing the challenging riddle to choose a specific password manager is still a tricky task, especially if you also want to self-host your sensitive data.
 
 Should this be the case and you want to be independent from a service provider for whatever reason, it - of course - depends upon your choice if self-hosting is an option or not. Users of [Bitwarden](https://bitwarden.com/), one of the well-known password managers for example, have the chance to use the [Open Source](https://bitwarden.com/help/install-on-premise-linux/)\-based tool in many ways. By standard, you can register at Bitwarden’s website and push your passwords to their service either for free or for $10 a year with more features. As an alternative, you may self-host this repository but the official way of doing so is quite a heavy-weight as the Docker-based installation is just supporting MSSQL as database backend for now.
 
