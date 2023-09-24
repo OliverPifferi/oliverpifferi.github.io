@@ -4,7 +4,7 @@ author: oliver
 title: "The long hard way to the perfect home office setup"
 date: 2021-02-26
 categories: [IT]
-tags: [software, privacy, tor, browser, internet]     # TAG names should always be lowercase
+tags: [it, hardware, office, ergonomy, tools, job, business]     # TAG names should always be lowercase
 image: '/images/photo-1497493292307-31c376b6e479.jpg'
 ---
 
