@@ -393,6 +393,13 @@
     } ,
   
     {
+      "title"    : "How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker",
+      "url"      : "/How-to-implement-ONLYOFFICE-in-Nextcloud-Hub-20/",
+      "date"     : "07 November 2020",
+      "image"    : "/images/1-4Wrbv0alh545GnbcBwSgDw.jpg"
+    } ,
+  
+    {
       "title"    : "Nextcloud Conference 2020",
       "url"      : "/Nextcloud-Conference-2020/",
       "date"     : "04 October 2020",
@@ -404,6 +411,13 @@
       "url"      : "/Why-Apple-One-hasnt-absolutely-convinced-me-yet/",
       "date"     : "27 September 2020",
       "image"    : "/images/1-rw4-OCdaxbzRzi6QAUtDCA.jpg"
+    } ,
+  
+    {
+      "title"    : "How to easily implement Nextcloud’s End-to-End-Encryption",
+      "url"      : "/How-to-easily-implement-Nextclouds-End-to-End-Encryption/",
+      "date"     : "05 September 2020",
+      "image"    : "/images/1-OhbeUlCd68cu5rgmHXp-Ug.jpg"
     } ,
   
     {

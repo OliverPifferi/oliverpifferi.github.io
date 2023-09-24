@@ -4,7 +4,7 @@ author: oliver
 title: "How to enable server-side encryption in Nextcloud"
 date: 2020-05-03
 categories: [IT]
-tags: [nextcloud, foss, software, cloud, privatecloud, europe, digitalsovereignty]     # TAG names should always be lowercase
+tags: [nextcloud, foss, software, cloud, privatecloud, europe, digitalsovereignty, e2ee]     # TAG names should always be lowercase
 image: '/images/Nextcloud_Hub.jpg'
 ---
 

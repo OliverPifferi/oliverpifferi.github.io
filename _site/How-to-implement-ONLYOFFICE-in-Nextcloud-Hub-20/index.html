@@ -6,22 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Forhekset</title>
+  <title>How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/page/13/">
+  <link rel="canonical" href="http://localhost:4000/How-to-implement-ONLYOFFICE-in-Nextcloud-Hub-20/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content=" – Forhekset">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/01.jpg">
+  <meta name="twitter:title" content="How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker – Forhekset">
+  <meta name="twitter:description" content="The choice of a proper Office-suite is a difficult one and needs to fit to the personal needs which are, as we know, often different. While Microsoft Office is surely THE standard for many, there are good alternatives around and especially when you are working with Nextcloud, two Office-solutions may be the ideal fit for you.
+">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/1-4Wrbv0alh545GnbcBwSgDw.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content=" – Forhekset">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="http://localhost:4000/images/01.jpg">
+  <meta property="og:title" content="How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker – Forhekset">
+  <meta property="og:description" content="The choice of a proper Office-suite is a difficult one and needs to fit to the personal needs which are, as we know, often different. While Microsoft Office is surely THE standard for many, there are good alternatives around and especially when you are working with Nextcloud, two Office-solutions may be the ideal fit for you.
+">
+  <meta property="og:image" content="http://localhost:4000/images/1-4Wrbv0alh545GnbcBwSgDw.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -174,30 +176,53 @@
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
-
           <div class="hero__left">
+
             
-            <h1 class="hero__title">Hi, I'm <span>Oliver</span>.</h1>
+            <div class="post-tags">
+              
+              <a href="/tags/?tag=nextcloud" class="post-tag">nextcloud</a>
+              
+              <a href="/tags/?tag=foss" class="post-tag">foss</a>
+              
+              <a href="/tags/?tag=software" class="post-tag">software</a>
+              
+              <a href="/tags/?tag=cloud" class="post-tag">cloud</a>
+              
+              <a href="/tags/?tag=privatecloud" class="post-tag">privatecloud</a>
+              
+              <a href="/tags/?tag=docker" class="post-tag">docker</a>
+              
+              <a href="/tags/?tag=onlyoffice" class="post-tag">onlyoffice</a>
+              
+            </div>
             
+
+            <h1 class="hero__title">How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker</h1>
+
             
-            <h2 class="hero__job">IT-Guy, restless spirit</h2>
-            
-            
-            <p class="hero__description">I am also a Dad and a Cloud-Addict with a strong focus on Security and Free Software. I prefer  at Home and Linux all around. Thus spoken, I am a convinced -Fanboy, and, besides, love Metal of all kind, Travelling, Photographing, Reading and Blogging.</p>
-            
-            
-            <a class="hero__button" href="/about/">
-              <span class="hero__button__arrow"><i class="ion ion-ios-arrow-forward"></i></span>
-              <span>More info on me and my profiles in the Web</span>
-            </a>
-            
+
+            <div class="post-meta">
+              <a href="/about/" class="post-author-image">
+                <img class="lazy" data-src="/images/avatar.jpg" alt="Oliver Pifferi">
+              </a>
+
+              <div class="post-meta__bottom">
+                <a class="post-author" href="/about/">Oliver Pifferi</a>
+                <time class="post-date" datetime="2020-11-07T00:00:00+01:00">7 November, 2020</time>
+              </div>
+            </div>
           </div>
 
           
           <div class="hero__right">
+            
+            
             <div class="hero__image">
-              <img class="lazy" data-src="/images/avatar.jpg" alt="'s Picture">
+              <img class="hero__image__primary lazy" data-src="/images/1-4Wrbv0alh545GnbcBwSgDw.jpg" alt="How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker">
             </div>
+            
+            
           </div>
           
 
@@ -208,365 +233,448 @@
 </section>
 <!-- end hero -->
 
-
-
+<!-- begin post -->
 <div class="container animate">
+  <article class="post">
+
+    <div class="post__content">
+      <h2 id="the-choice-of-a-proper-office-suite-is-a-difficult-one-and-needs-to-fit-to-the-personal-needs-which-are-as-we-know-often-different-while-microsoft-office-is-surely-the-standard-for-many-there-are-good-alternatives-around-and-especially-when-you-are-working-with-nextcloud-two-office-solutions-may-be-the-ideal-fit-foryou">The choice of a proper Office-suite is a difficult one and needs to fit to the personal needs which are, as we know, often different. While Microsoft Office is surely THE standard for many, there are good alternatives around and especially when you are working with Nextcloud, two Office-solutions may be the ideal fit for you.</h2>
+
+<p>First of all: Everything depends on your needs and — also — on your personal taste. If you don’t like the Microsoft-way or don’t want to pay for a subscription, Nextcloud fortunately offers two famous Office-distributions: First, Collabora Online with its Libre Office-background, strictly tied as the „out-of-the-box“-Office from Nextcloud 19 on. My preferred alternative is ONLYOFFICE which made it to a Nextcloud-standard installation in Nextcloud 18 — both have their pros and cons but personally I managed to get better along with ONLYOFFICE.</p>
+
+<p>Anyway, while you may activate the desired solution and its integrated Document Server in the „Apps“-section of Nextcloud, my preferred choice always was to use a Docker-ized version of the desired Office-suite so let me show you how you may integrate ONLYOFFICE founding in a Docker-image in the late Nextcloud Hub 20.0.1!</p>
+
+<p><img src="../images/1-l4DUDQRWWiCjaC86UX1_eQ.jpg" alt="" /></p>
+
+<h2 id="lets-go">Let’s go!</h2>
+
+<p>The prerequisites met so far are an updated and therefore actual Ubuntu 20.04/Debian 10-Linux system with an installed Apache Webserver. In my case, Debian is the preferred distribution and Apache already serves my Nextcloud-environment. Certbot for fetching the Let’s Encrypt-certificates is installed as well so we are ready to go. First of all, the Docker-environment needs to be downloaded to build the base of the ONLYOFFICE-Document Server in its Docker-ized state. The following commands should do this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+</code></pre></div></div>
+
+<p>The first command installs the Docker-environment while the second starts it and — you may have guessed it — the third enables it to start at boot time. Just in case Certbot is not yet installed, also fetch it by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install python-certbot-apache
+</code></pre></div></div>
+
+<p>and you may head to the configuration of the webserver which will also play the role of a reverse-proxy serving the contents of you Docker-container.</p>
+
+<h2 id="the-reverseproxy">The Reverse Proxy</h2>
+
+<p>Create a new virtual host configuration, for example by typing (I prefer to use vi though!)</p>
+
+<p>sudo vi /etc/apache2/sites-available/001-office.domain.tld.conf</p>
+
+<p>where „office.domain.tld“ needs — of course — to be replaced with the desired hostname for your environment. In my example, my Nextcloud and my ONLYOFFICE-instance are on the same machine so you will need an additional A-entry in your domain’s DNS-settings pointing to the IP of your Nextcloud. The file itself should be empty and you may fill in the following, basic content:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
+ServerName office.domain.tld
+&lt;/VirtualHost&gt;
+</code></pre></div></div>
+
+<p>Save the file and activate the new site in your webserver’s environment as well as the modules needed to get ONLYOFFICE working:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo a2ensite 001-office.domain.tld.conf
+sudo a2enmod proxy proxy_http
+sudo systemctl restart apache2
+</code></pre></div></div>
+
+<p>SSL-Security</p>
+
+<p>As the new host is now known to Apache, we need to fetch our Let’s Encrypt-certificate to make the SSL-encryption working for our container. Let Certbot do its work by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo certbot --apache
+</code></pre></div></div>
+
+<p>and head through the process. Usually, you may just choose to redirect all http-requests to the https-site for the desired (sub-) domain. Afterwards, Certbot should tell you about the successful fetching of the certificate so let’s have a look on the newly-generated Apache-SSL-site:</p>
+
+<p>sudo vi /etc/apache2/sites-available/001-office.domain.tld-le-ssl.conf</p>
+
+<p>enters the configuration file where you now need to change the file according to the following sample:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;IfModule mod_ssl.c&gt;
+&lt;VirtualHost *:443&gt;
+ServerName office.domain.tld
+
+SSLProxyEngine on
+SSLProtocol             all +TLSv1.3 -TLSv1 -TLSv1.1 -SSLv2 -SSLv3
+SSLCipherSuite          ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES256-SHA:ECDHE-ECDSA-DES-CBC3-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:DES-CBC3-SHA:!DSS
+SSLHonorCipherOrder     on
+SSLCompression          off
+SSLCipherSuite HIGH:!aNULL:!MD5:!3DES
+
+SetEnvIf Host "^(.*)$" THE_HOST=$1
+RequestHeader setifempty X-Forwarded-Proto https
+RequestHeader setifempty X-Forwarded-Host %{THE_HOST}e
+ProxyAddHeaders Off
+
+ProxyPassMatch (.*)(\/websocket)$ "ws://127.0.0.1:9981/$1$2"
+ProxyPass / "http://127.0.0.1:9981/"
+ProxyPassReverse / "http://127.0.0.1:9981/"
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateFile /etc/letsencrypt/live/office.domain.tld/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/office.domain.tld/privkey.pem
+&lt;/VirtualHost&gt;
+&lt;/IfModule&gt;
+</code></pre></div></div>
+
+<p>Here, the handling of the reverse proxy is being defined so that the port 9981 the Docker-container runs at will be directed to our new SSL-enabled website. Save the file and restart Apache once again by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl restart apache2
+</code></pre></div></div>
+
+<p>Now the ONLYOFFICE-container must be fetched and started. To further secure the connection between this container and our Nextcloud-instance, we need a secret key which needs to be entered in our Nextcloud-options a little bit later. You may generate this secret, for example, by typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl rand -hex 32
+</code></pre></div></div>
+
+<p>and writing down the output which will serve as your secret key. Now Docker needs to fetch the container and all contents — with one command, we accomplish this, deliver all information to Docker and force the container to always restart even after your system has been rebooted. The newly-generated secret key is in the focus here as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -i -t -d -p 127.0.0.1:9981:80 -e JWT_ENABLED='true' -e JWT_SECRET='your-freshly-generated-secret-key' --restart=always onlyoffice/documentserver
+</code></pre></div></div>
+
+<p><img src="../images/1-E72O6EP881m2MJVHovhvKA.jpg" alt="" /></p>
+
+<p>All data is now being fetched and the container is created from the scratch. After the process is done, typing</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker ps
+</code></pre></div></div>
+
+<p><img src="../images/1-IT9RNy8L8Y5CXkrY1h_Omw.jpg" alt="" /></p>
+
+<p>does the trick of checking wether your freshly-pulled container is up or not!</p>
+
+<h2 id="up-up-andaway">Up, up and away!</h2>
+
+<p>As the container will be up and running unless you encountered any error message while fetching it, you use your browser to browse to the new site now, an ONLYOFFICE-message should appear and you have just finished the first part of the trip in the shell. Now let’s head to your Nextcloud and log in as an user with administrative rights as we need to fetch the desired ONLYOFFICE-app.</p>
+
+<p><img src="../images/1-VXw166ulog1uea2JjiteVg.jpg" alt="" /></p>
+
+<h2 id="a-little-work-isleft">A little work is left…</h2>
+
+<p>Go the „App“-section of your Nextcloud, download and active the ONLYOFFICE and visit your Nextcloud’s setting afterwards where an ONLYOFFICE-pane should appear in the menu on the left.</p>
+
+<p><img src="../images/1-XVhoBI-E7mg7cf3l3OZOMQ.jpg" alt="" /></p>
+
+<p>Now enter your full ONLYOFFICE-hostname without any additions (just the https-URL) in the „Document Editing Service address“-field and enter the secret key just one scope below. Once you save these entries, a message should appear at the upper right corner of the screen, showing the success or an error if something went wrong. As long as URL and secret key fit, everything should be fine and you may deal with the optional settings</p>
+
+<p>Among them is — for example — the possibility of restricting access to ONLYOFFICE on specific groups of users, setting ONLYOFFICE as the standard application for various file types and some visual tweaks like wether you want to display a chat button, a help menu or change your header to a more compact style. You may also activate the „Watermark“-mode so that restrictive documents are — yes — watermarked in a certain way.</p>
+
+<p><img src="../images/1-9PkeFCUrjQWSGkrYYHwoOw.jpg" alt="" /></p>
+
+<p>A final click on „Save“ now finishes the whole setup and ONLYOFFICE is fully integrated into your Nextcloud Hub 20! You may now open the file types associated with ONLYOFFICE before or click on the „Plus“ in the file browser to create a new spreadsheet, keynote or text-document. Everything fits perfectly into the existing Nextcloud-solution and is yet another way of implementing an office in your virtual workplace.</p>
+
+<p><img src="../images/1-efQc6Gyr2SQlFzsId8QvMQ.jpg" alt="" /></p>
+
+<h2 id="enjoy">Enjoy!</h2>
+
+<p>We finally managed to purify an existing Nextcloud-installation with a performant and independent online Office-solution which can handle Microsoft- as well as Open Document-files!</p>
+
+<p><img src="../images/1-tJDLyaGX3JpZnKhAp4Awcg.jpg" alt="" /></p>
+
+<p>If you have enjoyed this tutorial and considered it at least a little bit useful for your private or business needs, please drop me a comment! Just in case you need a good Copy n’ Paste-version of the Apache configuration-files and the Docker-command to start everything up, please have a look at the specific <a href="https://github.com/OliverPifferi/samples/tree/main/ONLYOFFICE">GitHub-page</a> where I have deployed these files:</p>
+
+<p><a href="https://github.com/OliverPifferi/samples/tree/main/ONLYOFFICE">https://github.com/OliverPifferi/samples/tree/main/ONLYOFFICE</a></p>
+
+    </div>
+
+    <div class="post__share">
+  <ul class="share__list list-reset">
+    <li class="share__item">
+      <a class="share__link share__linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/How-to-implement-ONLYOFFICE-in-Nextcloud-Hub-20/&title=How%20to%20implement%20ONLYOFFICE%20in%20Nextcloud%20Hub%2020%20using%20Docker&summary=&source="
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+    </li>
+  </ul>
+</div>
+    <div class="post__navigation">
   
-  <div class="row">
+  <a class="post__prev" href="/Nextcloud-Conference-2020/">
+    <div class="prev__image">
+      
+      <img class="lazy" data-src="/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg" alt="How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker">
+    </div>
+    <div class="prev__box">
+      <span class="post__nav post__nav__prev">Older post</span>
+      <h2 class="post__nav__title">Nextcloud Conference 2020</h2>
+    </div>
+  </a>
+  
+
+  
+  <a class="post__next" href="/Microsoft-365-apps-for-Mac-gain-native-M1-support/">
+    <div class="next__box">
+      <span class="post__nav post__nav__next">Newer post</span>
+      <h2 class="post__nav__title">Microsoft 365-apps for Mac gain native M1-support</h2>
+    </div>
+    <div class="next__image">
+      
+      <img class="lazy" data-src="/images/1-yYnQ87ccF034G8i3mdf4jw.jpg" alt="How to implement ONLYOFFICE in Nextcloud Hub 20 using Docker">
+    </div>
+  </a>
+  
+</div>
     
-      
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
-
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/Hooge-Crater-Cemetery/">
-        <img class="lazy" data-src="/images/1-fmmo2GxyqGNf4CwiDveizg.jpg" alt="Hooge Crater Cemetery">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2020-05-12T00:00:00+02:00">12 May, 2020</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/Hooge-Crater-Cemetery/">Hooge Crater Cemetery</a>
-      </h2>
-
-      <p class="article__excerpt">There are better ideas than making a tour to some sites located outside with four children in the car. Fortunately, our Mercedes had good air condi...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=flanders" class="article__tag">flanders</a>
-        
-        <a href="/tags/?tag=belgium" class="article__tag">belgium</a>
-        
-        <a href="/tags/?tag=thegreatwar" class="article__tag">thegreatwar</a>
-        
-        <a href="/tags/?tag=ww1" class="article__tag">ww1</a>
-        
-        <a href="/tags/?tag=history" class="article__tag">history</a>
-        
-        <a href="/tags/?tag=traveling" class="article__tag">traveling</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
+      <!-- begin comments -->
+<div class="show-comments">
+  <button class="button button--rounded disqus-button" id="show-comments-button" onclick="disqus();return false;">Show Comments</button>
 </div>
-      
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
 
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/Perth-Commonwealth-War-Graves-Commission-Cemetery/">
-        <img class="lazy" data-src="/images/1-b0HV9SWuU0YNUckGqgdYJg.jpg" alt="Perth Commonwealth War Graves Commission Cemetery">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2020-05-11T00:00:00+02:00">11 May, 2020</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/Perth-Commonwealth-War-Graves-Commission-Cemetery/">Perth Commonwealth War Graves Commission Cemetery</a>
-      </h2>
-
-      <p class="article__excerpt">The first part of my trip in pursue of WW1-heritage sites lead me to Ypres (French version) or Ieper in local tongue in West-Flanders.
-
-Besides its...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=flanders" class="article__tag">flanders</a>
-        
-        <a href="/tags/?tag=belgium" class="article__tag">belgium</a>
-        
-        <a href="/tags/?tag=thegreatwar" class="article__tag">thegreatwar</a>
-        
-        <a href="/tags/?tag=ww1" class="article__tag">ww1</a>
-        
-        <a href="/tags/?tag=history" class="article__tag">history</a>
-        
-        <a href="/tags/?tag=traveling" class="article__tag">traveling</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
+<div id="disqus_thread" class="post__comments">
+  <div id="disqus_empty"></div>
 </div>
-      
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
 
-    <div class="article__head">
-      
+<script>
+  var disqus_loaded = false;
+  var disqus_shortname = 'anvod-studio-test';
+  var disqus_container = document.getElementById("disqus_thread");
+  function disqus() {
+    if (!disqus_loaded) {
+      disqus_loaded = true;
+      var e = document.createElement("script");
+      e.type = "text/javascript";
+      e.async = true;
+      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0])
+        .appendChild(e);
+      // Hide the button after opening
+      document.getElementById("show-comments-button").style.display = "none";
+      // Show disqus comments
+      disqus_container.classList.add("is-open");
+    }
+  }
+</script>
 
-      
-      <a class="article__image" href="/In-Flanders-Fields/">
-        <img class="lazy" data-src="/images/1-FxrnZyfpcWYF0U4Xn9MBCw.jpg" alt="In Flanders Fields">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2020-05-11T00:00:00+02:00">11 May, 2020</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/In-Flanders-Fields/">In Flanders Fields</a>
-      </h2>
-
-      <p class="article__excerpt">As I ventured to West-Flanders in Belgium this year - just as we did in the last years - I hadn’t anything specific in mind regarding any historica...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=flanders" class="article__tag">flanders</a>
-        
-        <a href="/tags/?tag=belgium" class="article__tag">belgium</a>
-        
-        <a href="/tags/?tag=thegreatwar" class="article__tag">thegreatwar</a>
-        
-        <a href="/tags/?tag=ww1" class="article__tag">ww1</a>
-        
-        <a href="/tags/?tag=history" class="article__tag">history</a>
-        
-        <a href="/tags/?tag=traveling" class="article__tag">traveling</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-      
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
-
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/How-to-enable-server-side-encryption-in-Nextcloud/">
-        <img class="lazy" data-src="/images/Nextcloud_Hub.jpg" alt="How to enable server-side encryption in Nextcloud">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2020-05-03T00:00:00+02:00">3 May, 2020</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/How-to-enable-server-side-encryption-in-Nextcloud/">How to enable server-side encryption in Nextcloud</a>
-      </h2>
-
-      <p class="article__excerpt">When it comes to your private-hosted cloud, Nextcloud is surely one of the solutions to get this task accomplished.
-
-Hosting your data in a local d...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=nextcloud" class="article__tag">nextcloud</a>
-        
-        <a href="/tags/?tag=foss" class="article__tag">foss</a>
-        
-        <a href="/tags/?tag=software" class="article__tag">software</a>
-        
-        <a href="/tags/?tag=cloud" class="article__tag">cloud</a>
-        
-        <a href="/tags/?tag=privatecloud" class="article__tag">privatecloud</a>
-        
-        <a href="/tags/?tag=europe" class="article__tag">europe</a>
-        
-        <a href="/tags/?tag=digitalsovereignty" class="article__tag">digitalsovereignty</a>
-        
-        <a href="/tags/?tag=e2ee" class="article__tag">e2ee</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-      
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
-
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/Getting-rid-of-OneDrive-synchronization-issues-on-macOS/">
-        <img class="lazy" data-src="/images/1-uPFivVC0whsi0EUR61NsxA.jpg" alt="Getting rid of OneDrive synchronization-issues on macOS">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2020-04-06T00:00:00+02:00">6 April, 2020</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/Getting-rid-of-OneDrive-synchronization-issues-on-macOS/">Getting rid of OneDrive synchronization-issues on macOS</a>
-      </h2>
-
-      <p class="article__excerpt">Microsoft’s OneDrive-client for macOS has matured over time and although it’s quite stable at the moment (even if still missing native Apple Silico...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=apple" class="article__tag">apple</a>
-        
-        <a href="/tags/?tag=onedrive" class="article__tag">onedrive</a>
-        
-        <a href="/tags/?tag=software" class="article__tag">software</a>
-        
-        <a href="/tags/?tag=microsoft" class="article__tag">microsoft</a>
-        
-        <a href="/tags/?tag=m365" class="article__tag">m365</a>
-        
-        <a href="/tags/?tag=microsoft365" class="article__tag">microsoft365</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-      
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<!-- end comments -->
     
-  </div>
+
+  </article>
 </div>
+<!-- end post -->
 
 
-<!-- begin pagination -->
-<nav class="pagination animate" aria-label="Page navigation">
-  <div class="container">
-    <div class="pagination__inner">
-
-      <div class="pagination__list">
-        
-        <a href="/page/12" class="pagination__prev" rel="prev"><i class="ion ion-ios-arrow-back"></i> Prev</a>
-        
-  
-        <div class="pagination__count">Page 13 of 13</div>
-  
-        
-        <span class="pagination__next disabled">Next <i class="ion ion-ios-arrow-forward"></i></span>
-        
-      </div>
-
-    </div>
-  </div>
-</nav>
-<!-- end pagination -->
 
 
-<!-- begin section-tags -->
-<section class="section section-tags animate">
-  <div class="container">
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
     <div class="row">
       <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h3 class="section__title">You may also like</h3>
+            </div>
+          </div>
+          <div class="row">
 
-        <div class="section__head">
-          <h3 class="section__title">Popular Topics</h3>
-        </div>
+          
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
 
-        
-        
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-install-PHP-82-on-Debian-11/">
+                    <img class="lazy" data-src="/images/debian_with_php.jpg" alt="How to install PHP 8.2 on Debian 11">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-12-28T00:00:00+01:00">28 Dec, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-install-PHP-82-on-Debian-11/">How to install PHP 8.2 on Debian 11</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
 
-        <div class="row">
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=2fa" class="tag-image">
-              <span class="tag-name">2fa</span>
-              <img class="lazy"  data-src="/images/1-r2Q3tb1kSN-MMErAjXKDbQ.jpg" alt="post.title" >
-            </a>
+                
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">
+                    <img class="lazy" data-src="/images/Snowflake_Schmematic.png" alt="How to implement Snowflake with Docker on a Synology-NAS">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-11-21T00:00:00+01:00">21 Nov, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-implement-Snowflake-with-Docker-on-a-Synology-NAS/">How to implement Snowflake with Docker on a Synology-NAS</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+                
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">
+                    <img class="lazy" data-src="/images/Veeam_Wasabi.jpg" alt="How to backup Microsoft 365 with Veeam and Wasabi">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-09-05T00:00:00+02:00">5 Sep, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/">How to backup Microsoft 365 with Veeam and Wasabi</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+                
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+            <div class="article col col-3 col-d-6 col-m-12">
+              <div class="article__inner">
+                <div class="article__head">
+                  
+                  
+                  <a class="article__image" href="/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/">
+                    <img class="lazy" data-src="/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg" alt="How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup">
+                  </a>
+                  
+                </div>
+                <div class="article__content">
+                  <div class="article__meta">
+                    <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+                    <time class="article__date" datetime="2022-09-05T00:00:00+02:00">5 Sep, 2022</time>
+                  </div>
+                  <h2 class="article__title">
+                    <a href="/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/">How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup</a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+                
+                
+                  
           </div>
-          
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=amorphis" class="tag-image">
-              <span class="tag-name">amorphis</span>
-              <img class="lazy"  data-src="/images/silver_lake_esa.jpg" alt="post.title" >
-            </a>
-          </div>
-          
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=apple" class="tag-image">
-              <span class="tag-name">apple</span>
-              <img class="lazy"  data-src="/images/dark-noise-icon-v2-primary.jpg" alt="post.title" >
-            </a>
-          </div>
-          
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=applesilicon" class="tag-image">
-              <span class="tag-name">applesilicon</span>
-              <img class="lazy"  data-src="/images/Teams_Mac_M1.jpg" alt="post.title" >
-            </a>
-          </div>
-          
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=apps" class="tag-image">
-              <span class="tag-name">apps</span>
-              <img class="lazy"  data-src="/images/dark-noise-icon-v2-primary.jpg" alt="post.title" >
-            </a>
-          </div>
-          
-          
-          
-          <div class="col col-2 col-d-6 col-m-12">
-            <a href="/tags/?tag=backup" class="tag-image">
-              <span class="tag-name">backup</span>
-              <img class="lazy"  data-src="/images/Veeam_Wasabi.jpg" alt="post.title" >
-            </a>
-          </div>
-          
-          
-          
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end section-tags -->
+  </section>
+</div>
+<!-- end related posts -->
     </main>
     <!-- end content -->
 

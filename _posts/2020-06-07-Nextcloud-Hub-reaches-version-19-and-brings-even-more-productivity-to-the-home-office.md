@@ -4,7 +4,7 @@ author: oliver
 title: "Nextcloud Hub reaches version 19 and brings even more productivity to the home office"
 date: 2020-06-07
 categories: [IT]
-tags: [nextcloud, foss, software, cloud, privatecloud, europe, digitalsovereignty]     # TAG names should always be lowercase
+tags: [nextcloud, foss, software, cloud, privatecloud, docker, onlyoffice]     # TAG names should always be lowercase
 image: '/images/1-xShjkXGNiih-6u4DhJf9LQ.jpg'
 ---
 
