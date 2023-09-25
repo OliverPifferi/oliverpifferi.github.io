@@ -339,42 +339,6 @@
   
 </div>
     
-      <!-- begin comments -->
-<div class="show-comments">
-  <button class="button button--rounded disqus-button" id="show-comments-button" onclick="disqus();return false;">Show Comments</button>
-</div>
-
-<div id="disqus_thread" class="post__comments">
-  <div id="disqus_empty"></div>
-</div>
-
-<script>
-  var disqus_loaded = false;
-  var disqus_shortname = 'anvod-studio-test';
-  var disqus_container = document.getElementById("disqus_thread");
-  function disqus() {
-    if (!disqus_loaded) {
-      disqus_loaded = true;
-      var e = document.createElement("script");
-      e.type = "text/javascript";
-      e.async = true;
-      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-      (document.getElementsByTagName("head")[0] ||
-        document.getElementsByTagName("body")[0])
-        .appendChild(e);
-      // Hide the button after opening
-      document.getElementById("show-comments-button").style.display = "none";
-      // Show disqus comments
-      disqus_container.classList.add("is-open");
-    }
-  }
-</script>
-
-<noscript>Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
-<!-- end comments -->
-    
 
   </article>
 </div>
@@ -658,26 +622,6 @@
 </div>
 
               
-<div class="col col-4 col-d-6 col-t-12">
-  <div class="widget widget-subscribe">
-    <div class="widget__head">
-      <h3 class="widget__title">Subscribe to new posts</h3>
-    </div>
-    <div class="subscribe__inner">
-      <div class="subscribe__group">
-        <div class="subscribe__description">Subscribe to our newsletter and we’ll send you the emails of latest posts.</div>
-      </div>
-      <form class="subscribe-form validate"
-        action="//frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-        <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-        <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-          placeholder="Your email address">
-        <button class="button button--rounded subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
-      </form>
-    </div>
-  </div>
-</div>
-
             </div>
           </div>
         </div>
