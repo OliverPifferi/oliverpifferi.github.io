@@ -66,7 +66,7 @@ links__item:
     link: "https://books.pifferi.info/user/oliver"
 
   - title: GitHub
-    description: I am not a developer, but tend to host some snippets and even this page here on GitHub.
+    description: I am not a developer, but tend to host some snippets and even this page here on GitHub!
     image_url: "/images/praveen-thirumurugan-KPAQpJYzH0Y-unsplash.jpg"
     image_alt: GitHub
     link: "https://github.com/oliverpifferi"
@@ -84,13 +84,13 @@ links__item:
     link: "https://midgardmates.com/@oliver"
     
   - title: Matrix
-    description: One of the safest and most modern messenger out there, also supporting E2EE between chat participants
+    description: One of the safest and most modern messenger out there, also supporting E2EE between chat participants!
     image_url: "/images/matrix-synapse.jpg"
     image_alt: Matrix
     link: "https://matrix.to/#/@oliver.pifferi:matrix.org"
     
   - title: Pixelfed
-    description: The third of my ActivityPub-based and Fediverse-powered services, delivering a great and free showcase for photos
+    description: The third of my ActivityPub-based and Fediverse-powered services, delivering a great and free showcase for photos!
     image_url: "/images/pixelfed.jpg"
     image_alt: Pixelfed
     link: "https://nordicshutter.com/oliver"
@@ -136,7 +136,7 @@ gallery:
 #-------------------------------
 # Newsletter
 mailchimp:
-  enable: true
+  enable: false
   mailchimp__title: Subscribe to new posts # Add your Title
   mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
   mailchimp__identifier: "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
@@ -167,9 +167,9 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+# disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+# google-analytics: # Add your GA Tracking Id
