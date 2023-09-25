@@ -15,6 +15,13 @@
     } ,
   
     {
+      "title"    : "How to upgrade Debian 11 Bullseye to Debian 12 Bookworm",
+      "url"      : "/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/",
+      "date"     : "11 June 2023",
+      "image"    : "/images/debian12.jpg"
+    } ,
+  
+    {
       "title"    : "The best way to predict your future is to create it",
       "url"      : "/The-best-way-to-predict-your-future-is-to-create-it/",
       "date"     : "15 April 2023",
@@ -78,13 +85,6 @@
     } ,
   
     {
-      "title"    : "How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup",
-      "url"      : "/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/",
-      "date"     : "05 September 2022",
-      "image"    : "/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg"
-    } ,
-  
-    {
       "title"    : "Nextcloud and European Governments aiming at building a Digital Sovereign Office",
       "url"      : "/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/",
       "date"     : "25 August 2022",
@@ -145,6 +145,13 @@
       "url"      : "/Apple-is-approaching-the-problem-with-nagging-captchas-in-ios-16/",
       "date"     : "23 June 2022",
       "image"    : "/images/iOS16_Preview-1140x640.jpg"
+    } ,
+  
+    {
+      "title"    : "How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup",
+      "url"      : "/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/",
+      "date"     : "22 May 2022",
+      "image"    : "/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg"
     } ,
   
     {
@@ -493,13 +500,6 @@
     {
       "title"    : "Nextcloud Conference 2020",
       "url"      : "/Nextcloud-Conference-2020/",
-      "date"     : "04 October 2020",
-      "image"    : "/images/1-xShjkXGNiih-6u4DhJf9LQ.jpg"
-    } ,
-  
-    {
-      "title"    : "Nextcloud Conference 2020",
-      "url"      : "/Nextcloud-Conference-2020-(conflicted-copy-2023-09-24-112923)/",
       "date"     : "04 October 2020",
       "image"    : "/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg"
     } ,

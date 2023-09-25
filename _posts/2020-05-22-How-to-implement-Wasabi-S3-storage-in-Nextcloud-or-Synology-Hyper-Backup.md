@@ -2,7 +2,7 @@
 layout: post
 author: oliver
 title: "How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup"
-date: 2022-09-05
+date: 2022-05-22
 categories: [IT]
 tags: [s3, wasabi, nextcloud, synology, cloud, storage, backup]     # TAG names should always be lowercase
 image: '/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg'

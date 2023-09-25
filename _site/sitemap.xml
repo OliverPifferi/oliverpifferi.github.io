@@ -93,10 +93,6 @@
 <lastmod>2020-09-27T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Nextcloud-Conference-2020-(conflicted-copy-2023-09-24-112923)/</loc>
-<lastmod>2020-10-04T00:00:00+02:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/Nextcloud-Conference-2020/</loc>
 <lastmod>2020-10-04T00:00:00+02:00</lastmod>
 </url>
@@ -297,6 +293,10 @@
 <lastmod>2022-05-10T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/</loc>
+<lastmod>2022-05-22T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Apple-is-approaching-the-problem-with-nagging-captchas-in-ios-16/</loc>
 <lastmod>2022-06-23T00:00:00+02:00</lastmod>
 </url>
@@ -333,10 +333,6 @@
 <lastmod>2022-08-25T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/</loc>
-<lastmod>2022-09-05T00:00:00+02:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/How-to-backup-Microsoft-365-with-Veeam-and-Wasabi/</loc>
 <lastmod>2022-09-05T00:00:00+02:00</lastmod>
 </url>
@@ -371,6 +367,10 @@
 <url>
 <loc>http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</loc>
 <lastmod>2023-04-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/</loc>
+<lastmod>2023-06-11T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/</loc>

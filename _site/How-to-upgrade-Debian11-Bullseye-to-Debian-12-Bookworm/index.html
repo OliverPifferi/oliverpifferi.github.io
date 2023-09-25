@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Nextcloud Conference 2020</title>
+  <title>How to upgrade Debian 11 Bullseye to Debian 12 Bookworm</title>
   <meta name='description' content='My own small private space in the world of bewitched madness!'>
 
-  <link rel="canonical" href="http://localhost:4000/Nextcloud-Conference-2020-(conflicted-copy-2023-09-24-112923)/">
+  <link rel="canonical" href="http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/">
   <link rel="alternate" type="application/rss+xml" title="Forhekset" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nextcloud Conference 2020 – Forhekset">
-  <meta name="twitter:description" content="It has been a tremendous ride with Nextcloud for the last four years after the company appeared on the stage for the first time.
+  <meta name="twitter:title" content="How to upgrade Debian 11 Bullseye to Debian 12 Bookworm – Forhekset">
+  <meta name="twitter:description" content="Yesterday, the latest iteration of Debian Linux in version 12, codename „Bookworm“ was released. Everyone of you thinking that a direct upgrade to the new system is essential at this early stage may do so as many package have been updated.
 ">
-  <meta name="twitter:image:src" content="http://localhost:4000/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/debian12.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Nextcloud Conference 2020 – Forhekset">
-  <meta property="og:description" content="It has been a tremendous ride with Nextcloud for the last four years after the company appeared on the stage for the first time.
+  <meta property="og:title" content="How to upgrade Debian 11 Bullseye to Debian 12 Bookworm – Forhekset">
+  <meta property="og:description" content="Yesterday, the latest iteration of Debian Linux in version 12, codename „Bookworm“ was released. Everyone of you thinking that a direct upgrade to the new system is essential at this early stage may do so as many package have been updated.
 ">
-  <meta property="og:image" content="http://localhost:4000/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/debian12.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -181,24 +181,20 @@
             
             <div class="post-tags">
               
-              <a href="/tags/?tag=nextcloud" class="post-tag">nextcloud</a>
-              
-              <a href="/tags/?tag=foss" class="post-tag">foss</a>
+              <a href="/tags/?tag=linux" class="post-tag">linux</a>
               
               <a href="/tags/?tag=software" class="post-tag">software</a>
               
-              <a href="/tags/?tag=cloud" class="post-tag">cloud</a>
+              <a href="/tags/?tag=opensource" class="post-tag">opensource</a>
               
-              <a href="/tags/?tag=privatecloud" class="post-tag">privatecloud</a>
+              <a href="/tags/?tag=foss" class="post-tag">foss</a>
               
-              <a href="/tags/?tag=europe" class="post-tag">europe</a>
-              
-              <a href="/tags/?tag=digitalsovereignty" class="post-tag">digitalsovereignty</a>
+              <a href="/tags/?tag=debian" class="post-tag">debian</a>
               
             </div>
             
 
-            <h1 class="hero__title">Nextcloud Conference 2020</h1>
+            <h1 class="hero__title">How to upgrade Debian 11 Bullseye to Debian 12 Bookworm</h1>
 
             
 
@@ -209,7 +205,7 @@
 
               <div class="post-meta__bottom">
                 <a class="post-author" href="/about/">Oliver Pifferi</a>
-                <time class="post-date" datetime="2020-10-04T00:00:00+02:00">4 October, 2020</time>
+                <time class="post-date" datetime="2023-06-11T00:00:00+02:00">11 June, 2023</time>
               </div>
             </div>
           </div>
@@ -219,7 +215,7 @@
             
             
             <div class="hero__image">
-              <img class="hero__image__primary lazy" data-src="/images/1-SBV0WKPRiwJG9v5_hzlpIA.jpg" alt="Nextcloud Conference 2020">
+              <img class="hero__image__primary lazy" data-src="/images/debian12.jpg" alt="How to upgrade Debian 11 Bullseye to Debian 12 Bookworm">
             </div>
             
             
@@ -238,109 +234,80 @@
   <article class="post">
 
     <div class="post__content">
-      <h2 id="it-has-been-a-tremendous-ride-with-nextcloud-for-the-last-four-years-after-the-company-appeared-on-the-stage-for-the-firsttime">It has been a tremendous ride with Nextcloud for the last four years after the company appeared on the stage for the first time.</h2>
+      <h2 id="yesterday-the-latest-iteration-of-debian-linux-in-version-12-codename-bookworm-was-released-everyone-of-you-thinking-that-a-direct-upgrade-to-the-new-system-is-essential-at-this-early-stage-may-do-so-as-many-package-have-been-updated">Yesterday, the latest iteration of Debian Linux in version 12, codename „Bookworm“ was <a href="https://www.debian.org/releases/bookworm/">released</a>. Everyone of you thinking that a direct upgrade to the new system is essential at this early stage may do so as many package have been updated.</h2>
 
-<p>Anyone who thought Nextcloud that kept a fast pace so far may have been surprised this weekend as the Conference 2020 brought up a lot of interesting news, showing that the top hasn’t been reached at all. Nextcloud is expanding from a file-sharing solution to a complete and even more versatile collaboration suite trying to reach all extents. The kind of convention was different this time as the shadows of COVID-19 still prevented gatherings like we know them in „good old times“, but thanks to Nextcloud Talk on the official Convention-site and a livestream on YouTube, the good word could be spread anyway.</p>
+<p>Amongst them was PHP so that other repositories aren’t necessary anymore for the moment.</p>
 
-<h2 id="the-debut-of-nextcloud-hub-20-as-an-integration-platform">The debut of Nextcloud Hub 20 as an integration platform</h2>
+<p>Alas, with great power comes great responsibility so you should know what you are doing, not caring if you use Debian for private usage or as the strong foundation for server-based services like I do: First of all, backup your valuable files, snapshot the virtual machine or do a full backup your environments with trustworthy solutions like <a href="https://www.veeam.com/de/linux-backup-free.html">Veeam</a>. Although the update-process is pretty straightforward and <a href="https://wiki.debian.org/DebianUpgrade">documented</a>, things may happen and break your environment or specific services so the motto should always be „backup early, backup often“. Apart from that, you can pursue the following steps to bring your system from Debian 11 „Bullseye“ to Debian 12 „Bookworm“:</p>
 
-<p>When founder and CEO Frank Karlitschek hit the stage with the first keynote at 10 am, it was already clear that version 20 of Nextcloud (Hub) was due to release. Frank didn’t disappoint the digital crowd here and with the immediate release of Nextcloud Hub 20, there were plenty of changes coming through the thirsting users. Starting with a modern and customizable dashboard pulling strings for the single users over an universal search, Nextcloud is now an official integration platform. Reaching out across own boundaries by embracing services like Gitlab, Jira, Moodle and even Slack and Microsoft Teams, Nextcloud Talk gets a broader base of users to talk to while the universal search supports not only the own instance but — partly — also the other service’s contents.</p>
+<p><img src="../images/lukas-NLSXFjl_nhc-unsplash.jpg" alt="" /></p>
 
-<p><img src="../images/1-GfaByblKyTswpuMf-1L9ew.jpg" alt="" /></p>
+<h2 id="update-currently-installed-packages">Update Currently Installed Packages</h2>
 
-<p>Nextcloud Hub 20 — Dashboard</p>
+<p>Before starting the release upgrade, it is recommended to update all your currently installed packages to their latest versions. This is something you may already do regularly but it’s essential to take care of this before this version upgrade. Packages marked as „held back“ cannot be automatically installed, upgraded or removed. This may cause issues during the upgrade process which we try to bypass. To check whether there are held back packages on your systems or not, just run</p>
 
-<blockquote>
-  <p>Nextcloud Hub 20 is a dramatic step for users, bringing the different platforms they use during the day into an integrated experience. This can reduce friction, improve reaction times, avoid context switching and ultimately bring greater productivity to our tens of millions of users across the globe — all the while protecting data security and digital sovereignty of private and enterprise users.</p>
-</blockquote>
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark showhold</code></p>
 
-<p>(Frank Karlitschek, CEO and Founder of Nextcloud)</p>
+<p>If there are any „on hold“-packages, you should either unhold the packages with „sudo apt-mark unhold packagename“ or make sure the packages will not interfere with the upgrade process itself. After3wards, we need to refresh the packages-index and upgrade all installed packages just as it is done everytime:</p>
 
-<p>As the pandemic has changed the way we work, live and communicate with each other, there is a need for solutions to handle all this. While many solutions were springing up like mushrooms during the beginning of COVID-19, the idea of data protection was often left behind, depending on how the single services were deployed. With the focus on becoming an integration platform furthermore, Nextcloud and especially Nextcloud Talk in the new version 10 open yet another door to tie different services together, building bridges between foreign worlds.</p>
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code>
+<code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
 
-<p><img src="../images/1-JXDmVmg896UDt1y3wshAZw.jpg" alt="" /></p>
+<p>You may also run „apt full-upgrade“ to perform a major version upgrade of the installed packages and simultaneously remove some unnecessary packages by using</p>
 
-<h2 id="nextcloud-talk-hits-version10">Nextcloud Talk hits version 10</h2>
+<p><code class="language-plaintext highlighter-rouge">sudo apt full-upgrade</code></p>
 
-<p>Talk 10 brings performance and call reliability improvements, introduces the well-known emoji picker and upload view, a new camera and microphone settings, certain mute abilities for moderators and even more. The Deck-app now introduces a modal view for card editing and Calendar integration, while the Calendar itself introduces a list view and design improvements. Also Nextcloud Mail got some overhauls with the new and extensive mailbox management features, threaded email views and other interface updates.</p>
+<p>Finally, we want to get rid of some garbage aka. automatically installed dependencies that are no longer needed by any package:</p>
 
-<p><img src="../images/1-1xtBrhqKWs3i8MwaW8G6gQ.jpg" alt="" /></p>
+<p><code class="language-plaintext highlighter-rouge">sudo apt autoremove</code></p>
 
-<p>Nextcloud Flow is extended with push notifications and webhooks so other applications can more easily be integrated with Nextcloud work flows. In the Nextcloud backend, several performance and security improvements were integrated to enhance responsivity to user activity. Moreover, LDAP backends are now told to provide address books and a wide range of design, usability and accessibility improvements was made to Nextcloud.</p>
+<h2 id="upgrading-debian-11-bullseye-to-debian-12-bookworm">Upgrading Debian 11 Bullseye to Debian 12 Bookworm</h2>
 
-<p><img src="../images/1-bvlrKFhcjOWnGyO5P9SRIA.jpg" alt="" /></p>
+<p>First, we need to reconfigure APT’s source-list files so that only the „Bookworm“-repositories will be used in the future. To do so, you can either open the /etc/apt/sources.list file with your text editor and replace each instance of bullseye with bookworm and bullseye/updates to bookworm-security. If you have other source-list files under /etc/apt/sources.list.d, you must update those sources, too.</p>
 
-<p>Whoever needs the HPB (High-Performance-Backend) for using Talk with more than four to ten participants (usually with a larger number of 30–50) may now not only build his own solution on a powerful machine but also rent it directly from technological partner Struktur AG. Nextcloud and Struktur AG have announced a „HPB-as-a-service“ with a 30-day trial and integrated signup in Nextcloud Talk.</p>
+<p>The default file /etc/apt/sources.list on Bullseye looks like this:</p>
 
-<blockquote>
-  <p>There continues to be a great demand for secure video conferencing, and with an easy, integrated registration process in Nextcloud Talk, we are able to provide a privacy-compliant, unified communications platform that is 100% compliant with regional general data protection regulations.</p>
-</blockquote>
+<p>Alternatively, before choosing to manually edit those files, we can also make use of Linux’ „sed“-command and let the following three lines handle this for us:</p>
 
-<p>(Niels Mache, CEO Struktur AG)</p>
+<p><code class="language-plaintext highlighter-rouge">sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list</code>
+<code class="language-plaintext highlighter-rouge">sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list.d/*.list</code>
+<code class="language-plaintext highlighter-rouge">sudo sed -i 's#/debian-security bookworm/updates# bookworm-security#g' /etc/apt/sources.list</code></p>
 
-<p><img src="../images/1-I4ZrkCsnTw7nbapdRLcdaQ.jpg" alt="" /></p>
+<p>Once Once done, update the packages index from the new repositories for the first time by using the command</p>
 
-<p>The integrated signup means that implementing the rented HPB just needs one click from with Nextcloud’s backend to get the local Talk-installation and the HPB-service merged. After the 30 days, users can join in for a subscription or just end the trial.</p>
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
 
-<p><img src="../images/1-XjkqJes8qSTr8vn7o_isHg.jpg" alt="" /></p>
+<p>If there are any errors or warning messages related to a third-party repository, try fixing the issue or disabling the repository as it may prevent a successfully upgrade (or make it at least a little bit more complicated). Then, start the system upgrade by finally upgrading the installed packages. This will upgrade only those packages that don’t require any other packages to be installed or removed and is executed by the well-known</p>
 
-<h2 id="the-hub-becomes-a-realhub">The Hub becomes a real hub</h2>
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
 
-<p>„Integration“ is one of the keywords of this year’s Nextcloud Conference. While the term „hub“ was introduced with v19 as a collaboration platform, it becomes even more clear that this was just the beginning. Pairing with dominant solutions like Microsoft Office Online Server or Slack and other well-known services like Jira and Github, Nextcloud embraces other services even more in and on its home base.</p>
+<p>You will be asked if you want specific services being restarted during this upgrade - this may lead to a short service interruption for the restart-process so if you are, for example, updating your SSH-config, be sure that a service restart doesn’t interrupt your session. In this case it’s always better to use the hypervisor-based console or the monitor attached to the bare-metal-system you may update!</p>
 
-<p><img src="../images/1--YXzUNOq37_pDY82eS53bg.jpg" alt="" /></p>
+<p>Furthermore and during the upgrade process, you may also be asked various other questions, like whether you want to keep an existing configuration file or to install the package maintainer’s version. Please read the information carefully and if you never made any custom changes to the file it is safe to type „Y“. Otherwise, to keep the current configuration, enter „N“ - in my case, existing configurations for NGINX or SSH were kept the ways I have customized them. Depending on your Internet-connection and the amount of packages being updated, the upgrade process may take some time.</p>
 
-<blockquote>
-  <p>Nextcloud has become the central communication and document exchange hub for many organizations. Integration with third party solutions deployed at our customers or their partners, suppliers and customers will further improve their productivity and facilitate collaboration within and across organizational boundaries.</p>
-</blockquote>
+<p>Finally and after mastering this stage, execute an „apt full-upgrade“ which will perform a complete upgrade of the system, install the newest versions of the packages, and resolve the dependency changes between packages in different releases. This will upgrade all packages that were not upgraded with the previous command and put everything else in the proper order.</p>
 
-<p>(Frank Karlitschek, CEO and Founder of Nextcloud)</p>
+<h2 id="cleaning-up-and-going-live">Cleaning up and going live</h2>
 
-<p><img src="../images/1-h8-KJGZNgj0rxqEh77FzDg.jpg" alt="" /></p>
+<p>After going through the previous steps, a</p>
 
-<h2 id="building-bridges-instead-of-burningthem">Building bridges instead of burning them</h2>
+<p><code class="language-plaintext highlighter-rouge">sudo apt autoremove</code></p>
 
-<p>There are many storage silos that Nextcloud could connect for quite some time now: Just take Dropbox, OneDrive or S3-storage for example. In today’s steady-growing storage world, the real task is not to get lost with your data over various service providers. Nextcloud enters the stage here once again, building on an open API entitled „Open Collaboration Services“, trying to deliver a better overall experience to the users. The aim here as well: Concentrating on one solution, one environment and one single interface without the feeling of spreading many information on even more platforms.</p>
+<p>will clean up unnecessary packages and a final reboot with typing</p>
 
-<p><img src="../images/1-bvlrKFhcjOWnGyO5P9SRIA.jpg" alt="" /></p>
+<p><code class="language-plaintext highlighter-rouge">sudo systemctl reboot</code></p>
 
-<p>Literally and technically, bridges are built — one of them is between the Nextcloud Talk chat service with Microsoft Teams, Slack, Matrix, IRC, XMPP, Steam and many more. Second there is the unified search gathering result from connected services like Jira, Github, the learning platforms Moodle and HPI School Cloud, Discourse and Reddit or Mastodon and Twitter.</p>
+<p>finally takes care of getting your upgraded Debian 12-system online so that you can check whether everything is running fine - or not (followed by a certain troubleshooting).</p>
 
-<blockquote>
-  <p>The crisis has increased the need for online collaboration solutions and Nextcloud and Moodle are extremely popular in the educational space. An expansion of our integration as initially developed in 2017 is set to benefit millions of students and teachers.</p>
-</blockquote>
+<p>Once back again, you can check the status of your freshly-upgraded system by typing</p>
 
-<p>(Martin Dougiamas, Founder/CEO at Moodle Pty Ltd.)</p>
+<p><code class="language-plaintext highlighter-rouge">uname -a ; lsb_release -a_</code></p>
 
-<h2 id="back-to-schoolin-one-way-or-theother">Back to School — in one way or the other</h2>
+<p>which should finally show you a running Debian 12 Bookworm and a Linux 6.x-kernel running underneath.</p>
 
-<p>Being a father of four and looking back to the beginning of the pandemic, the biggest task was surely the one to see how schools were (not) prepared for the lockdown. Four schools, more than four ways of dealing with homeschooling and one of those even with the basic thought of putting scanned paper to Google Drive: This time in general has shown that we have not a lot to learn in general as it comes to the field of digitalization but especially when we are putting the focus on the learning efforts of our children.</p>
+<h2 id="verdict">Verdict</h2>
 
-<p><img src="../images/1-WaFpDE1KT5StvgTS-zL_PA.jpg" alt="" /></p>
-
-<p>In 2017 already, the Nextcloud Education Edition debuted support for file handling integration in Moodle (which was used at the school of our eldest daughter). In collaboration with Moodle, Nextcloud has extended the integration with the solution, implementing a Moodle “mobile web service” authentication flow, integrated a Nextcloud Dashboard widget showing upcoming events and recently accessed courses from Moodle and developed a search integration that can search for courses and other content in Moodle.</p>
-
-<blockquote>
-  <p>Together, Moodle and Nextcloud offer educators a complete platform for remote learning and connecting to students. The new integration capabilities create a more integrated experience for users, bringing the two platforms closer together.</p>
-</blockquote>
-
-<p>(Frank Karlitschek, Founder and CEO at Nextcloud GmbH)</p>
-
-<p><img src="../images/1-53PKIKEP9_5AA4D6rox7ew.jpg" alt="" /></p>
-
-<p>The new integration capabilities are available from the Nextcloud app store for the recently released Nextcloud Hub 20 right now. Customers settled in an integrated learning management and content collaboration platform may directly contact Moodle Pty Ltd. or Nextcloud GmbH. A roadmap for further integration between Moodle and Nextcloud has been defined and upcoming Moodle and Nextcloud releases will deliver a further improved user experience so that schools may be prepared in the future for whatever may come.</p>
-
-<h2 id="the-verdict">The Verdict</h2>
-
-<p>Nextcloud 20 has landed with some really heavy news. Although rumors already told of quite a big event, the first conference day was equal to a firework of features coming with version 20. While the solution itself just gets better release by release, the buzzword „integration“ must be put in capital letters here, Nextcloud is trying to embrace other worlds and services even more, trying to put them all into one (blue) hood.</p>
-
-<p><img src="../images/1-naMRLycvlPaHHOd2eNZngw.jpg" alt="" /></p>
-
-<p>There are boundaries between services — services that never were destined to work together. Nextcloud is reaching out for those, wanting to build bridges to deliver one final platform. No matter which services you use, your Nextcloud-environment could be the one specific entry point while the original idea behind it — the file-hosting- and collaboration-aspect — is fueling everything by the well-known, solid base. An interruption of learning and education could be a relict of the past once the people in charge manage to build one common platform for their tools.</p>
-
-<p><img src="../images/1-Bbt6Om9L0XOLNIzjPSGoWg.gif" alt="" /></p>
-
-<p>Nextcloud is trying (and seemingly solving) to be the key so it’s up to users, schools and administrators to use this key to unlock a door to a modern kind of collaboration in 2020 — surely one of the better aspects in this strange year!</p>
+<p>We successfully managed upgrading from Debian 11 to Debian 12 which is a quite easy, painless and reliable process once all prerequisites are met although a backup or snapshot should always be in reach for the one thing that goes down according to Murphy’s Law!</p>
 
     </div>
 
@@ -348,7 +315,7 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Nextcloud-Conference-2020-(conflicted-copy-2023-09-24-112923)/&title=Nextcloud%20Conference%202020&summary=&source="
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/&title=How%20to%20upgrade%20Debian%2011%20Bullseye%20to%20Debian%2012%20Bookworm&summary=&source="
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -356,27 +323,27 @@
 </div>
     <div class="post__navigation">
   
-  <a class="post__prev" href="/Why-Apple-One-hasnt-absolutely-convinced-me-yet/">
+  <a class="post__prev" href="/The-best-way-to-predict-your-future-is-to-create-it/">
     <div class="prev__image">
       
-      <img class="lazy" data-src="/images/1-rw4-OCdaxbzRzi6QAUtDCA.jpg" alt="Nextcloud Conference 2020">
+      <img class="lazy" data-src="/images/hvide_sande_sundown.jpg" alt="How to upgrade Debian 11 Bullseye to Debian 12 Bookworm">
     </div>
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Older post</span>
-      <h2 class="post__nav__title">Why Apple One hasn’t absolutely convinced me… yet!</h2>
+      <h2 class="post__nav__title">The best way to predict your future is to create it</h2>
     </div>
   </a>
   
 
   
-  <a class="post__next" href="/Nextcloud-Conference-2020/">
+  <a class="post__next" href="/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/">
     <div class="next__box">
       <span class="post__nav post__nav__next">Newer post</span>
-      <h2 class="post__nav__title">Nextcloud Conference 2020</h2>
+      <h2 class="post__nav__title">The Fediverse -  A vivid and modern approach to today’s Social Network-landscape</h2>
     </div>
     <div class="next__image">
       
-      <img class="lazy" data-src="/images/1-xShjkXGNiih-6u4DhJf9LQ.jpg" alt="Nextcloud Conference 2020">
+      <img class="lazy" data-src="/images/fediverse_logo.jpg" alt="How to upgrade Debian 11 Bullseye to Debian 12 Bookworm">
     </div>
   </a>
   
@@ -443,6 +410,13 @@
           <div class="row">
 
           
+            
+            
+      
+            
+      
+            
+            
             
             
       
@@ -610,18 +584,18 @@
                 <div class="article__head">
                   
                   
-                  <a class="article__image" href="/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/">
-                    <img class="lazy" data-src="/images/1-keqe7HvjpHOYrY5-lDyw6Q.jpg" alt="How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup">
+                  <a class="article__image" href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">
+                    <img class="lazy" data-src="/images/The-Hub-for-your-Digital-life.jpg" alt="Nextcloud and European Governments aiming at building a Digital Sovereign Office">
                   </a>
                   
                 </div>
                 <div class="article__content">
                   <div class="article__meta">
                     <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-                    <time class="article__date" datetime="2022-09-05T00:00:00+02:00">5 Sep, 2022</time>
+                    <time class="article__date" datetime="2022-08-25T00:00:00+02:00">25 Aug, 2022</time>
                   </div>
                   <h2 class="article__title">
-                    <a href="/How-to-implement-Wasabi-S3-storage-in-Nextcloud-or-Synology-Hyper-Backup/">How to implement Wasabi S3-storage in Nextcloud or Synology Hyper Backup</a>
+                    <a href="/Nextcloud-and-European-Governments-aiming-at-building-a-Digital-Sovereign-Office/">Nextcloud and European Governments aiming at building a Digital Sovereign Office</a>
                   </h2>
                 </div>
               </div>

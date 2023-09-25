@@ -5,8 +5,8 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 24 Sep 2023 22:20:35 +0200</pubDate>
-        <lastBuildDate>Sun, 24 Sep 2023 22:20:35 +0200</lastBuildDate>
+        <pubDate>Mon, 25 Sep 2023 08:55:55 +0200</pubDate>
+        <lastBuildDate>Mon, 25 Sep 2023 08:55:55 +0200</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -111,6 +111,102 @@
                 <category>bookwyrm</category>
                 
                 <category>fediverse</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
+        
+            <item>
+                <title>How to upgrade Debian 11 Bullseye to Debian 12 Bookworm</title>
+                <description>&lt;h2 id=&quot;yesterday-the-latest-iteration-of-debian-linux-in-version-12-codename-bookworm-was-released-everyone-of-you-thinking-that-a-direct-upgrade-to-the-new-system-is-essential-at-this-early-stage-may-do-so-as-many-package-have-been-updated&quot;&gt;Yesterday, the latest iteration of Debian Linux in version 12, codename „Bookworm“ was &lt;a href=&quot;https://www.debian.org/releases/bookworm/&quot;&gt;released&lt;/a&gt;. Everyone of you thinking that a direct upgrade to the new system is essential at this early stage may do so as many package have been updated.&lt;/h2&gt;
+
+&lt;p&gt;Amongst them was PHP so that other repositories aren’t necessary anymore for the moment.&lt;/p&gt;
+
+&lt;p&gt;Alas, with great power comes great responsibility so you should know what you are doing, not caring if you use Debian for private usage or as the strong foundation for server-based services like I do: First of all, backup your valuable files, snapshot the virtual machine or do a full backup your environments with trustworthy solutions like &lt;a href=&quot;https://www.veeam.com/de/linux-backup-free.html&quot;&gt;Veeam&lt;/a&gt;. Although the update-process is pretty straightforward and &lt;a href=&quot;https://wiki.debian.org/DebianUpgrade&quot;&gt;documented&lt;/a&gt;, things may happen and break your environment or specific services so the motto should always be „backup early, backup often“. Apart from that, you can pursue the following steps to bring your system from Debian 11 „Bullseye“ to Debian 12 „Bookworm“:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/lukas-NLSXFjl_nhc-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;update-currently-installed-packages&quot;&gt;Update Currently Installed Packages&lt;/h2&gt;
+
+&lt;p&gt;Before starting the release upgrade, it is recommended to update all your currently installed packages to their latest versions. This is something you may already do regularly but it’s essential to take care of this before this version upgrade. Packages marked as „held back“ cannot be automatically installed, upgraded or removed. This may cause issues during the upgrade process which we try to bypass. To check whether there are held back packages on your systems or not, just run&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-mark showhold&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If there are any „on hold“-packages, you should either unhold the packages with „sudo apt-mark unhold packagename“ or make sure the packages will not interfere with the upgrade process itself. After3wards, we need to refresh the packages-index and upgrade all installed packages just as it is done everytime:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You may also run „apt full-upgrade“ to perform a major version upgrade of the installed packages and simultaneously remove some unnecessary packages by using&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt full-upgrade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we want to get rid of some garbage aka. automatically installed dependencies that are no longer needed by any package:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt autoremove&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;upgrading-debian-11-bullseye-to-debian-12-bookworm&quot;&gt;Upgrading Debian 11 Bullseye to Debian 12 Bookworm&lt;/h2&gt;
+
+&lt;p&gt;First, we need to reconfigure APT’s source-list files so that only the „Bookworm“-repositories will be used in the future. To do so, you can either open the /etc/apt/sources.list file with your text editor and replace each instance of bullseye with bookworm and bullseye/updates to bookworm-security. If you have other source-list files under /etc/apt/sources.list.d, you must update those sources, too.&lt;/p&gt;
+
+&lt;p&gt;The default file /etc/apt/sources.list on Bullseye looks like this:&lt;/p&gt;
+
+&lt;p&gt;Alternatively, before choosing to manually edit those files, we can also make use of Linux’ „sed“-command and let the following three lines handle this for us:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s/bullseye/bookworm/g&apos; /etc/apt/sources.list&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s/bullseye/bookworm/g&apos; /etc/apt/sources.list.d/*.list&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s#/debian-security bookworm/updates# bookworm-security#g&apos; /etc/apt/sources.list&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once Once done, update the packages index from the new repositories for the first time by using the command&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If there are any errors or warning messages related to a third-party repository, try fixing the issue or disabling the repository as it may prevent a successfully upgrade (or make it at least a little bit more complicated). Then, start the system upgrade by finally upgrading the installed packages. This will upgrade only those packages that don’t require any other packages to be installed or removed and is executed by the well-known&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You will be asked if you want specific services being restarted during this upgrade - this may lead to a short service interruption for the restart-process so if you are, for example, updating your SSH-config, be sure that a service restart doesn’t interrupt your session. In this case it’s always better to use the hypervisor-based console or the monitor attached to the bare-metal-system you may update!&lt;/p&gt;
+
+&lt;p&gt;Furthermore and during the upgrade process, you may also be asked various other questions, like whether you want to keep an existing configuration file or to install the package maintainer’s version. Please read the information carefully and if you never made any custom changes to the file it is safe to type „Y“. Otherwise, to keep the current configuration, enter „N“ - in my case, existing configurations for NGINX or SSH were kept the ways I have customized them. Depending on your Internet-connection and the amount of packages being updated, the upgrade process may take some time.&lt;/p&gt;
+
+&lt;p&gt;Finally and after mastering this stage, execute an „apt full-upgrade“ which will perform a complete upgrade of the system, install the newest versions of the packages, and resolve the dependency changes between packages in different releases. This will upgrade all packages that were not upgraded with the previous command and put everything else in the proper order.&lt;/p&gt;
+
+&lt;h2 id=&quot;cleaning-up-and-going-live&quot;&gt;Cleaning up and going live&lt;/h2&gt;
+
+&lt;p&gt;After going through the previous steps, a&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt autoremove&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;will clean up unnecessary packages and a final reboot with typing&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo systemctl reboot&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;finally takes care of getting your upgraded Debian 12-system online so that you can check whether everything is running fine - or not (followed by a certain troubleshooting).&lt;/p&gt;
+
+&lt;p&gt;Once back again, you can check the status of your freshly-upgraded system by typing&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uname -a ; lsb_release -a_&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;which should finally show you a running Debian 12 Bookworm and a Linux 6.x-kernel running underneath.&lt;/p&gt;
+
+&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
+
+&lt;p&gt;We successfully managed upgrading from Debian 11 to Debian 12 which is a quite easy, painless and reliable process once all prerequisites are met although a backup or snapshot should always be in reach for the one thing that goes down according to Murphy’s Law!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 11 Jun 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/</link>
+                <guid isPermaLink="true">http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/</guid>
+                
+                <category>linux</category>
+                
+                <category>software</category>
+                
+                <category>opensource</category>
+                
+                <category>foss</category>
+                
+                <category>debian</category>
                 
                 
                 <category>IT</category>
@@ -581,67 +677,6 @@
                 <category>work</category>
                 
                 <category>life</category>
-                
-                
-                <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>Life is vivid - try to live it that way!</title>
-                <description>&lt;p&gt;Experiencing the Black Metal-wave in the 90s, visiting Norway was surely one thing on my bucket list. Decades later, I set my foot on Norse ground and was captured by pure beauty that was far beyond any of my expectations - and triggered a lot!&lt;/p&gt;
-
-&lt;p&gt;There are moments in life where you begin to think of your life’s purpose. Are you doing everything right? Is your work-/life balance compensated? Are there still things have have missed so far? Are you prioritizing the right things? After some days in Norway, I was grounded in many ways but the experiences I made there began to flood my mind and will hopefully be a basis for approaching some aspects in a different way in the future.&lt;/p&gt;
-
-&lt;p&gt;First things first. Norway was meant to be an adventure. Postponed three times (usually we wanted to travel in May 2020) due to COVID, we finally made our way from Germany to Denmark (eight hours), crossed over by ferry (three and a half hours) and drove the last stage to our goal in Reme, just one hour from Kristiansand in the southern part of Norway. While my goal was just to venture around and discover parts of the country with my Nikon, my DJI Mavic Pro and my GoPro HERO8, my two fellows had „fishing“ on their to-do-list as this trip was planned as a mere fishing holiday but also advanced to a „hike-and-shoot“-adventure with my gear.&lt;/p&gt;
-
-&lt;h3 id=&quot;fishing-not-phishing-this-time&quot;&gt;Fishing, not „phishing“ this time&lt;/h3&gt;
-
-&lt;p&gt;By partially adopting the art of fishing (although I am more fond of „phishing“ due to my job), I also learnt to spend six hours on a small boat in a fjord which alone was a certain experience, even one without barfing due to not (!) getting sea-sick in contrast to my expectations. Anyway, life is an open road and so you need to open your mind for new experiences - fishing was one of those although I refused to kill and disembowel the fish afterwards. A nice experience indeed, putting three characters in a small boat and relying on teamwork while one navigated, one steered the boat and one prepared the fishing poles with each positional change. You’re focused, you’re cautious and you’ve respect for the elements surrounding you: Your life is based upon the water and the wind, you need to cooperate while the beauty of nature embraces you - a great periphrasis for life in general, isn’t it?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/1-NkM86klsO10n93fr6LsJOA.jpg&quot; alt=&quot;Sundown from the boat — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;there-is-still-new-friendship&quot;&gt;There is still (new!) friendship&lt;/h3&gt;
-
-&lt;p&gt;I was never the guy who had lots of friends - very close friends are just three and I know all of them for approximately two decades now. The rest are people you get along with for some time and then ways part like interests do. Sometimes, people cross your way on work and even if you think that you don’t need additional „staff“ to accompany your life, someone stands out and appears on the stage. One of those friends was a very good workmate so far and although we both knew that we had more in common than just work, this week in Norway forget a new alliance on a more private basis. I don’t need much people around me and always tended to keep the circle of people close to me quite small - but it got a definite addition which is hopefully here to stay!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/1-x0bfLonjh-q5odt6fv31gQ.jpg&quot; alt=&quot;Looking down from Skrelia — 350 meters above sea level! Photo courtesy of author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;COVID-19 has shown that people split up, that former good friends (or colleagues) just entered a new stage of relationship and dissociated from each other. While we waited nearly two years for our Norway-trip to come true (which was postponed three times), we navigated through the lows of the pandemic, numerous weeks and months of home office and communicated even more than before: This trip (which will definitely face its second part next year!) definitely brought me a new friend and vice versa, additionally another person I didn’t knew before and who was our accompany for this week. Great people are rare and they often appear when you never expect them to do so - yet another recognition so be sure to hang on the people who do you good!&lt;/p&gt;
-
-&lt;h3 id=&quot;deleceration-is-the-new-trend&quot;&gt;„Deleceration” is the new trend&lt;/h3&gt;
-
-&lt;p&gt;You always read from „deceleration“ or „digital detoxing“ - just cutting off some parts of your life while being on holiday, taking your sabbatical, enjoying your weekends etc. While I can never fully do this digital detoxing (which may be some kind of an occupational disease as I am carrying too much stuff around with me), it feels good to disable your corporate E-Mail-account as well as the one for Microsoft Teams and just be a private individual. As for myself, I have discovered that the hamster wheel of balancing between work and my private life ran faster and faster - and that it was about time to make a full stop when I am not on duty.&lt;/p&gt;
-
-&lt;p&gt;As an IT-consultant, steering between Sales, Team Lead and my „old“ profession - rather technic-based - the best I could do is to drastically cut the other role off the other: Work is done when work is done and even when it’s not done, there is another day. Exceptions may occur, but I think (and I discovered) that mixing everything makes it hard to recharge your batteries and continues to fuel the „always on“-habit that many of us finally adopted with the pandemic. I don’t want to have Teams-meetings when I have finished my day while I reach my hime and I don’t like answering E-Mails when I am on holidays or - even worse - discovering the beauty of Norse nature. The last week has demonstrated that gaining (or re-gaining) this quality of life is imminent to handle the tasks that are still along the way - either corporate or private tasks and situations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/1-CtQ7hYyqRDFYrwH7gfdngg.jpg&quot; alt=&quot;Every road leads to a specific goal… somehow! — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It took me a lot of working years and some really bad two years to realize that I have missed too much in the past, driven by my ego and the success to achieve… yeah, to achieve what? I am not the kind of guy that lives with the situation to be stuck in a dead end, indeed I still try to somehow find an escape route. My four daughters are growing up fast-paced, &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;my dad just recovers from colon cancer and one of the closest friends of my eldest daughter died at a plane crash 600 kilometers away from home - at the age of 14&lt;/a&gt;. We always say that life is short and often things prevent us from living it to the fullest, but the last two years brought up the proof that you need to change something unless something changes you - or the people around you. Fate is merciless and I’d wish I had used some time fragments in better ways than to cruise through Germany on behalf of my last employers. Time is spent and your influence how it is spent is limited - but often you can still control the oars.&lt;/p&gt;
-
-&lt;h3 id=&quot;no-traveling-back-in-time&quot;&gt;No traveling back in time&lt;/h3&gt;
-
-&lt;p&gt;So what am I going to say here? I struggled a lot with my orientation how my work-/life-situation needs to be balanced but it took a week in Southern Norway to completely slow me down. Living a simpler life albeit you’re carrying lots of gear with you to digitize this great country. Learning how other populations work and live - and take care of each other - is something that I have already realized in Belgium, The Netherlands or - now - Norway. Everything is related to your attitude and believe me: Coming back to Germany after such a week is equal to a slap in the face - local people can be nasty, narrow-minded and deadlocked (it may be the image of the Germans that foreigners often refer to!) but looking over the horizon, new adventures wait: Other people, other cultures, other manners and personally I draw a lot out of these experiences because life seems to be easier when you see other sides of the coin.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/1-72MtAUDCE8ke8XaLYTwKKw.jpg&quot; alt=&quot;A place to dream of — Photo courtesy of author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sometimes it needs a full stop to regain orientation, to re-focus and to put the important things back in the centre of your own point of view. Use this time, use it wisely and never be shamefaced to do so - no individual and no company will give it back to you. Use the time to re-charge your batteries and to learn to see from different perspectives: The daily business will return much too soon, turning your daily life into a rat race once again - so use any precious second wisely!&lt;/p&gt;
-
-&lt;p&gt;Life is short so life it to the fullest! There’s so much to see, there is so much to experience. Take any chance to let your dreams come true, take care of your beloved once and don’t let anyone prevent you from doing so. Our time on Earth is quite limited so leaving your own footprint and enjoy every given second should be your utter goal! Live is too vivid so we all should try to live it that way - matching just our own expectations and those of our beloved ones!&lt;/p&gt;
-</description>
-                <pubDate>Tue, 13 Sep 2022 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Life-is-vivid-try-to-live-it-that-way!/</link>
-                <guid isPermaLink="true">http://localhost:4000/Life-is-vivid-try-to-live-it-that-way!/</guid>
-                
-                <category>thoughts</category>
-                
-                <category>traveling</category>
-                
-                <category>life</category>
-                
-                <category>holidays</category>
-                
-                <category>freedom</category>
                 
                 
                 <category>Thoughts</category>
