@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Forhekset
+title: Midgard Mates
 logo: # You can add own logo. For example '/images/logo.png'.
 description: My own small private space in the world of bewitched madness!
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -81,7 +81,7 @@ links__item:
     description: THE microblogging service which definied social network in its new and modern shape, powered by ActivityPub and the Fediverse!
     image_url: "/images/rolf-van-root-ISmVDb_20_g-unsplash.jpg"
     image_alt: Mastodon
-    link: "https://midgardmates.com/@oliver"
+    link: "https://social.midgardmates.com/@oliver"
     
   - title: Matrix
     description: One of the safest and most modern messenger out there, also supporting E2EE between chat participants!
