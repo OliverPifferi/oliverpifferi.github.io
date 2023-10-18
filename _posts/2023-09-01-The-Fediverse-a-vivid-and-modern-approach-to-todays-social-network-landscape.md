@@ -28,7 +28,7 @@ Thus spoken, Pixelfed is still a project under heavy development, but frequent c
 
 BookWyrm is a solution also built on ActivityPub and a great successor for LibraryThing or GoodReads. By using the protocol Mastodon, Pixelfed and many other are running on, it inter-operates with different instances of BookWyrm and other ActivityPub compliant services. This means you can run an instance for your book club and still follow your friend who posts on a completely different servers with different, book-related collections. It also means that your friend on Mastodon can read and comment on a book review that you post on your BookWyrm-instance.
 
-![How to hjoin BookWyrm](../images/bookwyrm_website.jpg)
+![How to join BookWyrm](../images/bookwyrm_website.jpg)
 
 A long time ago, I used to track my books with a Desktop-based Mac-software named [Bookpedia](https://www.bruji.com/bookpedia/). With the relevance of classical apps decreasing and people rather turning to online services, Bookpedia somehow fell behind. Besides myself listening more to audio books than actually reading those (a trend I even consider to be nasty from my own point of view), also the development of Bookpedia seemed to slow down and so the latest iteration 6.2.1 was released by the end of 2021. As times have changed, LibraryThing or GoodReads as modern Internet-based services popped up but when BookWyrm came along, the mixture of self-hosted data-control, ActivityPub-integration and connection to other instances for book background data like ISBN, ASIN, cover artwork etc. made it a no-brainer.
 
