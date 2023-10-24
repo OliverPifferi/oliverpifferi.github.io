@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Midgard Mates</title>
+        <title>Oliver&apos;s Blog</title>
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 01 Oct 2023 18:45:24 +0200</pubDate>
-        <lastBuildDate>Sun, 01 Oct 2023 18:45:24 +0200</lastBuildDate>
+        <pubDate>Wed, 18 Oct 2023 10:20:09 +0200</pubDate>
+        <lastBuildDate>Wed, 18 Oct 2023 10:20:09 +0200</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -62,7 +62,7 @@
 
 &lt;p&gt;&lt;img src=&quot;../images/pixelfed_org_website.jpg&quot; alt=&quot;Pixelfed.org Welcome Site&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Thus spoken, Pixelfed is still a project under heavy development, but frequent commits are made on &lt;a href=&quot;https://github.com/pixelfed/pixelfed&quot;&gt;GitHub&lt;/a&gt;, the community is open-minded and various ways of participating are possible, with Dan always being somewhere besides the coding activities, always going with a hint or a helping hand. Once you don’t want to go with an own instance (it still may be tricky if you build and maintain from the scratch if you don’t exactly know what you need to do and in which order things should be done), you can always opt-in for one of the more or less known instances. With choosing the instance you like or which may best reflect your needs and interests, the ActivityPub-aspects of Federation and De-Centralization are put into the focus - just like we know it from &lt;a href=&quot;https://blog.pifferi.info/mastodon-still-more-than-an-alternative-to-twitter-and-definitely-here-to-stay&quot;&gt;Mastodon&lt;/a&gt; - finally leaving Instagram isn’t the big problem anymore.&lt;/p&gt;
+&lt;p&gt;Thus spoken, Pixelfed is still a project under heavy development, but frequent commits are made on &lt;a href=&quot;https://github.com/pixelfed/pixelfed&quot;&gt;GitHub&lt;/a&gt;, the community is open-minded and various ways of participating are possible, with Dan always being somewhere besides the coding activities, always going with a hint or a helping hand. Once you don’t want to go with an own instance (it still may be tricky if you build and maintain from the scratch if you don’t exactly know what you need to do and in which order things should be done), you can always opt-in for one of the more or less known instances. With choosing the instance you like or which may best reflect your needs and interests, the ActivityPub-aspects of Federation and De-Centralization are put into the focus - just like we know it from Mastodon  - finally leaving Instagram isn’t the big problem anymore.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../images/nordicshutter_welcome.jpg&quot; alt=&quot;My Pixelfed-instance&quot; /&gt;&lt;/p&gt;
 
@@ -70,11 +70,11 @@
 
 &lt;p&gt;BookWyrm is a solution also built on ActivityPub and a great successor for LibraryThing or GoodReads. By using the protocol Mastodon, Pixelfed and many other are running on, it inter-operates with different instances of BookWyrm and other ActivityPub compliant services. This means you can run an instance for your book club and still follow your friend who posts on a completely different servers with different, book-related collections. It also means that your friend on Mastodon can read and comment on a book review that you post on your BookWyrm-instance.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_website.jpg&quot; alt=&quot;How to hjoin BookWyrm&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_website.jpg&quot; alt=&quot;How to join BookWyrm&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A long time ago, I used to track my books with a Desktop-based Mac-software named &lt;a href=&quot;https://www.bruji.com/bookpedia/&quot;&gt;Bookpedia&lt;/a&gt;. With the relevance of classical apps decreasing and people rather turning to online services, Bookpedia somehow fell behind. Besides myself listening more to audio books than actually reading those (a trend I even consider to be nasty from my own point of view), also the development of Bookpedia seemed to slow down and so the latest iteration 6.2.1 was released by the end of 2021. As times have changed, LibraryThing or GoodReads as modern Internet-based services popped up but when BookWyrm came along, the mixture of self-hosted data-control, ActivityPub-integration and connection to other instances for book background data like ISBN, ASIN, cover artwork etc. made it a no-brainer.&lt;/p&gt;
 
-&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://social.midgardmates.com/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.pifferi.info/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
+&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.pifferi.info/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../images/bookwyrm_pifferi.jpg&quot; alt=&quot;My BookWyrm-instance&quot; /&gt;&lt;/p&gt;
 
@@ -90,7 +90,7 @@
 
 &lt;p&gt;If you’re interested, feel free to find my profiles in The Fediverse on&lt;/p&gt;
 
-&lt;p&gt;Mastodon - &lt;a href=&quot;https://social.midgardmates.com/@oliver&quot;&gt;https://social.midgardmates.com/@oliver&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Pixelfed - &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;https://nordicshutter.com/oliver&lt;/a&gt; and&lt;/p&gt;
 

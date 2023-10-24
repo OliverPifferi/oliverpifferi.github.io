@@ -18,8 +18,10 @@ Seeing it in a realistic way, nobody’s perfect. But trying your best to be the
 
  (Marcel Proust), French Author
  
- ![Photo by Timon Studler / Unsplash](../images/timon-studler-ABGaVhJxwDQ-unsplash.jpg)
+![Photo by Timon Studler / Unsplash][image-1]
 
 Now, in the coming autumn of 2023, I've learned some more lessons. People you could get along with in terms of your job can instantly turn their back to you once you decide to stop working for a specific employee. Or revive the stab-in-the-back-myth. Or suddently turn silent due to restriction made by the employer you're planning to leave. These experiences sound quite childish and stupid and I never expected job-related relationships to develop these ways but what a fool I have been to underestimate the reaction to one's own free will. You fought. You oared. You struggled. You encouraged. You helped. You sold. You educated. In the end, you decided to leave the train at a certain station and, sadly, the outcome is nearly the expected one and yet another lesson in life. Ingratitude is the world's reward, isn't it?
 
 Finally, people will judge you no matter what you do…so you might as well do what you want. And even more take care and cherish the people around you that are good for you while being sceptical to new "false friends" or backstabbing-folks that seem to flood our society more and more for whatever reason.
+
+[image-1]:	../images/timon-studler-ABGaVhJxwDQ-unsplash.jpg
