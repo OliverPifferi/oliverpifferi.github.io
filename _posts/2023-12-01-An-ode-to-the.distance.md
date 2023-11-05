@@ -2,7 +2,7 @@
 layout: post
 author: oliver
 title: "An Ode to the Distance"
-date: 2023-11-01
+date: 2023-12-01
 categories: [Thoughts]
 tags: [life, thoughts, traveling, reflections, thoughts]     # TAG names should always be lowercase
 image: '/images/endless_freedom_norway.jpg'
@@ -20,6 +20,5 @@ My mum - his daughter - went the same way and is today still open-minded towards
 
 ![My granddad, Henry the Conqueror](../images/norse_panorama_2023.jpg)
 
-The third consecutive year since 2021, we lately made it to Norway, slowly proceeding from the far South to the South to something that wasn't still really North but at least something in the middle of the country: 
-
+The third consecutive year since 2021, we lately made it to Norway, slowly proceeding from the far South to the South to a place that wasn't still really North but at least something in the nearly middle of the country: The Kristiansund-area near Aure in Foldfjorden. 
 

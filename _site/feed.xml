@@ -5,9 +5,100 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 29 Oct 2023 10:47:40 +0100</pubDate>
-        <lastBuildDate>Sun, 29 Oct 2023 10:47:40 +0100</lastBuildDate>
+        <pubDate>Sun, 05 Nov 2023 18:01:38 +0100</pubDate>
+        <lastBuildDate>Sun, 05 Nov 2023 18:01:38 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Is Bluesky worth a visit?</title>
+                <description>&lt;h2 id=&quot;while-many-people-and-even-corporate-brands-are-fleeing-from-x---formerly-known-as-twitter---the-question-is-which-service-is-able-to-provide-shelter-the-fediverse-with-products-like-mastodon-or-misskeycalckeyfirefish-is-definitely-an-option-while-jack-dorsey-former-twitter-ceo-and-co-founder-tries-to-gather-up-the-masses-with-his-latest-project-bluesky&quot;&gt;While many people and even corporate brands are fleeing from X - formerly known as “Twitter” - the question is which service is able to provide shelter. The Fediverse with products like Mastodon or Misskey/Calckey/Firefish is definitely an option while Jack Dorsey, former Twitter CEO and Co-founder, tries to gather up the masses with his latest project, Bluesky.&lt;/h2&gt;
+
+&lt;p&gt;The Social Network-landscape is shattered these days. While the downfall of X was somehow a predictable process, it is still astonishing how fast a service that once was a synonym for short messaging is ruined while (seemingly) hazarding all consequences. Anyway, each failure is a chance for optimization and so other networks with the focus on decentralization grew over the years - one of them, virtually flagshipping The Fediverse, was Mastodon. Besides, and somehow lurking in the shadows, the virtual successor of Twitter has been in the works for four years using an investment of nearly 13 millions USD: Bluesky, lead by Jay Graber and former Twitter-CEO and co-founder Jack Dorsey - a decentralized new social network based upon the &lt;a href=&quot;https://atproto.com/guides/overview&quot;&gt;AT-protocol&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/boliviainteligente-elSx3uwGhBw-unsplash.jpg&quot; alt=&quot;X dot com&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;from-bluebird-to-bluesky&quot;&gt;From bluebird to Bluesky&lt;/h2&gt;
+
+&lt;p&gt;First of all, Bluebird’s &lt;a href=&quot;https://bsky.app&quot;&gt;website&lt;/a&gt; looks quite simple - and yes, it’s work in progress. Getting onboarded isn’t as easy because the access to the new Social Network is - in my eyes - crippled intentionally. Not everyone can sign up, people need invite codes - everyone of you who thought this scenario reminding on the old days of early OnePlus-smartphones has been put to a grave is wrong. You need an invite code to play in the sandbox of Bluesky - and getting those may be a hassle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_start.jpg&quot; alt=&quot;Simply blue&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As always, celebrities and people or organizations of public interest join the platform to attract new followers and subscribers. In moments where many of those flee from X.com, Bluesky is a welcomed new home and especially here in Germany, this escape-scenario drastically increased throughout the last months with many famous accounts migrating to Bluesky: Good bait catches fine fish and with a solid base of well-known accounts, people automatically get interested in following those.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_register.jpg&quot; alt=&quot;Registering&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Should you be able to get an invite code (users who are with the platform a little bit longer get those for example), there is no obstacle towards subscribing to Bluesky anymore as the web interface is definitely not a complicated one: Create your account by choosing your provider, enter your invite code (or join the waitlist), pick your handle, enter your E-mail address and password and you’re ready to go.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_invite.jpg&quot; alt=&quot;Where&apos;s the invite?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It could be that easy if the trending thing about entering Bluesky wasn’t the artificially-truncated invite code thing. I personally don’t know if this is because of making the service more “exclusive” or keeping spammers and bots outside - finally, this scenario does its work.&lt;/p&gt;
+
+&lt;p&gt;There are different ways to get an invite - just be patient and wait until your spot in the waitlist is next, get a code from another Bluesky-user or look for initiatives like, for example, the &lt;a href=&quot;https://mailbox.org/en/post/mailbox-org-opens-bluesky-invitation-code-exchange-platform&quot;&gt;invitation exchange platform&lt;/a&gt; of German provider mailbox.org - paying customers can request an invite or share their codes with others: In my case, I didn’t wait a half day until (unexpectedly) the mail with an invite reached me (pure luck or less demand - who knows?)-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_waitlist.jpg&quot; alt=&quot;Joining the waitlist&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;first-steps&quot;&gt;First steps&lt;/h2&gt;
+
+&lt;p&gt;Once you made it to scavenge an invite code and used it for good, you probably have created your account with the @bsky.social-appendix and the outlook will be quite similar to Twitter in earlier days. Indeed Bluesky focuses on the essentials while missing some of those well-known ones, but you definitely will feel familiar straight from the first visit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_overview.jpg&quot; alt=&quot;Overview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the left pane, you see self-declaring links for your home site, the general feed, current notifications, moderation statistics, your profile and general settings. The middle shows the feed with accounts you’ve subscribed to, the right side displays a search box, an option to discover other accounts and more feeds. The latter are indeed custom algorithms that users can build with a little coding expertise as documented &lt;a href=&quot;https://github.com/bluesky-social/feed-generator&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/jelleke-vanooteghem-gnxb59lGU1M-unsplash.jpg&quot; alt=&quot;Bluesky&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;verification&quot;&gt;Verification&lt;/h2&gt;
+
+&lt;p&gt;There is no blue, yellow, gold, whatsoever checkmark to verify your identity (yet). Instead, you can change your handle, for example @oliverpifferi.bsky.social, to - in my case - @pifferi.info by adding a certain DNS-entry to a domain you own. It’s still not the way of a knightly accolade, but what can proof your online identity better than access to the DNS-settings of a domain you own by yourself?&lt;/p&gt;
+
+&lt;p&gt;First of all, enter the settings and use the “change handle”-option just like you would do when changing it into another @bsky.social-tag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_settings.jpg&quot; alt=&quot;The way to change your handle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the “I have my own domain”-option here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_change_handle.jpg&quot; alt=&quot;Do you have your own domain?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now another windows will appear with the verification-settings you need to enter into the DNS-settings of your domain. Enter the domain in the upper field and see which TXT-entry will be generated afterwards. This entry with the _atproto-prefix and the specific value must then be added to your site’s DNS-configuation as a new entry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Bluesky_change_handle_settings.jpg&quot; alt=&quot;The way to change your handle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One you have done this in a separate window, click on “Verify DNS record” and, depending on your provider, your account will be verified, permanently changing your handle to, in this case, @alice.com (or, @pifferi.info in mine). In case you don’t have access to the DNS-console, you may also place a TXT-file in the webroot of your specific website and verify it via this way. Further information on verification on Bluesky can be found &lt;a href=&quot;https://blueskyweb.zendesk.com/hc/en-us/articles/19001802873101-How-to-Set-your-Domain-as-your-Handle&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;finally&quot;&gt;Finally…&lt;/h2&gt;
+
+&lt;p&gt;Bluesky looks like X/Twitter once used to look. It still misses features that many former users got used to and while the whole platform is definitely in the status of “work in progress”, it is definitely fill up with many people flooding from X or users who run their Bluesky-account parallel to their Mastodon-one - which is quite interesting. If you don’t mind starting with a new social network created by the same crypto bro that once was in charge of ancient Twitter before selling the whole platform (and if you’re okay with this possibly happening again), Bluesky may stand for the simplicity that once made the former bluebird that popular. The classical PR-B/S of “federated” and “decentralized” is something that needs to be proven in the future - without the approach of an open, really decentralized and federated standard, just another siloed platform has just been born.&lt;/p&gt;
+
+&lt;p&gt;Until then, and with direct messages possibly being integrated sometimes in the future, Bluesky may be an alternative based on “yet another protocol”. It looks slim, is trimmed down to basic functions and you will probably find lots of people that fled from X - but, as always, it will be interesting to watch how this platform will grow and develop once the artificially-shortened signup process has been erased and in how far it can compete with the Fediverse in terms of “building a healthier community”. Most of the people fleeing from “the other side” need to find a new comfortable home, just a few of them will care about where the data is being stored. Considering that all your posts on Bluesky are available via API-endpoints without any kind of authentication at the time of writing (see my post in raw &lt;a href=&quot;https://bsky.social/xrpc/com.atproto.repo.listRecords?repo=pifferi.info&amp;amp;collection=app.bsky.feed.post&quot;&gt;here&lt;/a&gt; for example), “Privacy” could also be an interesting topic to deal with when opting in for any new platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/ehimetalor-akhere-unuabona-TvJk52iLxQA-unsplash.jpg&quot; alt=&quot;Stay connected&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;stream-of-time&quot;&gt;Stream of time&lt;/h2&gt;
+
+&lt;p&gt;At last, time will (as always) tell but as someone who changed to Mastodon for quite a while and running an own instance, even Bluesky has its charm and reminds on times where Social Networking was less toxic than it is today. In the end, usability and the people, groups and institutions on the specific platform will shape the foundation for more or less success - this is a challenge all solutions of the “post-Twitter”-era have to deal with inevitably.&lt;/p&gt;
+
+&lt;p&gt;Considering the results of all these thoughts, Bluesky IS worth a visit at the time of writing, despite the silly invite-system - but don’t expect a fully-matured platform like the former Twitter or Mastodon &amp;amp; Co!  It still is work in progress and although the current approach serves our nostalgic memories quite well, missing hashtags-support, no possible video-uploads or even basic things like 2FA in terms of security show that there is still a long way to go. Speaking of federation and decentralization I am also quite curious if the self-hosting on own Bluesky-servers based upon the AT-protocol will be possible like we know this from the Fediverse-solutions. Time will tell but any option is better than the remains of the social network that once made use to know what’s going on in the world with 140 characters!&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in joining me on either &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt; or &lt;a href=&quot;https://bsky.app/profile/pifferi.info&quot;&gt;Bluesky&lt;/a&gt;? Click the specific link on each service and you’ll be guided to my respective profile and let us mutually discover how the social media landscape will change in the near future!&lt;/p&gt;
+</description>
+                <pubDate>Sat, 04 Nov 2023 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/is-bluesky-worth-a-visit/</link>
+                <guid isPermaLink="true">http://localhost:4000/is-bluesky-worth-a-visit/</guid>
+                
+                <category>internet</category>
+                
+                <category>networking</category>
+                
+                <category>social network</category>
+                
+                <category>bluesky</category>
+                
+                <category>twitter</category>
+                
+                
+                <category>Internet</category>
+                
+            </item>
         
             <item>
                 <title>The unhealthful peak of Internet service pricing</title>
@@ -605,84 +696,6 @@
                 
                 
                 <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>What if... ?</title>
-                <description>&lt;h2 id=&quot;during-the-pandemic-a-lot-of-rather-moderate-things-happened-in-everyones-life-but-sometimes-you-arent-prepared-for-additional-struggle-in-terms-of-human-connections-coming-after-the-two-year-covid-streak&quot;&gt;During the pandemic, a lot of rather moderate things happened in everyone’s life but sometimes you aren’t prepared for additional struggle in terms of human connections coming after the two-year-COVID-streak.&lt;/h2&gt;
-
-&lt;p&gt;You may have your plan in your daily routine. You may have your plan in your job. Sometimes both worlds collide and leave behind a pile of shards you definitely weren’t neither expecting nor prepared for: A pile of shards harming a long-year friendship and wounding it fatally. By facing such a situation, questions come up - in each moment of silence or solitude, before going to bed or when waking up and - generally - arbitrary throughout the day. Questions like…&lt;/p&gt;
-
-&lt;p&gt;…what if…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;friendship besides co-working in the same company was just a delusion?&lt;/li&gt;
-  &lt;li&gt;opting in for a new job role destroyed this friendship although both parties agreed that nothing could intervene the whole lot?&lt;/li&gt;
-  &lt;li&gt;the acceptance that people are still incalculable no matter how long you know them is simply brutal?&lt;/li&gt;
-  &lt;li&gt;thinking that dropping the new role could turn the wheel of time back again while knowing that there’s a crack in this relationship that will stay?&lt;/li&gt;
-  &lt;li&gt;thinking that switching the company could be an escape to fix something that is broken now?&lt;/li&gt;
-  &lt;li&gt;realizing that the only bond in this friendship was the common frustration and common issues in the company?&lt;/li&gt;
-  &lt;li&gt;identifying that, even in your 40s, you can just look in front of other’s heads despite assuming you know the individual behind is just somber?&lt;/li&gt;
-  &lt;li&gt;realizing that, even in their 40s, other people can ghost you from one moment to the other like a toy town teenager is the utter perfection of shock?&lt;/li&gt;
-  &lt;li&gt;being ghosted by a friend turns into one of the most terrifying experiences for a grown-up?&lt;/li&gt;
-  &lt;li&gt;experiencing the friendship’s grade was not that good after being locked out of someone’s life without spoken words or any kind of justification is just horrible?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;are currently part of my daily act of thinking and I’d wish I could use these brain actions for more meaningful and productive thoughts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/norway_sundown.jpg&quot; alt=&quot;The sun to down without rising again? Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are many of them - yet too many and still I don’t know what happened from one day to the other. But, facing my own pride that prevents me to get treated like that without a reason I know of, I’ll respect the person’s wish to finally become the ghost he turned me into. Finally, being cut off from the life as working mates and the private relationship I considered to be a friendship.&lt;/p&gt;
-
-&lt;p&gt;Six years seem to be wasted somehow and while you remain silent, all I can do is to ask what I have done wrong and accept the inevitable. You’ve made your choice as a grown-up and you will have your reasons - and I hope you are fine with them, possibly knowing what you have caused and destroyed.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/staring_in_the_woods.jpg&quot; alt=&quot;Thinking - Photo generated by https://stablediffusionweb.com&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;„When the world turns you away&lt;/p&gt;
-
-  &lt;p&gt;A friend will not say no&lt;/p&gt;
-
-  &lt;p&gt;There is strength that we all have&lt;/p&gt;
-
-  &lt;p&gt;It’s not the strength we show“&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(MANOWAR, „Blood Brothers“)&lt;/p&gt;
-
-&lt;p&gt;Some things seem to be broken and it is doubtful if they can ever be fixed again. It’s ridiculous to know a statement like „Never f-uck the company“ in terms of a love affair and reflect this onto a man-to-man-friendship that once conquered Scandinavia and many aspects of business life, bringing success to both. But this is what it is - or why does one party suddenly decide to lock the other one out of one’s life?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/ruthe_calendar.jpg&quot; alt=&quot;This would have been a Christmas present but stays with me instead - a fitting slogan anyway!&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Indeed, even 2022 got worse than the two years before and with a situation like this, this year’s end comes near a crap bag imploding into your personal and business life.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.“&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(BOB MARLEY, seemingly a wise man)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/norway_boat.jpg&quot; alt=&quot;Sometimes it takes someone to draw you out of the nowhere - but he will still need a helping hand - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are always lessons to be learned - and this one was a painful one. And still is. And yet, I am not ready for this experience that comes along this unwanted and unplanned lesson of ignorance and the knowing fact that even close friendships are fragile - even if I had never dared to rate them as such. Fact is: You’re never too old for a new lesson and the „Zero Trust“-approach of modern security can also be a great approach when tying knots in business - and in private!&lt;/p&gt;
-</description>
-                <pubDate>Sat, 10 Dec 2022 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/What-if/</link>
-                <guid isPermaLink="true">http://localhost:4000/What-if/</guid>
-                
-                <category>life</category>
-                
-                <category>work</category>
-                
-                <category>friendship</category>
-                
-                <category>relationships</category>
-                
-                <category>thoughts</category>
-                
-                
-                <category>Thoughts</category>
                 
             </item>
         

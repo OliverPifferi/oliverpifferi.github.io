@@ -58,6 +58,12 @@ links__item:
     image_url: "/images/brett-jordan-IHecRXio89c-unsplash.jpg"
     image_alt: Apple Music
     link: "https://music.apple.com/profile/oliverpifferi"
+    
+  - title: Bluesky
+    description: A try with the successor of the once-this-was-a-synonym-for-microblogging-social-network!
+    image_url: "/images/valen-don-tcqf5Lqa8Og-unsplash.jpg"
+    image_alt: Bluesky
+    link: "https://bsky.app/profile/pifferi.info"
 
   - title: BookWyrm
     description: BookWyrm is a great ActivityPub-driven Fediverse-project to collect, rate and share your (audio) books with other fellows!
