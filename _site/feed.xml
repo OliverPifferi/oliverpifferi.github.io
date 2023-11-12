@@ -5,9 +5,74 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Nov 2023 18:04:32 +0100</pubDate>
-        <lastBuildDate>Sun, 05 Nov 2023 18:04:32 +0100</lastBuildDate>
+        <pubDate>Sun, 12 Nov 2023 10:49:33 +0100</pubDate>
+        <lastBuildDate>Sun, 12 Nov 2023 10:49:33 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Microsoft: New Outlook sends sensitive data to Microsoft</title>
+                <description>&lt;h2 id=&quot;especially-in-it-trust-is-everything-and-working-with-different-solutions-and-providers-is-always-a-matter-of-trust-the-possible-fact-that-microsofts-new-outlook-offshout-is-seemingly-sending-sensitive-data-to-redmond-could-shake-the-world-it-to-its-very-foundations---years-after-the-once-acquired-mobile-outlook-app-did-the-same&quot;&gt;Especially in IT, trust is everything and working with different solutions and providers is always a matter of trust. The possible fact that Microsoft’s new Outlook-offshout is seemingly sending sensitive data to Redmond could shake the world IT to its very foundations - years after the once acquired mobile Outlook-app did the same.&lt;/h2&gt;
+
+&lt;p&gt;Apart from the growing inconsistency of the classic and “new”, often undercooked iterations of Microsoft Desktop-applications (you may have noticed this with Teams and Outlook already), the latest Windows-version seems to be quite keen on submitting IMAP- and SMTP-credentials to Microsoft-servers as German site &lt;a href=&quot;https://www.heise.de/news/Microsoft-krallt-sich-Zugangsdaten-Achtung-vorm-neuen-Outlook-9357691.html&quot;&gt;heise.de&lt;/a&gt; reported this week.&lt;/p&gt;
+
+&lt;h2 id=&quot;everything-new&quot;&gt;Everything “new”?&lt;/h2&gt;
+
+&lt;p&gt;Speaking highly of the “new Outlook”, &lt;a href=&quot;https://techcommunity.microsoft.com/t5/outlook-blog/things-to-look-forward-to-in-the-new-outlook-for-windows/ba-p/3975602&quot;&gt;Microsoft’s plan is that this new version is about to replace&lt;/a&gt; the abandoned Windows Mail and the well-known, monolithic desktop client on Windows and macOS. Users can already switch to the new Outlook but while several elemental features (on-premises Exchange-support, PST-support on Mac etc.) are missing, the way Redmond deals with personal information and login credentials is quite questionable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/New_Outlook_Welcome.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The 2023-Windows 11-update already implements “Outlook (new)” into the start menu under “Recommended apps” so many users may give this a try - but substituting margarine for butter doesn’t always have the effect usually hoped for.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/new_outlook_win11.jpg&quot; alt=&quot;New Outlook deployed within an update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In detail, adding a new account to the new Outlook which isn’t hosted by Microsoft, a certain reference is given, explaining that “non-Microsoft-accounts are synched with the Microsoft” cloud as stated &lt;a href=&quot;https://support.microsoft.com/de-de/office/synchronisieren-ihres-kontos-in-outlook-mit-der-microsoft-cloud-985f9e19-d308-4e85-9d1d-0c6f32f8e981?ui=de-de&amp;amp;rs=de-de&amp;amp;ad=de&quot;&gt;here&lt;/a&gt; in German. At the time of writing, only iCloud-, Gmail-, Yahoo- and general IMAP-accounts and the Microsoft 365-stack are supported (and therefore synced!), including the versions on iOS, Android and macOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/new_outlook_sync_warning.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Following this notify, adding an IMAP-account to the new Outlook comes equal with syncing E-Mails with Microsofts servers. Existing contacts and calendard-entries won’t get synced but everything what is created in the new Outlook afterwards gets a direct injection into the Microsoft Cloud for whatever reason.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
+
+&lt;p&gt;Mentioning the note above which things are synced, users may question the intention behind this move. Why does the vendor of my software application not only need to save the credentials for a personal mailbox but also presume to access the personal data of users and sync them with their own systems?&lt;/p&gt;
+
+&lt;p&gt;heise.de was able to &lt;a href=&quot;https://www.heise.de/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9358925.html&quot;&gt;sniff the traffic&lt;/a&gt; between new Outlook and the Microsoft-servers, proving that the output contained the target server, login name and password which were sent to Microsoft-servers. Although the connection itself appeared to be TLS-protected, the data was sent to Microsoft in plain text within the tunnel. Without informing or inquiring about this, Microsoft grants itself access to the IMAP-and SMTP login data of users of the new Outlook which is, basically, an undeniable no-go!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-now&quot;&gt;What now?&lt;/h2&gt;
+
+&lt;p&gt;In the end, user should sit this deployment out as long as possible. There are enough alternatives around to connect IMAP-accounts with &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Thunderbird&lt;/a&gt; being probably the most-famous one. There can be no reason for Microsoft doing this and while Redmond already caused an outcry years ago when the acquired - now - Outlook Mobile-app did already send credentials to third parties, using this new half-cooked app for whatever reason is an imminent threat for everything at least slightly connected to data protection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/matthew-manuel-BhLSBX-0rnM-unsplash.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For now, this is seemingly only affecting IMAP-accounts but as Outlook is also mostly used in the Enterprise, it is more than questionable what Microsoft tries to achieve with this move. I don’t want neither my private mails, calendars and contacts nor my credentials to the accounts hosting those transmitted to the creator of a Personal Information Managed. Considering the latest bad press on &lt;a href=&quot;https://www.bleepingcomputer.com/news/microsoft/hackers-stole-microsoft-signing-key-from-windows-crash-dump/&quot;&gt;stolen keys&lt;/a&gt; of Microsoft’s cloud infrastructure, this whole thing comes with a very bad taste.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I have used Microsoft-products my whole life and am partially still doing so in private while I have to rely on them in business life - wether I like it or not. But the inconsistency of new software (just switch between the classic and “new” Outlook on Mac) or the undercooked releases (old Teams? New Teams?) just cast long shadows on Redmond’s quality of code and the common alignment of Microsoft as a vendor. Combined with the dreadful firing of new, partially unwanted, features or software, the a feeble impression comes up that there doesn’t seem to be any common theme except the wild gathering of data for whatsoever reason - which matches my personal impressions on the development of Microsoft Edge which started as a great alternative to Chrome but turned to a  meeting point of unwanted features over the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/new_outlook_bfdi.jpg&quot; alt=&quot;GDPR-issue?&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gdpr-calling&quot;&gt;GDPR calling&lt;/h2&gt;
+
+&lt;p&gt;The Federal Commissioner for Data Protection and Freedom of Information of Germany, Professor Ulrich Kelber, is alarmed by the data detour in Microsoft’s new Outlook. On Mastodon he informed about the intention &lt;a href=&quot;https://social.bund.de/@bfdi/111381793883035665&quot;&gt;to ask for a report from the Irish Data Protection Commissioner&lt;/a&gt; who is told to be responsible for companies like Microsoft, during a meeting of the European data protection supervisory authorities next Tuesday.&lt;/p&gt;
+
+&lt;p&gt;Finally, it’s up to us users to answer and react - and for everyone directly in charge of enforcing GDPR-compliances, this may be a new target to definitely aim and focus at and especially businesses should keep Outlook’s journey under review!&lt;/p&gt;
+</description>
+                <pubDate>Sat, 11 Nov 2023 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/microsoft-new-outlook-send-sensitive-data-to-microsoft/</link>
+                <guid isPermaLink="true">http://localhost:4000/microsoft-new-outlook-send-sensitive-data-to-microsoft/</guid>
+                
+                <category>internet</category>
+                
+                <category>microsoft</category>
+                
+                <category>security</category>
+                
+                <category>software</category>
+                
+                <category>outlook</category>
+                
+                
+                <category>Internet</category>
+                
+            </item>
         
             <item>
                 <title>Is Bluesky worth a visit?</title>
@@ -607,92 +672,6 @@
                 <category>foss</category>
                 
                 <category>debian</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>Mastodon - More than an alternative to Twitter and definitely here to stay</title>
-                <description>&lt;h2 id=&quot;whether-twitter-is-doomed-since-elon-musks-takeover-or-not-changes-for-federated-services-have-never-been-that-good-its-always-an-option-to-think-outside-the-box-one-possible-alternative-already-glowing-in-web-for-a-certain-time-is-mastodon&quot;&gt;Whether Twitter is doomed since Elon Musk’s takeover or not (changes for federated services have never been that good!), it’s always an option to think outside the box. One possible alternative already glowing in web for a certain time is Mastodon.&lt;/h2&gt;
-
-&lt;p&gt;„Strike while the iron’s hot“ could be a big plus for the decentralized platforms that emerge out of the chaos Elon Musk is finally causing at Twitter. One of the winners is surely &lt;a href=&quot;https://joinmastodon.org&quot;&gt;Mastodon&lt;/a&gt;, a microblogging service founded by German developer Eugen Rochko in 2016. Many things of Mastodon remind of Twitter as it was in earlier days and while decentralization and privacy are two key aspects of the service, there couldn’t be any better advertisement for Mastodon than Musk’s personal interpretation of Apple’s „&lt;a href=&quot;https://tv.apple.com/us/show/wecrashed/umc.cmc.6qw605uv2rwbzutk2p2fsgvq9&quot; title=&quot;Watch WeCrashed | Apple TV+&quot;&gt;WeCrashed&lt;/a&gt;“-TV show adopted to Twitter in real life.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-web-is-broken&quot;&gt;The web is broken&lt;/h2&gt;
-
-&lt;p&gt;First things first, the web is somehow messed up these days. We all know it and while many of us are searching for alternatives, even more still stick with services like Facebook, Instagram, WhatsApp - and Twitter, even though there are alternatives: Alternatives that may be less „fancy“, less famous and not that easy to deploy, but they are definitely worth a closer look as no revolution is started when no one leaves his own comfort zone. I first stumbled upon Mastodon two years ago and played around with the service before choosing to let this project rest for the time being. Earlier this year, I revived my account at a big public instance, discovered what has changed over those two years and - fueled by the Twitter-discussion - set up my own personal instance in really no time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1598018553943-29ace5bf9867.jpg&quot; alt=&quot;Photo by Joshua Hoehne / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During the &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;pandemic&lt;/a&gt;, many things have changed in the life of nearly everyone. Social media got more attention while people stayed at home and, with the increased usage, the seed for the dark side of information was planted. The world flipped over, &lt;a href=&quot;https://blog.pifferi.info/is-our-post-covid-working-life-here-to-stay&quot;&gt;work&lt;/a&gt; got more remote or at least hybrid, &lt;a href=&quot;https://blog.pifferi.info/thank-you-not-all-superheroes-have-capes&quot;&gt;superheroes&lt;/a&gt; fueling the daily business popped out of the nowhere. Riots stormed the US Capitol, &lt;a href=&quot;https://blog.pifferi.info/the-only-thing-we-have-to-fear-on-the-planet-is-man&quot;&gt;Russia invaded the Ukraine&lt;/a&gt; during a „special military operation“ aka. „War of Aggression“ (as sane people call it) and between everything and the pandemic, social media connected and divided people and cultures alike. The presence of social media platforms increased and got more weight, finally leading to a uncertain status quo where data is still the new gold and, while proving many services for free, the companies behind those were just aiming at personal data.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-personal-journey---relinquishing&quot;&gt;My personal journey - relinquishing&lt;/h2&gt;
-
-&lt;p&gt;I once used to adopt any social media service I could get hold of. After many years, many senseless posts and lots of thoughts, the topic of privacy became a higher ranking in my list of priorities. I read a lot and began to think whether all this is a must because „everyone has those services, too“ or if I can refuse to use the one or other platform in any way. To be honest, it was a tough decision accompanied with lots of discussions with friends and colleagues over the time. Then, finally, in my first step I disposed WhatsApp finally and with all consequences nearly two years ago. The good: My personal impact was quite non-existing even if my aunt asked how she would be able to reach me now - which mirrors our society in the worst-possible way if you ask me.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1585007600263-71228e40c8d1.jpg&quot; alt=&quot;Photo by visuals / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve got Signal, I’ve got Threema and hey, iMessage is great for Apple-users, too. The bad: You aren’t part of any socialized group dealing with your kids’ school events or birthday party plannings but I can live with this as there ARE alternatives. Surprisingly, people still complain nearly two years after deleting (!) my WhatsApp-account that they’ve sent me something, asking why I don’t answer - but this is yet another story to be told. &lt;a href=&quot;https://blog.pifferi.info/i-finally-escaped-facebook-and-i-am-happy-with-that&quot;&gt;Facebook was next&lt;/a&gt; and on November 7th, 2021, I finally made the step and left the platform. Too much ads, crippled and dazzled timelines and no real actions against complaints, incidents and spam accounts drove me to let loose here, too - and today, one year later, I don’t miss a damn thing. Of course you’ll still have to somehow justify that you either don’t use Facebook or WhatsApp which makes people staring at you like a freaking alien - but the outcome is worth the price…&lt;/p&gt;
-
-&lt;h2 id=&quot;the-twitter-story&quot;&gt;The Twitter-story&lt;/h2&gt;
-
-&lt;p&gt;This October marked by 12th consecutive year with Twitter - and it was the last one with the option to let my account die slowly or completely wipe it after exporting my Twitter-archive. I mainly used the platform as a news aggregator (love the lists I created over the years) and to spread info on my few blog posts. During the pandemic, it was one of the sources that combined news from all over the world but also personal accounts with similar opinions and things I am interested in like other tech blogs, privacy or political parties like German Pirate Party. Alas, during the pandemic, I found myself into a whirlwind of emotions that often weren’t positive and while the world around us collapsed into pieces, my own turmoil lead to a mood that wasn’t healthy.&lt;/p&gt;
-
-&lt;p&gt;Garnished with increasing numbers of commercials I was sucked into the dark side of Social Media once again - something I discovered with Facebook already. Apart from seeking information, the algorithms often discovered topics that seemed to be similar but, after following these trends, turned out to paint an even more depressive state of our world. Getting the essence of information got more difficult and I finally discovered that Twitter seemed to deliver more negative than positive things for whatever reason. Then the rumors with Elon Musk started and everything imploded this autumn, showing that a service which is, virtually, a digital standard nowadays, shouldn’t be in control of a single person acting like a big child, being unpredictable and moody with each new day to come.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1652017670205-4d16ea24cf12.jpg&quot; alt=&quot;Photo by Mariia Shalabaieva / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Over the last weeks and months, this impression has strengthen somehow as Musk has reactivated Donald Trump’s account as well as &lt;a href=&quot;https://www.washingtonpost.com/media/2022/12/17/musk-twitter-journalist-suspension-media-react/&quot; title=&quot;Musk reinstates reporters on Twitter. Their companies, though, never ...&quot;&gt;locked down many accounts of reporters (and unlocked them again)&lt;/a&gt; or „uncomfortable“ people that dare to criticize  what he is doing with the service in general. Juggling with (paid) blue checkmarks followed and Twitter’s status quo seems to be depending on the mood of someone suffering a Napoleonic complex, no matter what he does with Tesla or other companies (which I still consider to be interesting on a technical basis). The way he acts with Twitter, the accounts being revived (or blocked) randomly definitely show that no one can be sure what happens next on this central platform - &lt;a href=&quot;https://news.yahoo.com/white-house-musks-attack-fauci-063856883.html&quot; title=&quot;White House: Musk&apos;s attack on Fauci is &apos;dangerous&apos;&quot;&gt;even when calling out to „prosecute“ Dr. Anthony Fauci&lt;/a&gt;. Did you try to link to a Mastodon- or Pixelfed instance from a Twitter-profile or just mention the hashtag? Well, Elon vetoed this as well - so far in terms of freedom of speech - the same counts for the search in the meantime if you don’t want to pay for Twitter.&lt;/p&gt;
-
-&lt;p&gt;To be honest, Twitter had its problems but I bet Jack Dorsey &lt;a href=&quot;https://www.cnbc.com/2022/12/13/jack-dorsey-admits-mistakes-at-twitter-says-site-still-has-problems.html&quot; title=&quot;Jack Dorsey admits mistakes at Twitter, says site still has problems&quot;&gt;regrets&lt;/a&gt; what develops out of his former „baby“ in the meantime. There IS a real chance for competition this time and Mastodon could be one minus the aspects that makes Twitter an unpredictable platform these days, even destroying the right of free speech and freedom of press.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1611001897293-561e0c30f938.jpg&quot; alt=&quot;Photo by William Krause / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;discovering-mastodon---once-again&quot;&gt;Discovering Mastodon - once again&lt;/h2&gt;
-
-&lt;p&gt;In the turmoil of the „Evan-plays-Twitter-chess“-game which offered insane decisions day by day (laying off 50% of the workforce was just topped by the 11,000 people getting fired from Facebook a short while ago), it got more and more conclusive that the days of centralizing Big Tech may finally be over. Giving the power of a service used by millions of users into the hands of one freakish person can’t be justified anymore and although we all expected this to happen, the astonishment that Musk’s clown actions are indeed turning Twitter into a dead donkey is still amazing in a negative way. The need for decentralization, for real moderation apart of algorithms, rose in enormous metrics - and now, after being „just an Open Source alternative for Linux-freaks“ (as a colleague of mine labelled Mastodon two years ago) in the past, Mastodon is on the rise and with the power of the masses finally striving for a change in Social Media, times may change.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1669311576866-d77abb31f4ce.jpg&quot; alt=&quot;Photo by Battenhall / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It takes its time to label „Tweets“ as „Toots“ as Mastodon tries to call them and, without following the proper accounts, it can either be quite silent or - if following the federated or even local (server-) timeline - really overwhelming. Once you have settled there (&lt;a href=&quot;https://fedi.directory/&quot;&gt;and found an instance possibly reflecting your interests&lt;/a&gt;) you are ready to go and it’s astonishing to see how many persons of interest, government institutions or companies have joined the Fediverse in the meantime - or have already been there. Besides reflecting the „nearly-lookalike“ of Twitter, feeds are based upon interests, hashtags (which reflect those interests) and people you follow: The approach is different as your timeline won’t be flooded with algorithms or trending topics.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/fedi_directory.jpg&quot; alt=&quot;Yes, there is an interesting directory of Fediverse-appearances!&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Mentioning this, Mastodon is somehow „quieter“. Although the flood of people turning from Twitter is immense and I have indeed focused on likes, re-Tweets and gaining followers there, I had to adopt yet another different style of social media: Really interacting with people reacting on my posts at eye level. Criticism is welcome but there is no toxic atmosphere which can, of course, be the new zest but the treatment between each other is simply different straight from the beginning. Maybe this is caused by choosing the proper basic instance probably reflecting individual attitudes, maybe it’s just a basis of thing people have learned since Elon Musk took over at Twitter, accelerating the obvious, namely the platform with its long-term problems focused on the acting of a single individual.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-chance-for-the-fediverse&quot;&gt;The chance for the Fediverse&lt;/h2&gt;
-
-&lt;p&gt;Mastodon won’t be a magic bullet for everything, neither the Fediverse will be. Especially these days, the platform is facing a growth that no one expected. The biggest plus, the flexibility and scalability, is also the biggest threat for the few well-to-do instances and so federation is the key - once again. Those instances being there from the beginning, like mastodon.social, have already discontinued the ability to register new accounts, instead it is recommended to maybe turn to a smaller, well-known instance for scaling.&lt;/p&gt;
-
-&lt;p&gt;Besides, The Washington Post &lt;a href=&quot;https://www.washingtonpost.com/technology/2022/12/17/how-to-join-mastodon/&quot;&gt;tells the people how to start with Mastodon&lt;/a&gt; while &lt;a href=&quot;https://www.wsj.com/story/how-to-use-mastodon-the-social-media-platform-blocked-by-elon-musks-twitter-7751455f&quot;&gt;The Wall Street Journal writes about what Mastodon is and how it may be used&lt;/a&gt; after Mastodon’s official Twitter-account was suspended by Mr. Musk. In the meantime, some of the blocked journalists also &lt;a href=&quot;https://mastodon.social/@tiffanycli/109521975075886371&quot;&gt;turn from Twitter to Mastodon&lt;/a&gt;, terminating their existence on the bird site. The times, they are changing and while Mastodon was a „software for some Open Source-nerds“ before (many people I know entitled it as such), its background and mere existing are fully justified around the globe now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/photo-1518654734721-178191875754.jpg&quot; alt=&quot;Photo by George Coletrain / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Everyone can join a server, &lt;a href=&quot;https://docs.joinmastodon.org/admin/install/&quot;&gt;everyone can set up a server with an own instance&lt;/a&gt; and federate with other ones to take part in the Fediverse and the preferred topics. Mastodon may be around since October 2016 but with Twitter crumbling into pieces just because of a single person, there is enough tail wind to change the world of social media for good. While over all the years, there were single services like Facebook (do you know &lt;a href=&quot;https://friendi.ca/&quot;&gt;Friendica&lt;/a&gt;?), Instagram (&lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;) or Twitter centralizing the single data, the wind is veering and the decentralized services could fix what has been broken over all the years. With the ability to move your profile and followers from one instance to the other, there is no lock-in in the Fediverse and all the platforms can talk to each other as they are based upon the &lt;a href=&quot;https://activitypub.rocks/&quot;&gt;ActivityPub&lt;/a&gt;-protocol.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/mastodon_midgardmates.jpg&quot; alt=&quot;My timeline this Sunday on my own instance - Screenshot Courtesy of Author&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;decentralization-is-the-key&quot;&gt;Decentralization is the key&lt;/h2&gt;
-
-&lt;p&gt;While also many companies are saddling up and joining, people see that the change is imminent and not just coming but already existing. While the Fediverse grows, it will of course face the challenges of growth and regulation (every single rule depends on the server’s administrators and their willingness in many controversial discussions) as well as security. Besides, it shows that the focus on concentrating everything on centralized services has made many social media platforms turning into springboards for hatred, racism or mobbing. The intellectual challenge is there and I am quite keen to see how Mastodon and founder Eugen Rochko will face this together with the federated Mastodon-instances all over the globe.&lt;/p&gt;
-
-&lt;p&gt;Fact is: With buying Twitter and forcing the pace paired with senseless decisions, arbitrariness and being an ego-maniac while simultaneously disposing workforces as well as security, Elon Musk did a disservice to the Fediverse. It won’t ruin Twitter for now and instantly, but he lead the service astray and strengthened the competition that is more than just „Open Source software for geeks“ these days. We may be curious what to further expect in 2023 but the cards are scrambled and if there has ever been a catalyst for the ActivityPub-protocol and services like Mastodon, it was Elon Musk.&lt;/p&gt;
-
-</description>
-                <pubDate>Sun, 18 Dec 2022 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/</link>
-                <guid isPermaLink="true">http://localhost:4000/Mastodon-More-than-an-alternative-to-Twitter-and-definitely-here-to-stay/</guid>
-                
-                <category>socialnetwork</category>
-                
-                <category>socialmedia</category>
-                
-                <category>internet</category>
-                
-                <category>thoughts</category>
-                
-                <category>services</category>
                 
                 
                 <category>IT</category>
