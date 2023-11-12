@@ -1,7 +1,7 @@
 ---
 layout: post
 author: oliver
-title: "Microsoft: New Outlook sends sensitive data to Microsoft"
+title: "New Outlook seemingly sends sensitive data to Microsoft"
 date: 2023-11-11
 categories: [Internet]
 tags: [internet, microsoft, security, software, outlook]     # TAG names should always be lowercase

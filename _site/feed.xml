@@ -5,12 +5,12 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Nov 2023 10:52:45 +0100</pubDate>
-        <lastBuildDate>Sun, 12 Nov 2023 10:52:45 +0100</lastBuildDate>
+        <pubDate>Sun, 12 Nov 2023 10:54:27 +0100</pubDate>
+        <lastBuildDate>Sun, 12 Nov 2023 10:54:27 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
-                <title>Microsoft: New Outlook sends sensitive data to Microsoft</title>
+                <title>New Outlook seemingly sends sensitive data to Microsoft</title>
                 <description>&lt;h2 id=&quot;especially-in-it-trust-is-everything-and-working-with-different-solutions-and-providers-is-always-a-matter-of-trust-the-possible-fact-that-microsofts-new-outlook-offshout-is-seemingly-sending-sensitive-data-to-redmond-could-shake-the-world-it-to-its-very-foundations---years-after-the-once-acquired-mobile-outlook-app-did-the-same&quot;&gt;Especially in IT, trust is everything and working with different solutions and providers is always a matter of trust. The possible fact that Microsoft’s new Outlook-offshout is seemingly sending sensitive data to Redmond could shake the world IT to its very foundations - years after the once acquired mobile Outlook-app did the same.&lt;/h2&gt;
 
 &lt;p&gt;Apart from the growing inconsistency of the classic and “new”, often undercooked iterations of Microsoft Desktop-applications (you may have noticed this with Teams and Outlook already), the latest Windows-version seems to be quite keen on submitting IMAP- and SMTP-credentials to Microsoft-servers as German site &lt;a href=&quot;https://www.heise.de/news/Microsoft-krallt-sich-Zugangsdaten-Achtung-vorm-neuen-Outlook-9357691.html&quot;&gt;heise.de&lt;/a&gt; reported this week.&lt;/p&gt;
@@ -56,8 +56,8 @@
 &lt;p&gt;Finally, it’s up to us users to answer and react - and for everyone directly in charge of enforcing GDPR-compliances, this may be a new target to definitely aim and focus at and especially businesses should keep Outlook’s journey under review!&lt;/p&gt;
 </description>
                 <pubDate>Sat, 11 Nov 2023 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/microsoft-new-outlook-send-sensitive-data-to-microsoft/</link>
-                <guid isPermaLink="true">http://localhost:4000/microsoft-new-outlook-send-sensitive-data-to-microsoft/</guid>
+                <link>http://localhost:4000/new-outlook-seemingly-send-sensitive-data-to-microsoft/</link>
+                <guid isPermaLink="true">http://localhost:4000/new-outlook-seemingly-send-sensitive-data-to-microsoft/</guid>
                 
                 <category>internet</category>
                 
