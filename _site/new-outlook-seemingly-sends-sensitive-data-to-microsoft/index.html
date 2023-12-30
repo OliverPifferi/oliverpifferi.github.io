@@ -248,17 +248,17 @@
 
 <p><img src="../images/new_outlook_win11.jpg" alt="New Outlook deployed within an update" /></p>
 
-<p>In detail, adding a new account to the new Outlook which isn’t hosted by Microsoft, a certain reference is given, explaining that “non-Microsoft-accounts are synched with the Microsoft” cloud as stated <a href="https://support.microsoft.com/de-de/office/synchronisieren-ihres-kontos-in-outlook-mit-der-microsoft-cloud-985f9e19-d308-4e85-9d1d-0c6f32f8e981?ui=de-de&amp;rs=de-de&amp;ad=de">here</a> in German. At the time of writing, only iCloud-, Gmail-, Yahoo- and general IMAP-accounts and the Microsoft 365-stack are supported (and therefore synced!), including the versions on iOS, Android and macOS.</p>
+<p>In detail, adding a new account to the new Outlook which isn’t hosted by Microsoft, a certain reference is given, explaining that “non-Microsoft-accounts are synced with the Microsoft” cloud as stated <a href="https://support.microsoft.com/de-de/office/synchronisieren-ihres-kontos-in-outlook-mit-der-microsoft-cloud-985f9e19-d308-4e85-9d1d-0c6f32f8e981?ui=de-de&amp;rs=de-de&amp;ad=de">here</a> in German. At the time of writing, only iCloud-, Gmail-, Yahoo- and general IMAP-accounts and the Microsoft 365-stack are supported (and therefore synced!), including the versions on iOS, Android and macOS.</p>
 
 <p><img src="../images/new_outlook_sync_warning.jpg" alt="Microsoft-apps" /></p>
 
-<p>Following this notify, adding an IMAP-account to the new Outlook comes equal with syncing E-Mails with Microsofts servers. Existing contacts and calendard-entries won’t get synced but everything what is created in the new Outlook afterwards gets a direct injection into the Microsoft Cloud for whatever reason.</p>
+<p>Following this notify, adding an IMAP-account to the new Outlook comes equal with syncing E-Mails with Microsofts servers. Existing contacts and calendar-entries won’t get synced but everything what is created in the new Outlook afterwards gets a direct injection into the Microsoft Cloud for whatever reason.</p>
 
 <h2 id="the-problem">The problem</h2>
 
 <p>Mentioning the note above which things are synced, users may question the intention behind this move. Why does the vendor of my software application not only need to save the credentials for a personal mailbox but also presume to access the personal data of users and sync them with their own systems?</p>
 
-<p>heise.de was able to <a href="https://www.heise.de/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9358925.html">sniff the traffic</a> between new Outlook and the Microsoft-servers, proving that the output contained the target server, login name and password which were sent to Microsoft-servers. Although the connection itself appeared to be TLS-protected, the data was sent to Microsoft in plain text within the tunnel. Without informing or inquiring about this, Microsoft grants itself access to the IMAP-and SMTP login data of users of the new Outlook which is, basically, an undeniable no-go!</p>
+<p>heise.de was able to <a href="https://www.heise.de/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9358925.html">sniff the traffic</a> between new Outlook and the Microsoft-servers, proving that the output contained the target server, login name and password which were sent to the Microsoft Cloud. Although the connection itself appeared to be TLS-protected, the data was sent to Microsoft in plain text within the tunnel. Without informing or inquiring about this, Microsoft grants itself access to the IMAP-and SMTP login data of users of the new Outlook which is, basically, an undeniable no-go!</p>
 
 <h2 id="what-now">What now?</h2>
 
@@ -266,9 +266,9 @@
 
 <p><img src="../images/matthew-manuel-BhLSBX-0rnM-unsplash.jpg" alt="Microsoft-apps" /></p>
 
-<p>For now, this is seemingly only affecting IMAP-accounts but as Outlook is also mostly used in the Enterprise, it is more than questionable what Microsoft tries to achieve with this move. I don’t want neither my private mails, calendars and contacts nor my credentials to the accounts hosting those transmitted to the creator of a Personal Information Managed. Considering the latest bad press on <a href="https://www.bleepingcomputer.com/news/microsoft/hackers-stole-microsoft-signing-key-from-windows-crash-dump/">stolen keys</a> of Microsoft’s cloud infrastructure, this whole thing comes with a very bad taste.</p>
+<p>For now, this is seemingly only affecting IMAP-accounts but as Outlook is also mostly used in the Enterprise, it is more than questionable what Microsoft tries to achieve with this move. I don’t want neither my private mails, calendars and contacts nor my credentials to the accounts hosting those transmitted to the creator of a Personal Information Manager. Considering the latest bad press on <a href="https://www.bleepingcomputer.com/news/microsoft/hackers-stole-microsoft-signing-key-from-windows-crash-dump/">stolen keys</a> of Microsoft’s cloud infrastructure, this whole thing comes with a very bad taste.</p>
 
-<p>Don’t get me wrong, I have used Microsoft-products my whole life and am partially still doing so in private while I have to rely on them in business life - wether I like it or not. But the inconsistency of new software (just switch between the classic and “new” Outlook on Mac) or the undercooked releases (old Teams? New Teams?) just cast long shadows on Redmond’s quality of code and the common alignment of Microsoft as a vendor. Combined with the dreadful firing of new, partially unwanted, features or software, the a feeble impression comes up that there doesn’t seem to be any common theme except the wild gathering of data for whatsoever reason - which matches my personal impressions on the development of Microsoft Edge which started as a great alternative to Chrome but turned to a  meeting point of unwanted features over the years.</p>
+<p>Don’t get me wrong, I have used Microsoft-products my whole life and am partially still doing so in private while I have to rely on them in business life - wether I like it or not. But the inconsistency of new software (just switch between the classic and “new” Outlook on Mac) or the undercooked releases (old Teams? New Teams?) just cast long shadows on Redmond’s quality of code and the common alignment of Microsoft as a vendor. Combined with the dreadful firing of new, partially unwanted or unfinished, features or software, a feeble impression comes up that there doesn’t seem to be any common theme except the wild gathering of data for whatsoever reason: This finally matches my personal impressions on the development of Microsoft Edge which started as a great alternative to Chrome but turned to a bloated meeting point of unwanted features over the years.</p>
 
 <p><img src="../images/new_outlook_bfdi.jpg" alt="GDPR-issue?" /></p>
 
@@ -305,6 +305,17 @@
   
 
   
+  <a class="post__next" href="/season-greetings-and-goodbye-forever-2023/">
+    <div class="next__box">
+      <span class="post__nav post__nav__next">Newer post</span>
+      <h2 class="post__nav__title">Season Greetings and goodbye forever, 2023!</h2>
+    </div>
+    <div class="next__image">
+      
+      <img class="lazy" data-src="/images/xmas_tree.jpg" alt="New Outlook seemingly sends sensitive data to Microsoft">
+    </div>
+  </a>
+  
 </div>
     
 
@@ -332,6 +343,13 @@
           <div class="row">
 
           
+            
+            
+      
+            
+      
+            
+            
             
             
       
@@ -512,6 +530,21 @@
     
     <div class="recent-posts">
       
+      <a class="recent-posts__image" href="/season-greetings-and-goodbye-forever-2023/">
+        
+        <img class="lazy" data-src="/images/xmas_tree.jpg" alt="Season Greetings and goodbye forever, 2023!">
+      </a>
+      
+      <div class="recent-posts__content">
+        <div class="recent-posts__date">
+          <time datetime="2023-12-24T00:00:00+01:00">December 24, 2023</time>
+        </div>
+        <h4 class="recent-posts__title"><a href="/season-greetings-and-goodbye-forever-2023/">Season Greetings and goodbye forever, 2023!</a></h4>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
       <a class="recent-posts__image" href="/new-outlook-seemingly-sends-sensitive-data-to-microsoft/">
         
         <img class="lazy" data-src="/images/daniel-HC-nTpz8-V4-unsplash.jpg" alt="New Outlook seemingly sends sensitive data to Microsoft">
@@ -522,21 +555,6 @@
           <time datetime="2023-11-11T00:00:00+01:00">November 11, 2023</time>
         </div>
         <h4 class="recent-posts__title"><a href="/new-outlook-seemingly-sends-sensitive-data-to-microsoft/">New Outlook seemingly sends sensitive data to Microsoft</a></h4>
-      </div>
-    </div>
-    
-    <div class="recent-posts">
-      
-      <a class="recent-posts__image" href="/is-bluesky-worth-a-visit/">
-        
-        <img class="lazy" data-src="/images/bluesky.jpg" alt="Is Bluesky worth a visit?">
-      </a>
-      
-      <div class="recent-posts__content">
-        <div class="recent-posts__date">
-          <time datetime="2023-11-04T00:00:00+01:00">November 4, 2023</time>
-        </div>
-        <h4 class="recent-posts__title"><a href="/is-bluesky-worth-a-visit/">Is Bluesky worth a visit?</a></h4>
       </div>
     </div>
     

@@ -1,8 +1,8 @@
 ---
 layout: post
 author: oliver
-title: "An Ode to the Distance"
-date: 2023-12-01
+title: „Season „Greetings
+date: 2023-12-31
 categories: [Thoughts]
 tags: [life, thoughts, traveling, reflections, thoughts]     # TAG names should always be lowercase
 image: '/images/endless_freedom_norway.jpg'
