@@ -5,15 +5,103 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 30 Dec 2023 09:25:56 +0100</pubDate>
-        <lastBuildDate>Sat, 30 Dec 2023 09:25:56 +0100</lastBuildDate>
+        <pubDate>Sun, 14 Jan 2024 14:46:55 +0100</pubDate>
+        <lastBuildDate>Sun, 14 Jan 2024 14:46:55 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>My default apps starting 2024</title>
+                <description>&lt;h2 id=&quot;there-have-been-many-lovely-events-in-the-internet-over-the-years-and-one-to-cherish-especially-is-the-one-where-users-simply-blog-about-their-favorite-standard-apps-they-are-using&quot;&gt;There have been many lovely events in the Internet over the years and one to cherish especially is the one where users simply blog about their favorite standard apps they are using.&lt;/h2&gt;
+
+&lt;p&gt;It’s a simply idea and despite reminding me on some kind of classic chain letter, I stumbled upon this campaign by swiping through my Mastodon-feed. Niklas, a lucky German guy who managed to live in Norway (yes, I am definitely jealousy of him here!) &lt;a href=&quot;https://www.niklas.fyi/posts/2024-01-11-default-apps/&quot;&gt;shared his list&lt;/a&gt;. After looking what all this was really about, I discovered &lt;a href=&quot;https://rknight.me&quot;&gt;Robb Knight’s&lt;/a&gt; site and his „&lt;a href=&quot;https://defaults.rknight.me&quot;&gt;App Defaults&lt;/a&gt;“-project.&lt;/p&gt;
+
+&lt;p&gt;Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.&lt;/p&gt;
+
+&lt;p&gt;📨 Mail Service: mailbox.org&lt;br /&gt;
+📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, mailbox.org in the Web&lt;br /&gt;
+📝 Notes: &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt;
+✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;
+🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;
+📆 Calendar: mailbox.org CalDAV
+📁 Cloud Storage: mailbox.org and &lt;a href=&quot;https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage&quot;&gt;OneDrive&lt;/a&gt;
+📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;
+🙍🏻‍♂️ Contacts: mailbox.org CardDAV
+🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt;
+💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;
+🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;
+🔎 Search: &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt;
+📚 Reading: Printed (!) books
+📰 News: &lt;a href=&quot;https://apps.apple.com/app/reeder-5/id1529445840&quot;&gt;Reeder 5&lt;/a&gt;
+🎵 Music: &lt;a href=&quot;https://www.apple.com/apple-music/&quot;&gt;Apple Music&lt;/a&gt;
+🎤 Podcasts: &lt;a href=&quot;https://www.apple.com/apple-podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;
+🌤️ Weather: &lt;a href=&quot;https://apps.apple.com/us/app/weather/id1069513131&quot;&gt;Apple Weather&lt;/a&gt;
+🔐 Password Management: Self-hosted &lt;a href=&quot;https://bitwarden.com&quot;&gt;Bitwarden&lt;/a&gt;
+🧮 Code Editor: &lt;a href=&quot;https://apps.apple.com/app/coteditor/id1024640650?mt=12&quot;&gt;CotEditor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/dan-cristian-padure-noOXRT9gfQ8-unsplash.jpg&quot; alt=&quot;Tools&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As 2024 is still being young but already comes along with uprising political turmoil here in Germany paired with a quite dissatisfied population, there are definitely some more serious things to handle this year. Anyway, it’s quite funny to create this list and look how it will develop over time as needs and use cases may change like they have changed over the years - so apart from the real serious events on this planet, this one here is a welcomed relief…&lt;/p&gt;
+</description>
+                <pubDate>Mon, 08 Jan 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/My-default-apps-starting-2024/</link>
+                <guid isPermaLink="true">http://localhost:4000/My-default-apps-starting-2024/</guid>
+                
+                <category>internet</category>
+                
+                <category>software</category>
+                
+                <category>social</category>
+                
+                <category>apps</category>
+                
+                <category>services</category>
+                
+                
+                <category>Software</category>
+                
+            </item>
+        
+            <item>
+                <title>„Season „Greetings</title>
+                <description>&lt;h2 id=&quot;i-have-never-been-the-typical-homelike-guy---after-all-i-managed-just-to-live-in-three-cities-my-whole-life-but-with-each-travel-my-wanderlust-grows-even-more-and-so-do-the-dreams-of-living-at-a-place-thats-good-for-me&quot;&gt;I have never been the typical homelike guy - after all, I managed just to live in three cities my whole life but with each travel, my wanderlust grows even more and so do the dreams of living at a place that’s good for me.&lt;/h2&gt;
+
+&lt;p&gt;Born in a German city in the Ruhr Area, I moved to yet another industrial city with seven and stayed there for fifteen years before moving back to my origin city due to former friends. While my grandparents still live there, there are were no real aspects that kept me there once I got to know my later wife and moved to the Münsterland area approximately 50 kilometers away in 2005. Since 18 years, I call the small town I am living in my homeplace but except my family (wife and children), there is not much that keeps me at this specific place.&lt;/p&gt;
+
+&lt;p&gt;This may sound quite sad (especially as I adore people who are proud residents of the place they were born at and stay there all their life) but the spirit of wanderlust is something that the mother-based part of my family tree brought into my life: My grand dad, who died in 2018, was entitled „Henry the Conqueror“ as he ventured through the world while being a piano player on a  big cruise ship after surviving the aftermath of World War II. He used to live in Finland for many, many years and then moved to Germany where my grandma and my mother waited for him for many years. It’s a great and sad story of the 20th century, but wherever he was, he extended his own horizon, saw nearly the whole world and got to know many cultures. He was always the open-minded guy, thirsting for the new experiences and could never hold on until his ongoing journey ended in 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Henry_the_Conqueror.jpg&quot; alt=&quot;My granddad, Henry the Conqueror&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My mum - his daughter - went the same way and is today still open-minded towards seeing new things, countries and learning from other cultures. These characteristics have possibly always been latent in my personality but definitely grew over the years after seeing other ports of the world than the usual Spanish holiday places I knew from my childhood: The Netherlands, England, Scotland, Belgium, the USA, Denmark and… finally… Norway. There have been some cultural clashes but even seeing Silicon Valley live in 2018 and facing in love with this (expensive) area can’t be compared to the impressions Norway had on me. Because of other events, I already wrote about &lt;a href=&quot;../Life-is-vivid-try-to-live-it-that-way!/&quot;&gt;live being vivid&lt;/a&gt; in 2022 or talkshopped on &lt;a href=&quot;../I-am-stuck-writers-block-or-just-silly-season/&quot;&gt;yet another writer’s block&lt;/a&gt; in 2021 but indeed the outstanding beauty of Norse nature, the few but friendly people and the versatility of this narrow but long-drawn out Scandinavian country made be to instantly fall in love with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/norse_panorama_2023.jpg&quot; alt=&quot;My granddad, Henry the Conqueror&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The third consecutive year since 2021, we lately made it to Norway, slowly proceeding from the far South to the South to a place that wasn’t still really North but at least something in the nearly middle of the country: The Kristiansund-area near Aure in Foldfjorden.&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 31 Dec 2023 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/an-ode-to-the.distance/</link>
+                <guid isPermaLink="true">http://localhost:4000/an-ode-to-the.distance/</guid>
+                
+                <category>life</category>
+                
+                <category>thoughts</category>
+                
+                <category>traveling</category>
+                
+                <category>reflections</category>
+                
+                <category>thoughts</category>
+                
+                
+                <category>Thoughts</category>
+                
+            </item>
         
             <item>
                 <title>Season Greetings and goodbye forever, 2023!</title>
                 <description>&lt;h2 id=&quot;it-was-a-special-and-somehow-strange-year---paired-with-many-experiences-and-the-proof-that-there-are-often-unexpected-insights-into-human-nature&quot;&gt;It was a special and somehow strange year - paired with many experiences and the proof that there are often unexpected insights into human nature.&lt;/h2&gt;
 
-&lt;p&gt;Looking back even into the COVID-years which defined our way the last three years (while the plague is still there), 2023 wasn’t the best year in many ways. It was a year of change, a year of insights and a year of breaking bonds with people seemingly flagged as „friendly co-workers“ just because of a job change: All those experiences finally build their own, full circle and, in the end, other positive outcomes help to leave the past behind while aiming towards a better personal future.&lt;/p&gt;
+&lt;p&gt;Looking back even into the COVID-years which defined our way the last three years (while the plague is still there), 2023 wasn’t the best year in many ways. It was a year of change, a year of insights and a year of breaking bonds with people seemingly flagged as „friendly co-workers“ just because of a job change: All those experiences finally built their own, full circle and, in the end, other positive outcomes helped to leave the past behind while aiming towards a better personal future.&lt;/p&gt;
 
 &lt;p&gt;From a professional basis, many things changed in its foundation starting this March, &lt;a href=&quot;../The-best-way-to-predict-your-future-is-to-create-it/&quot;&gt;finally enabling me&lt;/a&gt; to leave a dead-end caused by many wrong strategical decisions over the last consecutive three years. Over the year, there was a s&lt;a href=&quot;../Stop-worrying-about-people-that-arent-worried-about-you/&quot;&gt;teep learning curve&lt;/a&gt; experiencing that, during these days, literally leaving the Hogwarts Express heading to anywhere except Hogwarts may leave you disposed into the nowhere. Seen from a business view, you were useful once you opted out continuing to howl with the wolves despite the real wolves in sheep’s closing tried to make anything worse powered by missing awareness, ignorance and ongoing megalomania.&lt;/p&gt;
 
@@ -35,8 +123,7 @@
 
 &lt;p&gt;&lt;img src=&quot;../images/cristian-escobar-abkEAOjnY0s-unsplash.jpg&quot; alt=&quot;New year&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;There will be familiar challenges ahead, challenges with health and my growing kids but I hope that we will somehow manage those in the best-possible ways so staying healthy as long as possible is surely one of the better wishes for an upcoming new year. While this one comes to an end, I try to put many disappointing moments of 2023 into a box, seal and get rid of them. The sad moments prevailed but the good moments are a foundation to build trust on, no matter if it was a 60 km-hike within three days, opening an exciting new chapter of your professional life with ten people in common, playing „Hogwarts Legacy“ with your eldest or conquering the (still-not-real) North of Norway with three wonderful and crazy guys: Hope for the better lives on, so be welcomed, 2024 - and hopefully this year will be a better one than the last ones as the good often comes unexpected!&lt;/p&gt;
-
+&lt;p&gt;There will be familial challenges ahead, challenges with health and my growing kids but I hope that we will somehow manage those in the best-possible ways so staying healthy as long as possible is surely one of the better wishes for an upcoming new year. While this one comes to an end, I try to put many disappointing moments of 2023 into a box, seal and get rid of them. The sad moments prevailed but the good moments are a foundation to build trust on, no matter if it was a 60 km-hike within three days, opening an exciting new chapter of your professional life with ten people in common, playing „Hogwarts Legacy“ with your eldest or conquering the (still-not-real) North of Norway with three wonderful and crazy guys: Hope for the better lives on, so be welcomed, 2024 - and hopefully this year will be a better one than the last ones as the good often comes unexpected!&lt;/p&gt;
 </description>
                 <pubDate>Sun, 24 Dec 2023 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/season-greetings-and-goodbye-forever-2023/</link>
@@ -540,107 +627,6 @@
                 <category>foss</category>
                 
                 <category>debian</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>The best way to predict your future is to create it</title>
-                <description>&lt;h2 id=&quot;while-the-past-is-gone-and-the-future-still-is-still-ahead-abraham-lincolns-famous-quote-can-be-a-synonym-for-a-proactive-way-of-influencing-events-that-are-still-ahead&quot;&gt;While the past is gone and the future still is still ahead, Abraham Lincoln’s famous quote can be a synonym for a proactive way of influencing events that are still ahead.&lt;/h2&gt;
-
-&lt;p&gt;I’ve pulled the plug. After months (summing up to years?) of anger, desperation, lack of perspective, sluggishness, avolition and familiar impact in terms of health and &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;death&lt;/a&gt;, we finally made it to Denmark (a long-time goal on our family’s holiday shortlist) with the kids to create a distance between the daily &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;burden&lt;/a&gt; - at least for a single week. Although being to Denmark before, the country was more or less a „jumphost“ for our ventures to Norway. This time, it gets at least a one-week-attention with the family-focus on it.&lt;/p&gt;
-
-&lt;p&gt;Time to recharge, time to refocus, time to get away from everything that is harming the everyday’s life. For me, there is no better cure than the sea and especially (especially, especially!) the sea. All sorrows are gone if I venture to the beach, sit down there and enjoy the grace of weather, tide and the sand there. While time is seemingly stopping, my inner self comes to rest and gets time to reflect many, many things. The life is different near the sea and the everyday-disturbances you know from your hamster running wheel at home are simply gone and forgotten.&lt;/p&gt;
-
-&lt;p&gt;There are decisions to made in the near future and decisions that have already been made to get back on a track in certain situations.  As I am the kind of human who judges by pro- and contra-arguments, there are always aspects weighting in for one side or the other but when I opt in for one, it’s a final decision and - usually - turning back isn’t on my agenda. Basically, you will never know what you get with each decision but - on the other hand - won’t ever make the experience what could happen if you never dare to decide anything.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/hvide_sande_lighthouse.jpg&quot; alt=&quot;Hvide Sande Lighthouse, Denmark - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While thinking about the future in the one or other aspect, life focuses on my family, my wife, my kids and hobbies which never get the attention they usually deserve. Re-gaining this focus, I find the time to create my own future in a certain way. Not all parts of my life will be affected, but there is a time for new challenges and moving on. Therefore, a precise prediction of my future in all aspects remains (of course!) uncertain, but getting actively involved into its creation may stop the hamster wheel and open a door while another one will be shut in the short term. Sometimes and occasionally, opportunities that needs to be grabbed simply stumble upon your way, giving you a new perspective!&lt;/p&gt;
-
-&lt;p&gt;Don’t wait for your future to be created by you. Take the time to re-focus, „pull the plug“ and think about the things that are good for you - and sort out those aspects that aren’t. Often it just needs a specific distance to find a solution - and someone with a helping hand and a perspective, clearing things up. You won’t play an active part in the way the universe works, but you can put the things on the right track to somehow benefit from it: Both your personal wellbeing and your family will be grateful for that proactive attitude towards changing your own’s future!&lt;/p&gt;
-
-</description>
-                <pubDate>Sat, 15 Apr 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</link>
-                <guid isPermaLink="true">http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</guid>
-                
-                <category>thoughts</category>
-                
-                <category>life</category>
-                
-                <category>job</category>
-                
-                <category>profession</category>
-                
-                <category>future</category>
-                
-                
-                <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>Dark Noise: Simple. Fast. White noise, refined!</title>
-                <description>&lt;h2 id=&quot;when-anthrax-released-their-famous-album-the-sound-of-white-noise-back-in-1993-aiming-for-silence-and-harmony-wasnt-the-main-focus-today-dark-noise-is-a-tool-willing-to-phase-down-the-pace-of-everyday-life-by-providing-natural-sounds-on-all-apple-based-oses-striving-for-calmness&quot;&gt;When Anthrax released their famous album „The Sound of White Noise“ back in 1993, aiming for silence and harmony wasn’t the main focus. Today, Dark Noise is a tool willing to phase down the pace of everyday life by providing natural sounds on all Apple-based OSes, striving for calmness.&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/dark-noise-hero-v3-transparent.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With noise, permanent office talks and similar sounds all around it’s difficult to focus on anything. I often discover myself to be simply fed up with senseless conversations (just to talk anything at all) or permanent muttering all around: Especially if you’ve got kids of nearly all ages, there IS always a variety of sounds all around preventing from focusing on anything. I like the expression that „a lot of people think I’m unhappy because I’m quiet“. In fact I’m not unhappy, I just appreciate silence in a world that never stops talking!&lt;/p&gt;
-
-&lt;p&gt;Having this in mind, Dark Noise, which has recently been released in Version 3.0, closes the gap of just isolating yourself from the noises outside - for a variety of reasons. The app itself has a certain history - v1.0 was released in August 2019 on iOS, v2.0 followed in July 2020 with mixing capabilities and the feature of syncing these mixes via iCloud to each device associated with the specific Apple-account. In May 2021, v2.5 finally made the step to the Mac&lt;/p&gt;
-
-&lt;div class=&quot;embed-container&quot;&gt;
-    &lt;iframe width=&quot;640&quot; height=&quot;390&quot; src=&quot;https://www.youtube.com/embed/wsMA6Du03J8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;style&gt;
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-&lt;/style&gt;
-
-&lt;p&gt;and these days, version 3.0 was released, introducing of a free tier. This includes access to eight free sounds as well as full support for infinitely looping sounds, Shortcuts, Siri integration, and the Timer-feature. The app itself is built pretty straightforward - developer Charly Chapman is, by his own words, building software for eight years and pretty new to the iOS-scene. Putting this aside, the level of maturity on Dark Noise is quite impressive as the main goal - providing environment sounds - can be achieved without any hassle: Browse through the list, pick your sound and enjoy!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/screenshot_mac_03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While each sound stands for his own, I especially like the mixing feature: Putting beach and seagulls together, I combine my own favorite and mind-tranquilizing scenario at ease! Everyone of you liking windy trees together with some kind of rain and crickets can mix this as well - and even if you like the soundscape of a coffee shop with a construction side nearby paired with the sound of a city street, you will be able to make up the preferred sound setting.&lt;/p&gt;
-
-&lt;p&gt;Charly Chapman is also providing the possibility of either &lt;a href=&quot;https://tally.so/r/wAzPGk&quot; title=&quot;Request a New Sound Form&quot;&gt;request a specific sound&lt;/a&gt; to be added to Dark Noise or &lt;a href=&quot;https://tally.so/r/wdEq4A&quot; title=&quot;Request a Feature Form&quot;&gt;request a feature&lt;/a&gt; while providing support to all additional questions besides the &lt;a href=&quot;https://darknoise.app/help&quot;&gt;FAQ&lt;/a&gt; by E-Mail. In my personal use case, I often stumbled upon apps that were aiming towards providing sound sets to calm down, relax, re-focus or just turn away from the classic Apple Music- or Spotify-based playlists. Many crossed my path but Dark Noise is definitely here to stay: Apart from the variety of sounds, there are two features that I would personally consider as unique selling point: The mixer and the iCloud-sync which even enhance the custom mixes by simply putting them on my iPhone and iPad after I have created them on my Mac. Also the Siri-integration or support of Shortcuts is a big plus that raises Dark Noise above the common masses.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/dark-noise-pro-compare.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dark Noise 3.0 is available on Apple’s App Store to &lt;a href=&quot;https://apps.apple.com/us/app/dark-noise/id1465439395&quot; title=&quot;download for free&quot;&gt;download&lt;/a&gt; for free. Dark Noise Pro is currently available for 2,99 EUR a month, 22,99 EUR a year with a 3 day trial, or a one-time-purchase for 59,99 EUR while the US-Dollar prices slights vary. According to the App Store and the developer’s privacy policy, no data is collected during the usage of the app - by June 2020, Firebase-and Crashlytics-reporting and analytics have been removed from the app and anonymous TelemetryDeck-analytics can be opted-out from within the app.&lt;/p&gt;
-
-&lt;p&gt;The pricing is okay and fair, especially if you go with a yearly plan - and, according to your use case, the one-timer may also make sense in terms of supporting an indie developer which once had a great idea and has now made all the proper steps to be successful with Dark Noise on all major Apple-based platforms!&lt;/p&gt;
-</description>
-                <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Dark-Noise-simple-fast-white-noise-refined/</link>
-                <guid isPermaLink="true">http://localhost:4000/Dark-Noise-simple-fast-white-noise-refined/</guid>
-                
-                <category>apple</category>
-                
-                <category>ios</category>
-                
-                <category>macos</category>
-                
-                <category>apps</category>
-                
-                <category>tools</category>
                 
                 
                 <category>IT</category>
