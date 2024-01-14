@@ -14,15 +14,15 @@ It’s a simply idea and despite reminding me on some kind of classic chain lett
 
 Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.
 
-- 📨 Mail Service: mailbox.org
-- 📮 Mail Client: [Apple Mail](https://apps.apple.com/app/mail/id1108187098) on macOS & iOS, mailbox.org in the Web
+- 📨 Mail Service: [mailbox.org](https://mailbox.org)
+- 📮 Mail Client: [Apple Mail](https://apps.apple.com/app/mail/id1108187098) on macOS & iOS, [mailbox.org](https://mailbox.org) in the Web
 - 📝 Notes: [Apple Notes](https://www.icloud.com/notes)
 - ✅ To-Do: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
 - 🌅 Photo library: [iCloud Photos](https://www.icloud.com/photos)
-- 📆 Calendar: mailbox.org CalDAV
+- 📆 Calendar: [mailbox.org](https://mailbox.org) CalDAV
 - 📁 Cloud Storage: [Nextcloud](https://nextcloud.com)
 - 📖 RSS Service: Self-hosted [FreshRSS](https://freshrss.org/)
-- 🙍🏻‍♂️ Contacts: mailbox.org CardDAV
+- 🙍🏻‍♂️ Contacts: [mailbox.org](https://mailbox.org) CardDAV
 - 🌐 Browser: [Safari](https://www.apple.com/safari/) and [Firefox](https://www.getfirefox.com/)
 - 💬 Chat: [Signal](https://signal.org/), [Messages](https://apps.apple.com/zm/app/messages/id1146560473) & [Threema](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4)
 - 🛒 Shopping Lists: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
