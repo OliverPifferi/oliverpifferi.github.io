@@ -19,14 +19,14 @@ Here, he initiated and collected RSS-feeds people in the Net telling exactly whi
 - 📝 Notes: [Apple Notes](https://www.icloud.com/notes)
 - ✅ To-Do: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
 - 🌅 Photo library: [iCloud Photos](https://www.icloud.com/photos)
-- 📆 Calendar: mailbox.org CalDAV\
+- 📆 Calendar: mailbox.org CalDAV
 - 📁 Cloud Storage: [Nextcloud](https://nextcloud.com)
-- 📖 RSS Service: Self-hosted [FreshRSS](https://freshrss.org/)\
+- 📖 RSS Service: Self-hosted [FreshRSS](https://freshrss.org/)
 - 🙍🏻‍♂️ Contacts: mailbox.org CardDAV
 - 🌐 Browser: [Safari](https://www.apple.com/safari/) and [Firefox](https://www.getfirefox.com/)
 - 💬 Chat: [Signal](https://signal.org/), [Messages](https://apps.apple.com/zm/app/messages/id1146560473) & [Threema](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4)
 - 🛒 Shopping Lists: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
-- 🔎 Search: [DuckDuckGo](https://duckduckgo.com)\
+- 🔎 Search: [DuckDuckGo](https://duckduckgo.com)
 - 📚 Reading: Printed (!) books
 - 📰 News: [Reeder 5](https://apps.apple.com/app/reeder-5/id1529445840)
 - 🎵 Music: [Apple Music](https://www.apple.com/apple-music/)
