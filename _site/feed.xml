@@ -5,8 +5,8 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 14 Jan 2024 14:46:55 +0100</pubDate>
-        <lastBuildDate>Sun, 14 Jan 2024 14:46:55 +0100</lastBuildDate>
+        <pubDate>Thu, 18 Jan 2024 20:11:49 +0100</pubDate>
+        <lastBuildDate>Thu, 18 Jan 2024 20:11:49 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -17,26 +17,28 @@
 
 &lt;p&gt;Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.&lt;/p&gt;
 
-&lt;p&gt;📨 Mail Service: mailbox.org&lt;br /&gt;
-📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, mailbox.org in the Web&lt;br /&gt;
-📝 Notes: &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt;
-✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;
-🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;
-📆 Calendar: mailbox.org CalDAV
-📁 Cloud Storage: mailbox.org and &lt;a href=&quot;https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage&quot;&gt;OneDrive&lt;/a&gt;
-📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;
-🙍🏻‍♂️ Contacts: mailbox.org CardDAV
-🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt;
-💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;
-🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;
-🔎 Search: &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt;
-📚 Reading: Printed (!) books
-📰 News: &lt;a href=&quot;https://apps.apple.com/app/reeder-5/id1529445840&quot;&gt;Reeder 5&lt;/a&gt;
-🎵 Music: &lt;a href=&quot;https://www.apple.com/apple-music/&quot;&gt;Apple Music&lt;/a&gt;
-🎤 Podcasts: &lt;a href=&quot;https://www.apple.com/apple-podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;
-🌤️ Weather: &lt;a href=&quot;https://apps.apple.com/us/app/weather/id1069513131&quot;&gt;Apple Weather&lt;/a&gt;
-🔐 Password Management: Self-hosted &lt;a href=&quot;https://bitwarden.com&quot;&gt;Bitwarden&lt;/a&gt;
-🧮 Code Editor: &lt;a href=&quot;https://apps.apple.com/app/coteditor/id1024640650?mt=12&quot;&gt;CotEditor&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;📨 Mail Service: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; in the Web&lt;/li&gt;
+  &lt;li&gt;📝 Notes: &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📆 Calendar: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; CalDAV&lt;/li&gt;
+  &lt;li&gt;📁 Cloud Storage: &lt;a href=&quot;https://nextcloud.com&quot;&gt;Nextcloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🙍🏻‍♂️ Contacts: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; CardDAV&lt;/li&gt;
+  &lt;li&gt;🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔎 Search: &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📚 Reading: Printed (!) books&lt;/li&gt;
+  &lt;li&gt;📰 News: &lt;a href=&quot;https://apps.apple.com/app/reeder-5/id1529445840&quot;&gt;Reeder 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🎵 Music: &lt;a href=&quot;https://www.apple.com/apple-music/&quot;&gt;Apple Music&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🎤 Podcasts: &lt;a href=&quot;https://www.apple.com/apple-podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🌤️ Weather: &lt;a href=&quot;https://apps.apple.com/us/app/weather/id1069513131&quot;&gt;Apple Weather&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🔐 Password Management: Self-hosted &lt;a href=&quot;https://bitwarden.com&quot;&gt;Bitwarden&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🧮 Code Editor: &lt;a href=&quot;https://apps.apple.com/app/coteditor/id1024640650?mt=12&quot;&gt;CotEditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;../images/dan-cristian-padure-noOXRT9gfQ8-unsplash.jpg&quot; alt=&quot;Tools&quot; /&gt;&lt;/p&gt;
 
@@ -58,42 +60,6 @@
                 
                 
                 <category>Software</category>
-                
-            </item>
-        
-            <item>
-                <title>„Season „Greetings</title>
-                <description>&lt;h2 id=&quot;i-have-never-been-the-typical-homelike-guy---after-all-i-managed-just-to-live-in-three-cities-my-whole-life-but-with-each-travel-my-wanderlust-grows-even-more-and-so-do-the-dreams-of-living-at-a-place-thats-good-for-me&quot;&gt;I have never been the typical homelike guy - after all, I managed just to live in three cities my whole life but with each travel, my wanderlust grows even more and so do the dreams of living at a place that’s good for me.&lt;/h2&gt;
-
-&lt;p&gt;Born in a German city in the Ruhr Area, I moved to yet another industrial city with seven and stayed there for fifteen years before moving back to my origin city due to former friends. While my grandparents still live there, there are were no real aspects that kept me there once I got to know my later wife and moved to the Münsterland area approximately 50 kilometers away in 2005. Since 18 years, I call the small town I am living in my homeplace but except my family (wife and children), there is not much that keeps me at this specific place.&lt;/p&gt;
-
-&lt;p&gt;This may sound quite sad (especially as I adore people who are proud residents of the place they were born at and stay there all their life) but the spirit of wanderlust is something that the mother-based part of my family tree brought into my life: My grand dad, who died in 2018, was entitled „Henry the Conqueror“ as he ventured through the world while being a piano player on a  big cruise ship after surviving the aftermath of World War II. He used to live in Finland for many, many years and then moved to Germany where my grandma and my mother waited for him for many years. It’s a great and sad story of the 20th century, but wherever he was, he extended his own horizon, saw nearly the whole world and got to know many cultures. He was always the open-minded guy, thirsting for the new experiences and could never hold on until his ongoing journey ended in 2018.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Henry_the_Conqueror.jpg&quot; alt=&quot;My granddad, Henry the Conqueror&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My mum - his daughter - went the same way and is today still open-minded towards seeing new things, countries and learning from other cultures. These characteristics have possibly always been latent in my personality but definitely grew over the years after seeing other ports of the world than the usual Spanish holiday places I knew from my childhood: The Netherlands, England, Scotland, Belgium, the USA, Denmark and… finally… Norway. There have been some cultural clashes but even seeing Silicon Valley live in 2018 and facing in love with this (expensive) area can’t be compared to the impressions Norway had on me. Because of other events, I already wrote about &lt;a href=&quot;../Life-is-vivid-try-to-live-it-that-way!/&quot;&gt;live being vivid&lt;/a&gt; in 2022 or talkshopped on &lt;a href=&quot;../I-am-stuck-writers-block-or-just-silly-season/&quot;&gt;yet another writer’s block&lt;/a&gt; in 2021 but indeed the outstanding beauty of Norse nature, the few but friendly people and the versatility of this narrow but long-drawn out Scandinavian country made be to instantly fall in love with it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/norse_panorama_2023.jpg&quot; alt=&quot;My granddad, Henry the Conqueror&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The third consecutive year since 2021, we lately made it to Norway, slowly proceeding from the far South to the South to a place that wasn’t still really North but at least something in the nearly middle of the country: The Kristiansund-area near Aure in Foldfjorden.&lt;/p&gt;
-
-</description>
-                <pubDate>Sun, 31 Dec 2023 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/an-ode-to-the.distance/</link>
-                <guid isPermaLink="true">http://localhost:4000/an-ode-to-the.distance/</guid>
-                
-                <category>life</category>
-                
-                <category>thoughts</category>
-                
-                <category>traveling</category>
-                
-                <category>reflections</category>
-                
-                <category>thoughts</category>
-                
-                
-                <category>Thoughts</category>
                 
             </item>
         
@@ -630,6 +596,42 @@
                 
                 
                 <category>IT</category>
+                
+            </item>
+        
+            <item>
+                <title>The best way to predict your future is to create it</title>
+                <description>&lt;h2 id=&quot;while-the-past-is-gone-and-the-future-still-is-still-ahead-abraham-lincolns-famous-quote-can-be-a-synonym-for-a-proactive-way-of-influencing-events-that-are-still-ahead&quot;&gt;While the past is gone and the future still is still ahead, Abraham Lincoln’s famous quote can be a synonym for a proactive way of influencing events that are still ahead.&lt;/h2&gt;
+
+&lt;p&gt;I’ve pulled the plug. After months (summing up to years?) of anger, desperation, lack of perspective, sluggishness, avolition and familiar impact in terms of health and &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;death&lt;/a&gt;, we finally made it to Denmark (a long-time goal on our family’s holiday shortlist) with the kids to create a distance between the daily &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;burden&lt;/a&gt; - at least for a single week. Although being to Denmark before, the country was more or less a „jumphost“ for our ventures to Norway. This time, it gets at least a one-week-attention with the family-focus on it.&lt;/p&gt;
+
+&lt;p&gt;Time to recharge, time to refocus, time to get away from everything that is harming the everyday’s life. For me, there is no better cure than the sea and especially (especially, especially!) the sea. All sorrows are gone if I venture to the beach, sit down there and enjoy the grace of weather, tide and the sand there. While time is seemingly stopping, my inner self comes to rest and gets time to reflect many, many things. The life is different near the sea and the everyday-disturbances you know from your hamster running wheel at home are simply gone and forgotten.&lt;/p&gt;
+
+&lt;p&gt;There are decisions to made in the near future and decisions that have already been made to get back on a track in certain situations.  As I am the kind of human who judges by pro- and contra-arguments, there are always aspects weighting in for one side or the other but when I opt in for one, it’s a final decision and - usually - turning back isn’t on my agenda. Basically, you will never know what you get with each decision but - on the other hand - won’t ever make the experience what could happen if you never dare to decide anything.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/hvide_sande_lighthouse.jpg&quot; alt=&quot;Hvide Sande Lighthouse, Denmark - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While thinking about the future in the one or other aspect, life focuses on my family, my wife, my kids and hobbies which never get the attention they usually deserve. Re-gaining this focus, I find the time to create my own future in a certain way. Not all parts of my life will be affected, but there is a time for new challenges and moving on. Therefore, a precise prediction of my future in all aspects remains (of course!) uncertain, but getting actively involved into its creation may stop the hamster wheel and open a door while another one will be shut in the short term. Sometimes and occasionally, opportunities that needs to be grabbed simply stumble upon your way, giving you a new perspective!&lt;/p&gt;
+
+&lt;p&gt;Don’t wait for your future to be created by you. Take the time to re-focus, „pull the plug“ and think about the things that are good for you - and sort out those aspects that aren’t. Often it just needs a specific distance to find a solution - and someone with a helping hand and a perspective, clearing things up. You won’t play an active part in the way the universe works, but you can put the things on the right track to somehow benefit from it: Both your personal wellbeing and your family will be grateful for that proactive attitude towards changing your own’s future!&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 15 Apr 2023 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</link>
+                <guid isPermaLink="true">http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</guid>
+                
+                <category>thoughts</category>
+                
+                <category>life</category>
+                
+                <category>job</category>
+                
+                <category>profession</category>
+                
+                <category>future</category>
+                
+                
+                <category>Thoughts</category>
                 
             </item>
         
