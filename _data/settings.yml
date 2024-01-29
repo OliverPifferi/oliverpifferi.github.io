@@ -155,7 +155,6 @@ social:
 - {icon: "ion-logo-github", name: "Github", link: "https://github.com/oliverpifferi"}
 - {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/oliverpifferi/"}
 - {icon: "ion-logo-instagram", name: "Pixelfed", link: "https://nordicshutter.com/@oliver/"}
-- {icon: "ion-logo-xing", name: "XING", link: "https://www.xing.com/profile/Oliver_Pifferi/"}
 
 # Example of adding a new link to the author section and footer: - {icon: "ion-logo-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -164,7 +163,7 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: info@midgardmates.com # Add your email for contant form
+  email: oliver@pifferi.info # Add your email for contant form
   description: Of course you don't need to but just in case you're willing to share some thoughts with me, give me some comments or criticism on my posts or simply want to send me some lines, this form is a possible way of doing so. <br/><br/>Feel free to fill each field with the necessary information and hit the "Send Message"-button to send the virtual carrier pigeon on its way - I'll try to answer ASAP! # Add a description of your form
 
 # NOTE
