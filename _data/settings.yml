@@ -95,17 +95,17 @@ links__item:
     image_alt: Matrix
     link: "https://matrix.to/#/@oliver.pifferi:matrix.org"
     
+  - title: PeerTube
+    description: Not that much to see here except my small video projects but they are hailing from the Fediverse nevertheless!
+    image_url: "/images/peertube.jpg"
+    image_alt: XING
+    link: "https://tube.norse.social/a/oliver/video-channels"
+    
   - title: Pixelfed
     description: The third of my ActivityPub-based and Fediverse-powered services, delivering a great and free showcase for photos!
     image_url: "/images/pixelfed.jpg"
     image_alt: Pixelfed
     link: "https://nordicshutter.com/oliver"
-
-  - title: XING
-    description: Another social business network which is (was) quite famous in Germany - we can connect here as well!
-    image_url: "/images/xing.jpg"
-    image_alt: XING
-    link: "https://www.xing.com/profile/Oliver_Pifferi/"
 
 #-------------------------------
 # Hero Settings
