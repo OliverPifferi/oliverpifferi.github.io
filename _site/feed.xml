@@ -5,9 +5,112 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jan 2024 22:03:29 +0100</pubDate>
-        <lastBuildDate>Mon, 29 Jan 2024 22:03:29 +0100</lastBuildDate>
+        <pubDate>Sat, 24 Feb 2024 10:51:21 +0100</pubDate>
+        <lastBuildDate>Sat, 24 Feb 2024 10:51:21 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>„Spring Cleaning - Tidying up your Mastodon-instance“</title>
+                <description>&lt;h2 id=&quot;after-six-months-of-running-a-small-two-user-mastodon-instance-i-was-astonished-to-see-the-media-growth-over-the-time-so-it-was-finally-time-to-reflect-how-to-do-some-spring-cleaning-in-this-cozy-space&quot;&gt;After six months of running a small, two user Mastodon-instance, I was astonished to see the media growth over the time so it was finally time to reflect how to do some spring cleaning in this cozy space.&lt;/h2&gt;
+
+&lt;p&gt;Despite carefully selecting and tuning Mastodon’s internal retention policies to (obviously) suit my needs, I discovered this small instance filling up nearly 1,8 TB of storage in my S3-bucket: Fortunately, I am actively tracking my monthly bills  of my Wasabi-account but considering that, not long ago, a whole TB was enough for some of my Fediverse-based services and some backups in separate buckets, I was forced to get to the bottom of this case and found the Mastodon-based cached media assets to be the root of this evil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mastodon_retention_settings.jpg&quot; alt=&quot;Mastodon’s retention policies&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mastodons-materials-on-board&quot;&gt;Mastodon’s materials on board&lt;/h2&gt;
+
+&lt;p&gt;Fortunately, Mastodon’s backend is indeed some kind of beast so the &lt;a href=&quot;https://docs.joinmastodon.org/admin/tootctl/&quot;&gt;built-in CLI&lt;/a&gt; gives you the availability to clean attachments and previews from remote accounts, purging the precious disk cache.  Despite Mastodon having tons of options, you may rarely use them on a daily basis so I did finally spend some time to get used to the single commands. Afterwards, combining and scheduling them on a cron-basis may help you to save valuable disk space, no matter where your data is stored.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mastodon_s3_utilization_before.jpg&quot; alt=&quot;Mastodon’s space utilization in its S3-bucket&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-script&quot;&gt;The script&lt;/h2&gt;
+
+&lt;p&gt;Six single commands are the road to our success of re-gaining storage space for our Mastodon-instance. Being the „mastodon“-user on my system and assuming you use the same user and the same paths according to Mastodon’s official guide for deploying your own server, I decided to create an empty file via&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi /home/mastodon/mastodon-cleanup.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and filled it with the combination of six commands and the specific explanations aiming at a retention of seven days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
+
+# Prune remote accounts that never interacted with any local user
+RAILS_ENV=production /home/mastodon/live/bin/tootctl accounts prune;
+
+# Remove remote statuses that local users never interacted with older than 7 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 7;
+
+# Remove media attachments older than 7 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 7;
+
+# Remove all headers (including people you follow)
+RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --remove-headers --include-follows --days 0;
+
+# Remove link previews older than 7 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 7;
+
+# Remove files not linked to any post
+RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you’ve never run these commands before (just as I did) I’d suggest you start with initially running them one by one as they might take several hours or days to run for the first time. The size of the cached media and database will depend on how many people you follow (approximately 100 in my case), how many users are on your specific instance or how many relays you have added to your instance - just to name some aspects. With Mastodon being a federated Social Network, there are many pros but also cons as each server is talking to other ones, gathering lots of data - which lead us to the dilemma of a quite impressive disk space consumption even with a very small instance.&lt;/p&gt;
+
+&lt;h2 id=&quot;scheduling-time&quot;&gt;Scheduling time&lt;/h2&gt;
+
+&lt;p&gt;After we have initially deployed each of the six single commands and freed up the first batch of space, it is sure that we don’t want to do this manually each time. Fortunately, Linux Cron-daemon is our Swiss Army knife for scheduling and with just a single line of code, our script will run at specific times.&lt;/p&gt;
+
+&lt;p&gt;So, as logged in „mastodon“-user, just deploy a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;crontab -e
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;to enter this user’s cron-settings. Now just add another line at the end of the file matching your needs when this script should run. After the first run, it won’t take that much time anymore so I decided that I am fine with running it every six hours.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0 */6 * * * /bin/bash /home/mastodon/mastodon-cleanup.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you aren’t familiar with the syntax of Cron, I recommend to use the &lt;a href=&quot;https://crontab-generator.org&quot;&gt;Crontab Generator&lt;/a&gt; which is always a good way to to check whether your job is correct or not - or even create the whole command you may insert into the crontab instantly for you!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mastodon_cleanup_crontab_settings.jpg&quot; alt=&quot;The crontab-settings&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
+
+&lt;p&gt;Rarely before I have felt such passion and joy when talking about new trends in the Internet during the last years - or what’s left from the original Internet as it once used to be. With Federation, De-Centralization and growing independence from Big Tech and learning from (at least) Twitter’s demise many people have realized that things must change - and a real change was long overdue. Maybe we don’t need the ad-polluted streams of the common Social Media anymore - maybe we don’t even need the overloaded content there anymore. Maybe stepping back to a more curated, smaller account of contents is the proper way of turning Social Media back to something we may use instead of being the product?&lt;/p&gt;
+
+&lt;p&gt;Alas, with great power comes great responsibility and so the moderation of instances (as long as you don’t use a single-user-instance just for your own joys) is a frequent topic within the current growth. Without centralization, there is no single instance taking care of that so it is especially within the responsibility of the instance’s admin to take care of unwanted content or spam etc. - if you like it or not. Based on this, everyone should wisely choose the mother instance of the single services and weight in if the server rules appeal to the specific user’s imagination. While ActivityPub makes its way throughout the web, also the interoperability between instances is still a challenge: While Mastodon at least offers the options to move an account to another domain, this option and especially contents like likes, media etc. are still to be integrated in Pixelfed and BookWyrm - the goal: No one wanting to switch to another instance should start from zero or manually repost everything (which is, experienced by myself, a torture!) piece by piece.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/fedidb_stats.jpg&quot; alt=&quot;Stats from fedidb.org&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from that, the Fediverse is growing and there are lots of products waiting for us to discover them. Pixelfed-founder Daniel Supernault is also taking care of &lt;a href=&quot;https://fedidb.org/&quot;&gt;FediDB&lt;/a&gt;, a project summing up statistics for the Fediverse and the single software solutions empowering it. There is a &lt;a href=&quot;https://fedidb.org/software&quot;&gt;big amount of software available and many platforms&lt;/a&gt; are waiting for new users - by using the ActivityPub-protocol, all these single places can talk to each other, like posts from other platforms and even boost those. Less poison, less hate, less misunderstanding and the connections between single software components founded on the ActivityPub-protocol are about to revive the „classic“ Internet from earlier days and I hope that this trend will get strengthened, opening the door for a decentralized social media of many kinds apart from the Big Tech-monoliths that somehow seem to be rather old-fashioned and boring when being compared to this movement of modern, federated Social Networks in the internet of the 2020s!&lt;/p&gt;
+
+&lt;p&gt;If you’re interested, feel free to find my profiles in The Fediverse on&lt;/p&gt;
+
+&lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pixelfed - &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;https://nordicshutter.com/oliver&lt;/a&gt; and&lt;/p&gt;
+
+&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.pifferi.info/@oliver&quot;&gt;https://books.pifferi.info/@oliver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
+</description>
+                <pubDate>Sat, 24 Feb 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/Spring-Cleaning-Tidying-up-your-Mastodon-instance/</link>
+                <guid isPermaLink="true">http://localhost:4000/Spring-Cleaning-Tidying-up-your-Mastodon-instance/</guid>
+                
+                <category>socialnetwork</category>
+                
+                <category>mastodon</category>
+                
+                <category>linux</category>
+                
+                <category>cron</category>
+                
+                <category>fediverse</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>My default apps starting 2024</title>
@@ -596,42 +699,6 @@
                 
                 
                 <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>The best way to predict your future is to create it</title>
-                <description>&lt;h2 id=&quot;while-the-past-is-gone-and-the-future-still-is-still-ahead-abraham-lincolns-famous-quote-can-be-a-synonym-for-a-proactive-way-of-influencing-events-that-are-still-ahead&quot;&gt;While the past is gone and the future still is still ahead, Abraham Lincoln’s famous quote can be a synonym for a proactive way of influencing events that are still ahead.&lt;/h2&gt;
-
-&lt;p&gt;I’ve pulled the plug. After months (summing up to years?) of anger, desperation, lack of perspective, sluggishness, avolition and familiar impact in terms of health and &lt;a href=&quot;https://forhekset.com/posts/Death-smiles-at-us-all-a-man-can-do-is-smile-back/&quot;&gt;death&lt;/a&gt;, we finally made it to Denmark (a long-time goal on our family’s holiday shortlist) with the kids to create a distance between the daily &lt;a href=&quot;https://blog.pifferi.info/goodbye-2020-it-just-wasn-t-a-pleasure&quot;&gt;burden&lt;/a&gt; - at least for a single week. Although being to Denmark before, the country was more or less a „jumphost“ for our ventures to Norway. This time, it gets at least a one-week-attention with the family-focus on it.&lt;/p&gt;
-
-&lt;p&gt;Time to recharge, time to refocus, time to get away from everything that is harming the everyday’s life. For me, there is no better cure than the sea and especially (especially, especially!) the sea. All sorrows are gone if I venture to the beach, sit down there and enjoy the grace of weather, tide and the sand there. While time is seemingly stopping, my inner self comes to rest and gets time to reflect many, many things. The life is different near the sea and the everyday-disturbances you know from your hamster running wheel at home are simply gone and forgotten.&lt;/p&gt;
-
-&lt;p&gt;There are decisions to made in the near future and decisions that have already been made to get back on a track in certain situations.  As I am the kind of human who judges by pro- and contra-arguments, there are always aspects weighting in for one side or the other but when I opt in for one, it’s a final decision and - usually - turning back isn’t on my agenda. Basically, you will never know what you get with each decision but - on the other hand - won’t ever make the experience what could happen if you never dare to decide anything.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/hvide_sande_lighthouse.jpg&quot; alt=&quot;Hvide Sande Lighthouse, Denmark - Photo Courtesy of Author&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While thinking about the future in the one or other aspect, life focuses on my family, my wife, my kids and hobbies which never get the attention they usually deserve. Re-gaining this focus, I find the time to create my own future in a certain way. Not all parts of my life will be affected, but there is a time for new challenges and moving on. Therefore, a precise prediction of my future in all aspects remains (of course!) uncertain, but getting actively involved into its creation may stop the hamster wheel and open a door while another one will be shut in the short term. Sometimes and occasionally, opportunities that needs to be grabbed simply stumble upon your way, giving you a new perspective!&lt;/p&gt;
-
-&lt;p&gt;Don’t wait for your future to be created by you. Take the time to re-focus, „pull the plug“ and think about the things that are good for you - and sort out those aspects that aren’t. Often it just needs a specific distance to find a solution - and someone with a helping hand and a perspective, clearing things up. You won’t play an active part in the way the universe works, but you can put the things on the right track to somehow benefit from it: Both your personal wellbeing and your family will be grateful for that proactive attitude towards changing your own’s future!&lt;/p&gt;
-
-</description>
-                <pubDate>Sat, 15 Apr 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</link>
-                <guid isPermaLink="true">http://localhost:4000/The-best-way-to-predict-your-future-is-to-create-it/</guid>
-                
-                <category>thoughts</category>
-                
-                <category>life</category>
-                
-                <category>job</category>
-                
-                <category>profession</category>
-                
-                <category>future</category>
-                
-                
-                <category>Thoughts</category>
                 
             </item>
         
