@@ -86,11 +86,9 @@ Save the file and from this moment on, cron will take care of executing the scri
 
 With this small tutorial, we managed to implement a great mechanism of automatically getting rid of cached and material and media on our own Mastodon-instance. This is by far the best-practice for every instance and yes, every file may be download and cached again once we interact with the specific status or message connected to it - therefore this solution is more an approach for smaller instances instead of larger ones but, as always, tastes (and demands) are different.
 
-![Mastodon’s space utilization in its S3-bucket before](../images/mastodon_s3_utilization_before.jpg)
+![Dealing with storage boxes](../images/lia-trevarthen-gWvdUpNQr6g-unsplash.jpg)
 
-According to your type of storage you may see the result quite fast or - in my case - on the next day as Wasabi’s statistics need their time to refresh the bucket size. With local storage, the result should be imminent, for me it took its time. Especially in terms of Wasabi and even despite the fact that the space is freed up immediately, you even pay for deleted storage for 90 days in advance here - in my case a good compromise to prevent the egress-charges from other S3-providers but this is yet another topic!
-
-![Mastodon’s space utilization in its S3-bucket afterwards](../images/mastodon_s3_utilization_before.jpg)
+According to your type of storage you may see the result quite fast or - in my case - on the next day as Wasabi’s statistics need their time to refresh the bucket size. With local storage, the result should be imminent, for me it took its time but the used space decreased drastically and ended up with Mastodon taking less than only 5 GB afterwards! Especially in terms of Wasabi and even despite the fact that the space is freed up immediately, you even pay for deleted storage for 90 days in advance here - in my case a good compromise to prevent the egress-charges from other S3-providers but this is yet another topic!
 
 Anyway, putting all provider-specific considerations aside, this script should help you to control the amount of cached media on your Mastodon-server. Feel free to adopt the script to match your specific needs and do a spring cleaning on your Mastodon-instance - I hope that you somehow consider this post as some kind of useful! And - if you’re interested.  feel free to find my profiles in The Fediverse on
 
