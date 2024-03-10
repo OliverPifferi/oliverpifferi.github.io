@@ -94,8 +94,8 @@ Anyway, putting all provider-specific considerations aside, this script should h
 
 Mastodon - <https://norse.social/@oliver>
 
-Pixelfed - <https://nordicshutter.com/oliver> and
+Pixelfed - <[https://pix.norse.social/oliver](https://pix.norse.social/oliver)> and
 
-BookWyrm - <https://books.pifferi.info/@oliver>
+BookWyrm - <[https://books.norse.social/@oliver](https://books.norse.social/@oliver)>
 
 and let’s follow or connect with each other!

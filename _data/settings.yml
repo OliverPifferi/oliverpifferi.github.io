@@ -69,7 +69,7 @@ links__item:
     description: BookWyrm is a great ActivityPub-driven Fediverse-project to collect, rate and share your (audio) books with other fellows!
     image_url: "/images/distingue-ciddiqi-2ALQUTD5MKc-unsplash.jpg"
     image_alt: BookWyrm
-    link: "https://books.pifferi.info/user/oliver"
+    link: "https://books.norse.social/user/oliver"
 
   - title: GitHub
     description: I am not a developer, but tend to host some snippets and even this page here on GitHub!
@@ -105,7 +105,7 @@ links__item:
     description: The third of my ActivityPub-based and Fediverse-powered services, delivering a great and free showcase for photos!
     image_url: "/images/pixelfed.jpg"
     image_alt: Pixelfed
-    link: "https://nordicshutter.com/oliver"
+    link: "https://pix.norse.social/oliver"
 
 #-------------------------------
 # Hero Settings
@@ -154,7 +154,7 @@ mailchimp:
 social:
 - {icon: "ion-logo-github", name: "Github", link: "https://github.com/oliverpifferi"}
 - {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/oliverpifferi/"}
-- {icon: "ion-logo-instagram", name: "Pixelfed", link: "https://nordicshutter.com/@oliver/"}
+- {icon: "ion-logo-instagram", name: "Pixelfed", link: "https://pix.norse.social/@oliver/"}
 
 # Example of adding a new link to the author section and footer: - {icon: "ion-logo-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/

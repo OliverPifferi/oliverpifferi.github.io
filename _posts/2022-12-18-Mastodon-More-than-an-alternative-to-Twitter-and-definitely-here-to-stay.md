@@ -88,5 +88,5 @@ Fact is: With buying Twitter and forcing the pace paired with senseless decision
 [14]:	https://mastodon.social/@tiffanycli/109521975075886371
 [15]:	https://docs.joinmastodon.org/admin/install/
 [16]:	https://friendi.ca/
-[17]:	https://nordicshutter.com/oliver
+[17]:	https://pix.norse.social/oliver
 [18]:	https://activitypub.rocks/
