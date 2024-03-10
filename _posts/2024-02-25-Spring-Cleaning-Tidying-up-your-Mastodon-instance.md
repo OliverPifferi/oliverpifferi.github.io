@@ -28,7 +28,7 @@ Six single commands are the road to our success of re-gaining storage space for 
 vi /home/mastodon/mastodon-cleanup.sh
 ```
 
-and filled it with the combination of six commands and the specific explanations aiming at a retention of seven days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:
+and filled it with the combination of six commands and the specific explanations aiming at a retention of fourteen days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:
 
 ```
 #!/bin/bash
@@ -36,17 +36,17 @@ and filled it with the combination of six commands and the specific explanations
 # Prune remote accounts that never interacted with any local user
 RAILS_ENV=production /home/mastodon/live/bin/tootctl accounts prune;
 
-# Remove remote statuses that local users never interacted with older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 7;
+# Remove remote statuses that local users never interacted with older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 14;
 
-# Remove media attachments older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 7;
+# Remove media attachments older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 14;
 
 # Remove all headers (including people you follow)
 RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --remove-headers --include-follows --days 0;
 
-# Remove link previews older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 7;
+# Remove link previews older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 14;
 
 # Remove files not linked to any post
 RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
