@@ -94,7 +94,7 @@ Anyway, putting all provider-specific considerations aside, this script should h
 
 Mastodon - <https://norse.social/@oliver>
 
-Pixelfed - <https://pix.norse.social/oliver]> and
+Pixelfed - <https://pix.norse.social/oliver> and
 
 BookWyrm - <https://books.norse.social/@oliver>
 

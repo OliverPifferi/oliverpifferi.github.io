@@ -5,8 +5,8 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 25 Feb 2024 11:46:51 +0100</pubDate>
-        <lastBuildDate>Sun, 25 Feb 2024 11:46:51 +0100</lastBuildDate>
+        <pubDate>Tue, 12 Mar 2024 05:49:45 +0100</pubDate>
+        <lastBuildDate>Tue, 12 Mar 2024 05:49:45 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -30,24 +30,24 @@
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi /home/mastodon/mastodon-cleanup.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;and filled it with the combination of six commands and the specific explanations aiming at a retention of seven days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:&lt;/p&gt;
+&lt;p&gt;and filled it with the combination of six commands and the specific explanations aiming at a retention of fourteen days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
 
 # Prune remote accounts that never interacted with any local user
 RAILS_ENV=production /home/mastodon/live/bin/tootctl accounts prune;
 
-# Remove remote statuses that local users never interacted with older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 7;
+# Remove remote statuses that local users never interacted with older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 14;
 
-# Remove media attachments older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 7;
+# Remove media attachments older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 14;
 
 # Remove all headers (including people you follow)
 RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --remove-headers --include-follows --days 0;
 
-# Remove link previews older than 7 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 7;
+# Remove link previews older than 14 days
+RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 14;
 
 # Remove files not linked to any post
 RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
@@ -86,15 +86,15 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 
 &lt;p&gt;&lt;img src=&quot;../images/lia-trevarthen-gWvdUpNQr6g-unsplash.jpg&quot; alt=&quot;Dealing with storage boxes&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;According to your type of storage you may see the result quite fast or - in my case - on the next day as Wasabi’s statistics need their time to refresh the bucket size. With local storage, the result should be imminent, for me it took its time but the used space decreased drastically and ended up with Mastodon taking less than only 5 GB afterwards! Especially in terms of Wasabi and even despite the fact that the space is freed up immediately, you even pay for deleted storage for 90 days in advance here - in my case a good compromise to prevent the egress-charges from other S3-providers but this is yet another topic!&lt;/p&gt;
+&lt;p&gt;According to your type of storage you may see the result quite fast or - in my case - on the next day as Wasabi’s statistics need their time to refresh the bucket size. With local storage, the result should be imminent, for me it took its time but the used space decreased drastically and ended up with Mastodon taking less than only 20 GB afterwards! Especially in terms of Wasabi and even despite the fact that the space is freed up immediately, you even pay for deleted storage for 90 days in advance here - in my case a good compromise to prevent the egress-charges from other S3-providers but this is yet another topic!&lt;/p&gt;
 
 &lt;p&gt;Anyway, putting all provider-specific considerations aside, this script should help you to control the amount of cached media on your Mastodon-server. Feel free to adopt the script to match your specific needs and do a spring cleaning on your Mastodon-instance - I hope that you somehow consider this post as some kind of useful! And - if you’re interested.  feel free to find my profiles in The Fediverse on&lt;/p&gt;
 
 &lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Pixelfed - &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;https://nordicshutter.com/oliver&lt;/a&gt; and&lt;/p&gt;
+&lt;p&gt;Pixelfed - &lt;a href=&quot;https://pix.norse.social/oliver&quot;&gt;https://pix.norse.social/oliver&lt;/a&gt; and&lt;/p&gt;
 
-&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.pifferi.info/@oliver&quot;&gt;https://books.pifferi.info/@oliver&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.norse.social/@oliver&quot;&gt;https://books.norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
 </description>
@@ -552,7 +552,7 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 
 &lt;h2 id=&quot;pixelfed&quot;&gt;Pixelfed&lt;/h2&gt;
 
-&lt;p&gt;After finally dumping Instagram in December 2022, I went all in with &lt;a href=&quot;https://pixelfed.org/&quot;&gt;Pixelfed&lt;/a&gt;: After discovering this service in early 2021, I  already tried to free myself from the bounds of Instagram but - let’s be honest - Pixelfed wasn’t ready to follow in Instagram’s step then. The basis was okay and considering the project to be work in progress - and albeit the „little“ version 0.11.6 at the time of writing - the software created by &lt;a href=&quot;https://pixelfed.social/dansup&quot;&gt;Daniel Supernault&lt;/a&gt; has heavily progressed over the time. I returned in late 2022, played around and finally created an instance that was playground. Later, it got dumped and on April 21st, my latest instance &lt;a href=&quot;https://nordicshutter.com/&quot;&gt;nordicshutter.com&lt;/a&gt; has opened its gates, welcoming people from Scandinavia and people loving the Scandinavian way of life and the nature there. While the server itself ist hosted in Nürnberg, all media assets are stored in a Wasabi S3-bucket in Frankfurt so no data is being stored or processed outside Germany. Finding the proper way of S3-integration took a while but, over the months, has turned into a solid base for storing media files.&lt;/p&gt;
+&lt;p&gt;After finally dumping Instagram in December 2022, I went all in with &lt;a href=&quot;https://pixelfed.org/&quot;&gt;Pixelfed&lt;/a&gt;: After discovering this service in early 2021, I  already tried to free myself from the bounds of Instagram but - let’s be honest - Pixelfed wasn’t ready to follow in Instagram’s step then. The basis was okay and considering the project to be work in progress - and albeit the „little“ version 0.11.6 at the time of writing - the software created by &lt;a href=&quot;https://pixelfed.social/dansup&quot;&gt;Daniel Supernault&lt;/a&gt; has heavily progressed over the time. I returned in late 2022, played around and finally created an instance that was playground. Later, it got dumped and on April 21st, my latest instance &lt;a href=&quot;https://pix.norse.social/&quot;&gt;https://pix.norse.social&lt;/a&gt; has opened its gates, welcoming people from Scandinavia and people loving the Scandinavian way of life and the nature there. While the server itself ist hosted in Nürnberg, all media assets are stored in a Wasabi S3-bucket in Frankfurt so no data is being stored or processed outside Germany. Finding the proper way of S3-integration took a while but, over the months, has turned into a solid base for storing media files.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../images/pixelfed_org_website.jpg&quot; alt=&quot;Pixelfed.org Welcome Site&quot; /&gt;&lt;/p&gt;
 
@@ -568,7 +568,7 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 
 &lt;p&gt;A long time ago, I used to track my books with a Desktop-based Mac-software named &lt;a href=&quot;https://www.bruji.com/bookpedia/&quot;&gt;Bookpedia&lt;/a&gt;. With the relevance of classical apps decreasing and people rather turning to online services, Bookpedia somehow fell behind. Besides myself listening more to audio books than actually reading those (a trend I even consider to be nasty from my own point of view), also the development of Bookpedia seemed to slow down and so the latest iteration 6.2.1 was released by the end of 2021. As times have changed, LibraryThing or GoodReads as modern Internet-based services popped up but when BookWyrm came along, the mixture of self-hosted data-control, ActivityPub-integration and connection to other instances for book background data like ISBN, ASIN, cover artwork etc. made it a no-brainer.&lt;/p&gt;
 
-&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.pifferi.info/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
+&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://https://pix.norse.social/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.norse.social/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../images/bookwyrm_pifferi.jpg&quot; alt=&quot;My BookWyrm-instance&quot; /&gt;&lt;/p&gt;
 
@@ -586,9 +586,9 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 
 &lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Pixelfed - &lt;a href=&quot;https://nordicshutter.com/oliver&quot;&gt;https://nordicshutter.com/oliver&lt;/a&gt; and&lt;/p&gt;
+&lt;p&gt;Pixelfed - &lt;a href=&quot;https://pix.norse.social/oliver&quot;&gt;https://pix.norse.social/oliver&lt;/a&gt; and&lt;/p&gt;
 
-&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.pifferi.info/@oliver&quot;&gt;https://books.pifferi.info/@oliver&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.norse.social/@oliver&quot;&gt;https://books.norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
 </description>

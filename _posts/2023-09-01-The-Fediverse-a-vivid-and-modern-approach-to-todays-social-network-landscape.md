@@ -50,7 +50,7 @@ If you’re interested, feel free to find my profiles in The Fediverse on
 
 Mastodon - <https://norse.social/@oliver>
 
-Pixelfed - <https://https://pix.norse.social/oliver> and
+Pixelfed - <https://pix.norse.social/oliver> and
 
 BookWyrm - <https://books.norse.social/@oliver>
 
