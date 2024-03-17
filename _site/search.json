@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "How to delete stored credentials from a YubiKey",
+      "url"      : "/how-to-delete-stored-credentials-from-a-yubikey/",
+      "date"     : "17 March 2024",
+      "image"    : "/images/andy-kennedy-FO4CR0MnY_k-unsplash.jpg"
+    } ,
+  
+    {
       "title"    : "Spring Cleaning - Tidying up your Mastodon-instance",
       "url"      : "/Spring-Cleaning-Tidying-up-your-Mastodon-instance/",
       "date"     : "25 February 2024",

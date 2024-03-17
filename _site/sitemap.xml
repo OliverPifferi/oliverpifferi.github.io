@@ -409,6 +409,10 @@
 <lastmod>2024-02-25T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/how-to-delete-stored-credentials-from-a-yubikey/</loc>
+<lastmod>2024-03-17T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -470,5 +474,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/17/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/18/</loc>
 </url>
 </urlset>

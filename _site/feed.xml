@@ -5,9 +5,100 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 Mar 2024 05:49:45 +0100</pubDate>
-        <lastBuildDate>Tue, 12 Mar 2024 05:49:45 +0100</lastBuildDate>
+        <pubDate>Sun, 17 Mar 2024 19:03:44 +0100</pubDate>
+        <lastBuildDate>Sun, 17 Mar 2024 19:03:44 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>How to delete stored credentials from a YubiKey</title>
+                <description>&lt;h2 id=&quot;using-yubikeys-for-securing-accounts-is-a-premium-step-to-a-nearly-ultimative-security-approach-besides-passkeys-or-simple-2fa-alas-over-time-those-hardware-tokens-often-fill-with-more-and-more-accounts---adding-them-is-no-big-deal-but-getting-rid-of-older-entries-isnt-that-intuitive-either&quot;&gt;Using YubiKeys for securing accounts is a premium step to a nearly ultimative security approach besides Passkeys or „simple“ 2FA. Alas, over time, those hardware tokens often fill with more and more accounts - adding them is no big deal, but getting rid of older entries isn’t that intuitive either.&lt;/h2&gt;
+
+&lt;p&gt;Securing online accounts is one behavioral paradigm I have followed since hardware keys appeared and were affordable. With starting to use a password manager many years ago, also Two-Factor Authentication (2 FA) found its way into this security chain and in the time before the Passkeys (and still today) another layer of security is still mandatory. Paired with complex passwords, each layer helps to protect online accounts and even a password appearing in a new breach doesn’t scare that much if there is another, second (or third) factor helping you to prevent a personal and digital disaster.&lt;/p&gt;
+
+&lt;p&gt;As I am tending to check and change passwords as well as services mostly in the spring (call it spring cleaning!), I am also checking whether I still use a specific service or not. If not, I try to delete the account - the same counts for accounts residing on my YubiKeys. I don’t add credentials to them every day so I do this phased and then continue to work with the keys for weeks or months. As I am also a friend of cleaning up a historical mess, I try to get rid of old credentials when I don’t need them anymore - something that is quite difficult if you handle the YubiKeys just with the official YubiKey Manager. The app (still now Universal Binary on macOS though) helps you to change many parameters but prevents you from easily deleting unneeded credentials. This works anyway and, despite quite hidden, is done with the YubiKey Manager CLI - so let me show you how we can accomplish this task on our YubiKeys without resetting the device to factory defaults!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/oliver-hale-oTvU7Zmteic-unsplash.jpg&quot; alt=&quot;Cleaning in progress&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-the-yubikey-manager-cli&quot;&gt;Getting the YubiKey Manager CLI&lt;/h2&gt;
+
+&lt;p&gt;For Windows-users, the way of &lt;a href=&quot;https://www.yubico.com/support/download/yubikey-manager/?ref=pifferi.info&quot;&gt;getting the CLI&lt;/a&gt; is pretty straightforward as it comes bundled with the YubiKey Manager-application and resides in C:\Program Files\Yubico\YubiKey Manager. As long as your YubiKey uses at least firmware 5.2.x, you will instantly be able to deal with it using the CLI as documented &lt;a href=&quot;https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_CLI.html?ref=pifferi.info&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Mac-version 1.25 comes as a .PKG-file and obviously misses the CLI so we need to make use of extended package managers like Homebrew to fetch the desired file named „ykman“.&lt;/p&gt;
+
+&lt;p&gt;Installing &lt;a href=&quot;https://brew.sh&quot;&gt;Homebrew&lt;/a&gt; is pretty straightforward but yet another topic so assuming you have already done so by either typing&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or using the new and official .PKG-installation for Macs hosted on &lt;a href=&quot;https://github.com/Homebrew/brew/releases/latest&quot;&gt;GitHub&lt;/a&gt;, a simple&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ykman
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;should do the trick and, after some packages were fetched, we’re finally ready to go on macOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/yubikey-version.jpg&quot; alt=&quot;Checking the proper YubiKey-version&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;doing-the-magic-with-ykman&quot;&gt;Doing the magic with ykman&lt;/h2&gt;
+
+&lt;p&gt;After having met the one and only prerequisite, ykman is ready to so firing up the command without any specific parameter should show us the following screen with all options available:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/yubikey_ykman_mac.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To see which credentials are stored, just enter a&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;followed by your personal PIN (which should be set, otherwise using a hardware security key is quite pointless).&lt;/p&gt;
+
+&lt;p&gt;A list of services will appear, guided by a credential ID:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/ykman_yubikey_services.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;.&lt;/p&gt;
+
+&lt;p&gt;To delete a specific service, simply use the following command followed by the specific credential ID:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials delete [credential id]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For example, for removing my apple.com-account from my YubiKey (always two there are!), the appropriate command would be&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials delete d60f8b33
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and it would be just the first entry with credential ID d60f8b33 that would be deleted from the YubiKey’s storage!&lt;/p&gt;
+
+&lt;p&gt;To check whether the credentials have been removed or not (believe me, they should!), another&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;will show the remaining credentials.&lt;/p&gt;
+
+&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
+
+&lt;p&gt;With simple materials on board, we have managed to remove single elements and stored credentials from an YubiKey without the need to fully wipe the device. Despite the CLI-tools are quite hidden on Mac or - to be more specific - must be installed separately from the YubiKey Manager, we finally used Homebrew for doing this task for us, enabling us to clean unwanted credentials from out precious YubiKey.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/flyd-FGH69mi53Mw-unsplash.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;.&lt;/p&gt;
+
+&lt;p&gt;This way may be quite helpful if you aren’t aware which credentials are stored on the YubiKey and just want to see or delete them on a per-item basis instead of wiping the whole device, forcing you to re-integrate the whole hardware token with each service connected!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 17 Mar 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/how-to-delete-stored-credentials-from-a-yubikey/</link>
+                <guid isPermaLink="true">http://localhost:4000/how-to-delete-stored-credentials-from-a-yubikey/</guid>
+                
+                <category>it</category>
+                
+                <category>security</category>
+                
+                <category>token</category>
+                
+                <category>software</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Spring Cleaning - Tidying up your Mastodon-instance</title>
@@ -605,102 +696,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 <category>bookwyrm</category>
                 
                 <category>fediverse</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>How to upgrade Debian 11 Bullseye to Debian 12 Bookworm</title>
-                <description>&lt;h2 id=&quot;yesterday-the-latest-iteration-of-debian-linux-in-version-12-codename-bookworm-was-released-everyone-of-you-thinking-that-a-direct-upgrade-to-the-new-system-is-essential-at-this-early-stage-may-do-so-as-many-package-have-been-updated&quot;&gt;Yesterday, the latest iteration of Debian Linux in version 12, codename „Bookworm“ was &lt;a href=&quot;https://www.debian.org/releases/bookworm/&quot;&gt;released&lt;/a&gt;. Everyone of you thinking that a direct upgrade to the new system is essential at this early stage may do so as many package have been updated.&lt;/h2&gt;
-
-&lt;p&gt;Amongst them was PHP so that other repositories aren’t necessary anymore for the moment.&lt;/p&gt;
-
-&lt;p&gt;Alas, with great power comes great responsibility so you should know what you are doing, not caring if you use Debian for private usage or as the strong foundation for server-based services like I do: First of all, backup your valuable files, snapshot the virtual machine or do a full backup your environments with trustworthy solutions like &lt;a href=&quot;https://www.veeam.com/de/linux-backup-free.html&quot;&gt;Veeam&lt;/a&gt;. Although the update-process is pretty straightforward and &lt;a href=&quot;https://wiki.debian.org/DebianUpgrade&quot;&gt;documented&lt;/a&gt;, things may happen and break your environment or specific services so the motto should always be „backup early, backup often“. Apart from that, you can pursue the following steps to bring your system from Debian 11 „Bullseye“ to Debian 12 „Bookworm“:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/lukas-NLSXFjl_nhc-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;update-currently-installed-packages&quot;&gt;Update Currently Installed Packages&lt;/h2&gt;
-
-&lt;p&gt;Before starting the release upgrade, it is recommended to update all your currently installed packages to their latest versions. This is something you may already do regularly but it’s essential to take care of this before this version upgrade. Packages marked as „held back“ cannot be automatically installed, upgraded or removed. This may cause issues during the upgrade process which we try to bypass. To check whether there are held back packages on your systems or not, just run&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-mark showhold&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If there are any „on hold“-packages, you should either unhold the packages with „sudo apt-mark unhold packagename“ or make sure the packages will not interfere with the upgrade process itself. After3wards, we need to refresh the packages-index and upgrade all installed packages just as it is done everytime:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You may also run „apt full-upgrade“ to perform a major version upgrade of the installed packages and simultaneously remove some unnecessary packages by using&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt full-upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, we want to get rid of some garbage aka. automatically installed dependencies that are no longer needed by any package:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt autoremove&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;upgrading-debian-11-bullseye-to-debian-12-bookworm&quot;&gt;Upgrading Debian 11 Bullseye to Debian 12 Bookworm&lt;/h2&gt;
-
-&lt;p&gt;First, we need to reconfigure APT’s source-list files so that only the „Bookworm“-repositories will be used in the future. To do so, you can either open the /etc/apt/sources.list file with your text editor and replace each instance of bullseye with bookworm and bullseye/updates to bookworm-security. If you have other source-list files under /etc/apt/sources.list.d, you must update those sources, too.&lt;/p&gt;
-
-&lt;p&gt;The default file /etc/apt/sources.list on Bullseye looks like this:&lt;/p&gt;
-
-&lt;p&gt;Alternatively, before choosing to manually edit those files, we can also make use of Linux’ „sed“-command and let the following three lines handle this for us:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s/bullseye/bookworm/g&apos; /etc/apt/sources.list&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s/bullseye/bookworm/g&apos; /etc/apt/sources.list.d/*.list&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo sed -i &apos;s#/debian-security bookworm/updates# bookworm-security#g&apos; /etc/apt/sources.list&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Once Once done, update the packages index from the new repositories for the first time by using the command&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If there are any errors or warning messages related to a third-party repository, try fixing the issue or disabling the repository as it may prevent a successfully upgrade (or make it at least a little bit more complicated). Then, start the system upgrade by finally upgrading the installed packages. This will upgrade only those packages that don’t require any other packages to be installed or removed and is executed by the well-known&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You will be asked if you want specific services being restarted during this upgrade - this may lead to a short service interruption for the restart-process so if you are, for example, updating your SSH-config, be sure that a service restart doesn’t interrupt your session. In this case it’s always better to use the hypervisor-based console or the monitor attached to the bare-metal-system you may update!&lt;/p&gt;
-
-&lt;p&gt;Furthermore and during the upgrade process, you may also be asked various other questions, like whether you want to keep an existing configuration file or to install the package maintainer’s version. Please read the information carefully and if you never made any custom changes to the file it is safe to type „Y“. Otherwise, to keep the current configuration, enter „N“ - in my case, existing configurations for NGINX or SSH were kept the ways I have customized them. Depending on your Internet-connection and the amount of packages being updated, the upgrade process may take some time.&lt;/p&gt;
-
-&lt;p&gt;Finally and after mastering this stage, execute an „apt full-upgrade“ which will perform a complete upgrade of the system, install the newest versions of the packages, and resolve the dependency changes between packages in different releases. This will upgrade all packages that were not upgraded with the previous command and put everything else in the proper order.&lt;/p&gt;
-
-&lt;h2 id=&quot;cleaning-up-and-going-live&quot;&gt;Cleaning up and going live&lt;/h2&gt;
-
-&lt;p&gt;After going through the previous steps, a&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt autoremove&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;will clean up unnecessary packages and a final reboot with typing&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo systemctl reboot&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;finally takes care of getting your upgraded Debian 12-system online so that you can check whether everything is running fine - or not (followed by a certain troubleshooting).&lt;/p&gt;
-
-&lt;p&gt;Once back again, you can check the status of your freshly-upgraded system by typing&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uname -a ; lsb_release -a_&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;which should finally show you a running Debian 12 Bookworm and a Linux 6.x-kernel running underneath.&lt;/p&gt;
-
-&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
-
-&lt;p&gt;We successfully managed upgrading from Debian 11 to Debian 12 which is a quite easy, painless and reliable process once all prerequisites are met although a backup or snapshot should always be in reach for the one thing that goes down according to Murphy’s Law!&lt;/p&gt;
-</description>
-                <pubDate>Sun, 11 Jun 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/</link>
-                <guid isPermaLink="true">http://localhost:4000/How-to-upgrade-Debian11-Bullseye-to-Debian-12-Bookworm/</guid>
-                
-                <category>linux</category>
-                
-                <category>software</category>
-                
-                <category>opensource</category>
-                
-                <category>foss</category>
-                
-                <category>debian</category>
                 
                 
                 <category>IT</category>
