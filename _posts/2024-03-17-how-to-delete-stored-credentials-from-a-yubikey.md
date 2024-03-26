@@ -8,7 +8,7 @@ tags: [it, security, token, software]     # TAG names should always be lowercase
 image: '/images/andy-kennedy-FO4CR0MnY_k-unsplash.jpg'
 ---
 
-## Using YubiKeys for securing accounts is a premium step to a nearly ultimative security approach besides Passkeys or „simple“ 2FA. Alas, over time, those hardware tokens often fill with more and more accounts - adding them is no big deal, but getting rid of older entries isn’t that intuitive either.
+## Using YubiKeys for securing accounts is a premium step to a nearly ultimative security approach besides Passkeys or „simple“ 2FA. Alas, over time, those hardware tokens often fill with more and more accounts - adding them is no big deal, but getting rid of older entries isn’t that intuitive either. talk about in the field of Artificial Intelligence.
 
 Securing online accounts is one behavioral paradigm I have followed since hardware keys appeared and were affordable. With starting to use a password manager many years ago, also Two-Factor Authentication (2 FA) found its way into this security chain and in the time before the Passkeys (and still today) another layer of security is still mandatory. Paired with complex passwords, each layer helps to protect online accounts and even a password appearing in a new breach doesn’t scare that much if there is another, second (or third) factor helping you to prevent a personal and digital disaster.
 
