@@ -5,9 +5,52 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Mar 2024 15:13:18 +0100</pubDate>
-        <lastBuildDate>Tue, 26 Mar 2024 15:13:18 +0100</lastBuildDate>
-        <generator>Jekyll v4.3.2</generator>
+        <pubDate>Wed, 27 Mar 2024 23:07:07 +0100</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 23:07:07 +0100</lastBuildDate>
+        <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Stability AI loses CEO ahead of reframing business model</title>
+                <description>&lt;h2 id=&quot;with-ai-already-being-more-than-just-the-next-big-thing-it-is-more-than-clear-that-with-great-power-there-comes-great-responsibility-considering-this-the-ultimate-question-whether-ai-should-be-centralized-or-not-is-surely-one-of-the-key-aspects-we-need-to-talk-about-in-the-field-of-artificial-intelligence-now-emad-mostaque-ceo-of-stability-ai-is-resigning-in-the-wake-of-the-current-row-over-this-issue&quot;&gt;With AI already being more than just „the next big thing“, it is more than clear that, with great power, there comes great responsibility. Considering this, the ultimate question whether AI should be centralized or not is surely one of the key aspects we need to talk about in the field of Artificial Intelligence. Now Emad Mostaque, CEO of Stability AI, is resigning in the wake of the current row over this issue.&lt;/h2&gt;
+
+&lt;p&gt;Before we go all out and make Terminator’s “Skynet” a reality, the ethical question of how to deal with the power of AI and how to regulate it is omnipresent. With this in mind, Emad Mostaque has &lt;a href=&quot;https://twitter.com/EMostaque/status/1771380668930674850&quot;&gt;apparently resigned&lt;/a&gt;, and while Stability AI [has already expressed its regret] (https://stability.ai/news/stabilityai-announcement), Mostaque himself states that he “does not want centralized AI to fight centralized AI”, while still retaining a majority stake in the company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/stability_ai_twitter.jpg&quot; alt=&quot;Twitter statement&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-state-of-ai-in-early-2024&quot;&gt;The state of AI in early 2024&lt;/h2&gt;
+
+&lt;p&gt;According to Mostaque, he is in favour of decentralized AI, talking about the challenge of coordinating and regulating AI rather than making it more powerful. This seems to be in contrast to the models of OpenAI or Anthropic, both of which started out quite open but over time have closed themselves off, making it impossible even to know what kind of data samples were used to train the specific AI models. “Concentration of power is bad for all of us,” says Mostaque, who is already concerned about a “strange focus on revenue” when it comes to AI-focused companies, while believing that AI is still “the biggest tech bubble of all time” that still needs constant research.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/Stable+Video+-+Blog+Image+1920x1080+-+2.jpg&quot; alt=&quot;Stability AI artwork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While the power and possibilities of artificial intelligence are imminent, it is still unclear how generative AI can be turned into a stable business based on a specific funding model. Even OpenAI-founder Sam Altman admitted that there is no real idea of how the whole industry can be underpinned by a revenue-based cash flow as the development and deployment of AI-models is currently too expensive to be refinanced by recurring revenues.&lt;/p&gt;
+
+&lt;p&gt;Rumour has it that Stability AI investor Coatue also urged Mostaque to step down, citing a more profit-driven approach to the company. Citing the &lt;a href=&quot;https://stability.ai/news/stabilityai-announcement&quot;&gt;blog post&lt;/a&gt; accompanying his departure, Mostaque says: “I strongly believe in Stability AI’s mission and feel that the company is in the right hands. Now is the time to ensure that AI remains open and decentralised,” followed by a thought that is accompanied by a desire to refocus while preparing the company for its next step in growth. In the wake of recent events, Stability AI is also facing &lt;a href=&quot;https://fingfx.thomsonreuters.com/gfx/legaldocs/byvrlkmwnve/GETTY%20IMAGES%20AI%20LAWSUIT%20complaint.pdf&quot;&gt;legal action from Getty Images&lt;/a&gt; for possible copyright infringement: The company is believed to have used copyrighted material, including the Getty Images logo, to train the AI.&lt;/p&gt;
+
+&lt;h2 id=&quot;still-some-work-to-do&quot;&gt;Still some work to do&lt;/h2&gt;
+
+&lt;p&gt;While AI is still in its infancy and already offers many opportunities, the ethical questions have yet to be answered. Decentralized or centralized, regulated or unregulated: Although everyone seems to be jumping on the AI bandwagon (and many have already done so), the technology is already involved in our everyday lives and boundaries are hardly set. There is more AI in today’s technology than many of us can imagine, but the models need to be trained with sample data - at least for now: Sample data that not everyone has access to or is allowed to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/SVD+blog+cover+image.jpg&quot; alt=&quot;Stability AI&quot; /&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are endless use cases and possibilities, but recent events around OpenAI and Sam Altman’s &lt;a href=&quot;https://openai.com/blog/review-completed-altman-brockman-to-continue-to-lead-openai&quot;&gt;temporary leave (and glorious return!)&lt;/a&gt; or Emad Mostaque’s resignation from Stability AI show that there is still much to discuss. Is AI a public good? Should the big tech players be funding and owning a technology that could take us to the stars or doom humanity for all time?&lt;/p&gt;
+
+&lt;p&gt;There is no consensus yet, and as Ben Parker once said in Spider-Man: “With great power comes great responsibility” - hopefully we’ll find a way to deal with the enormous power we have in our hands with Artificial Intelligence. Founders or CEOs leaving their companies when the path is bifurcated is an alarm signal and leading a discussion about the use and control of AI is essential - without diminishing the capabilities of modern Artificial Intelligence to fill many gaps!&lt;/p&gt;
+</description>
+                <pubDate>Tue, 26 Mar 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/stability-ai-loses-ceo-ahead-of-reframing-business-model/</link>
+                <guid isPermaLink="true">http://localhost:4000/stability-ai-loses-ceo-ahead-of-reframing-business-model/</guid>
+                
+                <category>it</category>
+                
+                <category>ai</category>
+                
+                <category>internet</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>How to delete stored credentials from a YubiKey</title>
@@ -630,75 +673,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>The Fediverse -  A vivid and modern approach to today’s Social Network-landscape</title>
-                <description>&lt;h2 id=&quot;when-i-once-discovered-mastodon-the-fediverse-was-already-a-nice-approach-in-helping-to-rebuild-the-polluted-social-network-landscape&quot;&gt;When I once discovered Mastodon, the Fediverse was already a nice approach in helping to rebuild the polluted Social Network-landscape.&lt;/h2&gt;
-
-&lt;p&gt;But, based upon the &lt;a href=&quot;https://www.w3.org/TR/activitypub/&quot;&gt;ActivityPub&lt;/a&gt;-protocol, Mastodon isn’t the only player giving hope for federated and decentralized networking. After going with my own Mastodon-instance, I also discovered two additional great services that are valuable additions to the Fediverse - and I don’t want to withhold those from you in case you are interested in learning more about those!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/mastodon_welcome.jpg&quot; alt=&quot;New folks are being welcomed- Graphic Credits: Mastodon&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;pixelfed&quot;&gt;Pixelfed&lt;/h2&gt;
-
-&lt;p&gt;After finally dumping Instagram in December 2022, I went all in with &lt;a href=&quot;https://pixelfed.org/&quot;&gt;Pixelfed&lt;/a&gt;: After discovering this service in early 2021, I  already tried to free myself from the bounds of Instagram but - let’s be honest - Pixelfed wasn’t ready to follow in Instagram’s step then. The basis was okay and considering the project to be work in progress - and albeit the „little“ version 0.11.6 at the time of writing - the software created by &lt;a href=&quot;https://pixelfed.social/dansup&quot;&gt;Daniel Supernault&lt;/a&gt; has heavily progressed over the time. I returned in late 2022, played around and finally created an instance that was playground. Later, it got dumped and on April 21st, my latest instance &lt;a href=&quot;https://pix.norse.social/&quot;&gt;https://pix.norse.social&lt;/a&gt; has opened its gates, welcoming people from Scandinavia and people loving the Scandinavian way of life and the nature there. While the server itself ist hosted in Nürnberg, all media assets are stored in a Wasabi S3-bucket in Frankfurt so no data is being stored or processed outside Germany. Finding the proper way of S3-integration took a while but, over the months, has turned into a solid base for storing media files.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/pixelfed_org_website.jpg&quot; alt=&quot;Pixelfed.org Welcome Site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thus spoken, Pixelfed is still a project under heavy development, but frequent commits are made on &lt;a href=&quot;https://github.com/pixelfed/pixelfed&quot;&gt;GitHub&lt;/a&gt;, the community is open-minded and various ways of participating are possible, with Dan always being somewhere besides the coding activities, always going with a hint or a helping hand. Once you don’t want to go with an own instance (it still may be tricky if you build and maintain from the scratch if you don’t exactly know what you need to do and in which order things should be done), you can always opt-in for one of the more or less known instances. With choosing the instance you like or which may best reflect your needs and interests, the ActivityPub-aspects of Federation and De-Centralization are put into the focus - just like we know it from Mastodon  - finally leaving Instagram isn’t the big problem anymore.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/nordicshutter_welcome.jpg&quot; alt=&quot;My Pixelfed-instance&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;bookwyrm&quot;&gt;BookWyrm&lt;/h2&gt;
-
-&lt;p&gt;BookWyrm is a solution also built on ActivityPub and a great successor for LibraryThing or GoodReads. By using the protocol Mastodon, Pixelfed and many other are running on, it inter-operates with different instances of BookWyrm and other ActivityPub compliant services. This means you can run an instance for your book club and still follow your friend who posts on a completely different servers with different, book-related collections. It also means that your friend on Mastodon can read and comment on a book review that you post on your BookWyrm-instance.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_website.jpg&quot; alt=&quot;How to join BookWyrm&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A long time ago, I used to track my books with a Desktop-based Mac-software named &lt;a href=&quot;https://www.bruji.com/bookpedia/&quot;&gt;Bookpedia&lt;/a&gt;. With the relevance of classical apps decreasing and people rather turning to online services, Bookpedia somehow fell behind. Besides myself listening more to audio books than actually reading those (a trend I even consider to be nasty from my own point of view), also the development of Bookpedia seemed to slow down and so the latest iteration 6.2.1 was released by the end of 2021. As times have changed, LibraryThing or GoodReads as modern Internet-based services popped up but when BookWyrm came along, the mixture of self-hosted data-control, ActivityPub-integration and connection to other instances for book background data like ISBN, ASIN, cover artwork etc. made it a no-brainer.&lt;/p&gt;
-
-&lt;p&gt;Without the basic purpose of just cataloguing my bookshelves, I checked out the „mother instance“ &lt;a href=&quot;https://bookwyrm.social/&quot;&gt;bookwyrm.social&lt;/a&gt; and after fetching the look and feel of BookWyrm and because of already hosting my own &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt;- and &lt;a href=&quot;https://https://pix.norse.social/oliver&quot;&gt;Pixelfed&lt;/a&gt;-instance, I went to spin up my &lt;a href=&quot;https://books.norse.social/&quot;&gt;BookWyrm-instance&lt;/a&gt; as well! The &lt;a href=&quot;https://docs.joinbookwyrm.com/&quot;&gt;docs&lt;/a&gt; are written pretty straightforward and despite my love for Docker-based deployments, I went with the non-Dockerized version this time, paired with the same Wasabi-powered S3 storage backend that also fuels my other ActivityPub instances. That being said, BookWyrm is an ideal and modern approach towards a book-reading- and tracking-based service that supports ActivityPub. With following my account on BookWyrm, my friends and followers on Mastodon see what I am currently reading (or listening!) and besides, I finally can track my own reading behavior and the (audio-) books I own!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/bookwyrm_pifferi.jpg&quot; alt=&quot;My BookWyrm-instance&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
-
-&lt;p&gt;Rarely before I have felt such passion and joy when talking about new trends in the Internet during the last years - or what’s left from the original Internet as it once used to be. With Federation, De-Centralization and growing independence from Big Tech and learning from (at least) Twitter’s demise many people have realized that things must change - and a real change was long overdue. Maybe we don’t need the ad-polluted streams of the common Social Media anymore - maybe we don’t even need the overloaded content there anymore. Maybe stepping back to a more curated, smaller account of contents is the proper way of turning Social Media back to something we may use instead of being the product?&lt;/p&gt;
-
-&lt;p&gt;Alas, with great power comes great responsibility and so the moderation of instances (as long as you don’t use a single-user-instance just for your own joys) is a frequent topic within the current growth. Without centralization, there is no single instance taking care of that so it is especially within the responsibility of the instance’s admin to take care of unwanted content or spam etc. - if you like it or not. Based on this, everyone should wisely choose the mother instance of the single services and weight in if the server rules appeal to the specific user’s imagination. While ActivityPub makes its way throughout the web, also the interoperability between instances is still a challenge: While Mastodon at least offers the options to move an account to another domain, this option and especially contents like likes, media etc. are still to be integrated in Pixelfed and BookWyrm - the goal: No one wanting to switch to another instance should start from zero or manually repost everything (which is, experienced by myself, a torture!) piece by piece.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/fedidb_stats.jpg&quot; alt=&quot;Stats from fedidb.org&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Apart from that, the Fediverse is growing and there are lots of products waiting for us to discover them. Pixelfed-founder Daniel Supernault is also taking care of &lt;a href=&quot;https://fedidb.org/&quot;&gt;FediDB&lt;/a&gt;, a project summing up statistics for the Fediverse and the single software solutions empowering it. There is a &lt;a href=&quot;https://fedidb.org/software&quot;&gt;big amount of software available and many platforms&lt;/a&gt; are waiting for new users - by using the ActivityPub-protocol, all these single places can talk to each other, like posts from other platforms and even boost those. Less poison, less hate, less misunderstanding and the connections between single software components founded on the ActivityPub-protocol are about to revive the „classic“ Internet from earlier days and I hope that this trend will get strengthened, opening the door for a decentralized social media of many kinds apart from the Big Tech-monoliths that somehow seem to be rather old-fashioned and boring when being compared to this movement of modern, federated Social Networks in the internet of the 2020s!&lt;/p&gt;
-
-&lt;p&gt;If you’re interested, feel free to find my profiles in The Fediverse on&lt;/p&gt;
-
-&lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pixelfed - &lt;a href=&quot;https://pix.norse.social/oliver&quot;&gt;https://pix.norse.social/oliver&lt;/a&gt; and&lt;/p&gt;
-
-&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.norse.social/@oliver&quot;&gt;https://books.norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
-</description>
-                <pubDate>Fri, 01 Sep 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/</link>
-                <guid isPermaLink="true">http://localhost:4000/The-Fediverse-a-vivid-and-modern-approach-to-todays-social-network-landscape/</guid>
-                
-                <category>socialnetwork</category>
-                
-                <category>mastodon</category>
-                
-                <category>pixelfed</category>
-                
-                <category>bookwyrm</category>
-                
-                <category>fediverse</category>
-                
-                
-                <category>IT</category>
                 
             </item>
         
