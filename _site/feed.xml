@@ -5,9 +5,95 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 Mar 2024 23:07:07 +0100</pubDate>
-        <lastBuildDate>Wed, 27 Mar 2024 23:07:07 +0100</lastBuildDate>
+        <pubDate>Thu, 28 Mar 2024 09:57:23 +0100</pubDate>
+        <lastBuildDate>Thu, 28 Mar 2024 09:57:23 +0100</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Microsoft Edge bug could have enabled attackers to install malicious extensions without detection</title>
+                <description>&lt;h2 id=&quot;years-ago-i-took-my-first-steps-on-the-internet-with-netscape-navigator-today-browsers-serve-more-than-just-as-a-gateway-to-the-world-wide-web-they-are-essential-software-for-many-purposes-in-our-digital-world-but-also-a-surface-for-modern-attacks&quot;&gt;Years ago, I took my first steps on the internet with Netscape Navigator. Today, browsers serve more than just as a gateway to the World Wide Web. They are essential software for many purposes in our digital world but also a surface for modern attacks.&lt;/h2&gt;
+
+&lt;p&gt;Although I prefer to use Safari and Firefox for personal browsing and keep my browsers free of excessive extensions, the situation is different in my business setting. Due to its seamless integration with Microsoft 365 and its underlying services, Edge is the preferred browser here. Although the Chromium-based browser was initially a promising alternative to Google’s Chrome in 2019, it has since become burdened with unnecessary integrations and privacy concerns, both for private users and businesses. Unfortunately, Edge has become quite similar to Google Chrome over time but with a Redmond flavor and a recently reported, serious security issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/microsoft_edge_attack_chain.jpg&quot; alt=&quot;Attack chain&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-happened&quot;&gt;What has happened?&lt;/h2&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://thehackernews.com&quot;&gt;The Hacker News&lt;/a&gt; has recently &lt;a href=&quot;https://thehackernews.com/2024/03/microsoft-edge-bug-could-have-allowed.html&quot;&gt;reported&lt;/a&gt;, a now-patched security flaw in the browser’s engine could have been abused to install arbitrary extensions on users’ systems and carry out malicious actions in the background.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This flaw could have allowed an attacker to exploit a private API, initially intended for marketing purposes, to covertly install additional browser extensions with broad permissions without the user’s knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Oleg Zaytsev, security researcher from Guardio Labs)&lt;/p&gt;
+
+&lt;p&gt;Zaytsev reported an issue with „&lt;a href=&quot;https://labs.guard.io/cve-2024-21388-microsoft-edges-marketing-api-exploited-for-covert-extension-installation-879fe5ad35ca&quot;&gt;Microsoft Edge’s Marketing API being exploited for covert extension installation&lt;/a&gt;“ which was tracked as &lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21388&quot;&gt;CVE-2024-21388&lt;/a&gt; with a CVSS score of 6.5. Microsoft addressed the issue in Edge’s stable versions 121.0.2277.83 released on January 25, 2024, following responsible disclosure in November 2023. Both Zaytsev and Jun Kokatsu were credited by Redmond for reporting this severe exploit.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An attacker who successfully exploited this vulnerability could gain the privileges needed to install an extension&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Microsoft said in an advisory for the flaw, also adding it&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;could lead to a browser sandbox escape.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;technical-details-of-the-case&quot;&gt;Technical details of the case&lt;/h2&gt;
+
+&lt;p&gt;Specifically naming it a privilege escalation flaw, Redmond also emphasizes that a successful exploitation of the bug requires an attacker to “take additional actions prior to exploitation to prepare the target environment.” Thus spoken, this is no „exploit in the wild“ but a not-that-unimportant surface attack nevertheless. According to Guardio’s research, &lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21388&quot;&gt;CVE-2024-21388&lt;/a&gt; also enables a malicious actor to install any extensions from the Edge Add-On store without requiring the user’s explicit consent or interaction. This can be done by running JavaScript on bing.com (well…) or on any of the numerous microsoft.com-pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/microsoft_edge_type_of_validation.jpg&quot; alt=&quot;Type of validation in MS Edge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Technically, the browser can install an add-on from the vendor’s own extension marketplace because it has privileged access to certain private APIs. One such APIs in the Chromium-based Edge browser is „edgeMarketingPagePrivate“ which is accessible from a set of allowlisted websites that belong to Microsoft, including bing.com, microsoft.com, microsoftedgewelcome.microsoft.com and microsoftedgetips.microsoft.com - just to name a few!&lt;/p&gt;
+
+&lt;p&gt;The API also packs in a method called installTheme() that, as the name implies, is designed to install a theme from the Edge Add-ons store by passing a unique theme identifier (“themeId”) and its manifest file as input.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As an added bonus, as this extension installation is not done quite in the manner it was originally designed for, there will be no need for any interaction or consent from the user.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In summary, an attacker could use CVE-2024-21388 to publish a seemingly harmless extension to the add-ons store and inject malicious JavaScript code into bing.com or other allowed sites. This would allow them to install an arbitrary extension of their choice by invoking the API using the extension identifier. In other words: If the specially crafted extension is executed on the Edge-browser and the user visits, for example, bing.com, the targeted extension will be installed without their consent and the malicious payload can be deployed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/microsoft_edge_extension_installation.jpg&quot; alt=&quot;Extension installation in MS Edge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Guardio Labs reported that although there is no evidence of this bug being exploited in the wild, it highlights the need to balance user convenience and security. Browser customizations can inadvertently defeat security mechanisms and introduce several new attack vectors in areas a simple browsing user would never expect them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s relatively easy for attackers to trick users into installing an extension that appears harmless, not realizing it serves as the initial step in a more complex attack&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Zaytsev said.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This vulnerability could be exploited to facilitate the installation of additional extensions, potentially for monetary gain.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;final-opinion&quot;&gt;Final opinion&lt;/h2&gt;
+
+&lt;p&gt;Last but not least, and in my personal opinion, Edge has become the same monolith that Chrome already is. When it first appeared in 2019 and rose from the ashes of the inglorious first Edge browser, I was more than happy that there was a modern, supported and actively maintained browser with the Chromium engine without the Google bloatware and bad stuff lurking under the surface. Edge’s evolution over the past two years has already seen the changing times, and with many useless features, new (and even more useless) sidebars, and lots of Redmond reporting stuff under the hood, it is more than obvious that Microsoft has lost the essence of being an alternative to Google Chrome.&lt;/p&gt;
+
+&lt;p&gt;There is no security by design, and security is not a status quo, but an ongoing process. This also applies to modern browsers, but with more and more features added to a simple browser (with tracking capabilities and framing in the M365 microcosm), Edge has reached the same level as Google Chrome - it just depends on the users whether they are connected to the Google or Microsoft world. Of course, there are many alternatives (did anyone say „&lt;a href=&quot;https://github.com/ungoogled-software/ungoogled-chromium&quot;&gt;ungoogled-chromium&lt;/a&gt;“?), but considering the evolution of browsers over the years, there are not many positive aspects left if you just want to browse the web without built-in trackers, crypto stuff or other fancy crap.&lt;/p&gt;
+
+&lt;p&gt;There should be a feature freeze (or reduction) coupled with a rethinking of what a browser should basically do for home users, businesses, and people who just don’t want their data exposed to third parties with a focus on real privacy. The trend that Microsoft has succumbed to with Edge was clear in one way or another and the current result in early 2024 is a shattered landscape of bloated web browsing apps once known as “browsers”. Features first, security second - just reverse the order, please!&lt;/p&gt;
+
+</description>
+                <pubDate>Thu, 28 Mar 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/microsoft-edge-bug-could-have-enabled-attackers-to-install-malicious-extensions-without-detection/</link>
+                <guid isPermaLink="true">http://localhost:4000/microsoft-edge-bug-could-have-enabled-attackers-to-install-malicious-extensions-without-detection/</guid>
+                
+                <category>it</category>
+                
+                <category>microsoft</category>
+                
+                <category>software</category>
+                
+                <category>internet</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Stability AI loses CEO ahead of reframing business model</title>
@@ -633,46 +719,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>Stop worrying about people that aren’t worried about you</title>
-                <description>&lt;h2 id=&quot;2020-and-2021-had-some-steep-learning-curves-in-my-evaluation-of-relationships-with-other-individuals-and-even-these-days-experience-is-growing-as-you-never-stop-learning&quot;&gt;2020 and 2021 had some steep learning curves in my evaluation of relationships with other individuals and even these days, experience is growing as you never stop learning…&lt;/h2&gt;
-
-&lt;p&gt;While I was always interested to make even foreign people like me in earlier years, I somehow managed to change this attitude over the time - maybe boosted by COVID? Now, we are facing the second quite devastating year in a row, I often found me confronting myself with the question if I really need to please just everyone on a private and business basis. Wouldn’t be the status of just getting along with fewer, worthy people outside my own family and circle of friends even more important? Some thoughts on that with the wisdom I may have gained over the years, paired with social distancing thanks to COVID-19.&lt;/p&gt;
-
-&lt;p&gt;Seeing it in a realistic way, nobody’s perfect. But trying your best to be the person you want to be is everything that should matter. Be true to yourself and to people close to you and always do what you believe in, no matter what others say. I was never the guy with tons of friends, indeed my best three friends live more than 75 kilometers away from me and we know each other for 15 to 20 years. Many people from which I thought they were friends turned their back to me once my private life was focusing on becoming a dad, therefore having less time to party or drink. Looking back (which I rarely try to do!) they were just company in specific parts of my life.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(Marcel Proust), French Author&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/timon-studler-ABGaVhJxwDQ-unsplash.jpg&quot; alt=&quot;Photo by Timon Studler / Unsplash&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, in the coming autumn of 2023, I’ve learned some more lessons. People you could get along with in terms of your job can instantly turn their back to you once you decide to stop working for a specific employee. Or revive the stab-in-the-back-myth. Or suddently turn silent due to restriction made by the employer you’re planning to leave. These experiences sound quite childish and stupid and I never expected job-related relationships to develop these ways but what a fool I have been to underestimate the reaction to one’s own free will. You fought. You oared. You struggled. You encouraged. You helped. You sold. You educated. In the end, you decided to leave the train at a certain station and, sadly, the outcome is nearly the expected one and yet another lesson in life. Ingratitude is the world’s reward, isn’t it?&lt;/p&gt;
-
-&lt;p&gt;Finally, people will judge you no matter what you do…so you might as well do what you want. And even more take care and cherish the people around you that are good for you while being sceptical to new “false friends” or backstabbing-folks that seem to flood our society more and more for whatever reason.&lt;/p&gt;
-
-</description>
-                <pubDate>Sun, 17 Sep 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Stop-worrying-about-people-that-arent-worried-about-you/</link>
-                <guid isPermaLink="true">http://localhost:4000/Stop-worrying-about-people-that-arent-worried-about-you/</guid>
-                
-                <category>thoughts</category>
-                
-                <category>life</category>
-                
-                <category>work</category>
-                
-                <category>people</category>
-                
-                <category>relationships</category>
-                
-                
-                <category>Thoughts</category>
                 
             </item>
         
