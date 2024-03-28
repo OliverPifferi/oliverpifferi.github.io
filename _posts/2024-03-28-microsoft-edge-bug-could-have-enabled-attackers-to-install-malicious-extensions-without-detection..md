@@ -4,7 +4,7 @@ author: oliver
 title: Microsoft Edge bug could have enabled attackers to install malicious extensions without detection
 date: 2024-03-28
 categories: [IT]
-tags: [it, microsoft, software, internet]     # TAG names should always be lowercase
+tags: [security, microsoft, software, internet]     # TAG names should always be lowercase
 image: '/images/microsoft_edge_business.jpg'
 ---
 
