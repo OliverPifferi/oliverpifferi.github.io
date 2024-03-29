@@ -15,7 +15,7 @@ It’s a simply idea and despite reminding me on some kind of classic chain lett
 Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.
 
 - 📨 Mail Service: [iCloud Mail](http://icloud.com/mail)
-- 📮 Mail Client: [Apple Mail](https://apps.apple.com/app/mail/id1108187098) on macOS & iOS, [mailbox.org](https://mailbox.org) in the Web
+- 📮 Mail Client: [Apple Mail](https://apps.apple.com/app/mail/id1108187098) on macOS & iOS, [iCloud Mail](http://icloud.com/mail) in the Web
 - 📝 Notes: [Apple Notes](https://www.icloud.com/notes)
 - ✅ To-Do: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
 - 🌅 Photo library: [iCloud Photos](https://www.icloud.com/photos)
