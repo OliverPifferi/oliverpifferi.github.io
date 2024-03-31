@@ -5,9 +5,65 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 Mar 2024 13:00:22 +0100</pubDate>
-        <lastBuildDate>Thu, 28 Mar 2024 13:00:22 +0100</lastBuildDate>
+        <pubDate>Sun, 31 Mar 2024 13:21:27 +0200</pubDate>
+        <lastBuildDate>Sun, 31 Mar 2024 13:21:27 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Was macht eine gute Backup-Strategie aus? Der World Backup Day 2024</title>
+                <description>&lt;h2 id=&quot;am-31-märz-ist-world-backup-day-wie-es-sich-gehört-und-mittlerweile-moderne-tradition-ist-benötigen-wir-einen-speziellen-tag-um-auf-ein-wichtiges-thema-nachhaltig-aufmerksam-zu-machen-der-world-backup-day-soll-erneut-an-die-bedeutung-von-datensicherungen--und-sicherheit-erinnern&quot;&gt;Am 31. März ist &lt;a href=&quot;https://www.worldbackupday.com/en&quot;&gt;World Backup Day&lt;/a&gt;. Wie es sich gehört und mittlerweile moderne Tradition ist, benötigen wir einen speziellen Tag, um auf ein wichtiges Thema nachhaltig aufmerksam zu machen. Der World Backup Day soll erneut an die Bedeutung von Datensicherungen- und Sicherheit erinnern.&lt;/h2&gt;
+
+&lt;p&gt;In einem Zeitalter, wo das Sichern der eigenen Daten eine Selbstverständlichkeit darstellt und das Gefährdungspotential stetig ansteigt, muss das reine Backup nur ein Teil der gesamten Strategie sein. Doch was macht eine gute Backup-Strategie aus?&lt;/p&gt;
+
+&lt;h2 id=&quot;die-historie&quot;&gt;Die Historie&lt;/h2&gt;
+&lt;p&gt;Der frühere Idealweg wurde durch die „3-2-1“-Regel definiert: Drei Backups auf zwei verschiedenen Medientypen und einer Kopie außer Haus - doch selbst das war und (leider auch) ist bei weitem nicht die Regel. Die Realität sieht oft anders aus - ein Backup auf ein Network Attached Storage im selben Raum mag prinzipiell ein Backup sein, eine Strategie steht dahinter aber eher weniger. Diese Denkweise findet man teilweise noch in kleineren Unternehmen, wo ein Backup samt verläßlicher (und ergo oft kostenpflichtiger) Software eher ein „notwendiges Übel“ darstellt. Recovery Tests werden mäßig bis gar nicht durchgeführt, ein Monitoring des Backups geschieht per se sowieso nicht und nach einem dedizierten Sicherung-Konzept braucht man dann eher auch nicht fragen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/chris-yates-iqELIpzpARI-unsplash.jpg&quot; alt=&quot;It’s World Backup Day - again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In dem Moment, wo ein zeitlicher Ausfall (aus welchen Gründen auch immer) geschieht, die Uhr klar gegen das Unternehmen tickt und die Faktoren RTO und RPO unbarmherzig in den Fokus rücken, wird schnell klar, dass auch beim Backup eine Strategie unerläßlich und - ja! - lebenswichtig ist.&lt;/p&gt;
+
+&lt;h2 id=&quot;der-zeit-faktor&quot;&gt;Der Zeit-Faktor&lt;/h2&gt;
+
+&lt;p&gt;Zur Erklärung: Das Recovery Point Objective (RPO) bezieht sich im Allgemeinen auf die Berechnung der Menge an Datenverlusten, die ein Unternehmen innerhalb eines für sein Geschäft relevanten Zeitraums erleiden kann, bevor ein signifikanter Schaden entsteht - und zwar vom Zeitpunkt eines Störungsereignisses bis zur letzten Datensicherung. Redet man also über eine Strategie, so muss man auch zwangsläufig über diesen Faktor reden, der durchaus die erste Risikoklassifizierung darstellt. Die Wiederherstellungszeit (Recovery Time Objective, RTO) wiederum bezieht sich generell auf die Zeit, die eine Anwendung, ein System oder ein Prozess ausfallen kann, ohne dass ein erheblicher Schaden für das Unternehmen entsteht.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/nathan-dumlao-LPRrEJU2GbQ-unsplash.jpg&quot; alt=&quot;It’s World Backup Day - again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ebenso steht sie in Verbindung mit der Zeit, die für die Wiederherstellung der Anwendung und ihrer Daten benötigt wird, um den normalen Geschäftsbetrieb nach einem schwerwiegenden Vorfall wieder aufzunehmen: Aus Erfahrung tickt im Worst Case die Uhr gnadenlos gegen die Betroffenen und das eine Backup mag die Daten enthalten, die Rücksicherung dauert aber quälend lange. Sofern also etwas passiert ist, sollte man sich nicht erst dann Gedanken über den Faktor „Zeit“ machen müssen.&lt;/p&gt;
+
+&lt;h2 id=&quot;die-strategie&quot;&gt;Die Strategie&lt;/h2&gt;
+&lt;p&gt;Hat man bereits über RTO und RPO gesprochen, so spricht man unweigerlich auch über das Backup-Konzept, die Mittel (Hard- wie Software) und am Ende eben über die gesamte Strategie: Ein Backup-Server gehört nicht in eine Active Directory-Domäne und er sollte idealerweise auch keinen virtueller Server auf der eigentlich zu sichernden Umgebung darstellen. Idealerweise ist er auch physisch getrennt von den Produktivsystem - ebenso wie die weiteren Repositories, die die Backups enthalten, beispielsweise in einem anderen, unabdingbaren Brandabschnitt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/mark-fletcher-brown-nN5L5GXKFz8-unsplash.jpg&quot; alt=&quot;It’s World Backup Day - again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Auch die 3-2-1-Regel ist längst nicht mehr der Weisheit letzter Schluß, wie es bereits Veeam seit einiger Zeit beschreibt. Sie wird durch die 3-2-1-1-0-Regel abgelöst, die der Hersteller auch als „goldene Regel“ tituliert: Vorhalten dreier Kopien-/Backups der Daten, Sicherung dieser Backups auf zwei verschiedene Medientypen, Erstellung mindestens einer Offsite- sowie einer Offline-Kopie (Stichwort „Medientrennung“) und die finale „0“ in Form der Verifizierung der getätigten Backups ohne jeglichen Fehler: Das klingt komplex, ist es aber nicht, wenn man seinen Daten entsprechende Priorität einräumt, die Pflichten, Rechte wie auch Risiken in Bezug auf Backups klassifiziert und die richtigen Partner und Dienste an seiner Seite weiß.&lt;/p&gt;
+
+&lt;h2 id=&quot;ein-vorläufiges-fazit&quot;&gt;Ein (vorläufiges) Fazit&lt;/h2&gt;
+&lt;p&gt;Ein Produkt macht noch keine Lösung. Ein Backup noch keine Strategie. Sicherungs-Software, die mit dem „Weiter-Weiter-Fertig“-Installationsweg deployed wird, ist trotz eines möglichen ersten vollständigen Backups weit entfernt von einem wasserdichten Konzept. Das Tape ist (gerade in großen Umgebungen) immer noch nicht tot: Fragen Sie einmal &lt;a href=&quot;https://www.ibm.com/tape-storage&quot;&gt;IBM&lt;/a&gt;! Ein Restore sollte nur erfolgen, wenn das Backup Ransomware-frei ist: &lt;a href=&quot;https://community.veeam.com/blogs-and-podcasts-57/ransomware-proof-backups-configuring-and-integrating-object-first-with-veeam-vbr-6930&quot;&gt;Veeam&lt;/a&gt; zeigt, wie das funktionieren kann! Ein (selbstverständlich selbst) verschlüsseltes Backup auszulagern, kann mit Bordmitteln auch zu einem vertrauenswürdigen Cloud Service Provider, beispielsweise in die &lt;a href=&quot;https://enthus.de/services-xaas/xaas/enthus-cloud&quot;&gt;enthus Cloud&lt;/a&gt;, erfolgen - und wer am Ende auch noch ein Disaster Recovery-Ansatz erfolgt, wird hier ebenfalls fündig: Zusammen mit der &lt;a href=&quot;https://www.hpe.com/de/de/storage/data-protection-solutions/disaster-recovery-zerto.html&quot;&gt;Zerto&lt;/a&gt; von &lt;a href=&quot;https://www.hpe.com/de/de/storage/data-protection-solutions/disaster-recovery-zerto.html&quot;&gt;HPE&lt;/a&gt; lassen sich Backups und DRaaS wunderbar gemeinsam betreiben und die Ausfallsicherheit je nach Anforderungen nahezu gen Null fahren!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/wbd_horizontal-date.jpg&quot; alt=&quot;It’s World Backup Day - again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Das sind nur einige Möglichkeiten, derer man im Rahmen dieses jährlich wiederkehrenden World Backups Day „gedenkt“. Eine allgemeine, für jeden Anwendungsfall geltende, Backup-Strategie gibt es nicht. Primär muss verstanden werden, dass vieles, was wir heute als „Backup“ definieren, kein wirkliches ist respektive von einer Backup-Strategie weit entfernt ist. Am Ende kommt es auf das geschärfte Bewusstsein in einer voller Bedrohungslagen gespickten Zeit, die passenden Werkzeuge und Partner an - und auf ein Konzept, dass individuell für den eigenen Use Case zugeschnitten ist.&lt;/p&gt;
+
+&lt;p&gt;Dieses Konzept sollte nicht starr sein, sondern dynamisch an die Möglichkeiten des Marktes und vor allem den eigenen, wechselnden Anforderungen angepasst werden - denn so, wie sich Softwarekomponenten, Partnerlandschaften und Hardware ändern, ändern sich auch die eigenen Anforderungen häufiger, als man es glauben mag. All das zusammen zählt auf eine gute Backup-Strategie ein und hilft auch, künftigen Herausforderungen gelassener entgegenzutreten.&lt;/p&gt;
+
+&lt;p&gt;In diesem Sinne einen happy &lt;a href=&quot;https://www.worldbackupday.com/en&quot;&gt;World Backup Day 2024&lt;/a&gt; und frohe Ostern!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 31 Mar 2024 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/was-macht-eine-gute-backup-strategie-aus-der-world-backup-day-2024/</link>
+                <guid isPermaLink="true">http://localhost:4000/was-macht-eine-gute-backup-strategie-aus-der-world-backup-day-2024/</guid>
+                
+                <category>backup</category>
+                
+                <category>strategy</category>
+                
+                <category>it</category>
+                
+                <category>security</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Microsoft Edge bug could have enabled attackers to install malicious extensions without detection</title>
@@ -346,15 +402,15 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 &lt;p&gt;Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;📨 Mail Service: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; in the Web&lt;/li&gt;
+  &lt;li&gt;📨 Mail Service: &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt; in the Web&lt;/li&gt;
   &lt;li&gt;📝 Notes: &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📆 Calendar: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; CalDAV&lt;/li&gt;
-  &lt;li&gt;📁 Cloud Storage: &lt;a href=&quot;https://nextcloud.com&quot;&gt;Nextcloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📆 Calendar: &lt;a href=&quot;https://www.icloud.com/calendar&quot;&gt;iCloud Calendar&lt;/a&gt; CalDAV&lt;/li&gt;
+  &lt;li&gt;📁 Cloud Storage: &lt;a href=&quot;https://www.synology.com/dsm/feature/drive&quot;&gt;Synology Drive&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🙍🏻‍♂️ Contacts: &lt;a href=&quot;https://mailbox.org&quot;&gt;mailbox.org&lt;/a&gt; CardDAV&lt;/li&gt;
+  &lt;li&gt;🙍🏻‍♂️ Contacts: &lt;a href=&quot;https://www.icloud.com/contacts&quot;&gt;iCloud Contacts&lt;/a&gt; CardDAV&lt;/li&gt;
   &lt;li&gt;🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
@@ -686,39 +742,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>How to fix seemingly disabled Apple Pay on macOS</title>
-                <description>&lt;h2 id=&quot;there-arent-many-glitches-with-macos-in-my-common-use-cases-but-lately-and-after-migrating-my-user-from-one-mac-to-the-other-i-realized-that-seemingly-apple-pay-was-deactivated-for-whatever-reason&quot;&gt;There aren’t many glitches with macOS in my common use cases but lately and after migrating my user from one Mac to the other, I realized that, seemingly, Apple Pay was deactivated for whatever reason.&lt;/h2&gt;
-
-&lt;p&gt;Although FileVault was enabled and my fingerprints were registered for use with Touch ID, the message “Apple Pay has been disabled because the security settings of this Mac were modified” appeared when trying to add my credit cards to Wallet/Apple Pay on the new device. This error appeared the first time in connection with the Migration Assistant on macOS Ventura 13.0 and moved on to Sonoma 14.0 while Internet sources tell it has already been around since 2020 so this issue may not be that new.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/macOS-apple-pay-disabled.jpg&quot; alt=&quot;The error&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The solution is as astonishing as straightforward and may be fixed in a different setting one may expect: After some research, many users reported that it has something to do with the state of macOS-related updates. Indeed, going to Software Update/Advanced and unchecking the “Install system data files and security updates”-option with enabling it again shortly afterwards, this problem was fixed in no time. Apparently it appeared when moving one user account to a new machine, telling the system that something has been happened to the security hardware underneath (which was the fact).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/macos-apple-pay-enable_updates.jpg&quot; alt=&quot;The fix&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, the reason for this issue to appear is reasonable but the way it can be fixed is somehow confusing. Besides this, the workaround must be done using an account with administrative permissions - as I tend to have one administrator on my devices while working with a standard user, this may be helpful as well: As a standard user, you can disable and enable the “Install system data files and security updates”-option and authenticate with the administrative account but this won’t erase the error - you’ll have to perform these steps with the local administrator of your Mac!&lt;/p&gt;
-</description>
-                <pubDate>Wed, 25 Oct 2023 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/How-to-fix-seemingly-disabled-Apple-Pay-on-macOS/</link>
-                <guid isPermaLink="true">http://localhost:4000/How-to-fix-seemingly-disabled-Apple-Pay-on-macOS/</guid>
-                
-                <category>apple</category>
-                
-                <category>it</category>
-                
-                <category>macos</category>
-                
-                <category>software</category>
-                
-                <category>payment</category>
-                
-                
-                <category>IT</category>
                 
             </item>
         

@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Was macht eine gute Backup-Strategie aus? Der World Backup Day 2024",
+      "url"      : "/was-macht-eine-gute-backup-strategie-aus-der-world-backup-day-2024/",
+      "date"     : "31 March 2024",
+      "image"    : "/images/wbd_wordmark-date.jpg"
+    } ,
+  
+    {
       "title"    : "Microsoft Edge bug could have enabled attackers to install malicious extensions without detection",
       "url"      : "/microsoft-edge-bug-could-have-enabled-attackers-to-install-malicious-extensions-without-detection/",
       "date"     : "28 March 2024",

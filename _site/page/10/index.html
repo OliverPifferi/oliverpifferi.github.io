@@ -63,6 +63,9 @@
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.pifferi.info"]);
+  _paq.push(["setDoNotTrack", true]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -73,6 +76,7 @@
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+<noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="//matomo.pifferi.info/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
 
 <!-- begin header -->
@@ -230,6 +234,54 @@
   
   <div class="row">
     
+      
+        <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      
+
+      
+      <a class="article__image" href="/Installing-the-latest-version-of-PostgreSQL-on-Ubuntu-Linux/">
+        <img class="lazy" data-src="/images/photo-1629654297299-c8506221ca97.jpg" alt="Installing the latest version of PostgreSQL on Ubuntu Linux">
+      </a>
+      
+    </div>
+
+    <div class="article__content">
+
+      <div class="article__meta">
+        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
+        <time class="article__date" datetime="2021-11-02T00:00:00+01:00">2 November, 2021</time>
+      </div>
+
+      <h2 class="article__title">
+        <a href="/Installing-the-latest-version-of-PostgreSQL-on-Ubuntu-Linux/">Installing the latest version of PostgreSQL on Ubuntu Linux</a>
+      </h2>
+
+      <p class="article__excerpt">While Ubuntu Linux is — besides Debian — the Linux-distribution of my choice, some packages could be more up-to-date.
+
+In this scenario given, my U...</p>
+
+      
+      <div class="article__tags">
+        
+        <a href="/tags/?tag=linux" class="article__tag">linux</a>
+        
+        <a href="/tags/?tag=postgresql" class="article__tag">postgresql</a>
+        
+        <a href="/tags/?tag=database" class="article__tag">database</a>
+        
+        <a href="/tags/?tag=software" class="article__tag">software</a>
+        
+        <a href="/tags/?tag=ubuntu" class="article__tag">ubuntu</a>
+        
+      </div>
+      
+
+    </div>
+  </div>
+</div>
       
         <div class="article col col-4 col-d-6 col-t-12">
   <div class="article__inner">
@@ -467,52 +519,6 @@ While the idea of protecting infants ...</p>
   </div>
 </div>
       
-        <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
-
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/WWDC-2021-Custom-E-Mail-domains-are-coming-to-iCloud-finally/">
-        <img class="lazy" data-src="/images/1-F0KcgyUX8TDQLkc60ZqAZA.jpg" alt="WWDC 2021: Custom E-Mail-domains are coming to iCloud… finally!">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Oliver Pifferi</a> –
-        <time class="article__date" datetime="2021-08-27T00:00:00+02:00">27 August, 2021</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/WWDC-2021-Custom-E-Mail-domains-are-coming-to-iCloud-finally/">WWDC 2021: Custom E-Mail-domains are coming to iCloud… finally!</a>
-      </h2>
-
-      <p class="article__excerpt">I don’t know how long I expected this feature to reach iCloud, but in the backwash of all those great iOS 15-features, custom E-Mail domains silent...</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=apple" class="article__tag">apple</a>
-        
-        <a href="/tags/?tag=icloud" class="article__tag">icloud</a>
-        
-        <a href="/tags/?tag=services" class="article__tag">services</a>
-        
-        <a href="/tags/?tag=mail" class="article__tag">mail</a>
-        
-        <a href="/tags/?tag=internet" class="article__tag">internet</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-      
     
   </div>
 </div>
@@ -638,6 +644,21 @@ While the idea of protecting infants ...</p>
     
     <div class="recent-posts">
       
+      <a class="recent-posts__image" href="/was-macht-eine-gute-backup-strategie-aus-der-world-backup-day-2024/">
+        
+        <img class="lazy" data-src="/images/wbd_wordmark-date.jpg" alt="Was macht eine gute Backup-Strategie aus? Der World Backup Day 2024">
+      </a>
+      
+      <div class="recent-posts__content">
+        <div class="recent-posts__date">
+          <time datetime="2024-03-31T00:00:00+01:00">March 31, 2024</time>
+        </div>
+        <h4 class="recent-posts__title"><a href="/was-macht-eine-gute-backup-strategie-aus-der-world-backup-day-2024/">Was macht eine gute Backup-Strategie aus? Der World Backup Day 2024</a></h4>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
       <a class="recent-posts__image" href="/microsoft-edge-bug-could-have-enabled-attackers-to-install-malicious-extensions-without-detection/">
         
         <img class="lazy" data-src="/images/microsoft_edge_business.jpg" alt="Microsoft Edge bug could have enabled attackers to install malicious extensions without detection">
@@ -648,21 +669,6 @@ While the idea of protecting infants ...</p>
           <time datetime="2024-03-28T00:00:00+01:00">March 28, 2024</time>
         </div>
         <h4 class="recent-posts__title"><a href="/microsoft-edge-bug-could-have-enabled-attackers-to-install-malicious-extensions-without-detection/">Microsoft Edge bug could have enabled attackers to install malicious extensions without detection</a></h4>
-      </div>
-    </div>
-    
-    <div class="recent-posts">
-      
-      <a class="recent-posts__image" href="/stability-ai-loses-ceo-ahead-of-reframing-business-model/">
-        
-        <img class="lazy" data-src="/images/julien-tromeur-6UDansS-rPI-unsplash.jpg" alt="Stability AI loses CEO ahead of reframing business model">
-      </a>
-      
-      <div class="recent-posts__content">
-        <div class="recent-posts__date">
-          <time datetime="2024-03-26T00:00:00+01:00">March 26, 2024</time>
-        </div>
-        <h4 class="recent-posts__title"><a href="/stability-ai-loses-ceo-ahead-of-reframing-business-model/">Stability AI loses CEO ahead of reframing business model</a></h4>
       </div>
     </div>
     
