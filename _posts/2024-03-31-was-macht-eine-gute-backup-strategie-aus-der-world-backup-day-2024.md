@@ -8,7 +8,7 @@ tags: [backup, strategy, it, security]     # TAG names should always be lowercas
 image: '/images/wbd_wordmark-date.jpg'
 ---
 
-## Am 31. März ist [World Backup Day](https://www.worldbackupday.com/en). Wie es sich gehört und mittlerweile moderne Tradition ist, benötigen wir einen speziellen Tag, um auf ein wichtiges Thema nachhaltig aufmerksam zu machen. Der World Backup Day soll erneut an die Bedeutung von Datensicherungen- und Sicherheit erinnern.
+## Am heutigen 31. März ist [World Backup Day](https://www.worldbackupday.com/en). Wie es sich gehört und mittlerweile moderne Tradition ist, benötigen wir einen speziellen Tag, um auf ein wichtiges Thema nachhaltig aufmerksam zu machen. Der World Backup Day soll erneut an die Bedeutung von Datensicherungen- und Sicherheit erinnern.
 
 In einem Zeitalter, wo das Sichern der eigenen Daten eine Selbstverständlichkeit darstellt und das Gefährdungspotential stetig ansteigt, muss das reine Backup nur ein Teil der gesamten Strategie sein. Doch was macht eine gute Backup-Strategie aus?
 
