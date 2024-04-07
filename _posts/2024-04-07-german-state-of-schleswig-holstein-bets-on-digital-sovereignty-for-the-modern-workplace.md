@@ -29,7 +29,7 @@ Under the banner of "independent, sustainable, secure", Schleswig-Holstein wants
 
 ## Focusing on Europe
 
-Dirk Schrödter also names the focus on Europe as one of the key factors for the new and pioneering digital strategy of Schleswig-Holstein:
+Dirk Schrödter also names the focus on Europe as one of the key factors for the [new and pioneering digital strategy of Schleswig-Holstein](https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac):
 
 > „The path to digital sovereignty follows a strict industrial policy compass: My vision of a strong digital garrison can only become a reality if we don't have to invest our public budgets in licensing costs.“
 
