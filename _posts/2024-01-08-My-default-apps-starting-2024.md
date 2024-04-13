@@ -16,7 +16,7 @@ Here, he initiated and collected RSS-feeds people in the Net telling exactly whi
 
 - 📨 Mail Service: [iCloud Mail](http://icloud.com/mail)
 - 📮 Mail Client: [Apple Mail](https://apps.apple.com/app/mail/id1108187098) on macOS & iOS, [iCloud Mail](http://icloud.com/mail) in the Web
-- 📝 Notes: [Apple Notes](https://www.icloud.com/notes)
+- 📝 Notes: [Obsidian](https://obsidian.md) and [Apple Notes](https://www.icloud.com/notes) (dying)
 - ✅ To-Do: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
 - 🌅 Photo library: [iCloud Photos](https://www.icloud.com/photos)
 - 📆 Calendar: [iCloud Calendar](https://www.icloud.com/calendar) CalDAV
