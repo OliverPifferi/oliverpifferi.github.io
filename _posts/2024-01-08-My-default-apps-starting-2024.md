@@ -23,7 +23,7 @@ Here, he initiated and collected RSS-feeds people in the Net telling exactly whi
 - 📁 Cloud Storage: [Synology Drive](https://www.synology.com/dsm/feature/drive)
 - 📖 RSS Service: Self-hosted [FreshRSS](https://freshrss.org/)
 - 🙍🏻‍♂️ Contacts: [iCloud Contacts](https://www.icloud.com/contacts) CardDAV
-- 🌐 Browser: [Safari](https://www.apple.com/safari/) and [Firefox](https://www.getfirefox.com/)
+- 🌐 Browser: [Safari](https://www.apple.com/safari/) and [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 - 💬 Chat: [Signal](https://signal.org/), [Messages](https://apps.apple.com/zm/app/messages/id1146560473) & [Threema](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4)
 - 🛒 Shopping Lists: [Apple Reminders](https://apps.apple.com/us/app/reminders/id1108187841)
 - 🔎 Search: [DuckDuckGo](https://duckduckgo.com)
