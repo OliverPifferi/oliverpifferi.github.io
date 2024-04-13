@@ -5,9 +5,58 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 07 Apr 2024 20:32:07 +0200</pubDate>
-        <lastBuildDate>Sun, 07 Apr 2024 20:32:07 +0200</lastBuildDate>
+        <pubDate>Sat, 13 Apr 2024 21:54:34 +0200</pubDate>
+        <lastBuildDate>Sat, 13 Apr 2024 21:54:34 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Microsoft adds recommended apps to the start menu in Windows 11</title>
+                <description>&lt;h2 id=&quot;microsoft-is-currently-battling-a-lot-of-bad-press-but-as-if-that-wasnt-enough-theres-still-something-else-to-add-according-to-a-recent-blog-post-the-latest-windows-11-insider-preview-build-226353495-will-add-recommended-apps-to-the-users-start-menu---at-least-in-the-us-and-on-unmanaged-devices&quot;&gt;Microsoft is currently battling a lot of bad press but as if that wasn’t enough, there’s still something else to add: According to a recent &lt;a href=&quot;https://blogs.windows.com/windows-insider/2024/04/12/announcing-windows-11-insider-preview-build-22635-3495-beta-channel/&quot;&gt;blog post&lt;/a&gt;, the latest Windows 11 Insider Preview Build 22635.3495 will add recommended apps to the user’s start menu - at least in the US and on unmanaged devices.&lt;/h2&gt;
+
+&lt;p&gt;Although this is only a test in a preview version of Windows 11, it is yet another ticked box on the list of foreign intrusion into the user’s operating system that is sadly part of Microsoft’s recent history. The unwanted &lt;a href=&quot;https://www.theverge.com/2020/10/19/21524006/microsoft-pause-unsolicited-pwa-office-app-windows-10&quot;&gt;progressive web apps (PWAs) in Windows 10&lt;/a&gt;, the &lt;a href=&quot;https://pifferi.info/new-outlook-seemingly-sends-sensitive-data-to-microsoft/&quot;&gt;privacy issue with the ‘new’ Outlook sending credentials to Redmond servers&lt;/a&gt; or this new issue raises the question of whether the installed operating system belongs to the user or is subject to Microsoft’s arbitrariness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bekky-bekks-QRHRqOVOcfQ-unsplash.jpg&quot; alt=&quot;Ads ahead!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Personally, and whenever I have to deal with a client’s Windows system, I have never got used to the new “features” of grouping recently installed applications or showing frequently installed applications. This may have something to do with my own past when the classic Start menu had everything I needed. This was later superseded by these new features and in present days, whenever I have to deal with a Windows system, the combination of the Windows key and the ‘S’ is far quicker than any new idea from Redmond associated with the Start menu.&lt;/p&gt;
+
+&lt;p&gt;Anyway, as if that wasn’t enough already, the latest obvious idea is to recommend fancy and famous applications from the Microsoft Store in the Start menu even if you’ve never had a relationship with them. So, Redmond, what could possibly go wrong with this great new addition of useless bloatware to an operating system, cloaking this under the smoke screen of friendly recommendations to explore new, yet unknown apps?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/start-reco-1password.jpg&quot; alt=&quot;A Microsoft genuine idea&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Surely this could just be another test balloon, with Redmond experimenting with new features that may (and hopefully) never make it to the final build. It’s also stated that only US-users enrolled in the Windows Insider program will be able to see this change and that it won’t apply to commercial devices (“devices managed by organizations”).&lt;/p&gt;
+
+&lt;p&gt;As we have become accustomed to, these friendly recommendations can also be turned off by going to „Settings &amp;gt; Personalization &amp;gt; Start“ and unchecking the „Show recommendations for tips, app promotions and more“-box. Unfortunately they seem to be standard in this build and users will have to turn this feature off in the same way they can prevent the Start menu from showing frequently installed or used apps - once they made their way throughout the dazzling and confusing new system settings.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As a reminder, we regularly try out new experiences and concepts that may never get released with Windows Insiders to get feedback. Should you see this experience on the Start menu, let us know what you think. We are beginning to roll this out to a small set of Insiders in the Beta Channel at first.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;where-do-you-want-to-go-tomorrow-microsoft&quot;&gt;Where do you want to go tomorrow, Microsoft?&lt;/h2&gt;
+
+&lt;p&gt;Remember the phrase “it’s not a bug, it’s a feature”? It just popped into my head when I thought of those friendly additions to a simple operating system. Seemingly, Redmond lost its way on the desktop many years ago and while the focus is clearly on the cloud and the bundle of services that reside there, the desktop is somehow losing its historic role and adding pointless features to an end-user operating system may be one of the few facts that justify a new press release with leading the users to believe that there is an active development. There aren’t many features that justified ditching Windows 7 for Windows 10, and - in my humble opinion - there were even fewer that justified ditching Windows 10 in favour of Windows 11 and whatever may come. The desktop got boring and there aren’t that much justifications to slip creepy features to working operating systems without the user’s permission.&lt;/p&gt;
+
+&lt;p&gt;Maybe the days of extraordinary changes on the desktop are over and operating systems are pretty mature - the same trend applies to my beloved macOS (at least for my use cases and personal needs). Instead of blowing these systems up, the focus should be on stripping them down to the bare essentials - with people being able to install the features they need, when they need them! The current trend coming out of Redmond is simply awful, and even if this is just a test in a preview version of Windows 11, the trend is clear - and the mistakes are being repeated over time. While the cloud is referred to as “just other people’s computers”, how do we ensure that using the latest iteration of Windows leaves us in control of our own PCs in the future?&lt;/p&gt;
+
+&lt;p&gt;Thinking of this, where do you want to go tomorrow, Microsoft?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/marcus-urbenz-hPA60HpZUrI-unsplash.jpg&quot; alt=&quot;A Microsoft genuine idea&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 13 Apr 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/microsoft-adds-recommended-apps-to-the-start-menu-in-windows-11/</link>
+                <guid isPermaLink="true">http://localhost:4000/microsoft-adds-recommended-apps-to-the-start-menu-in-windows-11/</guid>
+                
+                <category>it</category>
+                
+                <category>microsoft</category>
+                
+                <category>software</category>
+                
+                <category>windows</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>German state of Schleswig-Holstein bets on digital sovereignty for the modern workplace</title>
@@ -36,7 +85,7 @@
 
 &lt;h2 id=&quot;focusing-on-europe&quot;&gt;Focusing on Europe&lt;/h2&gt;
 
-&lt;p&gt;Dirk Schrödter also names the focus on Europe as one of the key factors for the new and pioneering digital strategy of Schleswig-Holstein:&lt;/p&gt;
+&lt;p&gt;Dirk Schrödter also names the focus on Europe as one of the key factors for the &lt;a href=&quot;https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac&quot;&gt;new and pioneering digital strategy of Schleswig-Holstein&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;„The path to digital sovereignty follows a strict industrial policy compass: My vision of a strong digital garrison can only become a reality if we don’t have to invest our public budgets in licensing costs.“&lt;/p&gt;
@@ -239,7 +288,7 @@
             </item>
         
             <item>
-                <title>Stability AI loses CEO ahead of reframing business model</title>
+                <title>Microsoft adds „</title>
                 <description>&lt;h2 id=&quot;with-ai-already-being-more-than-just-the-next-big-thing-it-is-more-than-clear-that-with-great-power-there-comes-great-responsibility-considering-this-the-ultimate-question-whether-ai-should-be-centralized-or-not-is-surely-one-of-the-key-aspects-we-need-to-talk-about-in-the-field-of-artificial-intelligence-now-emad-mostaque-ceo-of-stability-ai-is-resigning-in-the-wake-of-the-current-row-over-this-issue&quot;&gt;With AI already being more than just „the next big thing“, it is more than clear that, with great power, there comes great responsibility. Considering this, the ultimate question whether AI should be centralized or not is surely one of the key aspects we need to talk about in the field of Artificial Intelligence. Now Emad Mostaque, CEO of Stability AI, is resigning in the wake of the current row over this issue.&lt;/h2&gt;
 
 &lt;p&gt;Before we go all out and make Terminator’s “Skynet” a reality, the ethical question of how to deal with the power of AI and how to regulate it is omnipresent. With this in mind, Emad Mostaque has &lt;a href=&quot;https://twitter.com/EMostaque/status/1771380668930674850&quot;&gt;apparently resigned&lt;/a&gt;, and while Stability AI [has already expressed its regret] (https://stability.ai/news/stabilityai-announcement), Mostaque himself states that he “does not want centralized AI to fight centralized AI”, while still retaining a majority stake in the company.&lt;/p&gt;
@@ -491,14 +540,14 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
 &lt;ul&gt;
   &lt;li&gt;📨 Mail Service: &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt; in the Web&lt;/li&gt;
-  &lt;li&gt;📝 Notes: &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;📝 Notes: &lt;a href=&quot;https://obsidian.md&quot;&gt;Obsidian&lt;/a&gt; and &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt; (dying)&lt;/li&gt;
   &lt;li&gt;✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;📆 Calendar: &lt;a href=&quot;https://www.icloud.com/calendar&quot;&gt;iCloud Calendar&lt;/a&gt; CalDAV&lt;/li&gt;
   &lt;li&gt;📁 Cloud Storage: &lt;a href=&quot;https://www.synology.com/dsm/feature/drive&quot;&gt;Synology Drive&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🙍🏻‍♂️ Contacts: &lt;a href=&quot;https://www.icloud.com/contacts&quot;&gt;iCloud Contacts&lt;/a&gt; CardDAV&lt;/li&gt;
-  &lt;li&gt;🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://github.com/ungoogled-software/ungoogled-chromium&quot;&gt;ungoogled-chromium&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;🔎 Search: &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt;&lt;/li&gt;
@@ -640,97 +689,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 <category>software</category>
                 
                 <category>outlook</category>
-                
-                
-                <category>Internet</category>
-                
-            </item>
-        
-            <item>
-                <title>Is Bluesky worth a visit?</title>
-                <description>&lt;h2 id=&quot;while-many-people-and-even-corporate-brands-are-fleeing-from-x---formerly-known-as-twitter---the-question-is-which-service-is-able-to-provide-shelter-the-fediverse-with-products-like-mastodon-or-misskeycalckeyfirefish-is-definitely-an-option-while-jack-dorsey-former-twitter-ceo-and-co-founder-tries-to-gather-up-the-masses-with-his-latest-project-bluesky&quot;&gt;While many people and even corporate brands are fleeing from X - formerly known as “Twitter” - the question is which service is able to provide shelter. The Fediverse with products like Mastodon or Misskey/Calckey/Firefish is definitely an option while Jack Dorsey, former Twitter CEO and Co-founder, tries to gather up the masses with his latest project, Bluesky.&lt;/h2&gt;
-
-&lt;p&gt;The Social Network-landscape is shattered these days. While the downfall of X was somehow a predictable process, it is still astonishing how fast a service that once was a synonym for short messaging is ruined while (seemingly) hazarding all consequences. Anyway, each failure is a chance for optimization and so other networks with the focus on decentralization grew over the years - one of them, virtually flagshipping The Fediverse, was Mastodon. Besides, and somehow lurking in the shadows, the virtual successor of Twitter has been in the works for four years using an investment of nearly 13 millions USD: Bluesky, lead by Jay Graber and former Twitter-CEO and co-founder Jack Dorsey - a decentralized new social network based upon the &lt;a href=&quot;https://atproto.com/guides/overview&quot;&gt;AT-protocol&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/boliviainteligente-elSx3uwGhBw-unsplash.jpg&quot; alt=&quot;X dot com&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;from-bluebird-to-bluesky&quot;&gt;From bluebird to Bluesky&lt;/h2&gt;
-
-&lt;p&gt;First of all, Bluebird’s &lt;a href=&quot;https://bsky.app&quot;&gt;website&lt;/a&gt; looks quite simple - and yes, it’s work in progress. Getting onboarded isn’t as easy because the access to the new Social Network is - in my eyes - crippled intentionally. Not everyone can sign up, people need invite codes - everyone of you who thought this scenario reminding on the old days of early OnePlus-smartphones has been put to a grave is wrong. You need an invite code to play in the sandbox of Bluesky - and getting those may be a hassle.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_start.jpg&quot; alt=&quot;Simply blue&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As always, celebrities and people or organizations of public interest join the platform to attract new followers and subscribers. In moments where many of those flee from X.com, Bluesky is a welcomed new home and especially here in Germany, this escape-scenario drastically increased throughout the last months with many famous accounts migrating to Bluesky: Good bait catches fine fish and with a solid base of well-known accounts, people automatically get interested in following those.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_register.jpg&quot; alt=&quot;Registering&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Should you be able to get an invite code (users who are with the platform a little bit longer get those for example), there is no obstacle towards subscribing to Bluesky anymore as the web interface is definitely not a complicated one: Create your account by choosing your provider, enter your invite code (or join the waitlist), pick your handle, enter your E-mail address and password and you’re ready to go.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_invite.jpg&quot; alt=&quot;Where&apos;s the invite?&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It could be that easy if the trending thing about entering Bluesky wasn’t the artificially-truncated invite code thing. I personally don’t know if this is because of making the service more “exclusive” or keeping spammers and bots outside - finally, this scenario does its work.&lt;/p&gt;
-
-&lt;p&gt;There are different ways to get an invite - just be patient and wait until your spot in the waitlist is next, get a code from another Bluesky-user or look for initiatives like, for example, the &lt;a href=&quot;https://mailbox.org/en/post/mailbox-org-opens-bluesky-invitation-code-exchange-platform&quot;&gt;invitation exchange platform&lt;/a&gt; of German provider mailbox.org - paying customers can request an invite or share their codes with others: In my case, I didn’t wait a half day until (unexpectedly) the mail with an invite reached me (pure luck or less demand - who knows?)-&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_waitlist.jpg&quot; alt=&quot;Joining the waitlist&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;first-steps&quot;&gt;First steps&lt;/h2&gt;
-
-&lt;p&gt;Once you made it to scavenge an invite code and used it for good, you probably have created your account with the @bsky.social-appendix and the outlook will be quite similar to Twitter in earlier days. Indeed Bluesky focuses on the essentials while missing some of those well-known ones, but you definitely will feel familiar straight from the first visit.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_overview.jpg&quot; alt=&quot;Overview&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On the left pane, you see self-declaring links for your home site, the general feed, current notifications, moderation statistics, your profile and general settings. The middle shows the feed with accounts you’ve subscribed to, the right side displays a search box, an option to discover other accounts and more feeds. The latter are indeed custom algorithms that users can build with a little coding expertise as documented &lt;a href=&quot;https://github.com/bluesky-social/feed-generator&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/jelleke-vanooteghem-gnxb59lGU1M-unsplash.jpg&quot; alt=&quot;Bluesky&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;verification&quot;&gt;Verification&lt;/h2&gt;
-
-&lt;p&gt;There is no blue, yellow, gold, whatsoever checkmark to verify your identity (yet). Instead, you can change your handle, for example @oliverpifferi.bsky.social, to - in my case - @pifferi.info by adding a certain DNS-entry to a domain you own. It’s still not the way of a knightly accolade, but what can proof your online identity better than access to the DNS-settings of a domain you own by yourself?&lt;/p&gt;
-
-&lt;p&gt;First of all, enter the settings and use the “change handle”-option just like you would do when changing it into another @bsky.social-tag.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_settings.jpg&quot; alt=&quot;The way to change your handle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on the “I have my own domain”-option here:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_change_handle.jpg&quot; alt=&quot;Do you have your own domain?&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now another windows will appear with the verification-settings you need to enter into the DNS-settings of your domain. Enter the domain in the upper field and see which TXT-entry will be generated afterwards. This entry with the _atproto-prefix and the specific value must then be added to your site’s DNS-configuation as a new entry.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Bluesky_change_handle_settings.jpg&quot; alt=&quot;The way to change your handle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One you have done this in a separate window, click on “Verify DNS record” and, depending on your provider, your account will be verified, permanently changing your handle to, in this case, @alice.com (or, @pifferi.info in mine). In case you don’t have access to the DNS-console, you may also place a TXT-file in the webroot of your specific website and verify it via this way. Further information on verification on Bluesky can be found &lt;a href=&quot;https://blueskyweb.zendesk.com/hc/en-us/articles/19001802873101-How-to-Set-your-Domain-as-your-Handle&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;finally&quot;&gt;Finally…&lt;/h2&gt;
-
-&lt;p&gt;Bluesky looks like X/Twitter once used to look. It still misses features that many former users got used to and while the whole platform is definitely in the status of “work in progress”, it is definitely fill up with many people flooding from X or users who run their Bluesky-account parallel to their Mastodon-one - which is quite interesting. If you don’t mind starting with a new social network created by the same crypto bro that once was in charge of ancient Twitter before selling the whole platform (and if you’re okay with this possibly happening again), Bluesky may stand for the simplicity that once made the former bluebird that popular. The classical PR-B/S of “federated” and “decentralized” is something that needs to be proven in the future - without the approach of an open, really decentralized and federated standard, just another siloed platform has just been born.&lt;/p&gt;
-
-&lt;p&gt;Until then, and with direct messages possibly being integrated sometimes in the future, Bluesky may be an alternative based on “yet another protocol”. It looks slim, is trimmed down to basic functions and you will probably find lots of people that fled from X - but, as always, it will be interesting to watch how this platform will grow and develop once the artificially-shortened signup process has been erased and in how far it can compete with the Fediverse in terms of “building a healthier community”. Most of the people fleeing from “the other side” need to find a new comfortable home, just a few of them will care about where the data is being stored. Considering that all your posts on Bluesky are available via API-endpoints without any kind of authentication at the time of writing (see my post in raw &lt;a href=&quot;https://bsky.social/xrpc/com.atproto.repo.listRecords?repo=pifferi.info&amp;amp;collection=app.bsky.feed.post&quot;&gt;here&lt;/a&gt; for example), “Privacy” could also be an interesting topic to deal with when opting in for any new platform.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/ehimetalor-akhere-unuabona-TvJk52iLxQA-unsplash.jpg&quot; alt=&quot;Stay connected&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;stream-of-time&quot;&gt;Stream of time&lt;/h2&gt;
-
-&lt;p&gt;At last, time will (as always) tell but as someone who changed to Mastodon for quite a while and running an own instance, even Bluesky has its charm and reminds on times where Social Networking was less toxic than it is today. In the end, usability and the people, groups and institutions on the specific platform will shape the foundation for more or less success - this is a challenge all solutions of the “post-Twitter”-era have to deal with inevitably.&lt;/p&gt;
-
-&lt;p&gt;Considering the results of all these thoughts, Bluesky IS worth a visit at the time of writing, despite the silly invite-system - but don’t expect a fully-matured platform like the former Twitter or Mastodon &amp;amp; Co!  It still is work in progress and although the current approach serves our nostalgic memories quite well, missing hashtags-support, no possible video-uploads or even basic things like 2FA in terms of security show that there is still a long way to go. Speaking of federation and decentralization I am also quite curious if the self-hosting on own Bluesky-servers based upon the AT-protocol will be possible like we know this from the Fediverse-solutions. Time will tell but any option is better than the remains of the social network that once made use to know what’s going on in the world with 140 characters!&lt;/p&gt;
-
-&lt;p&gt;If you’re interested in joining me on either &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;Mastodon&lt;/a&gt; or &lt;a href=&quot;https://bsky.app/profile/pifferi.info&quot;&gt;Bluesky&lt;/a&gt;? Click the specific link on each service and you’ll be guided to my respective profile and let us mutually discover how the social media landscape will change in the near future!&lt;/p&gt;
-</description>
-                <pubDate>Sat, 04 Nov 2023 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/is-bluesky-worth-a-visit/</link>
-                <guid isPermaLink="true">http://localhost:4000/is-bluesky-worth-a-visit/</guid>
-                
-                <category>internet</category>
-                
-                <category>networking</category>
-                
-                <category>social network</category>
-                
-                <category>bluesky</category>
-                
-                <category>twitter</category>
                 
                 
                 <category>Internet</category>

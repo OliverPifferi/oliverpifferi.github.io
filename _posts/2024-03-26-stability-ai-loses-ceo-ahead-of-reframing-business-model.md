@@ -1,7 +1,7 @@
 ---
 layout: post
 author: oliver
-title: Stability AI loses CEO ahead of reframing business model
+title: Microsoft adds „
 date: 2024-03-26
 categories: [IT]
 tags: [it, ai, internet]     # TAG names should always be lowercase
