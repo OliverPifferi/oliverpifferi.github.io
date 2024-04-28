@@ -433,6 +433,10 @@
 <lastmod>2024-04-13T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/apple-locks-users-out-of-their-apple-ids-without-explanation/</loc>
+<lastmod>2024-04-27T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -497,5 +501,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/18/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/19/</loc>
 </url>
 </urlset>

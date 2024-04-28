@@ -5,9 +5,73 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Apr 2024 21:54:34 +0200</pubDate>
-        <lastBuildDate>Sat, 13 Apr 2024 21:54:34 +0200</lastBuildDate>
+        <pubDate>Sun, 28 Apr 2024 10:26:12 +0200</pubDate>
+        <lastBuildDate>Sun, 28 Apr 2024 10:26:12 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Apple locks users out of their Apple IDs without explanation</title>
+                <description>&lt;h2 id=&quot;security-and-big-tech-are-two-terms-that-dont-go-well-together-at-the-moment-after-ongoing-security-issues-at-microsoft-apple-seems-to-have-at-least-one-minor-problem-that-has-left-many-users-unexpectedly-locked-out-of-icloud-and-devices-belonging-to-it-and-forced-to-perform-an-unexpected-password-change-however-depending-on-apples-forthcoming-response-to-the-case-this-minor-problem-could-turn-into-a-serious-one&quot;&gt;“Security” and “big tech” are two terms that don’t go well together at the moment. After ongoing security issues at Microsoft, Apple seems to have at least one minor problem that has left many users unexpectedly locked out of iCloud and devices belonging to it and forced to perform an unexpected password change. However, depending on Apple’s forthcoming response to the case, this minor problem could turn into a serious one.&lt;/h2&gt;
+
+&lt;p&gt;Imagine a simple day with your beloved Apple devices - to be honest, this is the status quo on pretty much every day. This Friday, I first noticed that my Apple Watch Ultra was unable to update the weather forecast and the current temperature. I had arrived at one of our offices early and was therefore not in a „trusted location“ - which are my home address and the nearest office, my main place of work. Suddenly I noticed that the Apple Watch was forcing me to verify the password of my Apple account (an old @mac.com one) out of nowhere. Then my iPhone came along with the same effect - feeling that something was very strange, I tried to access Apple’s [account page] (https://appleid.apple.com/) and discovered that my account was indeed locked, forcing me to recover it with a subsequent password change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/apple-id-down.jpg&quot; alt=&quot;Apple ID down?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Given that I am a bit of a “tinfoil-hat” guy, as friends and colleagues call me, when it comes to security, I tried to find out what could be wrong. I haven’t added any new devices to my account, which is of course protected by 2FA, backed up by two YubiKey 5C NFC keys. iOS 17.3’s “Stolen Device Protection” is also enabled, and at the time of writing I was not using any applications that require an application password. The password I used for my beloved old @mac.com address is generated and definitely not something that could be guessed or brute-forced - the tinfoil-hat guy, remember?&lt;/p&gt;
+
+&lt;p&gt;So I reset my password, knowing that I had some work to do at home later that evening. Two hours later, the same messages appeared again on my iPhone and Watch, so I went through the same process, feeling that something had to be wrong - and fearing that my account had some kind of security issue, especially since Apple’s &lt;a href=&quot;https://www.apple.com/support/systemstatus/&quot;&gt;official status page&lt;/a&gt; didn’t show anything unusual. Anyway, with all the security options Apple provides, the likelihood of a security flaw should be quite low - but the issue concerned me anyway (and should concern anyone with a similar experience). So, maybe it was a technical issue or something that forced Apple to lock my account?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/apple_id.jpg&quot; alt=&quot;Apple-devices&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, many people began reporting similar incidents around the world - many of them focusing on old @mac.com or @me.com addresses in the context of being the head of a family using the Family Sharing feature on iCloud.com. 9to5mac.com &lt;a href=&quot;https://9to5mac.com/2024/04/26/signed-out-of-apple-id-account-problem-password/&quot;&gt;reported the issue&lt;/a&gt; fairly early on and staff at &lt;a href=&quot;https://www.forbes.com/sites/daveywinder/2024/04/27/apple-id-password-reset-issue-hitting-iphone-ipad-and-macbook-users/&quot;&gt;Forbes&lt;/a&gt; had similar experiences. Also &lt;a href=&quot;https://www.theverge.com/2024/4/27/24142509/apple-id-logged-out-reset-stolen-device-protection&quot;&gt;The Verge got in line&lt;/a&gt; as well. The good news: I was not the only one. The bad: Nobody knew what was really going on because something was definitely wrong but Apple refused to comment on the issue, drawing the familiar veil of silence over the incident.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, the Net has been flooded with news about the issue, so the whole thing seems to have a greater impact:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://theinternet.social/@tbridge/112340463598872085&quot;&gt;Thread #1 on Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://eworld.social/@ismh/112340745553157794&quot;&gt;Thread #2 on Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@ChrisLawley/112340853972099137&quot;&gt;Thread #3 on Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Michael Tsai’s &lt;a href=&quot;https://mjtsai.com/blog/2024/04/26/janky-apple-id-security/&quot;&gt;blog post&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@singletary/post/C6P9jfJt1VH&quot;&gt;Threads #1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@andelirich/post/C6P88QiNY-J&quot;&gt;Threads #2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@adhdjesse/post/C6P9hS_L9_7&quot;&gt;Threads #3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@9six7/post/C6P-cP1sNu7&quot;&gt;Threads #4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@jubnub/post/C6P_DNyMVaT&quot;&gt;Threads #5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@timmeh71/post/C6P_b4prnWJ&quot;&gt;Threads #6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@ngorby/post/C6PvqnArUpZ&quot;&gt;Threads #7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.threads.net/@nichagan/post/C6Pzb8jLrvx&quot;&gt;More complaints on Threads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next-apple&quot;&gt;What’s next, Apple?&lt;/h2&gt;
+
+&lt;p&gt;Interestingly, among my friends and acquaintances, I was the only one affected - the only one with an “old” @mac.com-Apple ID. There was also no reaction in our family to similar effects (at least no one was texting or calling, so everything seems to be working). As The Net reports, Apple is downplaying the problem in terms of support calls and is not saying anything specific about “why” the whole thing happened in the first place. Personally, I could live with any explanation (precaution? attack? technical glitch?), as my security baseline is definitely more than just the simple standard, using all the options each vendor (in this case Apple) offers me but definitely there should be an official statement on this issue that has not just affected a few individual users. There is no need to diminish the relative importance of this case, and simply saying nothing is the wrong way to prove that “security” and “privacy” are still at the heart of Apple’s agenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/igor-son-Nod1nQ0i5a0-unsplash.jpg&quot; alt=&quot;Apple-devices&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the end, we see that security is not a status quo, but an ongoing process. Vendor agnostic. It’s a process often paved with good intentions and a lot of backtracking, but it’s never finished. For every measure there is a countermeasure, and yes, I love Apple, my fenced (and falling down) garden and the products that grow in it (and are paid for by the users) but specifically in this frustrating and annoying case I want an answer - and I am not alone!&lt;/p&gt;
+
+&lt;p&gt;So even as (or because being!) a loyal Apple fan and user for two decades, I have to ask the obvious question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;What do you have to say about that, Apple?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Sat, 27 Apr 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/apple-locks-users-out-of-their-apple-ids-without-explanation/</link>
+                <guid isPermaLink="true">http://localhost:4000/apple-locks-users-out-of-their-apple-ids-without-explanation/</guid>
+                
+                <category>it</category>
+                
+                <category>apple</category>
+                
+                <category>security</category>
+                
+                <category>2fa</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Microsoft adds recommended apps to the start menu in Windows 11</title>
@@ -288,7 +352,7 @@
             </item>
         
             <item>
-                <title>Microsoft adds „</title>
+                <title>Stability AI loses CEO ahead of reframing business model</title>
                 <description>&lt;h2 id=&quot;with-ai-already-being-more-than-just-the-next-big-thing-it-is-more-than-clear-that-with-great-power-there-comes-great-responsibility-considering-this-the-ultimate-question-whether-ai-should-be-centralized-or-not-is-surely-one-of-the-key-aspects-we-need-to-talk-about-in-the-field-of-artificial-intelligence-now-emad-mostaque-ceo-of-stability-ai-is-resigning-in-the-wake-of-the-current-row-over-this-issue&quot;&gt;With AI already being more than just „the next big thing“, it is more than clear that, with great power, there comes great responsibility. Considering this, the ultimate question whether AI should be centralized or not is surely one of the key aspects we need to talk about in the field of Artificial Intelligence. Now Emad Mostaque, CEO of Stability AI, is resigning in the wake of the current row over this issue.&lt;/h2&gt;
 
 &lt;p&gt;Before we go all out and make Terminator’s “Skynet” a reality, the ethical question of how to deal with the power of AI and how to regulate it is omnipresent. With this in mind, Emad Mostaque has &lt;a href=&quot;https://twitter.com/EMostaque/status/1771380668930674850&quot;&gt;apparently resigned&lt;/a&gt;, and while Stability AI [has already expressed its regret] (https://stability.ai/news/stabilityai-announcement), Mostaque himself states that he “does not want centralized AI to fight centralized AI”, while still retaining a majority stake in the company.&lt;/p&gt;
@@ -627,71 +691,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>Thoughts</category>
-                
-            </item>
-        
-            <item>
-                <title>New Outlook seemingly sends sensitive data to Microsoft</title>
-                <description>&lt;h2 id=&quot;especially-in-it-trust-is-everything-and-working-with-different-solutions-and-providers-is-always-a-matter-of-trust-the-possible-fact-that-microsofts-new-outlook-offshout-is-seemingly-sending-sensitive-data-to-redmond-could-shake-the-world-it-to-its-very-foundations---years-after-the-once-acquired-mobile-outlook-app-did-the-same&quot;&gt;Especially in IT, trust is everything and working with different solutions and providers is always a matter of trust. The possible fact that Microsoft’s new Outlook-offshout is seemingly sending sensitive data to Redmond could shake the world IT to its very foundations - years after the once acquired mobile Outlook-app did the same.&lt;/h2&gt;
-
-&lt;p&gt;Apart from the growing inconsistency of the classic and “new”, often undercooked iterations of Microsoft Desktop-applications (you may have noticed this with Teams and Outlook already), the latest Windows-version seems to be quite keen on submitting IMAP- and SMTP-credentials to Microsoft-servers as German site &lt;a href=&quot;https://www.heise.de/news/Microsoft-krallt-sich-Zugangsdaten-Achtung-vorm-neuen-Outlook-9357691.html&quot;&gt;heise.de&lt;/a&gt; reported this week.&lt;/p&gt;
-
-&lt;h2 id=&quot;everything-new&quot;&gt;Everything “new”?&lt;/h2&gt;
-
-&lt;p&gt;Speaking highly of the “new Outlook”, &lt;a href=&quot;https://techcommunity.microsoft.com/t5/outlook-blog/things-to-look-forward-to-in-the-new-outlook-for-windows/ba-p/3975602&quot;&gt;Microsoft’s plan is that this new version is about to replace&lt;/a&gt; the abandoned Windows Mail and the well-known, monolithic desktop client on Windows and macOS. Users can already switch to the new Outlook but while several elemental features (on-premises Exchange-support, PST-support on Mac etc.) are missing, the way Redmond deals with personal information and login credentials is quite questionable.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/New_Outlook_Welcome.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The 2023-Windows 11-update already implements “Outlook (new)” into the start menu under “Recommended apps” so many users may give this a try - but substituting margarine for butter doesn’t always have the effect usually hoped for.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/new_outlook_win11.jpg&quot; alt=&quot;New Outlook deployed within an update&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In detail, adding a new account to the new Outlook which isn’t hosted by Microsoft, a certain reference is given, explaining that “non-Microsoft-accounts are synced with the Microsoft” cloud as stated &lt;a href=&quot;https://support.microsoft.com/de-de/office/synchronisieren-ihres-kontos-in-outlook-mit-der-microsoft-cloud-985f9e19-d308-4e85-9d1d-0c6f32f8e981?ui=de-de&amp;amp;rs=de-de&amp;amp;ad=de&quot;&gt;here&lt;/a&gt; in German. At the time of writing, only iCloud-, Gmail-, Yahoo- and general IMAP-accounts and the Microsoft 365-stack are supported (and therefore synced!), including the versions on iOS, Android and macOS.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/new_outlook_sync_warning.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Following this notify, adding an IMAP-account to the new Outlook comes equal with syncing E-Mails with Microsofts servers. Existing contacts and calendar-entries won’t get synced but everything what is created in the new Outlook afterwards gets a direct injection into the Microsoft Cloud for whatever reason.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
-
-&lt;p&gt;Mentioning the note above which things are synced, users may question the intention behind this move. Why does the vendor of my software application not only need to save the credentials for a personal mailbox but also presume to access the personal data of users and sync them with their own systems?&lt;/p&gt;
-
-&lt;p&gt;heise.de was able to &lt;a href=&quot;https://www.heise.de/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9358925.html&quot;&gt;sniff the traffic&lt;/a&gt; between new Outlook and the Microsoft-servers, proving that the output contained the target server, login name and password which were sent to the Microsoft Cloud. Although the connection itself appeared to be TLS-protected, the data was sent to Microsoft in plain text within the tunnel. Without informing or inquiring about this, Microsoft grants itself access to the IMAP-and SMTP login data of users of the new Outlook which is, basically, an undeniable no-go!&lt;/p&gt;
-
-&lt;h2 id=&quot;what-now&quot;&gt;What now?&lt;/h2&gt;
-
-&lt;p&gt;In the end, user should sit this deployment out as long as possible. There are enough alternatives around to connect IMAP-accounts with &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Thunderbird&lt;/a&gt; being probably the most-famous one. There can be no reason for Microsoft doing this and while Redmond already caused an outcry years ago when the acquired - now - Outlook Mobile-app did already send credentials to third parties, using this new half-cooked app for whatever reason is an imminent threat for everything at least slightly connected to data protection.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/matthew-manuel-BhLSBX-0rnM-unsplash.jpg&quot; alt=&quot;Microsoft-apps&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For now, this is seemingly only affecting IMAP-accounts but as Outlook is also mostly used in the Enterprise, it is more than questionable what Microsoft tries to achieve with this move. I don’t want neither my private mails, calendars and contacts nor my credentials to the accounts hosting those transmitted to the creator of a Personal Information Manager. Considering the latest bad press on &lt;a href=&quot;https://www.bleepingcomputer.com/news/microsoft/hackers-stole-microsoft-signing-key-from-windows-crash-dump/&quot;&gt;stolen keys&lt;/a&gt; of Microsoft’s cloud infrastructure, this whole thing comes with a very bad taste.&lt;/p&gt;
-
-&lt;p&gt;Don’t get me wrong, I have used Microsoft-products my whole life and am partially still doing so in private while I have to rely on them in business life - wether I like it or not. But the inconsistency of new software (just switch between the classic and “new” Outlook on Mac) or the undercooked releases (old Teams? New Teams?) just cast long shadows on Redmond’s quality of code and the common alignment of Microsoft as a vendor. Combined with the dreadful firing of new, partially unwanted or unfinished, features or software, a feeble impression comes up that there doesn’t seem to be any common theme except the wild gathering of data for whatsoever reason: This finally matches my personal impressions on the development of Microsoft Edge which started as a great alternative to Chrome but turned to a bloated meeting point of unwanted features over the years.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/new_outlook_bfdi.jpg&quot; alt=&quot;GDPR-issue?&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gdpr-calling&quot;&gt;GDPR calling&lt;/h2&gt;
-
-&lt;p&gt;The Federal Commissioner for Data Protection and Freedom of Information of Germany, Professor Ulrich Kelber, is alarmed by the data detour in Microsoft’s new Outlook. On Mastodon he informed about the intention &lt;a href=&quot;https://social.bund.de/@bfdi/111381793883035665&quot;&gt;to ask for a report from the Irish Data Protection Commissioner&lt;/a&gt; who is told to be responsible for companies like Microsoft, during a meeting of the European data protection supervisory authorities next Tuesday.&lt;/p&gt;
-
-&lt;p&gt;Finally, it’s up to us users to answer and react - and for everyone directly in charge of enforcing GDPR-compliances, this may be a new target to definitely aim and focus at and especially businesses should keep Outlook’s journey under review!&lt;/p&gt;
-</description>
-                <pubDate>Sat, 11 Nov 2023 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/new-outlook-seemingly-sends-sensitive-data-to-microsoft/</link>
-                <guid isPermaLink="true">http://localhost:4000/new-outlook-seemingly-sends-sensitive-data-to-microsoft/</guid>
-                
-                <category>internet</category>
-                
-                <category>microsoft</category>
-                
-                <category>security</category>
-                
-                <category>software</category>
-                
-                <category>outlook</category>
-                
-                
-                <category>Internet</category>
                 
             </item>
         
