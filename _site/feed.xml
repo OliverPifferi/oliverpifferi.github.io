@@ -5,9 +5,61 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 28 Apr 2024 10:26:12 +0200</pubDate>
-        <lastBuildDate>Sun, 28 Apr 2024 10:26:12 +0200</lastBuildDate>
+        <pubDate>Sat, 04 May 2024 13:07:21 +0200</pubDate>
+        <lastBuildDate>Sat, 04 May 2024 13:07:21 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Bitwarden launches new MFA authenticator-app</title>
+                <description>&lt;h2 id=&quot;the-use-of-a-second-factor-to-secure-online-accounts-has-become-a-must-over-time-long-before-the-triumph-of-passkeys-although-there-are-already-plenty-of-mobile-apps-that-generate-the-multi-factor-bitwarden-has-decided-to-create-its-own---and-it-has-a-pretty-interesting-roadmap&quot;&gt;The use of a second factor to secure online accounts has become a must over time, long before the triumph of passkeys. Although there are already plenty of mobile apps that generate the multi-factor, Bitwarden has decided to create its own - and it has a pretty interesting roadmap!&lt;/h2&gt;
+
+&lt;p&gt;Looking back, the history of the (more or less) complex password has been a special one and after multi-factor authentication found its way to users, using an application to enter a generated number (the multi-factor) in addition to the password itself was the way to go. Over the years, security approaches have changed and hardware keys and passkeys have been added to the security layer but the first line of defense after a strong and complex password (and the least people can do to secure their accounts) are these randomly generated numbers from password managers or (even better) standalone apps.&lt;/p&gt;
+
+&lt;p&gt;The importance of having at least a second factor at hand was recently demonstrated &lt;a href=&quot;https://pifferi.info/apple-locks-users-out-of-their-apple-ids-without-explanation/&quot;&gt;by the unexpected reset of my Apple ID-connected devices&lt;/a&gt; which forced me to update my password - I was worried, but definitely less worried because 2FA was already enabled in its most extreme iteration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg&quot; alt=&quot;Security first!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now Bitwarden has &lt;a href=&quot;https://bitwarden.com/blog/bitwarden-just-launched-a-new-authenticator-app-heres-what-it-means-to-users/&quot;&gt;officially released&lt;/a&gt; a new multi-factor authentication app available for &lt;a href=&quot;https://apps.apple.com/us/app/bitwarden-authenticator/id6497335175&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.bitwarden.authenticator&quot;&gt;Android&lt;/a&gt;. It features the familiar TOTP (time-based one-time passwords) and can be used for accounts by scanning a QR code or manually entering the initial setup key, providing the familiar extra layer of authentication. Bitwarden, being an Open Source project, also provides the code for both apps in public GitHub repositories, separated into Android (&lt;a href=&quot;https://github.com/bitwarden/authenticator-android&quot;&gt;here&lt;/a&gt;) and iOS (&lt;a href=&quot;https://github.com/bitwarden/authenticator-ios&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;„Bitwarden Authenticator provides immediate value to the Bitwarden user base who has been asking for a standalone app for several years. Stay tuned for upcoming new features that will help enterprise organizations enforce security policies to protect and monitor authentication to business applications.“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Kyle Spearrin, founder and CTO of Bitwarden)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bitwarden_authenicator_setup01.jpg&quot; alt=&quot;First setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the TOTP feature was already implemented in the &lt;a href=&quot;https://bitwarden.com&quot;&gt;Bitwarden Password Manager&lt;/a&gt;, it was a premium add-on only available to paying customers or those using a self-hosted derivative called &lt;a href=&quot;https://github.com/dani-garcia/vaultwarden&quot;&gt;Vaultwarden&lt;/a&gt;. So speaking (and assuming this feature is still of interest to users), people can now stay within the “Bitwarden” brand and use the official authenticator, whether they’re paying customers or not. For example, if someone is new to Bitwarden, they can start with this standalone application without having to use Bitwarden’s password vault features, as these applications are (still) separate. From a security perspective, the second factor should usually be separated from the password manager itself, so running both apps could also be an improvement for current users and their own security layer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bitwarden_authenicator_setup02.jpg&quot; alt=&quot;Continued setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding new accounts is pretty straightforward, either by scanning the QR code or entering the token for the service you want to enable 2FA for. Bitwarden also revealed a guided roadmap with this first release in Phase 1 and not much else to do besides enabling 2FA or exporting the entries in it to a .json-backup file. There is no real backup yet, instead the phone backup will take care of backing up the data stored in the authenticator. An import option is said to be coming soon, and Authenticator codes synchronized with a Bitwarden account are features already announced for Phase 2. Phase 3 will bring push-based 2FA and account recovery as additional features while the final phase will target employee authentication and further &lt;a href=&quot;https://bitwarden.com/help/policies/&quot;&gt;security polices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bitwarden_authenticator_roadmap.jpg&quot; alt=&quot;Bitwarden roadmap&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitwarden Authenticator is a great and free addition to the existing TOTP-supporting applications and although it is still in its early stages, it already has the Bitwarden-flavour that I have loved since discovering it as my preferred password manager. For now, the codes it generates stand on their own without any connection to the password vault itself but with Phase 2 already coming with this feature, the physical separation of two important tools (password manager and 2FA app) based on one database could be yet another improvement for users’ security structures.&lt;/p&gt;
+
+&lt;p&gt;There’s still some work to be done, but even at this early stage, Bitwarden Authenticator is a great alternative to other apps and assuming you already trust Bitwarden with your password vault (or even host it yourself), why not use this app to refine your Bitwarden-powered security baseline?&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 04 May 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/bitwarden-launches-new-mfa-authenticator-app/</link>
+                <guid isPermaLink="true">http://localhost:4000/bitwarden-launches-new-mfa-authenticator-app/</guid>
+                
+                <category>it</category>
+                
+                <category>bitwarden</category>
+                
+                <category>software</category>
+                
+                <category>security</category>
+                
+                <category>2fa</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Apple locks users out of their Apple IDs without explanation</title>
@@ -17,7 +69,7 @@
 
 &lt;p&gt;&lt;img src=&quot;../images/apple-id-down.jpg&quot; alt=&quot;Apple ID down?&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Given that I am a bit of a “tinfoil-hat” guy, as friends and colleagues call me, when it comes to security, I tried to find out what could be wrong. I haven’t added any new devices to my account, which is of course protected by 2FA, backed up by two YubiKey 5C NFC keys. iOS 17.3’s “Stolen Device Protection” is also enabled, and at the time of writing I was not using any applications that require an application password. The password I used for my beloved old @mac.com address is generated and definitely not something that could be guessed or brute-forced - the tinfoil-hat guy, remember?&lt;/p&gt;
+&lt;p&gt;Given that I am a bit of a “tinfoil-hat” guy, as friends and colleagues call me, when it comes to security, I tried to find out what could be wrong. I haven’t added any new devices to my account, which is of course protected by 2FA, backed up by two YubiKey 5C NFC keys. iOS 17.3’s “Stolen Device Protection” is also enabled, and at the time of writing I was not using any applications that require an application password - which got deleted after the account reset by the way! The password I used for my beloved old @mac.com address is generated and definitely not something that could be guessed or brute-forced - the tinfoil-hat guy, remember?&lt;/p&gt;
 
 &lt;p&gt;So I reset my password, knowing that I had some work to do at home later that evening. Two hours later, the same messages appeared again on my iPhone and Watch, so I went through the same process, feeling that something had to be wrong - and fearing that my account had some kind of security issue, especially since Apple’s &lt;a href=&quot;https://www.apple.com/support/systemstatus/&quot;&gt;official status page&lt;/a&gt; didn’t show anything unusual. Anyway, with all the security options Apple provides, the likelihood of a security flaw should be quite low - but the issue concerned me anyway (and should concern anyone with a similar experience). So, maybe it was a technical issue or something that forced Apple to lock my account?&lt;/p&gt;
 
@@ -644,53 +696,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>Software</category>
-                
-            </item>
-        
-            <item>
-                <title>Season Greetings and goodbye forever, 2023!</title>
-                <description>&lt;h2 id=&quot;it-was-a-special-and-somehow-strange-year---paired-with-many-experiences-and-the-proof-that-there-are-often-unexpected-insights-into-human-nature&quot;&gt;It was a special and somehow strange year - paired with many experiences and the proof that there are often unexpected insights into human nature.&lt;/h2&gt;
-
-&lt;p&gt;Looking back even into the COVID-years which defined our way the last three years (while the plague is still there), 2023 wasn’t the best year in many ways. It was a year of change, a year of insights and a year of breaking bonds with people seemingly flagged as „friendly co-workers“ just because of a job change: All those experiences finally built their own, full circle and, in the end, other positive outcomes helped to leave the past behind while aiming towards a better personal future.&lt;/p&gt;
-
-&lt;p&gt;From a professional basis, many things changed in its foundation starting this March, &lt;a href=&quot;../The-best-way-to-predict-your-future-is-to-create-it/&quot;&gt;finally enabling me&lt;/a&gt; to leave a dead-end caused by many wrong strategical decisions over the last consecutive three years. Over the year, there was a s&lt;a href=&quot;../Stop-worrying-about-people-that-arent-worried-about-you/&quot;&gt;teep learning curve&lt;/a&gt; experiencing that, during these days, literally leaving the Hogwarts Express heading to anywhere except Hogwarts may leave you disposed into the nowhere. Seen from a business view, you were useful once you opted out continuing to howl with the wolves despite the real wolves in sheep’s closing tried to make anything worse powered by missing awareness, ignorance and ongoing megalomania.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/hadija-9cgMKmZyhH0-unsplash.jpg&quot; alt=&quot;Past or future?&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-personal-view&quot;&gt;The personal view&lt;/h2&gt;
-
-&lt;p&gt;From a personal point of view, it was also challenging year. Seeing how fast your kids - my four girls - grow up is a blazing experience and, deeply felt, this speed is accelerating every single month. We faced an absolutely sad and unexpected loss as my father-in-law suddenly passed away in March, ripping our Italian heart out of our family’s chest. With the pain growing, the family closed ranks even more and while I consider many opportunities to suit better, my brother-in-law lived with us for nearly two weeks, helping is sister and everyone of us to redress the pain. After this, a wonderful week in Denmark was welcomed to create a distance to the awful events and drove me to &lt;a href=&quot;../The-best-way-to-predict-your-future-is-to-create-it/&quot;&gt;make a final decision&lt;/a&gt; on my job perspective, summing everything up with the result being perfectly clear.&lt;/p&gt;
-
-&lt;p&gt;Over the year, the world seemed to continue to go down the swanny once again: &lt;a href=&quot;../The-only-thing-we-have-to-fear-on-the-planet-is-man/&quot;&gt;Ongoing war in the Ukraine&lt;/a&gt;, a (German) society striving to the far-right regarding politics (while everyone seeing this happen), the state of (worldwide) politics in general and environmental events like the climate change being a threat to all of us not worth discussing: The challenges for mankind are ahead and if rising temperatures, floods, thunderstorms and other events aren’t proof enough that we’re already too late to participate in the game of change, then this planet may indeed be doomed. While politicians still gather their lickspittles around them, deny these threats and continue to curry favour with the fuel-lobby instead of really patronising solar and wind energy-options, many people have realized that we must turn towards new energies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/tania-malrechauffe-Tq7lbAeF9BQ-unsplash.jpg&quot; alt=&quot;Change politics&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The clash of culture(s) is preprogrammed and will be an immense task not only for the new year to come as the countdown to extinction (as Megadeth already knew and sung about in 1992) is still ticking… faster. Basically, many nations and governments (not only the German one) need a complete overhaul but where to start? It needs an invest of everyone and so my thoughts since the COVID-19 pandemic were fortified over the years: Every man for himself - a dangerous tendency!&lt;/p&gt;
-
-&lt;h2 id=&quot;the-personal-view-1&quot;&gt;The personal view&lt;/h2&gt;
-
-&lt;p&gt;Personally, I am quite sure that some debts will be payed off next year and surely many people will encounter the lovely wisdom of „as you sow, so you shall reap“. Karma is a bitch and sometimes it takes longer for people to earn what they were striving for - in the end, everyone finally gets what he deserved. &lt;a href=&quot;../Stop-worrying-about-people-that-arent-worried-about-you/&quot;&gt;I was personally disappointed by a lot of people in 2023&lt;/a&gt; and my (formerly good) knowledge of human nature failed in many ways. But there is hope with an old (and trustworthy) but also new workforce around me, with new people acting in concert and new challenges ahead. Let’s work on and with these, let’s be successful and let’s create a working culture within a promising company really empowering the employees to participate instead of building a castle in the clouds guarded by an unicorn while everyone actually knows that everything is pouring down the sink anyway.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/cristian-escobar-abkEAOjnY0s-unsplash.jpg&quot; alt=&quot;New year&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There will be familial challenges ahead, challenges with health and my growing kids but I hope that we will somehow manage those in the best-possible ways so staying healthy as long as possible is surely one of the better wishes for an upcoming new year. While this one comes to an end, I try to put many disappointing moments of 2023 into a box, seal and get rid of them. The sad moments prevailed but the good moments are a foundation to build trust on, no matter if it was a 60 km-hike within three days, opening an exciting new chapter of your professional life with ten people in common, playing „Hogwarts Legacy“ with your eldest or conquering the (still-not-real) North of Norway with three wonderful and crazy guys: Hope for the better lives on, so be welcomed, 2024 - and hopefully this year will be a better one than the last ones as the good often comes unexpected!&lt;/p&gt;
-</description>
-                <pubDate>Sun, 24 Dec 2023 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/season-greetings-and-goodbye-forever-2023/</link>
-                <guid isPermaLink="true">http://localhost:4000/season-greetings-and-goodbye-forever-2023/</guid>
-                
-                <category>life</category>
-                
-                <category>thoughts</category>
-                
-                <category>work</category>
-                
-                <category>christmas</category>
-                
-                <category>newyear</category>
-                
-                
-                <category>Thoughts</category>
                 
             </item>
         

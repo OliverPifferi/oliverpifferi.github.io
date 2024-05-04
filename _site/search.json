@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Bitwarden launches new MFA authenticator-app",
+      "url"      : "/bitwarden-launches-new-mfa-authenticator-app/",
+      "date"     : "04 May 2024",
+      "image"    : "/images/bitwarden_authenticator.jpg"
+    } ,
+  
+    {
       "title"    : "Apple locks users out of their Apple IDs without explanation",
       "url"      : "/apple-locks-users-out-of-their-apple-ids-without-explanation/",
       "date"     : "27 April 2024",
