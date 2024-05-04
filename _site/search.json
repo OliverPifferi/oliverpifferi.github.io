@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Tusks - Make posting to Mastodon feel like posting to a blog",
+      "url"      : "/tusks-make-posting-to-mastodon-feel-like-posting-to-a-blog/",
+      "date"     : "04 May 2024",
+      "image"    : "/images/tusks_logo.jpg"
+    } ,
+  
+    {
       "title"    : "Bitwarden launches new MFA authenticator-app",
       "url"      : "/bitwarden-launches-new-mfa-authenticator-app/",
       "date"     : "04 May 2024",

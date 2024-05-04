@@ -5,9 +5,55 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 04 May 2024 13:07:21 +0200</pubDate>
-        <lastBuildDate>Sat, 04 May 2024 13:07:21 +0200</lastBuildDate>
+        <pubDate>Sat, 04 May 2024 20:09:13 +0200</pubDate>
+        <lastBuildDate>Sat, 04 May 2024 20:09:13 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Tusks - Make posting to Mastodon feel like posting to a blog</title>
+                <description>&lt;h2 id=&quot;sometimes-i-come-across-apps-that-i-would-never-have-missed-apps-that-come-out-of-nowhere-and-still-find-their-niche---tusks-by-developer-bardi-golriz-is-one-of-them-aiming-for-a-new-focus-when-posting-on-mastodon&quot;&gt;Sometimes I come across apps that I would never have missed. Apps that come out of nowhere and still find their niche - Tusks by developer &lt;a href=&quot;https://mas.to/@bardi&quot;&gt;Bardi Golriz&lt;/a&gt; is one of them, aiming for a new focus when posting on Mastodon.&lt;/h2&gt;
+
+&lt;p&gt;Although there are many Mastodon clients out there including my beloved &lt;a href=&quot;https://apps.apple.com/de/app/ivory-for-mastodon-by-tapbots/id6444602274&quot;&gt;Ivory&lt;/a&gt;, Tusks is not intended to replace them. Instead, this clean and slim app tries to complement existing clients by simply focusing on different tasks than the typical “post-a-picture-or-video-stuff-paired-with-some-text“-scenario we know from Social Media these days. &lt;a href=&quot;https://thirdculture.app/tusks&quot;&gt;Tusks&lt;/a&gt; gets rid of the timeline and just shows you your own posts, helping you to focus and build a thread-like experience while keeping everything in order.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-tusks-works&quot;&gt;How Tusks works&lt;/h2&gt;
+
+&lt;p&gt;Starting a new thread in Tusks is as easy as making a single post but that’s not what makes it special. Tusks actively discourages posting into a vacuum and losing valuable context - this state is achieved by making it effortless to continue threading narratives. Each post becomes an update to a larger story that we can tell. Tusks is clearly aimed at pure writing but also supports the posting of images, including content warnings, and is aimed at people who blog, post or simply want to write more without distraction.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/tusks_composer.jpg&quot; alt=&quot;Composing with Tusks!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tusks shows posts as well as any replies to the original post but users won’t see replies or interactions with others. The app also comes with several features to help you organize and publish such as pinning threads for quick access, ignoring irrelevant posts when searching, or writing as much as possible on the go while Tusks breaks everything down into individual posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/tusks_context_menu.jpg&quot; alt=&quot;Tusks context menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The app is currently free and can be downloaded from the &lt;a href=&quot;https://apps.apple.com/gb/app/tusks-make-mastodon-your-blog/id6473683937&quot;&gt;App Store&lt;/a&gt;. This free version is read-only and requires an update to Tusks Pro for posting and publishing which currently costs $4.99 / €5.99 for the first thousand fans and early adopters. Indie developer &lt;a href=&quot;mailto:bardi.golriz@gmail.com&quot;&gt;Bardi Golriz&lt;/a&gt; also says that the app will have a more expensive LTD (at least $9.99) and possibly a subscription option after the first thousand slots are filled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/tusks_ipad_inbox.jpg&quot; alt=&quot;Tusk’s iPad Inbox&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-client-client-replacement-or-&quot;&gt;New client, client replacement or… ?&lt;/h2&gt;
+
+&lt;p&gt;In the end, Tusks is indeed no replacement for any of our standard Mastodon-apps but that’s not the intention here. Indeed  it puts even more value on Mastodon in case you meet the criteria the app was made for - focus, blogging, thread-based tooting. Although the current release is the initial one, the app’s quality is already very fine and stable on all platforms while the &lt;a href=&quot;https://midnight-beanie-ccb.notion.site/281be94b75504b60b600eb73ee1072f9?v=9479d0e4e1e8468187a7e2efbe3a53c7&quot;&gt;official roadmap&lt;/a&gt; already covers even more promising potential like editing posts, drag and drop, multi-account support or even scheduling posts.&lt;/p&gt;
+
+&lt;p&gt;If you are more of a blogger than a „tootist“ and have struggled with splitting posts into threads (a nightmare if you need to do it manually), you should definitely check out Tusks - you may not have missed it before, but it will certainly improve your tooting experience. It also helps to focus on the essential aspects of working with Mastodon and the topics people like to write about, and in my case, it definitely drives me to automatically work on longer articles that Tusks will publish in the future!&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 04 May 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/tusks-make-posting-to-mastodon-feel-like-posting-to-a-blog/</link>
+                <guid isPermaLink="true">http://localhost:4000/tusks-make-posting-to-mastodon-feel-like-posting-to-a-blog/</guid>
+                
+                <category>it</category>
+                
+                <category>tusks</category>
+                
+                <category>mastodon</category>
+                
+                <category>software</category>
+                
+                <category>socialnetwork</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Bitwarden launches new MFA authenticator-app</title>
@@ -642,60 +688,6 @@ RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
                 
                 
                 <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>My default apps starting 2024</title>
-                <description>&lt;h2 id=&quot;there-have-been-many-lovely-events-in-the-internet-over-the-years-and-one-to-cherish-especially-is-the-one-where-users-simply-blog-about-their-favorite-standard-apps-they-are-using&quot;&gt;There have been many lovely events in the Internet over the years and one to cherish especially is the one where users simply blog about their favorite standard apps they are using.&lt;/h2&gt;
-
-&lt;p&gt;It’s a simply idea and despite reminding me on some kind of classic chain letter, I stumbled upon this campaign by swiping through my Mastodon-feed. Niklas, a lucky German guy who managed to live in Norway (yes, I am definitely jealousy of him here!) &lt;a href=&quot;https://www.niklas.fyi/posts/2024-01-11-default-apps/&quot;&gt;shared his list&lt;/a&gt;. After looking what all this was really about, I discovered &lt;a href=&quot;https://rknight.me&quot;&gt;Robb Knight’s&lt;/a&gt; site and his „&lt;a href=&quot;https://defaults.rknight.me&quot;&gt;App Defaults&lt;/a&gt;“-project.&lt;/p&gt;
-
-&lt;p&gt;Here, he initiated and collected RSS-feeds people in the Net telling exactly which standard-apps / services they use and although this is a quite basic idea, it is one of the vivid and positive things in the WWW these days.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;📨 Mail Service: &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📮 Mail Client: &lt;a href=&quot;https://apps.apple.com/app/mail/id1108187098&quot;&gt;Apple Mail&lt;/a&gt; on macOS &amp;amp; iOS, &lt;a href=&quot;http://icloud.com/mail&quot;&gt;iCloud Mail&lt;/a&gt; in the Web&lt;/li&gt;
-  &lt;li&gt;📝 Notes: &lt;a href=&quot;https://obsidian.md&quot;&gt;Obsidian&lt;/a&gt; and &lt;a href=&quot;https://www.icloud.com/notes&quot;&gt;Apple Notes&lt;/a&gt; (dying)&lt;/li&gt;
-  &lt;li&gt;✅ To-Do: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🌅 Photo library: &lt;a href=&quot;https://www.icloud.com/photos&quot;&gt;iCloud Photos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📆 Calendar: &lt;a href=&quot;https://www.icloud.com/calendar&quot;&gt;iCloud Calendar&lt;/a&gt; CalDAV&lt;/li&gt;
-  &lt;li&gt;📁 Cloud Storage: &lt;a href=&quot;https://www.synology.com/dsm/feature/drive&quot;&gt;Synology Drive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📖 RSS Service: Self-hosted &lt;a href=&quot;https://freshrss.org/&quot;&gt;FreshRSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🙍🏻‍♂️ Contacts: &lt;a href=&quot;https://www.icloud.com/contacts&quot;&gt;iCloud Contacts&lt;/a&gt; CardDAV&lt;/li&gt;
-  &lt;li&gt;🌐 Browser: &lt;a href=&quot;https://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and &lt;a href=&quot;https://github.com/ungoogled-software/ungoogled-chromium&quot;&gt;ungoogled-chromium&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;💬 Chat: &lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt;, &lt;a href=&quot;https://apps.apple.com/zm/app/messages/id1146560473&quot;&gt;Messages&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578?ign-mpt=uo%3D4&quot;&gt;Threema&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🛒 Shopping Lists: &lt;a href=&quot;https://apps.apple.com/us/app/reminders/id1108187841&quot;&gt;Apple Reminders&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🔎 Search: &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;📚 Reading: Printed (!) books&lt;/li&gt;
-  &lt;li&gt;📰 News: &lt;a href=&quot;https://apps.apple.com/app/reeder-5/id1529445840&quot;&gt;Reeder 5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🎵 Music: &lt;a href=&quot;https://www.apple.com/apple-music/&quot;&gt;Apple Music&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🎤 Podcasts: &lt;a href=&quot;https://www.apple.com/apple-podcasts/&quot;&gt;Apple Podcasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🌤️ Weather: &lt;a href=&quot;https://apps.apple.com/us/app/weather/id1069513131&quot;&gt;Apple Weather&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🔐 Password Management: Self-hosted &lt;a href=&quot;https://bitwarden.com&quot;&gt;Bitwarden&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;🧮 Code Editor: &lt;a href=&quot;https://apps.apple.com/app/coteditor/id1024640650?mt=12&quot;&gt;CotEditor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/dan-cristian-padure-noOXRT9gfQ8-unsplash.jpg&quot; alt=&quot;Tools&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As 2024 is still being young but already comes along with uprising political turmoil here in Germany paired with a quite dissatisfied population, there are definitely some more serious things to handle this year. Anyway, it’s quite funny to create this list and look how it will develop over time as needs and use cases may change like they have changed over the years - so apart from the real serious events on this planet, this one here is a welcomed relief…&lt;/p&gt;
-</description>
-                <pubDate>Mon, 08 Jan 2024 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/My-default-apps-starting-2024/</link>
-                <guid isPermaLink="true">http://localhost:4000/My-default-apps-starting-2024/</guid>
-                
-                <category>internet</category>
-                
-                <category>software</category>
-                
-                <category>social</category>
-                
-                <category>apps</category>
-                
-                <category>services</category>
-                
-                
-                <category>Software</category>
                 
             </item>
         
