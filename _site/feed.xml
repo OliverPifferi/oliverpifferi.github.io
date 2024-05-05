@@ -5,9 +5,67 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 04 May 2024 20:09:13 +0200</pubDate>
-        <lastBuildDate>Sat, 04 May 2024 20:09:13 +0200</lastBuildDate>
+        <pubDate>Sun, 05 May 2024 13:02:22 +0200</pubDate>
+        <lastBuildDate>Sun, 05 May 2024 13:02:22 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Microsoft rolls out passkey support for personal Microsoft accounts</title>
+                <description>&lt;h2 id=&quot;passkeys-arent-all-that-new-and-many-users-who-subscribe-to-personal-microsoft-365-services-or-use-private-microsoft-accounts-have-been-clamoring-for-this-feature-the-good-its-here-matching-this-years-world-password-day-the-bad-microsoft-is-doing-microsoft-things---again&quot;&gt;Passkeys aren’t all that new and many users who subscribe to personal Microsoft 365 services or use private Microsoft accounts have been clamoring for this feature. The good: It’s here, matching this year’s World Password Day. The bad: Microsoft is doing Microsoft things - again!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.passkeys.com&quot;&gt;Passkeys&lt;/a&gt; are a more secure and easier replacement for passwords. They allow users to log in to applications and websites using a biometric sensor (such as a fingerprint or facial recognition like Windows Hello etc.), PIN or pattern, freeing them from the hassle of remembering and managing passwords. Yesterday I also &lt;a href=&quot;https://pifferi.info/bitwarden-launches-new-mfa-authenticator-app/&quot;&gt;blogged&lt;/a&gt; about the new Bitwarden Authenticator and mechanisms already implemented into the parent Bitwarden Password Manager - including support for passkeys.&lt;/p&gt;
+
+&lt;p&gt;These days, &lt;a href=&quot;https://www.microsoft.com/en-us/security/blog/2024/05/02/microsoft-introduces-passkeys-for-consumer-accounts/&quot;&gt;Microsoft is joining the party, finally bringing passkeys to consumer Microsoft 365-accounts&lt;/a&gt;, following in the footsteps of all the other modern services that have already implemented passkeys. Now, users can log in to their Microsoft consumer accounts with a passkey, allowing them to continue to use password-free authentication methods such as Windows Hello, FIDO2 security keys, biometric tools (facial scans or fingerprints) or device PINs to strengthen their layer of security.&lt;/p&gt;
+
+&lt;p&gt;Microsoft further clarifies the term “consumer accounts” to mean personal accounts for access to Microsoft services and products such as Windows, Microsoft 365 including the specific services contained therein, the all-new Copilot and the Xbox Live-services.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/microsoft_passkey_roadmap.jpg&quot; alt=&quot;Microsoft’s roadmap when it comes to passkeys!&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hello-passkeys&quot;&gt;Hello, passkeys&lt;/h2&gt;
+
+&lt;p&gt;Well, passkeys are finally here for Microsoft consumer accounts, and this integration has been long overdue. Passkey support for Microsoft Windows for logging into websites and applications was already available but with the addition of support for Microsoft-led online accounts, consumers can now log in with ease, following the long-announced roadmap to finally ditch passwords.&lt;/p&gt;
+
+&lt;p&gt;Technically, passkeys are a variant of a passwordless authentication mechanism that uses a cryptographic key pair. While the public key is stored on the service provider’s server, the private key is securely stored on the user’s device. When the user attempts to authenticate, a challenge is created that requires the private key to solve and confirm the user’s identity. Because the private key is protected by device-level security mechanisms such as PIN or biometrics, the user only needs to provide this information to seamlessly log in.&lt;/p&gt;
+
+&lt;p&gt;Over the past few months and years, we have already seen the growth of services supporting passphrase authentication and even its deep integration into operating systems or browsers (MacOS / Safari paired with Touch ID) or separate password managers like &lt;a href=&quot;https://pifferi.info/bitwarden-launches-new-mfa-authenticator-app/&quot;&gt;Bitwarden&lt;/a&gt;, which also comes with its OS-independent implementation of passphrase support.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-need-to-sync-for-convenience-reasons&quot;&gt;The need to sync for convenience-reasons&lt;/h2&gt;
+
+&lt;p&gt;Passkeys are usually tied to specific devices but with deeper integration into single solutions, there is also an option to sync them and make them available on all devices: Apple did this with the iCloud Keychain (with pros and cons but &lt;a href=&quot;https://support.apple.com/en-us/102651&quot;&gt;documented&lt;/a&gt;) and also, for example,  Bitwarden’s sync feature allows users to use passkeys on all devices in use if they are initially configured to do so. On the other hand, you can also add each single device to specific accounts when omitting a sync, for example for security reasons or simply no need to sync at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/arekfurt/status/1786127091550875974&quot;&gt;&lt;img src=&quot;../images/microsoft_passkeys_sync_x.jpg&quot; alt=&quot;The bad - it syncs&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, Microsoft wouldn’t be Microsoft these days if the road of good intentions wasn’t paved with some questionable intentions: Redmond also synchronizes passkeys with other connected devices rather than just storing unique passkeys on each device. Technically, this isn’t the most secure method because if an attacker gains access to a particular account, all of the configured passkeys will be synced to that device. According to Microsoft, this decision was made „for reasons of convenience“, allowing people to maintain access to their accounts when upgrading or losing their devices.&lt;/p&gt;
+
+&lt;p&gt;The process of creating passkeys is fairly straightforward and well documented in &lt;a href=&quot;https://support.microsoft.com/en-us/account-billing/signing-in-with-a-passkey-09a49a86-ca47-406c-8acc-ed0e3c852c6d&quot;&gt;Microsoft’s official support document&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just follow your device’s instructions on supported systems (Windows 10 and later, macOS Ventura including Safari 16 or later, iOS 16 and later, Chrome/ChromeOS, Microsoft Edge 109 and later or Android 9 and later): When signing in to your Microsoft account, select “Other ways to sign in,” select “Face, fingerprint, PIN, or security key” and then select the passkey you saved earlier from the list or use the OS-specific dialog like this one in Safari on macOS Sonomo 14.4.1 running Safari 17.4.1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/microsoft_passkeys_touchid.jpg&quot; alt=&quot;Signing in&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s good to finally see Microsoft adopting passkeys for personal accounts, enhancing the overall layer of security. Seen from a different perspective, „security“ is something that Microsoft is currently struggling with so syncing the passkeys while referring to „convenience“ is something that has a rather foul taste: The foul taste of gathering as much personal information about the user a possible, effectively going the Google-way and without a technical justification how the sync works and how the passkeys are protected.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The good:&lt;/strong&gt; Passkeys are finally here for non-business accounts!&lt;br /&gt;
+&lt;strong&gt;The bad:&lt;/strong&gt; Microsoft continues to do the Microsoft things of our time while still struggling with security and trust these days, so it would be nice to have some more clarity on the protection of the newly implemented passkeys…&lt;/p&gt;
+</description>
+                <pubDate>Sun, 05 May 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</link>
+                <guid isPermaLink="true">http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</guid>
+                
+                <category>it</category>
+                
+                <category>microsoft</category>
+                
+                <category>security</category>
+                
+                <category>2fa</category>
+                
+                <category>m365</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>Tusks - Make posting to Mastodon feel like posting to a blog</title>
@@ -34,7 +92,6 @@
 &lt;p&gt;In the end, Tusks is indeed no replacement for any of our standard Mastodon-apps but that’s not the intention here. Indeed  it puts even more value on Mastodon in case you meet the criteria the app was made for - focus, blogging, thread-based tooting. Although the current release is the initial one, the app’s quality is already very fine and stable on all platforms while the &lt;a href=&quot;https://midnight-beanie-ccb.notion.site/281be94b75504b60b600eb73ee1072f9?v=9479d0e4e1e8468187a7e2efbe3a53c7&quot;&gt;official roadmap&lt;/a&gt; already covers even more promising potential like editing posts, drag and drop, multi-account support or even scheduling posts.&lt;/p&gt;
 
 &lt;p&gt;If you are more of a blogger than a „tootist“ and have struggled with splitting posts into threads (a nightmare if you need to do it manually), you should definitely check out Tusks - you may not have missed it before, but it will certainly improve your tooting experience. It also helps to focus on the essential aspects of working with Mastodon and the topics people like to write about, and in my case, it definitely drives me to automatically work on longer articles that Tusks will publish in the future!&lt;/p&gt;
-
 </description>
                 <pubDate>Sat, 04 May 2024 00:00:00 +0200</pubDate>
                 <link>http://localhost:4000/tusks-make-posting-to-mastodon-feel-like-posting-to-a-blog/</link>
@@ -577,114 +634,6 @@
                 <category>token</category>
                 
                 <category>software</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>Spring Cleaning - Tidying up your Mastodon-instance</title>
-                <description>&lt;h2 id=&quot;after-six-months-of-running-a-small-two-user-mastodon-instance-i-was-astonished-to-see-the-media-growth-over-the-time-so-it-was-way-overdue-to-reflect-how-to-do-some-spring-cleaning-in-this-cozy-self-hosted-space&quot;&gt;After six months of running a small, two user Mastodon-instance, I was astonished to see the media growth over the time so it was way overdue to reflect how to do some spring cleaning in this cozy, self-hosted space.&lt;/h2&gt;
-
-&lt;p&gt;Despite carefully selecting and tuning Mastodon’s internal retention policies to (obviously) suit my needs, I discovered this small instance filling up nearly 1,8 TB of storage in my S3-bucket: Fortunately, I am actively tracking my monthly bills  of my Wasabi-account but considering that, not long ago, a whole TB was enough for some of my Fediverse-based services and some backups in separate buckets, I was forced to get to the bottom of this case and found the Mastodon-based cached media assets to be the root of this evil.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/mastodon_retention_settings.jpg&quot; alt=&quot;Mastodon’s retention policies&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mastodons-materials-on-board&quot;&gt;Mastodon’s materials on board&lt;/h2&gt;
-
-&lt;p&gt;Fortunately, Mastodon’s backend is indeed some kind of beast so the &lt;a href=&quot;https://docs.joinmastodon.org/admin/tootctl/&quot;&gt;built-in CLI&lt;/a&gt; gives you the availability to clean attachments and previews from remote accounts, purging the precious disk cache.  Despite Mastodon having tons of options, you may rarely use them on a daily basis so I did finally spend some time to get used to the single commands. Afterwards, combining and scheduling them on a cron-basis may help you to save valuable disk space, no matter where your data is stored.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/mastodon_s3_utilization_before.jpg&quot; alt=&quot;Mastodon’s space utilization in its S3-bucket&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-script&quot;&gt;The script&lt;/h2&gt;
-
-&lt;p&gt;Six single commands are the road to our success of re-gaining storage space for our Mastodon-instance. Being the „mastodon“-user on my system and assuming you use the same user and the same paths according to Mastodon’s official guide for deploying your own server, I decided to create an empty file via&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi /home/mastodon/mastodon-cleanup.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and filled it with the combination of six commands and the specific explanations aiming at a retention of fourteen days which should, in my case, serve well - feel free to alter these parameters according to your personal needs:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
-
-# Prune remote accounts that never interacted with any local user
-RAILS_ENV=production /home/mastodon/live/bin/tootctl accounts prune;
-
-# Remove remote statuses that local users never interacted with older than 14 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove --days 14;
-
-# Remove media attachments older than 14 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days 14;
-
-# Remove all headers (including people you follow)
-RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --remove-headers --include-follows --days 0;
-
-# Remove link previews older than 14 days
-RAILS_ENV=production /home/mastodon/live/bin/tootctl preview_cards remove --days 14;
-
-# Remove files not linked to any post
-RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now make the script executable.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod +x /home/mastodon/mastodon-cleanup.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you’ve never run these commands before (just as I did) I’d suggest you start with initially running them one by one as they might take several hours or days to run for the first time. The size of the cached media and database will depend on how many people you follow (approximately 100 in my case), how many users are on your specific instance or how many relays you have added to your instance - just to name some aspects. With Mastodon being a federated Social Network, there are many pros but also cons as each server is talking to other ones, gathering lots of data - which lead us to the dilemma of a quite impressive disk space consumption even with a very small instance.&lt;/p&gt;
-
-&lt;h2 id=&quot;scheduling-time&quot;&gt;Scheduling time&lt;/h2&gt;
-
-&lt;p&gt;After we have initially deployed each of the six single commands and freed up the first batch of space, it is sure that we don’t want to do this manually each time. Fortunately, Linux Cron-daemon is our Swiss Army knife for scheduling and with just a single line of code, our script will run at specific times.&lt;/p&gt;
-
-&lt;p&gt;So, as logged in „mastodon“-user, just deploy a&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;crontab -e
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;to enter this user’s cron-settings. Now just add another line at the end of the file matching your needs when this script should run. After the first run, it won’t take that much time anymore so I decided that I am fine with running it every six hours.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0 */6 * * * /bin/bash /home/mastodon/mastodon-cleanup.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you aren’t familiar with the syntax of Cron, I recommend to use the &lt;a href=&quot;https://crontab-generator.org&quot;&gt;Crontab Generator&lt;/a&gt; which is always a good way to to check whether your job is correct or not - or even create the whole command you may insert into the crontab instantly for you!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/mastodon_cleanup_crontab_settings.jpg&quot; alt=&quot;The crontab-settings&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Save the file and from this moment on, cron will take care of executing the script every six hours!&lt;/p&gt;
-
-&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
-
-&lt;p&gt;With this small tutorial, we managed to implement a great mechanism of automatically getting rid of cached and material and media on our own Mastodon-instance. This is by far the best-practice for every instance and yes, every file may be download and cached again once we interact with the specific status or message connected to it - therefore this solution is more an approach for smaller instances instead of larger ones but, as always, tastes (and demands) are different.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/lia-trevarthen-gWvdUpNQr6g-unsplash.jpg&quot; alt=&quot;Dealing with storage boxes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;According to your type of storage you may see the result quite fast or - in my case - on the next day as Wasabi’s statistics need their time to refresh the bucket size. With local storage, the result should be imminent, for me it took its time but the used space decreased drastically and ended up with Mastodon taking less than only 20 GB afterwards! Especially in terms of Wasabi and even despite the fact that the space is freed up immediately, you even pay for deleted storage for 90 days in advance here - in my case a good compromise to prevent the egress-charges from other S3-providers but this is yet another topic!&lt;/p&gt;
-
-&lt;p&gt;Anyway, putting all provider-specific considerations aside, this script should help you to control the amount of cached media on your Mastodon-server. Feel free to adopt the script to match your specific needs and do a spring cleaning on your Mastodon-instance - I hope that you somehow consider this post as some kind of useful! And - if you’re interested.  feel free to find my profiles in The Fediverse on&lt;/p&gt;
-
-&lt;p&gt;Mastodon - &lt;a href=&quot;https://norse.social/@oliver&quot;&gt;https://norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pixelfed - &lt;a href=&quot;https://pix.norse.social/oliver&quot;&gt;https://pix.norse.social/oliver&lt;/a&gt; and&lt;/p&gt;
-
-&lt;p&gt;BookWyrm - &lt;a href=&quot;https://books.norse.social/@oliver&quot;&gt;https://books.norse.social/@oliver&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;and let’s follow or connect with each other!&lt;/p&gt;
-</description>
-                <pubDate>Sun, 25 Feb 2024 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/Spring-Cleaning-Tidying-up-your-Mastodon-instance/</link>
-                <guid isPermaLink="true">http://localhost:4000/Spring-Cleaning-Tidying-up-your-Mastodon-instance/</guid>
-                
-                <category>socialnetwork</category>
-                
-                <category>mastodon</category>
-                
-                <category>linux</category>
-                
-                <category>cron</category>
-                
-                <category>fediverse</category>
                 
                 
                 <category>IT</category>
