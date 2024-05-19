@@ -5,62 +5,65 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 May 2024 13:02:22 +0200</pubDate>
-        <lastBuildDate>Sun, 05 May 2024 13:02:22 +0200</lastBuildDate>
+        <pubDate>Sun, 19 May 2024 14:39:19 +0200</pubDate>
+        <lastBuildDate>Sun, 19 May 2024 14:39:19 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
         
             <item>
-                <title>Microsoft rolls out passkey support for personal Microsoft accounts</title>
-                <description>&lt;h2 id=&quot;passkeys-arent-all-that-new-and-many-users-who-subscribe-to-personal-microsoft-365-services-or-use-private-microsoft-accounts-have-been-clamoring-for-this-feature-the-good-its-here-matching-this-years-world-password-day-the-bad-microsoft-is-doing-microsoft-things---again&quot;&gt;Passkeys aren’t all that new and many users who subscribe to personal Microsoft 365 services or use private Microsoft accounts have been clamoring for this feature. The good: It’s here, matching this year’s World Password Day. The bad: Microsoft is doing Microsoft things - again!&lt;/h2&gt;
+                <title>VMware kills Players, makes Pro free for personal use</title>
+                <description>&lt;h2 id=&quot;while-broadcom-still-does-broadcom-things-after-acquiring-vmware-and-turning-pricing-and-portals-upside-down-at-least-the-question-what-happens-with-the-desktop-products-seems-to-have-been-answered&quot;&gt;While Broadcom still does Broadcom-things after acquiring VMware and turning pricing and portals upside down, at least the question what happens with the Desktop-products seems to have been answered.&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.passkeys.com&quot;&gt;Passkeys&lt;/a&gt; are a more secure and easier replacement for passwords. They allow users to log in to applications and websites using a biometric sensor (such as a fingerprint or facial recognition like Windows Hello etc.), PIN or pattern, freeing them from the hassle of remembering and managing passwords. Yesterday I also &lt;a href=&quot;https://pifferi.info/bitwarden-launches-new-mfa-authenticator-app/&quot;&gt;blogged&lt;/a&gt; about the new Bitwarden Authenticator and mechanisms already implemented into the parent Bitwarden Password Manager - including support for passkeys.&lt;/p&gt;
+&lt;p&gt;Michael Roy, product line manager for desktop hypervisor products such as VMware Fusion and Workstation, may already be familiar to users of these products. Now he has [blogged] (https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) about the latest state of VMware Workstation and Fusion after the acquisition. While rumors were already circulating that the entire desktop division would be sold anyway, the blog post seems to clarify that the Desktop hypervisors will remain despite Broadcom’s decision to kill off the popular “Player” editions no matter what.&lt;/p&gt;
 
-&lt;p&gt;These days, &lt;a href=&quot;https://www.microsoft.com/en-us/security/blog/2024/05/02/microsoft-introduces-passkeys-for-consumer-accounts/&quot;&gt;Microsoft is joining the party, finally bringing passkeys to consumer Microsoft 365-accounts&lt;/a&gt;, following in the footsteps of all the other modern services that have already implemented passkeys. Now, users can log in to their Microsoft consumer accounts with a passkey, allowing them to continue to use password-free authentication methods such as Windows Hello, FIDO2 security keys, biometric tools (facial scans or fingerprints) or device PINs to strengthen their layer of security.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;„Our goal with these changes has been to simplify how we bring VMware Desktop Hypervisor apps to market, while maintaining our support of the broader community of VMware Workstation and Fusion users of both free and paid products. So let’s dig into this simplification and more importantly, what this means to you as customers.“&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Microsoft further clarifies the term “consumer accounts” to mean personal accounts for access to Microsoft services and products such as Windows, Microsoft 365 including the specific services contained therein, the all-new Copilot and the Xbox Live-services.&lt;/p&gt;
+&lt;p&gt;The most significant part of this statement is that Fusion Pro and Workstation Pro will now have two licensing models. Broadcom now offers a “free personal use” or a “paid commercial use“-subscription for these applications. Depending on their specific use cases, users can now decide which license model is right for them: Anyone using the software for work on Windows, Mac or Linux will need a commercial edition, as was the case in the “VMware“-days before Broadcom.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/microsoft_passkey_roadmap.jpg&quot; alt=&quot;Microsoft’s roadmap when it comes to passkeys!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;While the specific Pro-installer-files provides all options letting the user decide which edition to use, the „lesser counterparts“ named VMware Workstation Player and VMware Fusion Player have been officially discontinued. Everyday users who need to create a virtual lab on their Mac, Windows or Linux computer can do so for free simply by registering and downloading the specific installers.&lt;/p&gt;
 
-&lt;h2 id=&quot;hello-passkeys&quot;&gt;Hello, passkeys&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../images/fusion-pro-personal-screen.jpg&quot; alt=&quot;VMware Fusion&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Well, passkeys are finally here for Microsoft consumer accounts, and this integration has been long overdue. Passkey support for Microsoft Windows for logging into websites and applications was already available but with the addition of support for Microsoft-led online accounts, consumers can now log in with ease, following the long-announced roadmap to finally ditch passwords.&lt;/p&gt;
+&lt;h2 id=&quot;goodbye-players&quot;&gt;Goodbye, Players!&lt;/h2&gt;
 
-&lt;p&gt;Technically, passkeys are a variant of a passwordless authentication mechanism that uses a cryptographic key pair. While the public key is stored on the service provider’s server, the private key is securely stored on the user’s device. When the user attempts to authenticate, a challenge is created that requires the private key to solve and confirm the user’s identity. Because the private key is protected by device-level security mechanisms such as PIN or biometrics, the user only needs to provide this information to seamlessly log in.&lt;/p&gt;
+&lt;p&gt;Users with Fusion Player Personal Licences can simply update to Fusion 13.5.2 and delete their specific licence key. Updating to 13.5.2 is mandatory here, but removing the existing player key will unlock the full “Pro for Personal Use” licence without the need for any additional keys. The whole process is described in a simple KB that describes what needs to be done at https://knowledge.broadcom.com/external/article?articleNumber=367660.&lt;/p&gt;
 
-&lt;p&gt;Over the past few months and years, we have already seen the growth of services supporting passphrase authentication and even its deep integration into operating systems or browsers (MacOS / Safari paired with Touch ID) or separate password managers like &lt;a href=&quot;https://pifferi.info/bitwarden-launches-new-mfa-authenticator-app/&quot;&gt;Bitwarden&lt;/a&gt;, which also comes with its OS-independent implementation of passphrase support.&lt;/p&gt;
+&lt;p&gt;As with Workstation Player for Windows and Linux, Workstation Pro requires a new download and installation but is licensed for personal use by default. Users will need a customer account at &lt;a href=&quot;support.broadcom.com&quot;&gt;support.broadcom.com&lt;/a&gt; to access the downloads as described below. Fusion Player 13 and Workstation Player 17 commercial licence customers will continue to see their products work and no new licence keys will be required to continue using these versions. According to Roy, once active support has expired, customers are encouraged to upgrade to the Pro version of these products for continued support and updates.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-need-to-sync-for-convenience-reasons&quot;&gt;The need to sync for convenience-reasons&lt;/h2&gt;
+&lt;p&gt;With the new commercial model, VMware has also reduced its product line offerings to a single SKU for users requiring commercial licensing, eliminating more than 40 other SKUs and making it easier than ever to quote and purchase VMware Desktop Hypervisor-applications, Fusion Pro and Workstation Pro in the Enterprise. Subscriptions can be purchased from any Broadcom Advantage Partner or Digital River, which many users may be familiar with from reselling licences for other products. The VMware Desktop Hypervisor subscription is priced at $120/year and can also be purchased from the new [online store] (https://store.cloudvista.com).&lt;/p&gt;
 
-&lt;p&gt;Passkeys are usually tied to specific devices but with deeper integration into single solutions, there is also an option to sync them and make them available on all devices: Apple did this with the iCloud Keychain (with pros and cons but &lt;a href=&quot;https://support.apple.com/en-us/102651&quot;&gt;documented&lt;/a&gt;) and also, for example,  Bitwarden’s sync feature allows users to use passkeys on all devices in use if they are initially configured to do so. On the other hand, you can also add each single device to specific accounts when omitting a sync, for example for security reasons or simply no need to sync at all.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/player-pro-transition.jpg&quot; alt=&quot;Transitioning from Player to Pro&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/arekfurt/status/1786127091550875974&quot;&gt;&lt;img src=&quot;../images/microsoft_passkeys_sync_x.jpg&quot; alt=&quot;The bad - it syncs&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;how-to-get-the-personal-use-editions&quot;&gt;How to get the personal use-editions&lt;/h2&gt;
 
-&lt;p&gt;Unfortunately, Microsoft wouldn’t be Microsoft these days if the road of good intentions wasn’t paved with some questionable intentions: Redmond also synchronizes passkeys with other connected devices rather than just storing unique passkeys on each device. Technically, this isn’t the most secure method because if an attacker gains access to a particular account, all of the configured passkeys will be synced to that device. According to Microsoft, this decision was made „for reasons of convenience“, allowing people to maintain access to their accounts when upgrading or losing their devices.&lt;/p&gt;
+&lt;p&gt;The way to download the current version of VMware Workstation or Fusion for Personal Use is pretty straightforward once you have access to an an either migrated or freshly created account at Broadcom.&lt;/p&gt;
 
-&lt;p&gt;The process of creating passkeys is fairly straightforward and well documented in &lt;a href=&quot;https://support.microsoft.com/en-us/account-billing/signing-in-with-a-passkey-09a49a86-ca47-406c-8acc-ed0e3c852c6d&quot;&gt;Microsoft’s official support document&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Register for an account at &lt;a href=&quot;https://support.broadcom.com&quot;&gt;https://support.broadcom.com&lt;/a&gt; or&lt;/li&gt;
+  &lt;li&gt;Login to an existing one&lt;/li&gt;
+  &lt;li&gt;Search for your specific edition of the personal edition by using one of these links (&lt;a href=&quot;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Fusion&quot;&gt;Fusion&lt;/a&gt; / &lt;a href=&quot;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&quot;&gt;Workstation&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Download the corresponding edition&lt;/li&gt;
+  &lt;li&gt;Install the software and opt in for the „personal use license“ instead of entering a key for commercial use&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Just follow your device’s instructions on supported systems (Windows 10 and later, macOS Ventura including Safari 16 or later, iOS 16 and later, Chrome/ChromeOS, Microsoft Edge 109 and later or Android 9 and later): When signing in to your Microsoft account, select “Other ways to sign in,” select “Face, fingerprint, PIN, or security key” and then select the passkey you saved earlier from the list or use the OS-specific dialog like this one in Safari on macOS Sonomo 14.4.1 running Safari 17.4.1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/fusion_personal_edition.jpg&quot; alt=&quot;Enabling the personal edition&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/microsoft_passkeys_touchid.jpg&quot; alt=&quot;Signing in&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Aside from all the hullabaloo surrounding Broadcom’s acquisition of VMware and the downsides in terms of stripped down editions and new pricing, this move was rather unexpected and will at least satisfy people who used the (now discontinued) Player. It also seems to put an end to the uncertain status quo of being able to download any update to Fusion or Workstation, but this may just be a drop in the ocean of a VMware in 2024.&lt;/p&gt;
 
-&lt;p&gt;It’s good to finally see Microsoft adopting passkeys for personal accounts, enhancing the overall layer of security. Seen from a different perspective, „security“ is something that Microsoft is currently struggling with so syncing the passkeys while referring to „convenience“ is something that has a rather foul taste: The foul taste of gathering as much personal information about the user a possible, effectively going the Google-way and without a technical justification how the sync works and how the passkeys are protected.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The good:&lt;/strong&gt; Passkeys are finally here for non-business accounts!&lt;br /&gt;
-&lt;strong&gt;The bad:&lt;/strong&gt; Microsoft continues to do the Microsoft things of our time while still struggling with security and trust these days, so it would be nice to have some more clarity on the protection of the newly implemented passkeys…&lt;/p&gt;
+&lt;p&gt;So, after all, let’s enjoy this lump of sugar as long as possible!&lt;/p&gt;
 </description>
-                <pubDate>Sun, 05 May 2024 00:00:00 +0200</pubDate>
+                <pubDate>Tue, 14 May 2024 00:00:00 +0200</pubDate>
                 <link>http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</link>
                 <guid isPermaLink="true">http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</guid>
                 
                 <category>it</category>
                 
-                <category>microsoft</category>
+                <category>vmware</category>
                 
-                <category>security</category>
+                <category>broadcom</category>
                 
-                <category>2fa</category>
-                
-                <category>m365</category>
+                <category>software</category>
                 
                 
                 <category>IT</category>
