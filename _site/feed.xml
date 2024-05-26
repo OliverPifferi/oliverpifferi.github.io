@@ -5,9 +5,76 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 May 2024 09:11:28 +0200</pubDate>
-        <lastBuildDate>Sun, 26 May 2024 09:11:28 +0200</lastBuildDate>
+        <pubDate>Sun, 26 May 2024 15:51:28 +0200</pubDate>
+        <lastBuildDate>Sun, 26 May 2024 15:51:28 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>Little Snitch 6 released, taking Mac-privacy to the next level</title>
+                <description>&lt;h2 id=&quot;four-years-ago-i-blogged-about-little-snitch-5-a-software-firewall-like-product-from-austrian-company-objective-development-which-successfully-made-the-transition-to-macos-11-big-sur-now-little-snitch-6-has-been-released-and-continues-to-be-an-important-building-block-in-the-security-strategy-of-privacy-conscious-users&quot;&gt;&lt;a href=&quot;../Little-Snitch5-makes-the-successful-switch-to-macOS-11-Big-Sur/&quot;&gt;Four years ago I blogged about Little Snitch 5&lt;/a&gt;, a software firewall-like product from Austrian company Objective Development, which successfully made the transition to MacOS 11 Big Sur. Now Little Snitch 6 has been released and continues to be an important building block in the security strategy of privacy-conscious users.&lt;/h2&gt;
+
+&lt;p&gt;Whether on Windows, Mac or Linux, using a particular operating system is always a matter of trust. Some people don’t care at all, some prefer to avoid the big tech vendors, and some even want to use the system they personally prefer with an extra pinch of salt, controlling exactly what kind of communication leaves the specific machine.&lt;/p&gt;
+
+&lt;p&gt;While there are many solutions and software formerly known as “personal firewalls”, especially in the Windows genre, my preferred macOS actually comes just with a simple and basic firewall on board: “Keeps things out” as a first point of defense but lacks a certain granularity in terms of detailed configuration options to specifically choose which services or data can be transferred from (!) the inside to the World Wide Web. Solutions like Objective-See’s &lt;a href=&quot;../LuLu-Yet-another-powerful-firewall-for-your-Mac/&quot;&gt;LuLu&lt;/a&gt; are great options in the Open Source-genre while &lt;a href=&quot;https://www.obdev.at/products/littlesnitch/index-de.html&quot;&gt;Objective Development’s Little Snitch&lt;/a&gt; (enter, version 6!) is a paid alternative that has been with me for many years now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/little_snitch_6_network_monitor.jpg&quot; alt=&quot;Little Snitch 6 Network Monitor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;welcome-little-snitch-6&quot;&gt;Welcome, Little Snitch 6!&lt;/h2&gt;
+
+&lt;p&gt;Specifically, Little Snitch has not only been with me for many years but also with many Mac users who can look back on 20 years of history. As I mentioned above, there are many solutions out there that try to make your Mac more private and Little Snitch is one of them, with the aforementioned history. Basically, it sniffs („snitches!“ the network traffic on all your connected devices and either allows, denies or warns about traffic initiated by software installed on the Mac.&lt;/p&gt;
+
+&lt;p&gt;My use case has always been “deny all” in terms of incoming (of course) and outgoing traffic. For me, the way Little Snitch works is that once it is deployed and allowed to sniff the traffic, it alerts me on every connection that any kind of software or service initiates and lets me choose what actions to take for that specific request: For example, a local application that just needs to check for updates can be regulated to use only a specific host and port 443 (TCP) for SSL traffic so that it can check whether an update is available or not. No more, no less - and tracking apps that try to ‘phone home’ for whatever reason may become a relic of the past with Little Snitch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/little_snitch_6_connections_list.jpg&quot; alt=&quot;Checking the connections in Little Snitch 6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The new version comes with some new features like DNS-encryption, a convenient access to blocklists, an optically revamped traffic chart, a more versatile control center in macOS’ menu bar or even sound notifications in case an app hits Little Snitch initial software firewall.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-new-features-in-detail&quot;&gt;The new features in detail&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DNS encryption: As long as your provider does this or you are using one of the DNS-encrypted nameservers out there, everything is fine. If this isn’t the case, Little Snitch 6 also offers the option to add custom name servers to suit specific needs or to avoid the more famous DNS servers out there&lt;/li&gt;
+  &lt;li&gt;Integrated blocklists: Users can easily select from a curated list of blocklists and install them with a single click to add an extra layer of protection against unwanted connections&lt;/li&gt;
+  &lt;li&gt;New control center on the menu bar: Get quick, at-a-glance access to key network information, recent activity graphs and recently blocked connections right at the top of your screen&lt;/li&gt;
+  &lt;li&gt;Usage statistics: Track and optimize your firewall rules based on usage frequency&lt;/li&gt;
+  &lt;li&gt;Enhanced web application support: Gain better and more granular control over external connections initiated by web pages&lt;/li&gt;
+  &lt;li&gt;Improved firewall rules: Use cryptographic code signing identifiers for better process identification, resistant to application renaming or moving&lt;/li&gt;
+  &lt;li&gt;and many more!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/little_snitch_6_rules_window.jpg&quot; alt=&quot;The Rules Window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the initial installation (and assuming you choose the “Alert” mode first), Little Snitch will nag you with lots of notifications about background services or initiated connections and as you open each additional application, the basic ruleset will grow to provide a solid foundation for your specific use case on MacOS and the traffic happening from your machine. This ruleset can of course be modified, deleted or enriched with additional blocklists that many users will already be familiar with (Peter Lowe’s, Ad Away or URLhaus to name a few - adding custom ones is also possible!), so securing your Mac’s outgoing traffic is a simple process, even when you’re on the go, and this process has become even easier with the new features of Little Snitch 6.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/little_snitch_6_menu_bar.jpg&quot; alt=&quot;Little Snitch 6 in macOS’ menu bar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As always, it’s up to you whether you need a product like Little Snitch or not. If you don’t care which packets leave your machine in which direction - fine. But if you do and you want to regulate them or just see what’s happening to them, this one might be of particular interest to you. Little Snitch doesn’t use too many system resources, and the utility itself only uses 0.7% of the CPU when doing its usual work - so there’s no compromise between security, resources and visual usability.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using Little Snitch for years and it quickly became my daily driver on all the Macs I’ve owned over the years - and once it’s learned its initial set of rules, it rarely pops out of the background so you won’t even know it’s there unless it says „Hello!“: There are no distractions at all!&lt;/p&gt;
+
+&lt;h2 id=&quot;pricing-and-availability&quot;&gt;Pricing and availability&lt;/h2&gt;
+
+&lt;p&gt;Little Snitch 6 is available now for $59 or €59 per single-user license. Existing users can upgrade at a discounted price starting at $39 or €39. Licenses purchased after January 1st, 2024 will be valid for Little Snitch 6 at no additional cost while a free demo mode is also included, providing full functionality for three hours per session and can be reactivated as often as desired.&lt;/p&gt;
+
+&lt;p&gt;Little Snitch 6 is built for and supports MacOS 14 “Sonoma” and later. For more information and to purchase Little Snitch 6, just visit &lt;a href=&quot;https://obdev.at/&quot;&gt;Objective Development’s website&lt;/a&gt; to gather more information on the latest release.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 26 May 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/little-snitch-6-released-taking-mac-privacy-to-the-next-level/</link>
+                <guid isPermaLink="true">http://localhost:4000/little-snitch-6-released-taking-mac-privacy-to-the-next-level/</guid>
+                
+                <category>it</category>
+                
+                <category>software</category>
+                
+                <category>apple</category>
+                
+                <category>mac</category>
+                
+                <category>littlesnitch</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>How to skip the ChatGPT for Mac waiting list and get access now</title>
@@ -554,49 +621,6 @@
                 <category>microsoft</category>
                 
                 <category>software</category>
-                
-                <category>internet</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>Stability AI loses CEO ahead of reframing business model</title>
-                <description>&lt;h2 id=&quot;with-ai-already-being-more-than-just-the-next-big-thing-it-is-more-than-clear-that-with-great-power-there-comes-great-responsibility-considering-this-the-ultimate-question-whether-ai-should-be-centralized-or-not-is-surely-one-of-the-key-aspects-we-need-to-talk-about-in-the-field-of-artificial-intelligence-now-emad-mostaque-ceo-of-stability-ai-is-resigning-in-the-wake-of-the-current-row-over-this-issue&quot;&gt;With AI already being more than just „the next big thing“, it is more than clear that, with great power, there comes great responsibility. Considering this, the ultimate question whether AI should be centralized or not is surely one of the key aspects we need to talk about in the field of Artificial Intelligence. Now Emad Mostaque, CEO of Stability AI, is resigning in the wake of the current row over this issue.&lt;/h2&gt;
-
-&lt;p&gt;Before we go all out and make Terminator’s “Skynet” a reality, the ethical question of how to deal with the power of AI and how to regulate it is omnipresent. With this in mind, Emad Mostaque has &lt;a href=&quot;https://twitter.com/EMostaque/status/1771380668930674850&quot;&gt;apparently resigned&lt;/a&gt;, and while Stability AI [has already expressed its regret] (https://stability.ai/news/stabilityai-announcement), Mostaque himself states that he “does not want centralized AI to fight centralized AI”, while still retaining a majority stake in the company.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/stability_ai_twitter.jpg&quot; alt=&quot;Twitter statement&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-state-of-ai-in-early-2024&quot;&gt;The state of AI in early 2024&lt;/h2&gt;
-
-&lt;p&gt;According to Mostaque, he is in favour of decentralized AI, talking about the challenge of coordinating and regulating AI rather than making it more powerful. This seems to be in contrast to the models of OpenAI or Anthropic, both of which started out quite open but over time have closed themselves off, making it impossible even to know what kind of data samples were used to train the specific AI models. “Concentration of power is bad for all of us,” says Mostaque, who is already concerned about a “strange focus on revenue” when it comes to AI-focused companies, while believing that AI is still “the biggest tech bubble of all time” that still needs constant research.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/Stable+Video+-+Blog+Image+1920x1080+-+2.jpg&quot; alt=&quot;Stability AI artwork&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While the power and possibilities of artificial intelligence are imminent, it is still unclear how generative AI can be turned into a stable business based on a specific funding model. Even OpenAI-founder Sam Altman admitted that there is no real idea of how the whole industry can be underpinned by a revenue-based cash flow as the development and deployment of AI-models is currently too expensive to be refinanced by recurring revenues.&lt;/p&gt;
-
-&lt;p&gt;Rumour has it that Stability AI investor Coatue also urged Mostaque to step down, citing a more profit-driven approach to the company. Citing the &lt;a href=&quot;https://stability.ai/news/stabilityai-announcement&quot;&gt;blog post&lt;/a&gt; accompanying his departure, Mostaque says: “I strongly believe in Stability AI’s mission and feel that the company is in the right hands. Now is the time to ensure that AI remains open and decentralised,” followed by a thought that is accompanied by a desire to refocus while preparing the company for its next step in growth. In the wake of recent events, Stability AI is also facing &lt;a href=&quot;https://fingfx.thomsonreuters.com/gfx/legaldocs/byvrlkmwnve/GETTY%20IMAGES%20AI%20LAWSUIT%20complaint.pdf&quot;&gt;legal action from Getty Images&lt;/a&gt; for possible copyright infringement: The company is believed to have used copyrighted material, including the Getty Images logo, to train the AI.&lt;/p&gt;
-
-&lt;h2 id=&quot;still-some-work-to-do&quot;&gt;Still some work to do&lt;/h2&gt;
-
-&lt;p&gt;While AI is still in its infancy and already offers many opportunities, the ethical questions have yet to be answered. Decentralized or centralized, regulated or unregulated: Although everyone seems to be jumping on the AI bandwagon (and many have already done so), the technology is already involved in our everyday lives and boundaries are hardly set. There is more AI in today’s technology than many of us can imagine, but the models need to be trained with sample data - at least for now: Sample data that not everyone has access to or is allowed to use.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/SVD+blog+cover+image.jpg&quot; alt=&quot;Stability AI&quot; /&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are endless use cases and possibilities, but recent events around OpenAI and Sam Altman’s &lt;a href=&quot;https://openai.com/blog/review-completed-altman-brockman-to-continue-to-lead-openai&quot;&gt;temporary leave (and glorious return!)&lt;/a&gt; or Emad Mostaque’s resignation from Stability AI show that there is still much to discuss. Is AI a public good? Should the big tech players be funding and owning a technology that could take us to the stars or doom humanity for all time?&lt;/p&gt;
-
-&lt;p&gt;There is no consensus yet, and as Ben Parker once said in Spider-Man: “With great power comes great responsibility” - hopefully we’ll find a way to deal with the enormous power we have in our hands with Artificial Intelligence. Founders or CEOs leaving their companies when the path is bifurcated is an alarm signal and leading a discussion about the use and control of AI is essential - without diminishing the capabilities of modern Artificial Intelligence to fill many gaps!&lt;/p&gt;
-</description>
-                <pubDate>Tue, 26 Mar 2024 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/stability-ai-loses-ceo-ahead-of-reframing-business-model/</link>
-                <guid isPermaLink="true">http://localhost:4000/stability-ai-loses-ceo-ahead-of-reframing-business-model/</guid>
-                
-                <category>it</category>
-                
-                <category>ai</category>
                 
                 <category>internet</category>
                 
