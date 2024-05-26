@@ -5,9 +5,62 @@
         <description>My own small private space in the world of bewitched madness!</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 May 2024 14:39:19 +0200</pubDate>
-        <lastBuildDate>Sun, 19 May 2024 14:39:19 +0200</lastBuildDate>
+        <pubDate>Sun, 26 May 2024 09:11:28 +0200</pubDate>
+        <lastBuildDate>Sun, 26 May 2024 09:11:28 +0200</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>How to skip the ChatGPT for Mac waiting list and get access now</title>
+                <description>&lt;h2 id=&quot;this-month-openai-has-released-the-native-chatgpt-app-for-macos-alongside-gpt-4o-anyone-can-install-this-app-yet-but-your-account-will-still-need-early-access-if-you-already-want-to-use-chatgpt-on-the-mac-desktop---but-there-is-a-workaround&quot;&gt;This month, OpenAI has &lt;a href=&quot;https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/&quot;&gt;released the native ChatGPT-app for macOS alongside GPT-4o&lt;/a&gt;. Anyone can install this app yet but your account will still need early access if you already want to use ChatGPT on the Mac-desktop - but there is a workaround!&lt;/h2&gt;
+
+&lt;p&gt;Yesterday, OpenAI &lt;a href=&quot;https://help.openai.com/en/articles/9275200-using-the-chatgpt-macos-app&quot;&gt;shared&lt;/a&gt; the status quo that the macOS-app is limited to “Plus and Team users” and that it will be rolling out more widely „in the coming weeks.“&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We have rolled out the macOS app to Plus and Team users, and we will make it more broadly available in the coming weeks. We also plan to launch a Windows version later this year.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/chat_gpt_mac_no_subscription.jpg&quot; alt=&quot;No use without subscription!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For those who have already managed to get their hands on the app without a subscription, the experience should look like the picture above after logging in. If you are interested in getting the app and perhaps using a small workaround to get it now despite having an active subscription, read on!&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-the-app&quot;&gt;Getting the app&lt;/h2&gt;
+
+&lt;p&gt;Once you have one of these subscriptions, you can (of course) download the app instantly by logging into ChatGPT on the web, clicking on your profile icon in the top right corner and then selecting “Download the App”. It’s as simple as that! If you don’t have a subscription and your Mac meets the requirements (at least an Apple Silicon based on Apple’s M1 SoC and the latest MacOS 14 “Sonoma”), check out the official &lt;a href=&quot;https://community.openai.com/t/downloading-the-new-desktop-app-for-chatgpt/746857&quot;&gt;thread&lt;/a&gt; or use &lt;a href=&quot;https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg&quot;&gt;this&lt;/a&gt; link to download the official .DMG file. Drag and drop it into your „Applications“-folder and you are ready to go, too!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/chatgpt_mac_install_dmg.jpg&quot; alt=&quot;Just drag and drop!&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-skip-the-waitlist&quot;&gt;How to skip the waitlist&lt;/h2&gt;
+
+&lt;p&gt;Originally discovered and shared by &lt;a href=&quot;https://x.com/diegojimenez/status/1793287205542076524&quot;&gt;Diego Jimenez&lt;/a&gt; the workaround to skip the waitlist looks like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open ChatGPT for Mac and login&lt;/li&gt;
+  &lt;li&gt;Quit the app after the window size changes but before the login error appears (use Command+Q for more speed here)&lt;/li&gt;
+  &lt;li&gt;Relaunch the app and discover it should be working&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/chatgpt_macos_open.png&quot; alt=&quot;ChatGPT without subscription on a Mac&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It may take a turn or two to catch the right moment but after this procedure, even basic users without a subscription will now be able to use ChatGPT for Mac. We don’t know how long this workaround will last so if you’re interested in using the Mac desktop-client without a paid plan, hurry up!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 26 May 2024 00:00:00 +0200</pubDate>
+                <link>http://localhost:4000/how-to-skip-the-chatgpt-for-mac-waiting-list-and-get-access-now/</link>
+                <guid isPermaLink="true">http://localhost:4000/how-to-skip-the-chatgpt-for-mac-waiting-list-and-get-access-now/</guid>
+                
+                <category>it</category>
+                
+                <category>ai</category>
+                
+                <category>chatgpt</category>
+                
+                <category>mac</category>
+                
+                <category>software</category>
+                
+                
+                <category>IT</category>
+                
+            </item>
         
             <item>
                 <title>VMware kills Players, makes Pro free for personal use</title>
@@ -54,8 +107,8 @@
 &lt;p&gt;So, after all, let’s enjoy this lump of sugar as long as possible!&lt;/p&gt;
 </description>
                 <pubDate>Tue, 14 May 2024 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</link>
-                <guid isPermaLink="true">http://localhost:4000/microsoft-rolls-out-passkey-support-for-personal-microsoft-accounts/</guid>
+                <link>http://localhost:4000/vmware-kills-players-makes-pro-free-for-personal-use/</link>
+                <guid isPermaLink="true">http://localhost:4000/vmware-kills-players-makes-pro-free-for-personal-use/</guid>
                 
                 <category>it</category>
                 
@@ -546,97 +599,6 @@
                 <category>ai</category>
                 
                 <category>internet</category>
-                
-                
-                <category>IT</category>
-                
-            </item>
-        
-            <item>
-                <title>How to delete stored credentials from a YubiKey</title>
-                <description>&lt;h2 id=&quot;using-yubikeys-for-securing-accounts-is-a-premium-step-to-a-nearly-ultimative-security-approach-besides-passkeys-or-simple-2fa-alas-over-time-those-hardware-tokens-often-fill-with-more-and-more-accounts---adding-them-is-no-big-deal-but-getting-rid-of-older-entries-isnt-that-intuitive-either-talk-about-in-the-field-of-artificial-intelligence&quot;&gt;Using YubiKeys for securing accounts is a premium step to a nearly ultimative security approach besides Passkeys or „simple“ 2FA. Alas, over time, those hardware tokens often fill with more and more accounts - adding them is no big deal, but getting rid of older entries isn’t that intuitive either. talk about in the field of Artificial Intelligence.&lt;/h2&gt;
-
-&lt;p&gt;Securing online accounts is one behavioral paradigm I have followed since hardware keys appeared and were affordable. With starting to use a password manager many years ago, also Two-Factor Authentication (2 FA) found its way into this security chain and in the time before the Passkeys (and still today) another layer of security is still mandatory. Paired with complex passwords, each layer helps to protect online accounts and even a password appearing in a new breach doesn’t scare that much if there is another, second (or third) factor helping you to prevent a personal and digital disaster.&lt;/p&gt;
-
-&lt;p&gt;As I am tending to check and change passwords as well as services mostly in the spring (call it spring cleaning!), I am also checking whether I still use a specific service or not. If not, I try to delete the account - the same procedure applies to accounts residing on my YubiKeys. I don’t add credentials to them every day so I do this phased and then continue to work with the keys for weeks or months - so I simply forget which data is already stored on those hardware tokens. As I am also a friend of cleaning up a historical mess, I try to get rid of old credentials when I don’t need them anymore - something that is quite difficult if you handle the YubiKeys just with the official YubiKey Manager. The app (still no Universal Binary on macOS in 2024) helps you to change many parameters but also prevents you from easily deleting unneeded credentials. This works anyway and, despite quite hidden, is done with the YubiKey Manager CLI - so let me show you how we can accomplish this task on our YubiKeys without resetting the device to factory defaults!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/oliver-hale-oTvU7Zmteic-unsplash.jpg&quot; alt=&quot;Cleaning in progress&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-the-yubikey-manager-cli&quot;&gt;Getting the YubiKey Manager CLI&lt;/h2&gt;
-
-&lt;p&gt;For Windows-users, the way of &lt;a href=&quot;https://www.yubico.com/support/download/yubikey-manager/?ref=pifferi.info&quot;&gt;getting the CLI&lt;/a&gt; is pretty straightforward as it comes bundled with the YubiKey Manager-application and resides in C:\Program Files\Yubico\YubiKey Manager. As long as your YubiKey uses at least firmware 5.2.x, you will instantly be able to deal with it using the CLI as documented &lt;a href=&quot;https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_CLI.html?ref=pifferi.info&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Mac-version 1.25 comes as a .PKG-file and obviously misses the CLI so we need to make use of extended package managers like Homebrew to fetch the desired file named „ykman“.&lt;/p&gt;
-
-&lt;p&gt;Installing &lt;a href=&quot;https://brew.sh&quot;&gt;Homebrew&lt;/a&gt; is pretty straightforward but yet another topic so assuming you have already done so by either typing&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;or using the new and official .PKG-installation for Macs hosted on &lt;a href=&quot;https://github.com/Homebrew/brew/releases/latest&quot;&gt;GitHub&lt;/a&gt;, a simple&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ykman
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;should do the trick and, after some packages were fetched, we’re finally ready to go on macOS.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/yubikey-version.jpg&quot; alt=&quot;Checking the proper YubiKey-version&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;doing-the-magic-with-ykman&quot;&gt;Doing the magic with ykman&lt;/h2&gt;
-
-&lt;p&gt;After having met the one and only prerequisite, ykman is ready to so firing up the command without any specific parameter should show us the following screen with all options available:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/yubikey_ykman_mac.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To see which credentials are stored, just enter a&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials list
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;followed by your personal PIN (which should be set, otherwise using a hardware security key is quite pointless).&lt;/p&gt;
-
-&lt;p&gt;A list of services will appear, guided by a credential ID:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/ykman_yubikey_services.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;.&lt;/p&gt;
-
-&lt;p&gt;To delete a specific service, simply use the following command followed by the specific credential ID:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials delete [credential id]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;For example, for removing my apple.com-account from my YubiKey (always two there are!), the appropriate command would be&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials delete d60f8b33
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and it would be just the first entry with credential ID d60f8b33 that would be deleted from the YubiKey’s storage!&lt;/p&gt;
-
-&lt;p&gt;To check whether the credentials have been removed or not (believe me, they should!), another&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ykman fido credentials list
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will show the remaining credentials.&lt;/p&gt;
-
-&lt;h2 id=&quot;verdict&quot;&gt;Verdict&lt;/h2&gt;
-
-&lt;p&gt;With simple materials on board, we have managed to remove single elements and stored credentials from an YubiKey without the need to fully wipe the device. Despite the CLI-tools are quite hidden on Mac or - to be more specific - must be installed separately from the YubiKey Manager, we finally used Homebrew for doing this task for us, enabling us to clean unwanted credentials from out precious YubiKey.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/flyd-FGH69mi53Mw-unsplash.jpg&quot; alt=&quot;Looking what we can do with ykman&quot; /&gt;.&lt;/p&gt;
-
-&lt;p&gt;This way may be quite helpful if you aren’t aware which credentials are stored on the YubiKey and just want to see or delete them on a per-item basis instead of wiping the whole device, forcing you to re-integrate the whole hardware token with each service connected!&lt;/p&gt;
-</description>
-                <pubDate>Sun, 17 Mar 2024 00:00:00 +0100</pubDate>
-                <link>http://localhost:4000/how-to-delete-stored-credentials-from-a-yubikey/</link>
-                <guid isPermaLink="true">http://localhost:4000/how-to-delete-stored-credentials-from-a-yubikey/</guid>
-                
-                <category>it</category>
-                
-                <category>security</category>
-                
-                <category>token</category>
-                
-                <category>software</category>
                 
                 
                 <category>IT</category>
