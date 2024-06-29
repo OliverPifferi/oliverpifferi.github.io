@@ -2,7 +2,7 @@
 layout: post
 author: oliver
 title: Arq Backup - a versatile solution to back up your files on Mac and Windows
-date: 2024-06-01
+date: 2024-08-01
 categories: [IT]
 tags: [it, software, apple, mac, windows, arq]     # TAG names should always be lowercase
 image: '/images/arqbackup_imac.jpg'
