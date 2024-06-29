@@ -69,7 +69,7 @@ links__item:
     description: BookWyrm is a great ActivityPub-driven Fediverse-project to collect, rate and share your (audio) books with other fellows!
     image_url: "/images/distingue-ciddiqi-2ALQUTD5MKc-unsplash.jpg"
     image_alt: BookWyrm
-    link: "https://books.norse.social/user/oliver"
+    link: "https://bookwyrm.social/user/oliverpifferi"
 
   - title: GitHub
     description: I am not a developer, but tend to host some snippets and even this page here on GitHub!
